@@ -1,8 +1,9 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
     "description": "simple vega-lite chart with linked data",
+    "title": "Confirmed COVID cases in NZ per day",
     "data": {
-        "url": "data/NZCOVID_confirmed_formatted.json"
+        "url": "../data/NZCOVID_confirmed_formatted.json"
     },
     "transform": [
         {
@@ -18,7 +19,10 @@
             ]
         }
     ],
-    "mark": "bar",
+    "mark": {
+        "type": "bar",
+        "tooltip": true
+    },
     "encoding": {
         "x": {
             "field": "Report Date",
@@ -28,11 +32,7 @@
         "y": {
             "field": "date_sum",
             "type": "quantitative",
-            "axis": { "title": "frequency" }
-        },
-        "tooltip": {
-            "field": "date_sum",
-            "type": "nominal"
+            "axis": { "title": "number of cases" }
         }
     }
 }
