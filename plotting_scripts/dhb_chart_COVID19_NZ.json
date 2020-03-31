@@ -8,32 +8,6 @@
     "data": {
         "url": "../data/NZCOVID_confirmed_formatted.json"
     },
-    "transform": [
-        {
-            "aggregate": [
-                {
-                    "op": "count",
-                    "field": "DHB",
-                    "as": "dhb_sum"
-                }
-            ],
-            "groupby": [
-                "DHB"
-            ]
-        },
-        {
-            "aggregate": [
-                {
-                    "op": "count",
-                    "field": "Report Date",
-                    "as": "date_sum"
-                }
-            ],
-            "groupby": [
-                "Report Date"
-            ]
-        }
-    ],
     "mark": {
         "type": "bar",
         "tooltip": true
@@ -46,9 +20,14 @@
             "axis": { "title": "DHB" }
         },
         "y": {
-            "field": "dhb_sum",
+            "aggregate": "count",
+            "field": "DHB",
             "type": "quantitative",
             "axis": { "title": "number of cases" }
+        },
+        "color": {
+            "field": "Sex",
+            "type": "ordinal"
         }
     }
 }

@@ -8,34 +8,25 @@
     "data": {
         "url": "../data/NZCOVID_confirmed_formatted.json"
     },
-    "transform": [
-        {
-            "aggregate": [
-                {
-                    "op": "count",
-                    "field": "Report Date",
-                    "as": "date_sum"
-                }
-            ],
-            "groupby": [
-                "Report Date"
-            ]
-        }
-    ],
     "mark": {
         "type": "bar",
         "tooltip": true
     },
     "encoding": {
         "x": {
-            "field": "Report Date",
+            "field": "Date of report",
             "type": "nominal",
             "axis": { "title": "date" }
         },
         "y": {
-            "field": "date_sum",
+            "aggregate": "count",
+            "field": "Date of report",
             "type": "quantitative",
             "axis": { "title": "number of cases" }
+        },
+        "color": {
+            "field": "Sex",
+            "type": "nominal"
         }
     }
 }
