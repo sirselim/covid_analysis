@@ -25,7 +25,7 @@
             "axis": { "title": "number of cases" }
         },
         "color": {
-            "field": "Sex",
+            "field": "DHB",
             "type": "nominal"
         }
     }
