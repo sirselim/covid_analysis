@@ -33,6 +33,21 @@ I'm using the [Vega Viewer](https://marketplace.visualstudio.com/items?itemName=
 
 ![](vscode_example.png)
 
+## Docker
+
+You can build a docker container that will process the data and output the files as needed. The commands below can be used to build and run the container:
+
+```
+# Ensure that a folder exists for output data
+mkdir -p /tmp/data
+
+# Build the docker container
+docker build . -t covidanalysis
+
+# Run the container and mount the temp data folder for output
+docker run -d -v /tmp/data:/data covidanalysis
+```
+
 ## appendix
 
 A space for extra notes. Some of the below will be outdated, but keeping for posterity.
