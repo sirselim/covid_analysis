@@ -1,5 +1,8 @@
 {
-    "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "width": 580,
+    "height": 200,
+    "padding": 5,
     "description": "simple vega-lite chart with linked data",
     "title": "Confirmed COVID cases in NZ per day",
     "data": {
