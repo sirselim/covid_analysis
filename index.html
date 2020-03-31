@@ -139,11 +139,20 @@
   </head>
   <body>
     
+<div id="wrapper">
+
+  <p>
+    <div id="date">
+      <p class="decorated"><span>
+          <script>document.write(new Date().toDateString());</script></span></p>
+    </div>
+  </p>
+
     <h1>Exploration of NZ COVID19 cases</h1>
-    <div>See code at <a href="https://github.com/sirselim/covid_analysis">https://github.com/sirselim/covid_analysis</a></div>
+    <div style="text-align:center">See code at <a href="https://github.com/sirselim/covid_analysis">https://github.com/sirselim/covid_analysis</a></div>
     
     <!-- Container for the visualization -->
-    <div id="vis"></div>
+    <div id="vis" style="text-align:center"></div>
 
     <script type="text/javascript">
       var yourVlSpec = {
