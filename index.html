@@ -12,143 +12,62 @@
     <script type="text/javascript">
       var yourVlSpec = {
           "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-          "width": 580,
-          "height": 200,
-          "padding": 5,
           "description": "simple vega-lite chart with linked data",
-          "title": "Confirmed COVID cases in NZ per day",
-          "data": {
-            "url": "https://raw.githubusercontent.com/sirselim/covid_analysis/master/data/NZCOVID_confirmed_formatted.json"
-          },
-          "transform": [
+          "data": { "url": "../data/NZCOVID_confirmed_formatted.json" },
+          "vconcat": [
             {
-              "aggregate": [
-                {
-                  "op": "count",
+              "mark": {
+                "type": "bar",
+                "tooltip": true
+              },
+              "title": "Confirmed COVID cases in NZ per day",
+              "encoding": {
+                "x": {
                   "field": "Report Date",
-                  "as": "date_sum"
-                }
-              ],
-              "groupby": [
-                "Report Date"
-              ]
-            }
-          ],
-          "mark": {
-            "type": "bar",
-            "tooltip": true
-          },
-          "encoding": {
-            "x": {
-              "field": "Report Date",
-              "type": "nominal",
-              "axis": { "title": "date" }
-            },
-            "y": {
-              "field": "date_sum",
-              "type": "quantitative",
-              "axis": { "title": "number of cases" }
-            }
-          }
-        };
-      vegaEmbed('#vis', yourVlSpec);
-    </script>
-<div id="vis"></div>
-<p>
-    <script type="text/javascript">
-      var yourVlSpec = {
-          "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-          "width": 580,
-          "height": 200,
-          "padding": 5,
-          "description": "simple vega-lite chart with linked data",
-          "title": "Confirmed COVID cases in NZ per day",
-          "data": {
-            "url": "https://raw.githubusercontent.com/sirselim/covid_analysis/master/data/NZCOVID_confirmed_formatted.json"
-          },
-          "transform": [
-            {
-              "aggregate": [
-                {
-                  "op": "count",
+                  "type": "nominal",
+                  "axis": {
+                    "title": "date"
+                  }
+                },
+                "y": {
+                  "aggregate": "count",
                   "field": "Report Date",
-                  "as": "date_sum"
+                  "type": "quantitative",
+                  "axis": {
+                    "title": "number of cases"
+                  }
                 }
-              ],
-              "groupby": [
-                "Report Date"
-              ]
-            }
-          ],
-          "mark": {
-            "type": "bar",
-            "tooltip": true
-          },
-          "encoding": {
-            "x": {
-              "field": "Report Date",
-              "type": "nominal",
-              "axis": { "title": "date" }
+              }
             },
-            "y": {
-              "field": "date_sum",
-              "type": "quantitative",
-              "axis": { "title": "number of cases" }
-            }
-          }
-        };
-      vegaEmbed('#vis', yourVlSpec);
-    </script>
-</p>
-
-    <div id="vis"></div>
-    <p>
-    <script type="text/javascript">
-      var yourVlSpec = {
-          "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-          "width": 580,
-          "height": 200,
-          "padding": 5,
-          "description": "simple vega-lite chart with linked data",
-          "title": "Confirmed COVID cases in NZ DHBs",
-          "data": {
-            "url": "https://raw.githubusercontent.com/sirselim/covid_analysis/master/data/NZCOVID_confirmed_formatted.json"
-          },
-          "transform": [
             {
-              "aggregate": [
-                {
-                  "op": "count",
+              "mark": {
+                "type": "bar",
+                "tooltip": true
+              },
+              "title": "Confirmed COVID cases in NZ DHBs",
+              "encoding": {
+                "x": {
                   "field": "DHB",
-                  "as": "dhb_sum"
+                  "type": "nominal",
+                  "sort": "y",
+                  "axis": {
+                    "title": "DHB"
+                  }
+                },
+                "y": {
+                  "aggregate": "count",
+                  "field": "DHB",
+                  "type": "quantitative",
+                  "axis": {
+                    "title": "number of cases"
+                  }
                 }
-              ],
-              "groupby": [
-                "DHB"
-              ]
+              }
             }
-          ],
-          "mark": {
-            "type": "bar",
-            "tooltip": true
-          },
-          "encoding": {
-            "x": {
-              "field": "DHB",
-              "type": "nominal",
-              "sort": "y",
-              "axis": { "title": "DHB" }
-            },
-            "y": {
-              "field": "dhb_sum",
-              "type": "quantitative",
-              "axis": { "title": "number of cases" }
-            }
-          }
+          ]
         };
       vegaEmbed('#vis', yourVlSpec);
     </script>
-</p>
 
   </body>
 </html>
