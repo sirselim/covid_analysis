@@ -48,6 +48,18 @@ docker build . -t covidanalysis
 docker run -d -v /tmp/data:/data covidanalysis
 ```
 
+You can also build a container that will also host a site displaying the data for you:
+
+```
+# Build site container
+docker build . -f Dockerfile-site -t covid-site
+
+# Run container hosting webpage on port 80
+docker run -d -p 80:80 covid-site
+
+# You can now view the site on http://localhost
+```
+
 ## appendix
 
 A space for extra notes. Some of the below will be outdated, but keeping for posterity.
