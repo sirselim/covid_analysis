@@ -1,149 +1,219 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Embedding Vega-Lite</title>
+    <title>Exploring NZ COVID19 data</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+      <style type="text/css">
+        body {
+          font-family: 'Source Sans Pro', sans-serif;
+          margin-bottom: 50px;
+        }
+      
+        pre,
+        tt,
+        code,
+        .code,
+        #detail {
+          font-family: 'Open Sans', sans-serif;
+        }
+      
+        h1 {
+          color: #0097db;
+          font-family: 'Open Sans Condensed', sans-serif;
+          font-size: 54px;
+          font-weight: 700;
+          line-height: 44px;
+          margin: 0 0 0;
+          padding: 10px 15px;
+          text-align: center;
+          text-transform: uppercase;
+        }
+      
+        h2 {
+          color: #111;
+          font-family: 'Open Sans Condensed', sans-serif;
+          font-size: 28px;
+          font-weight: 700;
+          line-height: 28px;
+          margin: 0 0 4px;
+          padding: 0 30px;
+          text-align: left;
+          text-transform: uppercase;
+        }
+      
+        a {
+          color: #0097db;
+          text-decoration: none;
+        }
+      
+        a:hover {
+          color: #00608c;
+          text-decoration: underline;
+        }
+      
+        #wrapper {
+          width: 50%;
+          /* specify a width! */
+          margin: 0 auto;
+          /* center */
+        }
+      
+        hr.style9 {
+          border-top: 1px dashed #8c8b8b;
+          border-bottom: 1px dashed #fff;
+        }
+      
+        #date {
+          color: #111;
+          display: block;
+          font-family: 'Open Sans', sans-serif;
+          font-size: 16px;
+          position: relative;
+          text-align: center;
+          z-index: 1;
+          font-weight: 700;
+        }
+      
+        p {
+          color: #111;
+          font-family: 'Open Sans', sans-serif;
+          font-size: 16px;
+          line-height: 28px;
+          margin: 0 0 8px;
+        }
+      
+        /* headlines with lines */
+        .decorated {
+          overflow: hidden;
+          text-align: center;
+        }
+      
+        .decorated>span {
+          position: relative;
+          display: inline-block;
+        }
+      
+        .decorated>span:before,
+        .decorated>span:after {
+          content: '';
+          position: absolute;
+          top: 50%;
+          border-bottom: 2px solid;
+          width: 591px;
+          /* half of limiter*/
+          margin: 0 20px;
+        }
+      
+        .decorated>span:before {
+          right: 100%;
+        }
+      
+        .decorated>span:after {
+          left: 100%;
+        }
+      
+        footer {
+          position: fixed;
+          height: 50px;
+          background-color: rgb(255, 255, 255);
+          bottom: 0px;
+          left: 0px;
+          right: 0px;
+          margin-bottom: 0px;
+        }
+      
+        .container {
+          width: 95%;
+        }
+      </style>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+      <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,400italic,700italic' rel='stylesheet'
+        type='text/css'>
+      <link href='https://fonts.googleapis.com/css?family=Source+Code+Pro' rel='stylesheet' type='text/css'>
     <script src="https://cdn.jsdelivr.net/npm/vega@5.10.0"></script>
     <script src="https://cdn.jsdelivr.net/npm/vega-lite@4.8.1"></script>
     <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.5.1"></script>
   </head>
   <body>
-    <div id="vis"></div>
-
-    <script type="text/javascript">
-      var yourVlSpec = {
-          "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-          "width": 580,
-          "height": 200,
-          "padding": 5,
-          "description": "simple vega-lite chart with linked data",
-          "title": "Confirmed COVID cases in NZ per day",
-          "data": {
-            "url": "https://raw.githubusercontent.com/sirselim/covid_analysis/master/data/NZCOVID_confirmed_formatted.json"
-          },
-          "transform": [
-            {
-              "aggregate": [
-                {
-                  "op": "count",
-                  "field": "Report Date",
-                  "as": "date_sum"
-                }
-              ],
-              "groupby": [
-                "Report Date"
-              ]
-            }
-          ],
-          "mark": {
-            "type": "bar",
-            "tooltip": true
-          },
-          "encoding": {
-            "x": {
-              "field": "Report Date",
-              "type": "nominal",
-              "axis": { "title": "date" }
-            },
-            "y": {
-              "field": "date_sum",
-              "type": "quantitative",
-              "axis": { "title": "number of cases" }
-            }
-          }
-        };
-      vegaEmbed('#vis', yourVlSpec);
-    </script>
-<div id="vis"></div>
-
-    <script type="text/javascript">
-      var yourVlSpec = {
-          "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-          "width": 580,
-          "height": 200,
-          "padding": 5,
-          "description": "simple vega-lite chart with linked data",
-          "title": "Confirmed COVID cases in NZ per day",
-          "data": {
-            "url": "https://raw.githubusercontent.com/sirselim/covid_analysis/master/data/NZCOVID_confirmed_formatted.json"
-          },
-          "transform": [
-            {
-              "aggregate": [
-                {
-                  "op": "count",
-                  "field": "Report Date",
-                  "as": "date_sum"
-                }
-              ],
-              "groupby": [
-                "Report Date"
-              ]
-            }
-          ],
-          "mark": {
-            "type": "bar",
-            "tooltip": true
-          },
-          "encoding": {
-            "x": {
-              "field": "Report Date",
-              "type": "nominal",
-              "axis": { "title": "date" }
-            },
-            "y": {
-              "field": "date_sum",
-              "type": "quantitative",
-              "axis": { "title": "number of cases" }
-            }
-          }
-        };
-      vegaEmbed('#vis', yourVlSpec);
-    </script>
-
-    <div id="vis"></div>
     
+<div id="wrapper">
+
+  <p>
+    <div id="date">
+      <p class="decorated"><span>
+          <script>document.write(new Date().toDateString());</script></span></p>
+    </div>
+  </p>
+
+    <h1>Exploration of NZ COVID19 cases</h1>
+    <div style="text-align:center">See code at <a href="https://github.com/sirselim/covid_analysis">https://github.com/sirselim/covid_analysis</a></div>
+    <br><br>
+    <!-- Container for the visualization -->
+    <div id="vis" style="text-align:center"></div>
+
     <script type="text/javascript">
       var yourVlSpec = {
           "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-          "width": 580,
-          "height": 200,
-          "padding": 5,
           "description": "simple vega-lite chart with linked data",
-          "title": "Confirmed COVID cases in NZ DHBs",
-          "data": {
-            "url": "https://raw.githubusercontent.com/sirselim/covid_analysis/master/data/NZCOVID_confirmed_formatted.json"
-          },
-          "transform": [
+          "data": { "url": "https://raw.githubusercontent.com/sirselim/covid_analysis/master/data//NZCOVID_confirmed_formatted.json" },
+          "vconcat": [
             {
-              "aggregate": [
-                {
-                  "op": "count",
-                  "field": "DHB",
-                  "as": "dhb_sum"
+              "width": 850,
+              "height": 220,
+              "mark": {
+                "type": "bar",
+                "tooltip": true
+              },
+              "title": "Confirmed COVID cases in NZ per day",
+              "encoding": {
+                "x": {
+                  "field": "Date of report",
+                  "type": "nominal",
+                  "axis": {
+                    "title": "date"
+                  }
+                },
+                "y": {
+                  "aggregate": "count",
+                  "field": "Date of report",
+                  "type": "quantitative",
+                  "axis": {
+                    "title": "number of cases"
+                  }
                 }
-              ],
-              "groupby": [
-                "DHB"
-              ]
-            }
-          ],
-          "mark": {
-            "type": "bar",
-            "tooltip": true
-          },
-          "encoding": {
-            "x": {
-              "field": "DHB",
-              "type": "nominal",
-              "sort": "y",
-              "axis": { "title": "DHB" }
+              }
             },
-            "y": {
-              "field": "dhb_sum",
-              "type": "quantitative",
-              "axis": { "title": "number of cases" }
+            {
+              "width": 850,
+              "height": 220,
+              "mark": {
+                "type": "bar",
+                "tooltip": true
+              },
+              "title": "Confirmed COVID cases in NZ DHBs",
+              "encoding": {
+                "x": {
+                  "field": "DHB",
+                  "type": "nominal",
+                  "sort": "y",
+                  "axis": {
+                    "title": "DHB"
+                  }
+                },
+                "y": {
+                  "aggregate": "count",
+                  "field": "DHB",
+                  "type": "quantitative",
+                  "axis": {
+                    "title": "number of cases"
+                  }
+                }
+              }
             }
-          }
+          ]
         };
       vegaEmbed('#vis', yourVlSpec);
     </script>
