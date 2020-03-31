@@ -20,6 +20,18 @@
             "groupby": [
                 "DHB"
             ]
+        },
+        {
+            "aggregate": [
+                {
+                    "op": "count",
+                    "field": "Report Date",
+                    "as": "date_sum"
+                }
+            ],
+            "groupby": [
+                "Report Date"
+            ]
         }
     ],
     "mark": {
