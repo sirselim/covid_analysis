@@ -166,21 +166,22 @@
     <li class="active"><a data-toggle="pill" href="#home">Home</a></li>
     <li><a data-toggle="pill" href="#sex">By Sex</a></li>
     <li><a data-toggle="pill" href="#dhb">By DHB</a></li>
+    <li><a data-toggle="pill" href="#agegroup">By Age Group</a></li>
   </ul>
     
 <div class="tab-content">
     
 <!-- Home Page ------------------------------------------------------------------------------------------ -->
 <div id="home" class="tab-pane fade in active">
-    <h3>Basic overview</h3>
+    <h3>Overview of total confirmed COVID cases in New Zealand</h3>
     <br>
     <!-- Container for the visualization -->
-    <div id="vis" style="text-align:center"></div>
+    <div id="vis1" style="text-align:center"></div>
 </div>
 
 <!-- Sex Page ------------------------------------------------------------------------------------------ -->
 <div id="sex" class="tab-pane fade in active">
-  <h3>Overview by Sex</h3>
+  <h3>Overview broken down by Sex of all confirmed cases</h3>
   <br>
   <!-- Container for the visualization -->
   <div id="vis2" style="text-align:center"></div>
@@ -188,10 +189,18 @@
 
 <!-- DHB Page ------------------------------------------------------------------------------------------ -->
 <div id="dhb" class="tab-pane fade in active">
-  <h3>Overview by DHB</h3>
+  <h3>Overview broken down by DHB location of all confirmed cases</h3>
   <br>
   <!-- Container for the visualization -->
   <div id="vis3" style="text-align:center"></div>
+</div>
+
+<!-- Age group Page ------------------------------------------------------------------------------------------ -->
+<div id="agegroup" class="tab-pane fade in active">
+  <h3>Overview broken down by Age Group of all confirmed cases</h3>
+  <br>
+  <!-- Container for the visualization -->
+  <div id="vis4" style="text-align:center"></div>
 </div>
 
 <!-- end of tabbed sections  -->
@@ -209,6 +218,7 @@
 </html>
 
 <!-- vega-lite scripts -->
+<!-- plot the breakdown of cases per day and per DHB -->
 <script type="text/javascript">
   var yourVlSpec = {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
@@ -222,7 +232,7 @@
           "type": "bar",
           "tooltip": true
         },
-        "title": "Confirmed COVID cases in NZ per day",
+        "title": "Confirmed COVID cases in NZ per calendar day",
         "encoding": {
           "x": {
             "field": "Date of report",
@@ -270,11 +280,12 @@
       }
     ]
   };
-  vegaEmbed('#vis', yourVlSpec);
+  vegaEmbed('#vis1', yourVlSpec);
 </script>
 
+<!-- plot the breakdown of cases per day and DHB by Sex -->
 <script type="text/javascript">
-  var yourVlSpec = {
+  var yourV2Spec = {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "description": "simple vega-lite chart with linked data",
     "data": { "url": "https://raw.githubusercontent.com/sirselim/covid_analysis/master/data//NZCOVID_confirmed_formatted.json" },
@@ -286,7 +297,7 @@
           "type": "bar",
           "tooltip": true
         },
-        "title": "Confirmed COVID cases in NZ per day",
+        "title": "Confirmed COVID cases in NZ per calendar day (grouped by sex)",
         "encoding": {
           "x": {
             "field": "Date of report",
@@ -316,7 +327,7 @@
           "type": "bar",
           "tooltip": true
         },
-        "title": "Confirmed COVID cases in NZ DHBs",
+        "title": "Confirmed COVID cases in NZ DHBs (grouped by sex)",
         "encoding": {
           "x": {
             "field": "DHB",
@@ -342,17 +353,18 @@
       }
     ]
   };
-  vegaEmbed('#vis2', yourVlSpec);
+  vegaEmbed('#vis2', yourV2Spec);
 </script>
 
+<!-- plot the breakdown of cases per day by DHB -->
 <script type="text/javascript">
-  var yourVlSpec = {
+  var yourV3Spec = {
       "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
       "width": 800,
       "height": 500,
       "padding": 5,
       "description": "simple vega-lite chart with linked data",
-      "title": "Confirmed COVID cases in NZ per day",
+      "title": "Confirmed COVID cases in NZ per calendar day (grouped by DHB)",
       "data": {
         "url": "https://raw.githubusercontent.com/sirselim/covid_analysis/master/data//NZCOVID_confirmed_formatted.json"
       },
@@ -378,5 +390,42 @@
         }
       }
     };
-  vegaEmbed('#vis3', yourVlSpec);
+  vegaEmbed('#vis3', yourV3Spec);
+</script>
+
+<!-- plot the breakdown of cases per day by Age group -->
+<script type="text/javascript">
+  var yourV4Spec = {
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "width": 800,
+    "height": 500,
+    "padding": 5,
+    "description": "simple vega-lite chart with linked data",
+    "title": "Confirmed COVID cases in NZ per calendar day (grouped by age group)",
+    "data": {
+      "url": "https://raw.githubusercontent.com/sirselim/covid_analysis/master/data//NZCOVID_confirmed_formatted.json"
+    },
+    "mark": {
+      "type": "bar",
+      "tooltip": true
+    },
+    "encoding": {
+      "x": {
+        "field": "Date of report",
+        "type": "nominal",
+        "axis": { "title": "date" }
+      },
+      "y": {
+        "aggregate": "count",
+        "field": "Date of report",
+        "type": "quantitative",
+        "axis": { "title": "number of cases" }
+      },
+      "color": {
+        "field": "Age group",
+        "type": "nominal"
+      }
+    }
+  };
+  vegaEmbed('#vis4', yourV4Spec);
 </script>
