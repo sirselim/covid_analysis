@@ -1,0 +1,28 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 580,
+  "height": 200,
+  "padding": 5,
+  "description": "simple vega-lite chart with linked data",
+  "title": "Confirmed COVID cases in NZ DHBs",
+  "data": {
+      "url": "../data/NZCOVID_confirmed_formatted.json"
+    },
+  "transform": [{
+    "sort": [{"field": "Date of report"}],
+    "window": [{"op": "count", "field": "count", "as": "cumulative_count"}],
+    "frame": [null, 0]
+  }],
+  "mark": "line",
+  "encoding": {
+    "x": {
+      "field": "Date of report",
+      "type": "nominal"
+    },
+    "y": {
+      "field": "cumulative_count",
+      "type": "quantitative"
+    }
+  }
+}
+
