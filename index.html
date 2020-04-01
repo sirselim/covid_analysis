@@ -249,7 +249,7 @@
 <!-- plot the breakdown of cases per day and per DHB -->
 <script type="text/javascript">
   var yourVlSpec = {
-    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
     "description": "simple vega-lite chart with linked data",
     "data": { "url": "https://raw.githubusercontent.com/sirselim/covid_analysis/master/data//NZCOVID_confirmed_formatted.json" },
     "vconcat": [
@@ -275,6 +275,29 @@
             "type": "quantitative",
             "axis": {
               "title": "number of cases"
+            }
+          },
+          "color": {
+            "value": "steelblue",
+            "condition": {
+              "test": {
+                "field": "Date of report",
+                "range": ["2020-03-26", "2020-04-30"]
+              },
+              "field": "Date of report",
+              "title": "Days in lockdown",
+              "type": "nominal",
+              "scale": {
+                "domain": [
+                  "2020-03-26", "2020-03-27",
+                  "2020-03-28", "2020-03-29",
+                  "2020-03-30", "2020-03-31",
+                  "2020-04-01"],
+                "range": [
+                  "#FFA500",
+                  "#FFA500"
+                ]
+              }
             }
           }
         }
@@ -314,7 +337,7 @@
 <!-- plot the breakdown of cases per day and DHB by Sex -->
 <script type="text/javascript">
   var yourV2Spec = {
-    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
     "description": "simple vega-lite chart with linked data",
     "data": { "url": "https://raw.githubusercontent.com/sirselim/covid_analysis/master/data//NZCOVID_confirmed_formatted.json" },
     "vconcat": [
@@ -387,7 +410,7 @@
 <!-- plot the breakdown of cases per day by DHB -->
 <script type="text/javascript">
   var yourV3Spec = {
-      "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+      "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
       "width": 800,
       "height": 500,
       "padding": 5,
@@ -424,7 +447,7 @@
 <!-- plot the breakdown of cases per day by Age group -->
 <script type="text/javascript">
   var yourV4Spec = {
-    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
     "width": 800,
     "height": 500,
     "padding": 5,
@@ -458,10 +481,10 @@
   vegaEmbed('#vis4', yourV4Spec);
 </script>
 
-<!-- plot the breakdown of cases per day by Age group -->
+<!-- plot the cumulative total COVID cases for NZ -->
 <script type="text/javascript">
   var yourV5Spec = {
-    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
     "width": 800,
     "height": 250,
     "padding": 5,
@@ -487,6 +510,29 @@
       "y": {
         "field": "cumulative_count",
         "type": "quantitative"
+      },
+      "color": {
+        "value": "steelblue",
+        "condition": {
+          "test": {
+            "field": "Date of report",
+            "range": ["2020-03-26", "2020-04-30"]
+          },
+          "field": "Date of report",
+          "title": "Days in lockdown",
+          "type": "nominal",
+          "scale": {
+            "domain": [
+              "2020-03-26", "2020-03-27",
+              "2020-03-28", "2020-03-29",
+              "2020-03-30", "2020-03-31",
+              "2020-04-01"],
+            "range": [
+              "#FFA500",
+              "#FFA500"
+            ]
+          }
+        }
       }
     }
   }

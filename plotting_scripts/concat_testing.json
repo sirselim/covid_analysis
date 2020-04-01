@@ -1,7 +1,7 @@
 {
-  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
   "description": "simple vega-lite chart with linked data",
-  "data": { "url": "../data/NZCOVID_confirmed_formatted.json"},
+  "data": { "url": "https://raw.githubusercontent.com/sirselim/covid_analysis/master/data//NZCOVID_confirmed_formatted.json"},
   "vconcat": [
     {
         "width": 580,
@@ -25,6 +25,29 @@
                 "type": "quantitative",
                 "axis": {
                     "title": "number of cases"
+                }
+            },
+            "color": {
+                "value": "steelblue",
+                "condition": {
+                    "test": {
+                        "field": "Date of report",
+                        "range": [ "2020-03-26", "2020-04-30" ]
+                    },
+                    "field": "Date of report",
+                    "title": "Days in lockdown",
+                    "type": "nominal",
+                    "scale": {
+                        "domain": [ 
+                            "2020-03-26", "2020-03-27", 
+                            "2020-03-28", "2020-03-29",
+                            "2020-03-30", "2020-03-31",
+                            "2020-04-01" ],
+                        "range": [
+                            "#FFA500",
+                            "#FFA500"
+                        ]
+                    }
                 }
             }
         }
