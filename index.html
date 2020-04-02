@@ -223,6 +223,7 @@
       href="https://www.health.govt.nz/our-work/diseases-and-conditions/covid-19-novel-coronavirus/covid-19-current-situation/covid-19-current-cases/covid-19-current-cases-details#probable">here</a>).</i>
   </p>
   <hr>
+  <center><span style="font-size:13px">New Zealand went into lockdown on the <b>25<sup>th</sup> March, 2020</b> - indicated in <span style="color: orange"><b>orange</b></span> below.</span></center>
   <div id="vis5" style="text-align:center"></div>
 
 </div>
@@ -231,6 +232,8 @@
 <div id="overview" class="tab-pane fade in active">
     <h3>Overview of total confirmed COVID cases in New Zealand</h3>
     <br>
+    <center><span style="font-size:13px">New Zealand went into lockdown on the <b>25<sup>th</sup> March, 2020</b> -
+        indicated in <span style="color: orange"><b>orange</b></span> below.</span></center>
     <!-- Container for the visualization -->
     <div id="vis1" style="text-align:center"></div>
 </div>
@@ -311,24 +314,8 @@
           "color": {
             "value": "steelblue",
             "condition": {
-              "test": {
-                "field": "Date of report",
-                "range": ["2020-03-26", "2020-04-30"]
-              },
-              "field": "Date of report",
-              "title": "Days in lockdown",
-              "type": "nominal",
-              "scale": {
-                "domain": [
-                  "2020-03-26", "2020-03-27",
-                  "2020-03-28", "2020-03-29",
-                  "2020-03-30", "2020-03-31",
-                  "2020-04-01", "2020-04-02"],
-                "range": [
-                  "#FFA500",
-                  "#FFA500"
-                ]
-              }
+              "test": { "field": "Date of report", "gt": "2020-03-26" },
+              "value": "orange"
             }
           }
         }
@@ -578,24 +565,8 @@
       "color": {
         "value": "steelblue",
         "condition": {
-          "test": {
-            "field": "Date of report",
-            "range": ["2020-03-26", "2020-04-30"]
-          },
-          "field": "Date of report",
-          "title": "Days in lockdown",
-          "type": "nominal",
-          "scale": {
-            "domain": [
-              "2020-03-26", "2020-03-27",
-              "2020-03-28", "2020-03-29",
-              "2020-03-30", "2020-03-31",
-              "2020-04-01", "2020-04-02"],
-            "range": [
-              "#FFA500",
-              "#FFA500"
-            ]
-          }
+          "test": { "field": "Date of report", "gt": "2020-03-26" },
+          "value": "orange"
         }
       }
     }
