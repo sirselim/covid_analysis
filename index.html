@@ -22,7 +22,7 @@
         h1 {
           color: #0097db;
           font-family: 'Open Sans Condensed', sans-serif;
-          font-size: 54px;
+          font-size: 50px;
           font-weight: 700;
           line-height: 44px;
           margin: 0 0 0;
@@ -184,8 +184,16 @@
 <div style="text-align:center">See code at <a href="https://github.com/sirselim/covid_analysis">https://github.com/sirselim/covid_analysis</a></div>
 <div style="text-align:center">All data has been pulled from the NZ Ministry of Health COVID19 website: <a href="https://www.health.govt.nz/our-work/diseases-and-conditions/covid-19-novel-coronavirus/covid-19-current-situation/covid-19-current-cases/covid-19-current-cases-details#probable">[link]</a></div>
 
-<br>
-    
+<hr>
+  <center>
+    Total COVID cases in NZ <span style="font-size:16px" class="badge badge-total"><b>797</b></span> &nbsp;&nbsp; |
+    &nbsp;&nbsp;
+    Confirmed Cases <span style="font-size:16px" class="badge badge-confirmed"><b>723</b></span> &nbsp;&nbsp; |
+    &nbsp;&nbsp;
+    Probable Cases <span style="font-size:16px" class="badge badge-probable"><b>74</b></span> <span
+      style="font-size:12px"> [updated: <b>15:38, 2<sup>nd</sup> April 2020</b>]</span>
+  </center>
+<hr>
 <div class="container">
     
   <ul class="nav nav-pills nav-justified">
@@ -202,7 +210,6 @@
 <div id="info" class="tab-pane fade in active">
   <h3><b>Please read this first</b></h3>
 
-  <br>
   <p>
     <b>This is by no means an endorsed or official product or analysis. It is merely an interest project with the goal of creating visualisations that could hopefully be useful to others.</b>
   </p>
@@ -215,12 +222,6 @@
     <i>The data contained on this page is made freely available by the New Zealand Ministry of Health (<a
       href="https://www.health.govt.nz/our-work/diseases-and-conditions/covid-19-novel-coronavirus/covid-19-current-situation/covid-19-current-cases/covid-19-current-cases-details#probable">here</a>).</i>
   </p>
-  <hr>
-  <center>
-  Total COVID cases in NZ <span style="font-size:16px" class="badge badge-total"><b>797</b></span> &nbsp;&nbsp; | &nbsp;&nbsp;
-  Confirmed Cases <span style="font-size:16px" class="badge badge-confirmed"><b>723</b></span> &nbsp;&nbsp; | &nbsp;&nbsp;   
-  Probable Cases <span style="font-size:16px" class="badge badge-probable"><b>74</b></span> <span style="font-size:12px"> [updated: <b>15:38, 2<sup>nd</sup> April 2020</b>]</span>
-  </center>
   <hr>
   <div id="vis5" style="text-align:center"></div>
 
@@ -334,22 +335,22 @@
       },
       {
         "width": 800,
-        "height": 220,
+        "height": 250,
         "mark": {
           "type": "bar",
           "tooltip": true
         },
         "title": "Confirmed COVID cases in NZ DHBs",
         "encoding": {
-          "x": {
+          "y": {
             "field": "DHB",
             "type": "nominal",
-            "sort": "y",
+            "sort": "-x",
             "axis": {
               "title": "DHB"
             }
           },
-          "y": {
+          "x": {
             "aggregate": "count",
             "field": "DHB",
             "type": "quantitative",
@@ -477,37 +478,70 @@
 <!-- plot the breakdown of cases per day by Age group -->
 <script type="text/javascript">
   var yourV4Spec = {
-    "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
-    "width": 800,
-    "height": 500,
-    "padding": 5,
-    "description": "simple vega-lite chart with linked data",
-    "title": "Confirmed COVID cases in NZ per calendar day (grouped by age group)",
-    "data": {
-      "url": "https://raw.githubusercontent.com/sirselim/covid_analysis/master/data//NZCOVID_confirmed_formatted.json"
-    },
-    "mark": {
-      "type": "bar",
-      "tooltip": true
-    },
-    "encoding": {
-      "x": {
-        "field": "Date of report",
-        "type": "nominal",
-        "axis": { "title": "date" }
+      "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+      "description": "simple vega-lite chart with linked data",
+      "data": {
+        "url": "https://raw.githubusercontent.com/sirselim/covid_analysis/master/data//NZCOVID_confirmed_formatted.json"
       },
-      "y": {
-        "aggregate": "count",
-        "field": "Date of report",
-        "type": "quantitative",
-        "axis": { "title": "number of cases" }
-      },
-      "color": {
-        "field": "Age group",
-        "type": "nominal"
-      }
-    }
-  };
+      "vconcat": [
+        {
+          "width": 800,
+          "height": 220,
+          "title": "COVID cases per day by age group",
+          "mark": {
+            "type": "bar",
+            "tooltip": true
+          },
+          "encoding": {
+            "x": {
+              "field": "Date of report",
+              "type": "nominal",
+              "axis": {
+                "title": "date"
+              }
+            },
+            "y": {
+              "aggregate": "count",
+              "field": "Date of report",
+              "type": "quantitative",
+              "axis": {
+                "title": "number of cases"
+              }
+            },
+            "color": {
+              "field": "Age group",
+              "type": "nominal"
+            }
+          }
+        },
+        {
+          "width": 800,
+          "height": 220,
+          "title": "COVID cases per age group",
+          "mark": {
+            "type": "bar",
+            "tooltip": true
+          },
+          "encoding": {
+            "y": {
+              "field": "Age group",
+              "type": "nominal",
+              "axis": {
+                "title": "Age Group (years)"
+              }
+            },
+            "x": {
+              "aggregate": "count",
+              "field": "Age group",
+              "type": "quantitative",
+              "axis": {
+                "title": "number of cases"
+              }
+            }
+          }
+        }
+      ]
+    };
   vegaEmbed('#vis4', yourV4Spec);
 </script>
 
