@@ -132,6 +132,31 @@
         .container {
           width: 95%;
         }
+        .badge {
+          padding: 1px 9px 2px;
+          font-size: 12.025px;
+          font-weight: bold;
+          white-space: nowrap;
+          color: #ffffff;
+          background-color: #999999;
+          -webkit-border-radius: 9px;
+          -moz-border-radius: 9px;
+          border-radius: 9px;
+        }
+        /* .badge:hover {
+          color: #ffffff;
+          text-decoration: none;
+          cursor: pointer;
+        } */
+        .badge-confirmed {
+          background-color: #b94a48;
+        }
+        .badge-total {
+          background-color: #953b39;
+        }
+        .badge-probable {
+          background-color: #f89406;
+        }
       </style>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -141,6 +166,7 @@
     <script src="https://cdn.jsdelivr.net/npm/vega@5.10.0"></script>
     <script src="https://cdn.jsdelivr.net/npm/vega-lite@4.8.1"></script>
     <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.5.1"></script>
+    
   </head>
   <body>
     
@@ -181,17 +207,21 @@
     <b>This is by no means an endorsed or official product or analysis. It is merely an interest project with the goal of creating visualisations that could hopefully be useful to others.</b>
   </p>
   <p>
-    <b>NOTE:</b> It should be noted that the data reported differs slightly from the 'statistics' released daily by the NZ Government/MoH. 
-    The difference arises in that the daily announcment reports all positive tests in the last 24hrs, i.e. if the announcement is at 1pm it will include all confirmed cases back to 1pm the day before.
-    However, here we decided to present the data based on the calendar date of the positive test rest, i.e. all positive tests that occur on a given day 12am-12pm. We believe that this is the 'better'
-    metric, plus the MoH data only contains the date of positive test!
+    <b>NOTE:</b> the data reported here differs from the 'statistics' released daily by the NZ Government/MoH. 
+    The daily announcement reports all positive tests in the last 24hrs, i.e. if the announcement is at 1pm it will include all confirmed cases back to 1pm the day before.
+    Here we present the data based on the calendar date of the positive test resultt, i.e. all positive tests that occur on a given day 12am-12pm.
   </p>
-  <br>
   <p>
-    The data contained on this page is made freely available by the New Zealand Ministry of Health (<a
-      href="https://www.health.govt.nz/our-work/diseases-and-conditions/covid-19-novel-coronavirus/covid-19-current-situation/covid-19-current-cases/covid-19-current-cases-details#probable">here</a>).
+    <i>The data contained on this page is made freely available by the New Zealand Ministry of Health (<a
+      href="https://www.health.govt.nz/our-work/diseases-and-conditions/covid-19-novel-coronavirus/covid-19-current-situation/covid-19-current-cases/covid-19-current-cases-details#probable">here</a>).</i>
   </p>
-  <h4>Running total of NZ COVID cases:</h4>
+  <hr>
+  <center>
+  Total COVID cases in NZ <span style="font-size:16px" class="badge badge-total"><b>797</b></span> &nbsp;&nbsp; | &nbsp;&nbsp;
+  Confirmed Cases <span style="font-size:16px" class="badge badge-confirmed"><b>723</b></span> &nbsp;&nbsp; | &nbsp;&nbsp;   
+  Probable Cases <span style="font-size:16px" class="badge badge-probable"><b>74</b></span> <span style="font-size:12px"> [updated: <b>15:38, 2<sup>nd</sup> April 2020</b>]</span>
+  </center>
+  <hr>
   <div id="vis5" style="text-align:center"></div>
 
 </div>
