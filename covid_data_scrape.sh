@@ -15,4 +15,8 @@ download_url=$(echo $moh_url$url_result)
 output="$outputDir/NZ_COVID19_data.xlsx"
 # download excel file
 wget -nv "$download_url" -O "$output"
+# format data for total plotting
+xlsx2csv data/NZ_COVID19_data.xlsx -f %Y/%m/%d -s 1 | tail -n +5 | cut -d',' -f 1 | awk -v OFS=',' '{print $1,$2="confirmed"}' | sed -e '1i\'$'\n''Date of report,status' > data/confirmedOnly.txt
+xlsx2csv data/NZ_COVID19_data.xlsx -f %Y/%m/%d -s 2 | tail -n +5 | cut -d',' -f 1 | awk -v OFS=',' '{print $1,$2="probable"}' > data/probableOnly.txt
+csvjson <(cat data/confirmedOnly.txt data/probableOnly.txt) | jq > data/casesTotal.json
 #/END
