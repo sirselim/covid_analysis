@@ -6,7 +6,7 @@
   "description": "simple vega-lite chart with linked data",
   "title": "Cumulative confirmed COVID cases in NZ",
   "data": {
-    "url": "../data/casesTotal.json"
+    "url": "https://raw.githubusercontent.com/sirselim/covid_analysis/master/data/casesTotal.json"
   },
   "mark": {
     "type": "bar",
@@ -26,7 +26,7 @@
       "type": "nominal",
       "scale": {
         "domain": ["confirmed", "probable"],
-        "range": ["#e7ba52", "#1f77b4"]
+        "range": ["steelblue", "darkred"]
       },
       "legend": { "title": "Case status" }
     },
