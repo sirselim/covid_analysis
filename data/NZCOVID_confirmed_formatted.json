@@ -4,6 +4,17 @@
     "Sex": "Female",
     "Age group": "60 to 69",
     "DHB": "Auckland",
+    "International travel": false,
+    "Last country before return": null,
+    "Flight number": null,
+    "Flight departure date": null,
+    "Arrival date": null
+  },
+  {
+    "Date of report": "2020-04-05",
+    "Sex": "Female",
+    "Age group": "60 to 69",
+    "DHB": "Auckland",
     "International travel": null,
     "Last country before return": null,
     "Flight number": null,
@@ -20,6 +31,50 @@
     "Flight number": null,
     "Flight departure date": null,
     "Arrival date": null
+  },
+  {
+    "Date of report": "2020-04-05",
+    "Sex": null,
+    "Age group": null,
+    "DHB": "Auckland",
+    "International travel": null,
+    "Last country before return": null,
+    "Flight number": null,
+    "Flight departure date": null,
+    "Arrival date": null
+  },
+  {
+    "Date of report": "2020-04-05",
+    "Sex": "Male",
+    "Age group": "20 to 29",
+    "DHB": "Auckland",
+    "International travel": null,
+    "Last country before return": null,
+    "Flight number": null,
+    "Flight departure date": null,
+    "Arrival date": null
+  },
+  {
+    "Date of report": "2020-04-05",
+    "Sex": "Female",
+    "Age group": "20 to 29",
+    "DHB": "Canterbury",
+    "International travel": true,
+    "Last country before return": "Qatar",
+    "Flight number": null,
+    "Flight departure date": null,
+    "Arrival date": "2020-03-31"
+  },
+  {
+    "Date of report": "2020-04-05",
+    "Sex": "Male",
+    "Age group": "40 to 49",
+    "DHB": "Counties Manukau",
+    "International travel": true,
+    "Last country before return": "United States of America",
+    "Flight number": null,
+    "Flight departure date": null,
+    "Arrival date": "2020-03-25"
   },
   {
     "Date of report": "2020-04-05",
@@ -37,6 +92,237 @@
     "Sex": "Male",
     "Age group": "40 to 49",
     "DHB": "Counties Manukau",
+    "International travel": false,
+    "Last country before return": null,
+    "Flight number": null,
+    "Flight departure date": null,
+    "Arrival date": null
+  },
+  {
+    "Date of report": "2020-04-05",
+    "Sex": "Female",
+    "Age group": "40 to 49",
+    "DHB": "Counties Manukau",
+    "International travel": false,
+    "Last country before return": null,
+    "Flight number": null,
+    "Flight departure date": null,
+    "Arrival date": null
+  },
+  {
+    "Date of report": "2020-04-05",
+    "Sex": "Female",
+    "Age group": "60 to 69",
+    "DHB": "Hawke's Bay",
+    "International travel": true,
+    "Last country before return": "United Arab Emirates",
+    "Flight number": null,
+    "Flight departure date": null,
+    "Arrival date": "2020-03-17"
+  },
+  {
+    "Date of report": "2020-04-05",
+    "Sex": "Male",
+    "Age group": "30 to 39",
+    "DHB": "Hawke's Bay",
+    "International travel": false,
+    "Last country before return": null,
+    "Flight number": "NZ5005",
+    "Flight departure date": "2020-03-23",
+    "Arrival date": null
+  },
+  {
+    "Date of report": "2020-04-05",
+    "Sex": "Male",
+    "Age group": "20 to 29",
+    "DHB": "MidCentral",
+    "International travel": true,
+    "Last country before return": "United Arab Emirates",
+    "Flight number": "JQ0290",
+    "Flight departure date": "2020-03-22",
+    "Arrival date": "2020-03-22"
+  },
+  {
+    "Date of report": "2020-04-05",
+    "Sex": "Male",
+    "Age group": "20 to 29",
+    "DHB": "MidCentral",
+    "International travel": false,
+    "Last country before return": null,
+    "Flight number": null,
+    "Flight departure date": null,
+    "Arrival date": null
+  },
+  {
+    "Date of report": "2020-04-05",
+    "Sex": "Female",
+    "Age group": "70+     ",
+    "DHB": "Nelson Marlborough",
+    "International travel": false,
+    "Last country before return": null,
+    "Flight number": null,
+    "Flight departure date": null,
+    "Arrival date": null
+  },
+  {
+    "Date of report": "2020-04-05",
+    "Sex": "Female",
+    "Age group": "60 to 69",
+    "DHB": "Northland",
+    "International travel": false,
+    "Last country before return": null,
+    "Flight number": null,
+    "Flight departure date": null,
+    "Arrival date": null
+  },
+  {
+    "Date of report": "2020-04-05",
+    "Sex": "Male",
+    "Age group": "30 to 39",
+    "DHB": "Northland",
+    "International travel": false,
+    "Last country before return": null,
+    "Flight number": null,
+    "Flight departure date": null,
+    "Arrival date": null
+  },
+  {
+    "Date of report": "2020-04-05",
+    "Sex": "Male",
+    "Age group": "30 to 39",
+    "DHB": "Southern",
+    "International travel": false,
+    "Last country before return": null,
+    "Flight number": null,
+    "Flight departure date": null,
+    "Arrival date": null
+  },
+  {
+    "Date of report": "2020-04-05",
+    "Sex": "Female",
+    "Age group": "30 to 39",
+    "DHB": "Southern",
+    "International travel": false,
+    "Last country before return": null,
+    "Flight number": null,
+    "Flight departure date": null,
+    "Arrival date": null
+  },
+  {
+    "Date of report": "2020-04-05",
+    "Sex": "Male",
+    "Age group": "15 to 19",
+    "DHB": "Southern",
+    "International travel": false,
+    "Last country before return": null,
+    "Flight number": null,
+    "Flight departure date": null,
+    "Arrival date": null
+  },
+  {
+    "Date of report": "2020-04-05",
+    "Sex": "Male",
+    "Age group": "20 to 29",
+    "DHB": "Southern",
+    "International travel": false,
+    "Last country before return": null,
+    "Flight number": null,
+    "Flight departure date": null,
+    "Arrival date": null
+  },
+  {
+    "Date of report": "2020-04-05",
+    "Sex": "Female",
+    "Age group": "20 to 29",
+    "DHB": "Southern",
+    "International travel": false,
+    "Last country before return": null,
+    "Flight number": null,
+    "Flight departure date": null,
+    "Arrival date": null
+  },
+  {
+    "Date of report": "2020-04-05",
+    "Sex": "Male",
+    "Age group": "50 to 59",
+    "DHB": "Southern",
+    "International travel": null,
+    "Last country before return": null,
+    "Flight number": null,
+    "Flight departure date": null,
+    "Arrival date": null
+  },
+  {
+    "Date of report": "2020-04-05",
+    "Sex": "Female",
+    "Age group": "40 to 49",
+    "DHB": "Southern",
+    "International travel": null,
+    "Last country before return": null,
+    "Flight number": null,
+    "Flight departure date": null,
+    "Arrival date": null
+  },
+  {
+    "Date of report": "2020-04-05",
+    "Sex": "Male",
+    "Age group": "40 to 49",
+    "DHB": "Southern",
+    "International travel": null,
+    "Last country before return": null,
+    "Flight number": null,
+    "Flight departure date": null,
+    "Arrival date": null
+  },
+  {
+    "Date of report": "2020-04-05",
+    "Sex": "Male",
+    "Age group": "60 to 69",
+    "DHB": "Southern",
+    "International travel": false,
+    "Last country before return": null,
+    "Flight number": null,
+    "Flight departure date": null,
+    "Arrival date": null
+  },
+  {
+    "Date of report": "2020-04-05",
+    "Sex": "Male",
+    "Age group": "30 to 39",
+    "DHB": "Southern",
+    "International travel": null,
+    "Last country before return": null,
+    "Flight number": null,
+    "Flight departure date": null,
+    "Arrival date": null
+  },
+  {
+    "Date of report": "2020-04-05",
+    "Sex": "Male",
+    "Age group": "70+     ",
+    "DHB": "Southern",
+    "International travel": false,
+    "Last country before return": null,
+    "Flight number": null,
+    "Flight departure date": null,
+    "Arrival date": null
+  },
+  {
+    "Date of report": "2020-04-05",
+    "Sex": "Female",
+    "Age group": "60 to 69",
+    "DHB": "Southern",
+    "International travel": null,
+    "Last country before return": null,
+    "Flight number": null,
+    "Flight departure date": null,
+    "Arrival date": null
+  },
+  {
+    "Date of report": "2020-04-05",
+    "Sex": "Female",
+    "Age group": "50 to 59",
+    "DHB": "Waikato",
     "International travel": null,
     "Last country before return": null,
     "Flight number": null,
@@ -48,7 +334,18 @@
     "Sex": "Female",
     "Age group": "30 to 39",
     "DHB": "Waitemata",
-    "International travel": null,
+    "International travel": false,
+    "Last country before return": null,
+    "Flight number": null,
+    "Flight departure date": null,
+    "Arrival date": null
+  },
+  {
+    "Date of report": "2020-04-05",
+    "Sex": "Female",
+    "Age group": "40 to 49",
+    "DHB": "Waitemata",
+    "International travel": false,
     "Last country before return": null,
     "Flight number": null,
     "Flight departure date": null,
@@ -59,7 +356,29 @@
     "Sex": "Female",
     "Age group": "20 to 29",
     "DHB": "Waitemata",
-    "International travel": null,
+    "International travel": false,
+    "Last country before return": null,
+    "Flight number": null,
+    "Flight departure date": null,
+    "Arrival date": null
+  },
+  {
+    "Date of report": "2020-04-05",
+    "Sex": "Male",
+    "Age group": "20 to 29",
+    "DHB": "Waitemata",
+    "International travel": false,
+    "Last country before return": null,
+    "Flight number": null,
+    "Flight departure date": null,
+    "Arrival date": null
+  },
+  {
+    "Date of report": "2020-04-04",
+    "Sex": "Female",
+    "Age group": "60 to 69",
+    "DHB": "Auckland",
+    "International travel": false,
     "Last country before return": null,
     "Flight number": null,
     "Flight departure date": null,
@@ -75,6 +394,17 @@
     "Flight number": null,
     "Flight departure date": null,
     "Arrival date": "2020-03-23"
+  },
+  {
+    "Date of report": "2020-04-04",
+    "Sex": "Male",
+    "Age group": "30 to 39",
+    "DHB": "Auckland",
+    "International travel": null,
+    "Last country before return": null,
+    "Flight number": null,
+    "Flight departure date": null,
+    "Arrival date": null
   },
   {
     "Date of report": "2020-04-04",
@@ -122,10 +452,21 @@
   },
   {
     "Date of report": "2020-04-04",
+    "Sex": "Female",
+    "Age group": "70+     ",
+    "DHB": "Canterbury",
+    "International travel": false,
+    "Last country before return": null,
+    "Flight number": null,
+    "Flight departure date": null,
+    "Arrival date": null
+  },
+  {
+    "Date of report": "2020-04-04",
     "Sex": "Male",
-    "Age group": "30 to 39",
-    "DHB": "Auckland",
-    "International travel": null,
+    "Age group": "70+     ",
+    "DHB": "Canterbury",
+    "International travel": false,
     "Last country before return": null,
     "Flight number": null,
     "Flight departure date": null,
@@ -134,9 +475,20 @@
   {
     "Date of report": "2020-04-04",
     "Sex": "Female",
-    "Age group": "60 to 69",
-    "DHB": "Auckland",
+    "Age group": "40 to 49",
+    "DHB": "Canterbury",
     "International travel": false,
+    "Last country before return": null,
+    "Flight number": null,
+    "Flight departure date": null,
+    "Arrival date": null
+  },
+  {
+    "Date of report": "2020-04-04",
+    "Sex": "Male",
+    "Age group": "70+     ",
+    "DHB": "Canterbury",
+    "International travel": null,
     "Last country before return": null,
     "Flight number": null,
     "Flight departure date": null,
@@ -189,6 +541,17 @@
   {
     "Date of report": "2020-04-04",
     "Sex": "Male",
+    "Age group": "20 to 29",
+    "DHB": "Counties Manukau",
+    "International travel": true,
+    "Last country before return": "Qatar",
+    "Flight number": "EK448",
+    "Flight departure date": "2020-03-21",
+    "Arrival date": "2020-03-21"
+  },
+  {
+    "Date of report": "2020-04-04",
+    "Sex": "Male",
     "Age group": "30 to 39",
     "DHB": "Counties Manukau",
     "International travel": false,
@@ -199,21 +562,10 @@
   },
   {
     "Date of report": "2020-04-04",
-    "Sex": "Male",
-    "Age group": "20 to 29",
-    "DHB": "Counties Manukau",
-    "International travel": null,
-    "Last country before return": null,
-    "Flight number": null,
-    "Flight departure date": null,
-    "Arrival date": null
-  },
-  {
-    "Date of report": "2020-04-04",
     "Sex": "Female",
     "Age group": "50 to 59",
     "DHB": "Lakes",
-    "International travel": null,
+    "International travel": false,
     "Last country before return": null,
     "Flight number": null,
     "Flight departure date": null,
@@ -235,11 +587,11 @@
     "Sex": "Male",
     "Age group": "10 to 14",
     "DHB": "MidCentral",
-    "International travel": null,
-    "Last country before return": null,
-    "Flight number": null,
-    "Flight departure date": null,
-    "Arrival date": null
+    "International travel": true,
+    "Last country before return": "Australia",
+    "Flight number": "NZ842",
+    "Flight departure date": "2020-03-19",
+    "Arrival date": "2020-03-19"
   },
   {
     "Date of report": "2020-04-04",
@@ -254,7 +606,7 @@
   },
   {
     "Date of report": "2020-04-04",
-    "Sex": "Male",
+    "Sex": "Female",
     "Age group": "30 to 39",
     "DHB": "Nelson Marlborough",
     "International travel": true,
@@ -265,7 +617,7 @@
   },
   {
     "Date of report": "2020-04-04",
-    "Sex": "Female",
+    "Sex": "Male",
     "Age group": "30 to 39",
     "DHB": "Nelson Marlborough",
     "International travel": true,
@@ -279,7 +631,7 @@
     "Sex": "Male",
     "Age group": "10 to 14",
     "DHB": "Northland",
-    "International travel": null,
+    "International travel": false,
     "Last country before return": null,
     "Flight number": null,
     "Flight departure date": null,
@@ -299,9 +651,20 @@
   {
     "Date of report": "2020-04-04",
     "Sex": "Female",
+    "Age group": "30 to 39",
+    "DHB": "Southern",
+    "International travel": false,
+    "Last country before return": null,
+    "Flight number": null,
+    "Flight departure date": null,
+    "Arrival date": null
+  },
+  {
+    "Date of report": "2020-04-04",
+    "Sex": "Female",
     "Age group": "20 to 29",
     "DHB": "Southern",
-    "International travel": null,
+    "International travel": false,
     "Last country before return": null,
     "Flight number": null,
     "Flight departure date": null,
@@ -387,9 +750,20 @@
   {
     "Date of report": "2020-04-04",
     "Sex": "Male",
-    "Age group": "30 to 39",
+    "Age group": "70+     ",
     "DHB": "Waikato",
-    "International travel": null,
+    "International travel": false,
+    "Last country before return": null,
+    "Flight number": null,
+    "Flight departure date": null,
+    "Arrival date": null
+  },
+  {
+    "Date of report": "2020-04-04",
+    "Sex": "Female",
+    "Age group": "40 to 49",
+    "DHB": "Waikato",
+    "International travel": false,
     "Last country before return": null,
     "Flight number": null,
     "Flight departure date": null,
@@ -398,7 +772,7 @@
   {
     "Date of report": "2020-04-04",
     "Sex": "Male",
-    "Age group": "70+     ",
+    "Age group": "30 to 39",
     "DHB": "Waikato",
     "International travel": false,
     "Last country before return": null,
@@ -412,7 +786,7 @@
     "Age group": "60 to 69",
     "DHB": "Waitemata",
     "International travel": true,
-    "Last country before return": null,
+    "Last country before return": "Australia",
     "Flight number": null,
     "Flight departure date": null,
     "Arrival date": "2020-03-20"
@@ -422,11 +796,11 @@
     "Sex": "Male",
     "Age group": "50 to 59",
     "DHB": "Waitemata",
-    "International travel": null,
-    "Last country before return": null,
-    "Flight number": null,
-    "Flight departure date": null,
-    "Arrival date": null
+    "International travel": true,
+    "Last country before return": "United States of America",
+    "Flight number": "NZ1",
+    "Flight departure date": "2020-03-25",
+    "Arrival date": "2020-03-25"
   },
   {
     "Date of report": "2020-04-04",
@@ -466,11 +840,11 @@
     "Sex": "Female",
     "Age group": "40 to 49",
     "DHB": "Auckland",
-    "International travel": null,
-    "Last country before return": null,
+    "International travel": true,
+    "Last country before return": "United States of America",
     "Flight number": null,
     "Flight departure date": null,
-    "Arrival date": null
+    "Arrival date": "2020-03-08"
   },
   {
     "Date of report": "2020-04-03",
@@ -486,7 +860,7 @@
   {
     "Date of report": "2020-04-03",
     "Sex": "Female",
-    "Age group": "40 to 49",
+    "Age group": "60 to 69",
     "DHB": "Canterbury",
     "International travel": false,
     "Last country before return": null,
@@ -508,7 +882,7 @@
   {
     "Date of report": "2020-04-03",
     "Sex": "Female",
-    "Age group": "60 to 69",
+    "Age group": "40 to 49",
     "DHB": "Canterbury",
     "International travel": false,
     "Last country before return": null,
@@ -519,6 +893,17 @@
   {
     "Date of report": "2020-04-03",
     "Sex": "Male",
+    "Age group": "60 to 69",
+    "DHB": "Canterbury",
+    "International travel": true,
+    "Last country before return": "United Kingdom",
+    "Flight number": "VA125",
+    "Flight departure date": "2020-03-28",
+    "Arrival date": "2020-03-28"
+  },
+  {
+    "Date of report": "2020-04-03",
+    "Sex": "Female",
     "Age group": "30 to 39",
     "DHB": "Capital and Coast",
     "International travel": false,
@@ -532,6 +917,39 @@
     "Sex": "Male",
     "Age group": "30 to 39",
     "DHB": "Capital and Coast",
+    "International travel": false,
+    "Last country before return": null,
+    "Flight number": null,
+    "Flight departure date": null,
+    "Arrival date": null
+  },
+  {
+    "Date of report": "2020-04-03",
+    "Sex": "Male",
+    "Age group": "30 to 39",
+    "DHB": "Capital and Coast",
+    "International travel": false,
+    "Last country before return": null,
+    "Flight number": null,
+    "Flight departure date": null,
+    "Arrival date": null
+  },
+  {
+    "Date of report": "2020-04-03",
+    "Sex": "Female",
+    "Age group": "60 to 69",
+    "DHB": "Counties Manukau",
+    "International travel": false,
+    "Last country before return": null,
+    "Flight number": null,
+    "Flight departure date": null,
+    "Arrival date": null
+  },
+  {
+    "Date of report": "2020-04-03",
+    "Sex": "Female",
+    "Age group": "50 to 59",
+    "DHB": "Counties Manukau",
     "International travel": false,
     "Last country before return": null,
     "Flight number": null,
@@ -570,28 +988,6 @@
     "Flight number": "NZ23",
     "Flight departure date": "2020-03-21",
     "Arrival date": "2020-03-23"
-  },
-  {
-    "Date of report": "2020-04-03",
-    "Sex": "Female",
-    "Age group": "50 to 59",
-    "DHB": "Counties Manukau",
-    "International travel": false,
-    "Last country before return": null,
-    "Flight number": null,
-    "Flight departure date": null,
-    "Arrival date": null
-  },
-  {
-    "Date of report": "2020-04-03",
-    "Sex": "Female",
-    "Age group": "60 to 69",
-    "DHB": "Counties Manukau",
-    "International travel": null,
-    "Last country before return": null,
-    "Flight number": null,
-    "Flight departure date": null,
-    "Arrival date": null
   },
   {
     "Date of report": "2020-04-03",
@@ -662,7 +1058,7 @@
   {
     "Date of report": "2020-04-03",
     "Sex": "Female",
-    "Age group": "30 to 39",
+    "Age group": "60 to 69",
     "DHB": "Southern",
     "International travel": false,
     "Last country before return": null,
@@ -673,7 +1069,7 @@
   {
     "Date of report": "2020-04-03",
     "Sex": "Female",
-    "Age group": "60 to 69",
+    "Age group": "30 to 39",
     "DHB": "Southern",
     "International travel": false,
     "Last country before return": null,
@@ -738,17 +1134,6 @@
   },
   {
     "Date of report": "2020-04-03",
-    "Sex": "Male",
-    "Age group": "15 to 19",
-    "DHB": "Southern",
-    "International travel": false,
-    "Last country before return": null,
-    "Flight number": null,
-    "Flight departure date": null,
-    "Arrival date": null
-  },
-  {
-    "Date of report": "2020-04-03",
     "Sex": "Female",
     "Age group": "40 to 49",
     "DHB": "Southern",
@@ -764,6 +1149,17 @@
     "Age group": "50 to 59",
     "DHB": "Southern",
     "International travel": null,
+    "Last country before return": null,
+    "Flight number": null,
+    "Flight departure date": null,
+    "Arrival date": null
+  },
+  {
+    "Date of report": "2020-04-03",
+    "Sex": "Male",
+    "Age group": "15 to 19",
+    "DHB": "Southern",
+    "International travel": false,
     "Last country before return": null,
     "Flight number": null,
     "Flight departure date": null,
@@ -816,7 +1212,40 @@
   {
     "Date of report": "2020-04-03",
     "Sex": "Female",
-    "Age group": "70+     ",
+    "Age group": "50 to 59",
+    "DHB": "Waikato",
+    "International travel": false,
+    "Last country before return": null,
+    "Flight number": null,
+    "Flight departure date": null,
+    "Arrival date": null
+  },
+  {
+    "Date of report": "2020-04-03",
+    "Sex": "Female",
+    "Age group": "20 to 29",
+    "DHB": "Waikato",
+    "International travel": false,
+    "Last country before return": null,
+    "Flight number": null,
+    "Flight departure date": null,
+    "Arrival date": null
+  },
+  {
+    "Date of report": "2020-04-03",
+    "Sex": "Male",
+    "Age group": "60 to 69",
+    "DHB": "Waikato",
+    "International travel": null,
+    "Last country before return": null,
+    "Flight number": null,
+    "Flight departure date": null,
+    "Arrival date": null
+  },
+  {
+    "Date of report": "2020-04-03",
+    "Sex": "Male",
+    "Age group": "40 to 49",
     "DHB": "Waikato",
     "International travel": false,
     "Last country before return": null,
@@ -829,7 +1258,7 @@
     "Sex": "Male",
     "Age group": "30 to 39",
     "DHB": "Waikato",
-    "International travel": null,
+    "International travel": false,
     "Last country before return": null,
     "Flight number": null,
     "Flight departure date": null,
@@ -859,41 +1288,8 @@
   },
   {
     "Date of report": "2020-04-03",
-    "Sex": "Male",
-    "Age group": "40 to 49",
-    "DHB": "Waikato",
-    "International travel": false,
-    "Last country before return": null,
-    "Flight number": null,
-    "Flight departure date": null,
-    "Arrival date": null
-  },
-  {
-    "Date of report": "2020-04-03",
-    "Sex": "Male",
-    "Age group": "60 to 69",
-    "DHB": "Waikato",
-    "International travel": null,
-    "Last country before return": null,
-    "Flight number": null,
-    "Flight departure date": null,
-    "Arrival date": null
-  },
-  {
-    "Date of report": "2020-04-03",
     "Sex": "Female",
-    "Age group": "20 to 29",
-    "DHB": "Waikato",
-    "International travel": false,
-    "Last country before return": null,
-    "Flight number": null,
-    "Flight departure date": null,
-    "Arrival date": null
-  },
-  {
-    "Date of report": "2020-04-03",
-    "Sex": "Female",
-    "Age group": "50 to 59",
+    "Age group": "70+     ",
     "DHB": "Waikato",
     "International travel": false,
     "Last country before return": null,
@@ -931,7 +1327,7 @@
     "International travel": true,
     "Last country before return": "United States of America",
     "Flight number": "NZ9",
-    "Flight departure date": null,
+    "Flight departure date": "2020-03-28",
     "Arrival date": "2020-03-30"
   },
   {
@@ -969,36 +1365,14 @@
   },
   {
     "Date of report": "2020-04-02",
-    "Sex": "Female",
-    "Age group": "20 to 29",
-    "DHB": "Auckland",
-    "International travel": false,
-    "Last country before return": null,
-    "Flight number": null,
-    "Flight departure date": null,
-    "Arrival date": null
-  },
-  {
-    "Date of report": "2020-04-02",
     "Sex": "Male",
-    "Age group": "30 to 39",
+    "Age group": "60 to 69",
     "DHB": "Auckland",
-    "International travel": false,
-    "Last country before return": null,
-    "Flight number": null,
+    "International travel": true,
+    "Last country before return": "United Kingdom",
+    "Flight number": "ek448",
     "Flight departure date": null,
-    "Arrival date": null
-  },
-  {
-    "Date of report": "2020-04-02",
-    "Sex": "Female",
-    "Age group": "50 to 59",
-    "DHB": "Auckland",
-    "International travel": false,
-    "Last country before return": null,
-    "Flight number": null,
-    "Flight departure date": null,
-    "Arrival date": null
+    "Arrival date": "2020-03-21"
   },
   {
     "Date of report": "2020-04-02",
@@ -1013,14 +1387,58 @@
   },
   {
     "Date of report": "2020-04-02",
-    "Sex": "Male",
-    "Age group": "60 to 69",
+    "Sex": "Female",
+    "Age group": "20 to 29",
     "DHB": "Auckland",
-    "International travel": true,
-    "Last country before return": "United Kingdom",
-    "Flight number": "ek448",
+    "International travel": false,
+    "Last country before return": null,
+    "Flight number": null,
     "Flight departure date": null,
-    "Arrival date": "2020-03-21"
+    "Arrival date": null
+  },
+  {
+    "Date of report": "2020-04-02",
+    "Sex": "Male",
+    "Age group": "30 to 39",
+    "DHB": "Auckland",
+    "International travel": false,
+    "Last country before return": null,
+    "Flight number": null,
+    "Flight departure date": null,
+    "Arrival date": null
+  },
+  {
+    "Date of report": "2020-04-02",
+    "Sex": "Female",
+    "Age group": "50 to 59",
+    "DHB": "Auckland",
+    "International travel": false,
+    "Last country before return": null,
+    "Flight number": null,
+    "Flight departure date": null,
+    "Arrival date": null
+  },
+  {
+    "Date of report": "2020-04-02",
+    "Sex": "Male",
+    "Age group": "50 to 59",
+    "DHB": "Bay of Plenty",
+    "International travel": true,
+    "Last country before return": "United States of America",
+    "Flight number": "AA83",
+    "Flight departure date": "2020-03-15",
+    "Arrival date": "2020-03-17"
+  },
+  {
+    "Date of report": "2020-04-02",
+    "Sex": "Female",
+    "Age group": "50 to 59",
+    "DHB": "Bay of Plenty",
+    "International travel": true,
+    "Last country before return": "England",
+    "Flight number": "EK448",
+    "Flight departure date": "2020-03-22",
+    "Arrival date": "2020-03-22"
   },
   {
     "Date of report": "2020-04-02",
@@ -1036,29 +1454,7 @@
   {
     "Date of report": "2020-04-02",
     "Sex": "Female",
-    "Age group": "50 to 59",
-    "DHB": "Bay of Plenty",
-    "International travel": true,
-    "Last country before return": "England",
-    "Flight number": "EK448",
-    "Flight departure date": "2020-03-22",
-    "Arrival date": "2020-03-22"
-  },
-  {
-    "Date of report": "2020-04-02",
-    "Sex": "Male",
-    "Age group": "50 to 59",
-    "DHB": "Bay of Plenty",
-    "International travel": true,
-    "Last country before return": "United States of America",
-    "Flight number": "AA83",
-    "Flight departure date": "2020-03-15",
-    "Arrival date": "2020-03-17"
-  },
-  {
-    "Date of report": "2020-04-02",
-    "Sex": "Male",
-    "Age group": "50 to 59",
+    "Age group": "40 to 49",
     "DHB": "Canterbury",
     "International travel": false,
     "Last country before return": null,
@@ -1068,8 +1464,8 @@
   },
   {
     "Date of report": "2020-04-02",
-    "Sex": "Female",
-    "Age group": "70+     ",
+    "Sex": "Male",
+    "Age group": "50 to 59",
     "DHB": "Canterbury",
     "International travel": false,
     "Last country before return": null,
@@ -1081,6 +1477,17 @@
     "Date of report": "2020-04-02",
     "Sex": "Female",
     "Age group": "40 to 49",
+    "DHB": "Canterbury",
+    "International travel": false,
+    "Last country before return": null,
+    "Flight number": null,
+    "Flight departure date": null,
+    "Arrival date": null
+  },
+  {
+    "Date of report": "2020-04-02",
+    "Sex": "Female",
+    "Age group": "70+     ",
     "DHB": "Canterbury",
     "International travel": false,
     "Last country before return": null,
@@ -1112,6 +1519,28 @@
   },
   {
     "Date of report": "2020-04-02",
+    "Sex": "Female",
+    "Age group": "50 to 59",
+    "DHB": "Counties Manukau",
+    "International travel": false,
+    "Last country before return": null,
+    "Flight number": null,
+    "Flight departure date": null,
+    "Arrival date": null
+  },
+  {
+    "Date of report": "2020-04-02",
+    "Sex": "Female",
+    "Age group": "50 to 59",
+    "DHB": "Counties Manukau",
+    "International travel": false,
+    "Last country before return": null,
+    "Flight number": null,
+    "Flight departure date": null,
+    "Arrival date": null
+  },
+  {
+    "Date of report": "2020-04-02",
     "Sex": "Male",
     "Age group": "60 to 69",
     "DHB": "Counties Manukau",
@@ -1127,28 +1556,6 @@
     "Age group": "30 to 39",
     "DHB": "Counties Manukau",
     "International travel": null,
-    "Last country before return": null,
-    "Flight number": null,
-    "Flight departure date": null,
-    "Arrival date": null
-  },
-  {
-    "Date of report": "2020-04-02",
-    "Sex": "Female",
-    "Age group": "50 to 59",
-    "DHB": "Counties Manukau",
-    "International travel": false,
-    "Last country before return": null,
-    "Flight number": null,
-    "Flight departure date": null,
-    "Arrival date": null
-  },
-  {
-    "Date of report": "2020-04-02",
-    "Sex": "Female",
-    "Age group": "50 to 59",
-    "DHB": "Counties Manukau",
-    "International travel": false,
     "Last country before return": null,
     "Flight number": null,
     "Flight departure date": null,
@@ -1185,6 +1592,17 @@
     "Last country before return": "New Zealand",
     "Flight number": "QF0171",
     "Flight departure date": "2020-04-24",
+    "Arrival date": "2020-03-24"
+  },
+  {
+    "Date of report": "2020-04-02",
+    "Sex": "Female",
+    "Age group": "20 to 29",
+    "DHB": "Hutt Valley",
+    "International travel": true,
+    "Last country before return": "United Kingdom",
+    "Flight number": "EK5037",
+    "Flight departure date": "2020-03-24",
     "Arrival date": "2020-03-24"
   },
   {
@@ -1332,8 +1750,8 @@
   },
   {
     "Date of report": "2020-04-02",
-    "Sex": "Female",
-    "Age group": "20 to 29",
+    "Sex": "Male",
+    "Age group": "30 to 39",
     "DHB": "Southern",
     "International travel": false,
     "Last country before return": null,
@@ -1343,8 +1761,8 @@
   },
   {
     "Date of report": "2020-04-02",
-    "Sex": "Male",
-    "Age group": "30 to 39",
+    "Sex": "Female",
+    "Age group": "20 to 29",
     "DHB": "Southern",
     "International travel": false,
     "Last country before return": null,
@@ -1497,8 +1915,8 @@
   },
   {
     "Date of report": "2020-04-02",
-    "Sex": "Female",
-    "Age group": "50 to 59",
+    "Sex": "Male",
+    "Age group": "30 to 39",
     "DHB": "Waikato",
     "International travel": false,
     "Last country before return": null,
@@ -1508,8 +1926,8 @@
   },
   {
     "Date of report": "2020-04-02",
-    "Sex": "Male",
-    "Age group": "30 to 39",
+    "Sex": "Female",
+    "Age group": "50 to 59",
     "DHB": "Waikato",
     "International travel": false,
     "Last country before return": null,
@@ -1527,6 +1945,17 @@
     "Flight number": null,
     "Flight departure date": null,
     "Arrival date": null
+  },
+  {
+    "Date of report": "2020-04-02",
+    "Sex": "Male",
+    "Age group": "20 to 29",
+    "DHB": "Waitemata",
+    "International travel": true,
+    "Last country before return": "United States of America",
+    "Flight number": "QF143",
+    "Flight departure date": "2020-03-18",
+    "Arrival date": "2020-03-18"
   },
   {
     "Date of report": "2020-04-02",
@@ -1552,6 +1981,17 @@
   },
   {
     "Date of report": "2020-04-02",
+    "Sex": "Male",
+    "Age group": "30 to 39",
+    "DHB": "Whanganui",
+    "International travel": true,
+    "Last country before return": "United Kingdom",
+    "Flight number": null,
+    "Flight departure date": null,
+    "Arrival date": "2020-03-24"
+  },
+  {
+    "Date of report": "2020-04-02",
     "Sex": "Female",
     "Age group": "30 to 39",
     "DHB": "Whanganui",
@@ -1562,15 +2002,37 @@
     "Arrival date": "2020-03-24"
   },
   {
-    "Date of report": "2020-04-02",
+    "Date of report": "2020-04-01",
     "Sex": "Male",
-    "Age group": "30 to 39",
-    "DHB": "Whanganui",
+    "Age group": "60 to 69",
+    "DHB": "Auckland",
     "International travel": true,
-    "Last country before return": "United Kingdom",
+    "Last country before return": "Australia",
     "Flight number": null,
     "Flight departure date": null,
-    "Arrival date": "2020-03-24"
+    "Arrival date": "2020-03-22"
+  },
+  {
+    "Date of report": "2020-04-01",
+    "Sex": "Male",
+    "Age group": "60 to 69",
+    "DHB": "Auckland",
+    "International travel": false,
+    "Last country before return": null,
+    "Flight number": null,
+    "Flight departure date": null,
+    "Arrival date": null
+  },
+  {
+    "Date of report": "2020-04-01",
+    "Sex": "Female",
+    "Age group": "60 to 69",
+    "DHB": "Auckland",
+    "International travel": false,
+    "Last country before return": null,
+    "Flight number": null,
+    "Flight departure date": null,
+    "Arrival date": null
   },
   {
     "Date of report": "2020-04-01",
@@ -1582,6 +2044,17 @@
     "Flight number": "QR920",
     "Flight departure date": "2020-03-19",
     "Arrival date": "2020-03-24"
+  },
+  {
+    "Date of report": "2020-04-01",
+    "Sex": "Female",
+    "Age group": "40 to 49",
+    "DHB": "Auckland",
+    "International travel": true,
+    "Last country before return": "Canada",
+    "Flight number": null,
+    "Flight departure date": null,
+    "Arrival date": "2020-03-25"
   },
   {
     "Date of report": "2020-04-01",
@@ -1607,47 +2080,25 @@
   },
   {
     "Date of report": "2020-04-01",
-    "Sex": "Female",
-    "Age group": "40 to 49",
-    "DHB": "Auckland",
-    "International travel": true,
-    "Last country before return": "Canada",
-    "Flight number": null,
-    "Flight departure date": null,
-    "Arrival date": "2020-03-25"
-  },
-  {
-    "Date of report": "2020-04-01",
     "Sex": "Male",
     "Age group": "60 to 69",
-    "DHB": "Auckland",
-    "International travel": false,
-    "Last country before return": null,
-    "Flight number": null,
-    "Flight departure date": null,
-    "Arrival date": null
-  },
-  {
-    "Date of report": "2020-04-01",
-    "Sex": "Female",
-    "Age group": "60 to 69",
-    "DHB": "Auckland",
-    "International travel": false,
-    "Last country before return": null,
-    "Flight number": null,
-    "Flight departure date": null,
+    "DHB": "Bay of Plenty",
+    "International travel": true,
+    "Last country before return": "England",
+    "Flight number": "EK448",
+    "Flight departure date": "2020-03-22",
     "Arrival date": null
   },
   {
     "Date of report": "2020-04-01",
     "Sex": "Male",
-    "Age group": "60 to 69",
-    "DHB": "Auckland",
+    "Age group": "70+     ",
+    "DHB": "Bay of Plenty",
     "International travel": true,
-    "Last country before return": "Australia",
-    "Flight number": null,
+    "Last country before return": "Polynesia",
+    "Flight number": "HA445",
     "Flight departure date": null,
-    "Arrival date": "2020-03-22"
+    "Arrival date": "2020-03-17"
   },
   {
     "Date of report": "2020-04-01",
@@ -1685,53 +2136,9 @@
   {
     "Date of report": "2020-04-01",
     "Sex": "Male",
-    "Age group": "70+     ",
-    "DHB": "Bay of Plenty",
-    "International travel": true,
-    "Last country before return": "Polynesia",
-    "Flight number": "HA445",
-    "Flight departure date": null,
-    "Arrival date": "2020-03-17"
-  },
-  {
-    "Date of report": "2020-04-01",
-    "Sex": "Male",
-    "Age group": "60 to 69",
-    "DHB": "Bay of Plenty",
-    "International travel": true,
-    "Last country before return": "England",
-    "Flight number": "EK448",
-    "Flight departure date": "2020-03-22",
-    "Arrival date": null
-  },
-  {
-    "Date of report": "2020-04-01",
-    "Sex": "Male",
     "Age group": "40 to 49",
     "DHB": "Capital and Coast",
     "International travel": false,
-    "Last country before return": null,
-    "Flight number": null,
-    "Flight departure date": null,
-    "Arrival date": null
-  },
-  {
-    "Date of report": "2020-04-01",
-    "Sex": "Female",
-    "Age group": "20 to 29",
-    "DHB": "Counties Manukau",
-    "International travel": null,
-    "Last country before return": null,
-    "Flight number": null,
-    "Flight departure date": null,
-    "Arrival date": null
-  },
-  {
-    "Date of report": "2020-04-01",
-    "Sex": "Female",
-    "Age group": "20 to 29",
-    "DHB": "Counties Manukau",
-    "International travel": null,
     "Last country before return": null,
     "Flight number": null,
     "Flight departure date": null,
@@ -1747,6 +2154,28 @@
     "Flight number": null,
     "Flight departure date": null,
     "Arrival date": "2020-03-07"
+  },
+  {
+    "Date of report": "2020-04-01",
+    "Sex": "Female",
+    "Age group": "20 to 29",
+    "DHB": "Counties Manukau",
+    "International travel": null,
+    "Last country before return": null,
+    "Flight number": null,
+    "Flight departure date": null,
+    "Arrival date": null
+  },
+  {
+    "Date of report": "2020-04-01",
+    "Sex": "Female",
+    "Age group": "20 to 29",
+    "DHB": "Counties Manukau",
+    "International travel": null,
+    "Last country before return": null,
+    "Flight number": null,
+    "Flight departure date": null,
+    "Arrival date": null
   },
   {
     "Date of report": "2020-04-01",
@@ -1893,22 +2322,22 @@
   },
   {
     "Date of report": "2020-04-01",
-    "Sex": "Female",
+    "Sex": "Male",
     "Age group": "50 to 59",
     "DHB": "Southern",
     "International travel": true,
-    "Last country before return": null,
+    "Last country before return": "Australia",
     "Flight number": null,
     "Flight departure date": null,
     "Arrival date": "2020-03-23"
   },
   {
     "Date of report": "2020-04-01",
-    "Sex": "Male",
+    "Sex": "Female",
     "Age group": "50 to 59",
     "DHB": "Southern",
     "International travel": true,
-    "Last country before return": "Australia",
+    "Last country before return": null,
     "Flight number": null,
     "Flight departure date": null,
     "Arrival date": "2020-03-23"
@@ -2091,25 +2520,14 @@
   },
   {
     "Date of report": "2020-04-01",
-    "Sex": "Female",
-    "Age group": "60 to 69",
-    "DHB": "Waikato",
-    "International travel": true,
-    "Last country before return": null,
-    "Flight number": "QR146",
-    "Flight departure date": "2020-03-18",
-    "Arrival date": "2020-03-20"
-  },
-  {
-    "Date of report": "2020-04-01",
     "Sex": "Male",
-    "Age group": "20 to 29",
+    "Age group": "50 to 59",
     "DHB": "Waikato",
-    "International travel": true,
-    "Last country before return": "United Arab Emirates",
-    "Flight number": "EK448",
-    "Flight departure date": "2020-03-24",
-    "Arrival date": "2020-03-24"
+    "International travel": false,
+    "Last country before return": null,
+    "Flight number": null,
+    "Flight departure date": null,
+    "Arrival date": null
   },
   {
     "Date of report": "2020-04-01",
@@ -2125,13 +2543,24 @@
   {
     "Date of report": "2020-04-01",
     "Sex": "Male",
-    "Age group": "50 to 59",
+    "Age group": "20 to 29",
     "DHB": "Waikato",
-    "International travel": false,
+    "International travel": true,
+    "Last country before return": "United Arab Emirates",
+    "Flight number": "EK448",
+    "Flight departure date": "2020-03-24",
+    "Arrival date": "2020-03-24"
+  },
+  {
+    "Date of report": "2020-04-01",
+    "Sex": "Female",
+    "Age group": "60 to 69",
+    "DHB": "Waikato",
+    "International travel": true,
     "Last country before return": null,
-    "Flight number": null,
-    "Flight departure date": null,
-    "Arrival date": null
+    "Flight number": "QR146",
+    "Flight departure date": "2020-03-18",
+    "Arrival date": "2020-03-20"
   },
   {
     "Date of report": "2020-04-01",
@@ -2223,7 +2652,7 @@
   },
   {
     "Date of report": "2020-04-01",
-    "Sex": "Female",
+    "Sex": "Male",
     "Age group": "20 to 29",
     "DHB": "Whanganui",
     "International travel": true,
@@ -2234,7 +2663,7 @@
   },
   {
     "Date of report": "2020-04-01",
-    "Sex": "Male",
+    "Sex": "Female",
     "Age group": "20 to 29",
     "DHB": "Whanganui",
     "International travel": true,
@@ -2242,6 +2671,17 @@
     "Flight number": null,
     "Flight departure date": null,
     "Arrival date": "2020-03-19"
+  },
+  {
+    "Date of report": "2020-03-31",
+    "Sex": "Female",
+    "Age group": "30 to 39",
+    "DHB": "Auckland",
+    "International travel": true,
+    "Last country before return": "United Arab Emirates",
+    "Flight number": null,
+    "Flight departure date": null,
+    "Arrival date": "2020-03-24"
   },
   {
     "Date of report": "2020-03-31",
@@ -2279,12 +2719,12 @@
   {
     "Date of report": "2020-03-31",
     "Sex": "Female",
-    "Age group": "30 to 39",
-    "DHB": "Auckland",
+    "Age group": "50 to 59",
+    "DHB": "Bay of Plenty",
     "International travel": true,
-    "Last country before return": "United Arab Emirates",
-    "Flight number": null,
-    "Flight departure date": null,
+    "Last country before return": "United Kingdom",
+    "Flight number": "EK0448",
+    "Flight departure date": "2020-03-22",
     "Arrival date": "2020-03-24"
   },
   {
@@ -2301,13 +2741,13 @@
   {
     "Date of report": "2020-03-31",
     "Sex": "Female",
-    "Age group": "50 to 59",
-    "DHB": "Bay of Plenty",
-    "International travel": true,
-    "Last country before return": "United Kingdom",
-    "Flight number": "EK0448",
-    "Flight departure date": "2020-03-22",
-    "Arrival date": "2020-03-24"
+    "Age group": "30 to 39",
+    "DHB": "Canterbury",
+    "International travel": false,
+    "Last country before return": null,
+    "Flight number": "NZ5100",
+    "Flight departure date": "2020-03-28",
+    "Arrival date": null
   },
   {
     "Date of report": "2020-03-31",
@@ -2318,17 +2758,6 @@
     "Last country before return": null,
     "Flight number": null,
     "Flight departure date": null,
-    "Arrival date": null
-  },
-  {
-    "Date of report": "2020-03-31",
-    "Sex": "Female",
-    "Age group": "30 to 39",
-    "DHB": "Canterbury",
-    "International travel": false,
-    "Last country before return": null,
-    "Flight number": "NZ5100",
-    "Flight departure date": "2020-03-28",
     "Arrival date": null
   },
   {
@@ -2367,28 +2796,6 @@
   {
     "Date of report": "2020-03-31",
     "Sex": "Male",
-    "Age group": "20 to 29",
-    "DHB": "Counties Manukau",
-    "International travel": true,
-    "Last country before return": "Canada",
-    "Flight number": "NZ23",
-    "Flight departure date": "2020-03-25",
-    "Arrival date": "2020-03-26"
-  },
-  {
-    "Date of report": "2020-03-31",
-    "Sex": "Female",
-    "Age group": "30 to 39",
-    "DHB": "Counties Manukau",
-    "International travel": true,
-    "Last country before return": "Singapore",
-    "Flight number": null,
-    "Flight departure date": null,
-    "Arrival date": "2020-03-20"
-  },
-  {
-    "Date of report": "2020-03-31",
-    "Sex": "Male",
     "Age group": "60 to 69",
     "DHB": "Counties Manukau",
     "International travel": false,
@@ -2407,6 +2814,28 @@
     "Flight number": null,
     "Flight departure date": null,
     "Arrival date": null
+  },
+  {
+    "Date of report": "2020-03-31",
+    "Sex": "Male",
+    "Age group": "20 to 29",
+    "DHB": "Counties Manukau",
+    "International travel": true,
+    "Last country before return": "Canada",
+    "Flight number": "nz23",
+    "Flight departure date": "2020-03-25",
+    "Arrival date": "2020-03-26"
+  },
+  {
+    "Date of report": "2020-03-31",
+    "Sex": "Female",
+    "Age group": "30 to 39",
+    "DHB": "Counties Manukau",
+    "International travel": true,
+    "Last country before return": "Singapore",
+    "Flight number": null,
+    "Flight departure date": null,
+    "Arrival date": "2020-03-20"
   },
   {
     "Date of report": "2020-03-31",
@@ -2598,17 +3027,6 @@
   {
     "Date of report": "2020-03-31",
     "Sex": "Female",
-    "Age group": "20 to 29",
-    "DHB": "Waikato",
-    "International travel": true,
-    "Last country before return": "England",
-    "Flight number": "EK448",
-    "Flight departure date": "2020-04-22",
-    "Arrival date": "2020-03-23"
-  },
-  {
-    "Date of report": "2020-03-31",
-    "Sex": "Male",
     "Age group": "50 to 59",
     "DHB": "Waikato",
     "International travel": false,
@@ -2619,14 +3037,14 @@
   },
   {
     "Date of report": "2020-03-31",
-    "Sex": "Male",
+    "Sex": "Female",
     "Age group": "20 to 29",
     "DHB": "Waikato",
-    "International travel": false,
-    "Last country before return": null,
-    "Flight number": null,
-    "Flight departure date": null,
-    "Arrival date": null
+    "International travel": true,
+    "Last country before return": "England",
+    "Flight number": "EK448",
+    "Flight departure date": "2020-04-22",
+    "Arrival date": "2020-03-23"
   },
   {
     "Date of report": "2020-03-31",
@@ -2653,127 +3071,6 @@
   {
     "Date of report": "2020-03-31",
     "Sex": "Male",
-    "Age group": "30 to 39",
-    "DHB": "Waikato",
-    "International travel": false,
-    "Last country before return": null,
-    "Flight number": null,
-    "Flight departure date": null,
-    "Arrival date": null
-  },
-  {
-    "Date of report": "2020-03-31",
-    "Sex": "Male",
-    "Age group": "30 to 39",
-    "DHB": "Waikato",
-    "International travel": false,
-    "Last country before return": null,
-    "Flight number": null,
-    "Flight departure date": null,
-    "Arrival date": null
-  },
-  {
-    "Date of report": "2020-03-31",
-    "Sex": "Female",
-    "Age group": "15 to 19",
-    "DHB": "Waikato",
-    "International travel": null,
-    "Last country before return": null,
-    "Flight number": null,
-    "Flight departure date": null,
-    "Arrival date": null
-  },
-  {
-    "Date of report": "2020-03-31",
-    "Sex": "Female",
-    "Age group": "40 to 49",
-    "DHB": "Waikato",
-    "International travel": false,
-    "Last country before return": null,
-    "Flight number": null,
-    "Flight departure date": null,
-    "Arrival date": null
-  },
-  {
-    "Date of report": "2020-03-31",
-    "Sex": "Male",
-    "Age group": "50 to 59",
-    "DHB": "Waikato",
-    "International travel": false,
-    "Last country before return": null,
-    "Flight number": null,
-    "Flight departure date": null,
-    "Arrival date": null
-  },
-  {
-    "Date of report": "2020-03-31",
-    "Sex": "Male",
-    "Age group": "50 to 59",
-    "DHB": "Waikato",
-    "International travel": false,
-    "Last country before return": null,
-    "Flight number": null,
-    "Flight departure date": null,
-    "Arrival date": null
-  },
-  {
-    "Date of report": "2020-03-31",
-    "Sex": "Male",
-    "Age group": "40 to 49",
-    "DHB": "Waikato",
-    "International travel": false,
-    "Last country before return": null,
-    "Flight number": null,
-    "Flight departure date": null,
-    "Arrival date": null
-  },
-  {
-    "Date of report": "2020-03-31",
-    "Sex": "Male",
-    "Age group": "40 to 49",
-    "DHB": "Waikato",
-    "International travel": false,
-    "Last country before return": null,
-    "Flight number": null,
-    "Flight departure date": null,
-    "Arrival date": null
-  },
-  {
-    "Date of report": "2020-03-31",
-    "Sex": "Female",
-    "Age group": "40 to 49",
-    "DHB": "Waikato",
-    "International travel": false,
-    "Last country before return": null,
-    "Flight number": null,
-    "Flight departure date": null,
-    "Arrival date": null
-  },
-  {
-    "Date of report": "2020-03-31",
-    "Sex": "Female",
-    "Age group": "40 to 49",
-    "DHB": "Waikato",
-    "International travel": false,
-    "Last country before return": null,
-    "Flight number": null,
-    "Flight departure date": null,
-    "Arrival date": null
-  },
-  {
-    "Date of report": "2020-03-31",
-    "Sex": "Male",
-    "Age group": "40 to 49",
-    "DHB": "Waikato",
-    "International travel": false,
-    "Last country before return": null,
-    "Flight number": null,
-    "Flight departure date": null,
-    "Arrival date": null
-  },
-  {
-    "Date of report": "2020-03-31",
-    "Sex": "Female",
     "Age group": "20 to 29",
     "DHB": "Waikato",
     "International travel": false,
@@ -2784,10 +3081,10 @@
   },
   {
     "Date of report": "2020-03-31",
-    "Sex": "Female",
-    "Age group": "40 to 49",
+    "Sex": "Male",
+    "Age group": "50 to 59",
     "DHB": "Waikato",
-    "International travel": null,
+    "International travel": false,
     "Last country before return": null,
     "Flight number": null,
     "Flight departure date": null,
@@ -2795,7 +3092,7 @@
   },
   {
     "Date of report": "2020-03-31",
-    "Sex": "Female",
+    "Sex": "Male",
     "Age group": "30 to 39",
     "DHB": "Waikato",
     "International travel": false,
@@ -2818,7 +3115,139 @@
   {
     "Date of report": "2020-03-31",
     "Sex": "Female",
+    "Age group": "30 to 39",
+    "DHB": "Waikato",
+    "International travel": false,
+    "Last country before return": null,
+    "Flight number": null,
+    "Flight departure date": null,
+    "Arrival date": null
+  },
+  {
+    "Date of report": "2020-03-31",
+    "Sex": "Female",
+    "Age group": "40 to 49",
+    "DHB": "Waikato",
+    "International travel": null,
+    "Last country before return": null,
+    "Flight number": null,
+    "Flight departure date": null,
+    "Arrival date": null
+  },
+  {
+    "Date of report": "2020-03-31",
+    "Sex": "Female",
+    "Age group": "20 to 29",
+    "DHB": "Waikato",
+    "International travel": false,
+    "Last country before return": null,
+    "Flight number": null,
+    "Flight departure date": null,
+    "Arrival date": null
+  },
+  {
+    "Date of report": "2020-03-31",
+    "Sex": "Male",
+    "Age group": "40 to 49",
+    "DHB": "Waikato",
+    "International travel": false,
+    "Last country before return": null,
+    "Flight number": null,
+    "Flight departure date": null,
+    "Arrival date": null
+  },
+  {
+    "Date of report": "2020-03-31",
+    "Sex": "Female",
+    "Age group": "40 to 49",
+    "DHB": "Waikato",
+    "International travel": false,
+    "Last country before return": null,
+    "Flight number": null,
+    "Flight departure date": null,
+    "Arrival date": null
+  },
+  {
+    "Date of report": "2020-03-31",
+    "Sex": "Female",
+    "Age group": "40 to 49",
+    "DHB": "Waikato",
+    "International travel": false,
+    "Last country before return": null,
+    "Flight number": null,
+    "Flight departure date": null,
+    "Arrival date": null
+  },
+  {
+    "Date of report": "2020-03-31",
+    "Sex": "Male",
+    "Age group": "40 to 49",
+    "DHB": "Waikato",
+    "International travel": false,
+    "Last country before return": null,
+    "Flight number": null,
+    "Flight departure date": null,
+    "Arrival date": null
+  },
+  {
+    "Date of report": "2020-03-31",
+    "Sex": "Male",
+    "Age group": "40 to 49",
+    "DHB": "Waikato",
+    "International travel": false,
+    "Last country before return": null,
+    "Flight number": null,
+    "Flight departure date": null,
+    "Arrival date": null
+  },
+  {
+    "Date of report": "2020-03-31",
+    "Sex": "Male",
     "Age group": "50 to 59",
+    "DHB": "Waikato",
+    "International travel": false,
+    "Last country before return": null,
+    "Flight number": null,
+    "Flight departure date": null,
+    "Arrival date": null
+  },
+  {
+    "Date of report": "2020-03-31",
+    "Sex": "Male",
+    "Age group": "50 to 59",
+    "DHB": "Waikato",
+    "International travel": false,
+    "Last country before return": null,
+    "Flight number": null,
+    "Flight departure date": null,
+    "Arrival date": null
+  },
+  {
+    "Date of report": "2020-03-31",
+    "Sex": "Female",
+    "Age group": "40 to 49",
+    "DHB": "Waikato",
+    "International travel": false,
+    "Last country before return": null,
+    "Flight number": null,
+    "Flight departure date": null,
+    "Arrival date": null
+  },
+  {
+    "Date of report": "2020-03-31",
+    "Sex": "Female",
+    "Age group": "15 to 19",
+    "DHB": "Waikato",
+    "International travel": null,
+    "Last country before return": null,
+    "Flight number": null,
+    "Flight departure date": null,
+    "Arrival date": null
+  },
+  {
+    "Date of report": "2020-03-31",
+    "Sex": "Male",
+    "Age group": "30 to 39",
     "DHB": "Waikato",
     "International travel": false,
     "Last country before return": null,
@@ -2861,8 +3290,30 @@
   },
   {
     "Date of report": "2020-03-31",
+    "Sex": "Male",
+    "Age group": "40 to 49",
+    "DHB": "Waitemata",
+    "International travel": true,
+    "Last country before return": "United Arab Emirates",
+    "Flight number": null,
+    "Flight departure date": null,
+    "Arrival date": "2020-03-22"
+  },
+  {
+    "Date of report": "2020-03-31",
     "Sex": "Female",
     "Age group": "50 to 59",
+    "DHB": "Waitemata",
+    "International travel": false,
+    "Last country before return": null,
+    "Flight number": null,
+    "Flight departure date": null,
+    "Arrival date": null
+  },
+  {
+    "Date of report": "2020-03-31",
+    "Sex": "Female",
+    "Age group": "10 to 14",
     "DHB": "Waitemata",
     "International travel": false,
     "Last country before return": null,
@@ -2913,28 +3364,6 @@
     "Flight number": "EK450",
     "Flight departure date": "2020-03-23",
     "Arrival date": "2020-03-23"
-  },
-  {
-    "Date of report": "2020-03-31",
-    "Sex": "Female",
-    "Age group": "10 to 14",
-    "DHB": "Waitemata",
-    "International travel": false,
-    "Last country before return": null,
-    "Flight number": null,
-    "Flight departure date": null,
-    "Arrival date": null
-  },
-  {
-    "Date of report": "2020-03-31",
-    "Sex": "Male",
-    "Age group": "40 to 49",
-    "DHB": "Waitemata",
-    "International travel": true,
-    "Last country before return": "United Arab Emirates",
-    "Flight number": null,
-    "Flight departure date": null,
-    "Arrival date": "2020-03-22"
   },
   {
     "Date of report": "2020-03-30",
@@ -2997,21 +3426,10 @@
     "Age group": "40 to 49",
     "DHB": "Bay of Plenty",
     "International travel": true,
-    "Last country before return": "United States of America",
-    "Flight number": null,
-    "Flight departure date": null,
-    "Arrival date": "2020-03-24"
-  },
-  {
-    "Date of report": "2020-03-30",
-    "Sex": "Female",
-    "Age group": "40 to 49",
-    "DHB": "Bay of Plenty",
-    "International travel": false,
-    "Last country before return": null,
-    "Flight number": "NZ627",
-    "Flight departure date": "2020-03-20",
-    "Arrival date": null
+    "Last country before return": "United Kingdom",
+    "Flight number": "QS151",
+    "Flight departure date": "2020-03-23",
+    "Arrival date": "2020-03-25"
   },
   {
     "Date of report": "2020-03-30",
@@ -3026,14 +3444,25 @@
   },
   {
     "Date of report": "2020-03-30",
+    "Sex": "Female",
+    "Age group": "40 to 49",
+    "DHB": "Bay of Plenty",
+    "International travel": false,
+    "Last country before return": null,
+    "Flight number": "NZ627",
+    "Flight departure date": "2020-03-20",
+    "Arrival date": null
+  },
+  {
+    "Date of report": "2020-03-30",
     "Sex": "Male",
     "Age group": "40 to 49",
     "DHB": "Bay of Plenty",
     "International travel": true,
-    "Last country before return": "United Kingdom",
-    "Flight number": "QS151",
-    "Flight departure date": "2020-03-23",
-    "Arrival date": "2020-03-25"
+    "Last country before return": "United States of America",
+    "Flight number": null,
+    "Flight departure date": null,
+    "Arrival date": "2020-03-24"
   },
   {
     "Date of report": "2020-03-30",
@@ -3045,6 +3474,28 @@
     "Flight number": "NZ527",
     "Flight departure date": "2020-04-21",
     "Arrival date": "2020-03-21"
+  },
+  {
+    "Date of report": "2020-03-30",
+    "Sex": "Female",
+    "Age group": "20 to 29",
+    "DHB": "Counties Manukau",
+    "International travel": null,
+    "Last country before return": null,
+    "Flight number": null,
+    "Flight departure date": null,
+    "Arrival date": null
+  },
+  {
+    "Date of report": "2020-03-30",
+    "Sex": "Male",
+    "Age group": "40 to 49",
+    "DHB": "Counties Manukau",
+    "International travel": true,
+    "Last country before return": "United States of America",
+    "Flight number": null,
+    "Flight departure date": null,
+    "Arrival date": "2020-03-19"
   },
   {
     "Date of report": "2020-03-30",
@@ -3074,28 +3525,6 @@
     "Age group": "20 to 29",
     "DHB": "Counties Manukau",
     "International travel": false,
-    "Last country before return": null,
-    "Flight number": null,
-    "Flight departure date": null,
-    "Arrival date": null
-  },
-  {
-    "Date of report": "2020-03-30",
-    "Sex": "Male",
-    "Age group": "40 to 49",
-    "DHB": "Counties Manukau",
-    "International travel": true,
-    "Last country before return": "United States of America",
-    "Flight number": null,
-    "Flight departure date": null,
-    "Arrival date": "2020-03-19"
-  },
-  {
-    "Date of report": "2020-03-30",
-    "Sex": "Female",
-    "Age group": "20 to 29",
-    "DHB": "Counties Manukau",
-    "International travel": null,
     "Last country before return": null,
     "Flight number": null,
     "Flight departure date": null,
@@ -3301,8 +3730,30 @@
   },
   {
     "Date of report": "2020-03-30",
-    "Sex": "Male",
-    "Age group": "30 to 39",
+    "Sex": "Female",
+    "Age group": "70+     ",
+    "DHB": "Waikato",
+    "International travel": false,
+    "Last country before return": null,
+    "Flight number": null,
+    "Flight departure date": null,
+    "Arrival date": null
+  },
+  {
+    "Date of report": "2020-03-30",
+    "Sex": "Female",
+    "Age group": "40 to 49",
+    "DHB": "Waikato",
+    "International travel": false,
+    "Last country before return": null,
+    "Flight number": null,
+    "Flight departure date": null,
+    "Arrival date": null
+  },
+  {
+    "Date of report": "2020-03-30",
+    "Sex": "Female",
+    "Age group": "40 to 49",
     "DHB": "Waikato",
     "International travel": false,
     "Last country before return": null,
@@ -3323,30 +3774,8 @@
   },
   {
     "Date of report": "2020-03-30",
-    "Sex": "Female",
-    "Age group": "40 to 49",
-    "DHB": "Waikato",
-    "International travel": false,
-    "Last country before return": null,
-    "Flight number": null,
-    "Flight departure date": null,
-    "Arrival date": null
-  },
-  {
-    "Date of report": "2020-03-30",
-    "Sex": "Female",
-    "Age group": "40 to 49",
-    "DHB": "Waikato",
-    "International travel": false,
-    "Last country before return": null,
-    "Flight number": null,
-    "Flight departure date": null,
-    "Arrival date": null
-  },
-  {
-    "Date of report": "2020-03-30",
-    "Sex": "Female",
-    "Age group": "70+     ",
+    "Sex": "Male",
+    "Age group": "30 to 39",
     "DHB": "Waikato",
     "International travel": false,
     "Last country before return": null,
@@ -3411,6 +3840,17 @@
   },
   {
     "Date of report": "2020-03-29",
+    "Sex": "Male",
+    "Age group": "50 to 59",
+    "DHB": "Auckland",
+    "International travel": true,
+    "Last country before return": "Canada",
+    "Flight number": null,
+    "Flight departure date": null,
+    "Arrival date": "2020-03-22"
+  },
+  {
+    "Date of report": "2020-03-29",
     "Sex": "Female",
     "Age group": "50 to 59",
     "DHB": "Auckland",
@@ -3423,17 +3863,6 @@
   {
     "Date of report": "2020-03-29",
     "Sex": "Male",
-    "Age group": "50 to 59",
-    "DHB": "Auckland",
-    "International travel": true,
-    "Last country before return": "Canada",
-    "Flight number": null,
-    "Flight departure date": null,
-    "Arrival date": "2020-03-22"
-  },
-  {
-    "Date of report": "2020-03-29",
-    "Sex": "Male",
     "Age group": "40 to 49",
     "DHB": "Auckland",
     "International travel": false,
@@ -3441,6 +3870,17 @@
     "Flight number": null,
     "Flight departure date": null,
     "Arrival date": null
+  },
+  {
+    "Date of report": "2020-03-29",
+    "Sex": "Male",
+    "Age group": "60 to 69",
+    "DHB": "Auckland",
+    "International travel": true,
+    "Last country before return": "Malaysia",
+    "Flight number": null,
+    "Flight departure date": null,
+    "Arrival date": "2020-03-19"
   },
   {
     "Date of report": "2020-03-29",
@@ -3477,17 +3917,6 @@
   },
   {
     "Date of report": "2020-03-29",
-    "Sex": "Male",
-    "Age group": "40 to 49",
-    "DHB": "Auckland",
-    "International travel": true,
-    "Last country before return": "Australia",
-    "Flight number": "QF141",
-    "Flight departure date": "2020-03-18",
-    "Arrival date": "2020-03-18"
-  },
-  {
-    "Date of report": "2020-03-29",
     "Sex": "Female",
     "Age group": "40 to 49",
     "DHB": "Auckland",
@@ -3500,17 +3929,17 @@
   {
     "Date of report": "2020-03-29",
     "Sex": "Male",
-    "Age group": "60 to 69",
+    "Age group": "40 to 49",
     "DHB": "Auckland",
     "International travel": true,
-    "Last country before return": "Malaysia",
-    "Flight number": null,
-    "Flight departure date": null,
-    "Arrival date": "2020-03-19"
+    "Last country before return": "Australia",
+    "Flight number": "QF141",
+    "Flight departure date": "2020-03-18",
+    "Arrival date": "2020-03-18"
   },
   {
     "Date of report": "2020-03-29",
-    "Sex": "Female",
+    "Sex": "Male",
     "Age group": "20 to 29",
     "DHB": "Canterbury",
     "International travel": false,
@@ -3521,7 +3950,7 @@
   },
   {
     "Date of report": "2020-03-29",
-    "Sex": "Male",
+    "Sex": "Female",
     "Age group": "20 to 29",
     "DHB": "Canterbury",
     "International travel": false,
@@ -3774,6 +4203,17 @@
   },
   {
     "Date of report": "2020-03-29",
+    "Sex": "Female",
+    "Age group": "20 to 29",
+    "DHB": "Southern",
+    "International travel": false,
+    "Last country before return": null,
+    "Flight number": null,
+    "Flight departure date": null,
+    "Arrival date": null
+  },
+  {
+    "Date of report": "2020-03-29",
     "Sex": "Male",
     "Age group": "20 to 29",
     "DHB": "Southern",
@@ -3797,7 +4237,7 @@
   {
     "Date of report": "2020-03-29",
     "Sex": "Female",
-    "Age group": "20 to 29",
+    "Age group": "15 to 19",
     "DHB": "Southern",
     "International travel": false,
     "Last country before return": null,
@@ -3809,17 +4249,6 @@
     "Date of report": "2020-03-29",
     "Sex": "Female",
     "Age group": "40 to 49",
-    "DHB": "Southern",
-    "International travel": false,
-    "Last country before return": null,
-    "Flight number": null,
-    "Flight departure date": null,
-    "Arrival date": null
-  },
-  {
-    "Date of report": "2020-03-29",
-    "Sex": "Female",
-    "Age group": "15 to 19",
     "DHB": "Southern",
     "International travel": false,
     "Last country before return": null,
@@ -3896,6 +4325,116 @@
   {
     "Date of report": "2020-03-29",
     "Sex": "Male",
+    "Age group": "50 to 59",
+    "DHB": "Waikato",
+    "International travel": false,
+    "Last country before return": null,
+    "Flight number": null,
+    "Flight departure date": null,
+    "Arrival date": null
+  },
+  {
+    "Date of report": "2020-03-29",
+    "Sex": "Male",
+    "Age group": "20 to 29",
+    "DHB": "Waikato",
+    "International travel": false,
+    "Last country before return": null,
+    "Flight number": null,
+    "Flight departure date": null,
+    "Arrival date": null
+  },
+  {
+    "Date of report": "2020-03-29",
+    "Sex": "Female",
+    "Age group": "50 to 59",
+    "DHB": "Waikato",
+    "International travel": null,
+    "Last country before return": null,
+    "Flight number": null,
+    "Flight departure date": null,
+    "Arrival date": null
+  },
+  {
+    "Date of report": "2020-03-29",
+    "Sex": "Male",
+    "Age group": "30 to 39",
+    "DHB": "Waikato",
+    "International travel": false,
+    "Last country before return": null,
+    "Flight number": null,
+    "Flight departure date": null,
+    "Arrival date": null
+  },
+  {
+    "Date of report": "2020-03-29",
+    "Sex": "Male",
+    "Age group": "40 to 49",
+    "DHB": "Waikato",
+    "International travel": false,
+    "Last country before return": null,
+    "Flight number": null,
+    "Flight departure date": null,
+    "Arrival date": null
+  },
+  {
+    "Date of report": "2020-03-29",
+    "Sex": "Female",
+    "Age group": "30 to 39",
+    "DHB": "Waikato",
+    "International travel": false,
+    "Last country before return": null,
+    "Flight number": null,
+    "Flight departure date": null,
+    "Arrival date": null
+  },
+  {
+    "Date of report": "2020-03-29",
+    "Sex": "Female",
+    "Age group": "40 to 49",
+    "DHB": "Waikato",
+    "International travel": false,
+    "Last country before return": null,
+    "Flight number": null,
+    "Flight departure date": null,
+    "Arrival date": null
+  },
+  {
+    "Date of report": "2020-03-29",
+    "Sex": "Male",
+    "Age group": "40 to 49",
+    "DHB": "Waikato",
+    "International travel": false,
+    "Last country before return": null,
+    "Flight number": null,
+    "Flight departure date": null,
+    "Arrival date": null
+  },
+  {
+    "Date of report": "2020-03-29",
+    "Sex": "Male",
+    "Age group": "40 to 49",
+    "DHB": "Waikato",
+    "International travel": false,
+    "Last country before return": null,
+    "Flight number": null,
+    "Flight departure date": null,
+    "Arrival date": null
+  },
+  {
+    "Date of report": "2020-03-29",
+    "Sex": "Female",
+    "Age group": "30 to 39",
+    "DHB": "Waikato",
+    "International travel": null,
+    "Last country before return": null,
+    "Flight number": null,
+    "Flight departure date": null,
+    "Arrival date": null
+  },
+  {
+    "Date of report": "2020-03-29",
+    "Sex": "Male",
     "Age group": "20 to 29",
     "DHB": "Waikato",
     "International travel": true,
@@ -3903,116 +4442,6 @@
     "Flight number": "EK0450",
     "Flight departure date": "2020-03-23",
     "Arrival date": "2020-03-23"
-  },
-  {
-    "Date of report": "2020-03-29",
-    "Sex": "Female",
-    "Age group": "30 to 39",
-    "DHB": "Waikato",
-    "International travel": null,
-    "Last country before return": null,
-    "Flight number": null,
-    "Flight departure date": null,
-    "Arrival date": null
-  },
-  {
-    "Date of report": "2020-03-29",
-    "Sex": "Male",
-    "Age group": "40 to 49",
-    "DHB": "Waikato",
-    "International travel": false,
-    "Last country before return": null,
-    "Flight number": null,
-    "Flight departure date": null,
-    "Arrival date": null
-  },
-  {
-    "Date of report": "2020-03-29",
-    "Sex": "Male",
-    "Age group": "40 to 49",
-    "DHB": "Waikato",
-    "International travel": false,
-    "Last country before return": null,
-    "Flight number": null,
-    "Flight departure date": null,
-    "Arrival date": null
-  },
-  {
-    "Date of report": "2020-03-29",
-    "Sex": "Female",
-    "Age group": "40 to 49",
-    "DHB": "Waikato",
-    "International travel": false,
-    "Last country before return": null,
-    "Flight number": null,
-    "Flight departure date": null,
-    "Arrival date": null
-  },
-  {
-    "Date of report": "2020-03-29",
-    "Sex": "Female",
-    "Age group": "30 to 39",
-    "DHB": "Waikato",
-    "International travel": false,
-    "Last country before return": null,
-    "Flight number": null,
-    "Flight departure date": null,
-    "Arrival date": null
-  },
-  {
-    "Date of report": "2020-03-29",
-    "Sex": "Male",
-    "Age group": "40 to 49",
-    "DHB": "Waikato",
-    "International travel": false,
-    "Last country before return": null,
-    "Flight number": null,
-    "Flight departure date": null,
-    "Arrival date": null
-  },
-  {
-    "Date of report": "2020-03-29",
-    "Sex": "Male",
-    "Age group": "30 to 39",
-    "DHB": "Waikato",
-    "International travel": false,
-    "Last country before return": null,
-    "Flight number": null,
-    "Flight departure date": null,
-    "Arrival date": null
-  },
-  {
-    "Date of report": "2020-03-29",
-    "Sex": "Female",
-    "Age group": "50 to 59",
-    "DHB": "Waikato",
-    "International travel": null,
-    "Last country before return": null,
-    "Flight number": null,
-    "Flight departure date": null,
-    "Arrival date": null
-  },
-  {
-    "Date of report": "2020-03-29",
-    "Sex": "Male",
-    "Age group": "20 to 29",
-    "DHB": "Waikato",
-    "International travel": false,
-    "Last country before return": null,
-    "Flight number": null,
-    "Flight departure date": null,
-    "Arrival date": null
-  },
-  {
-    "Date of report": "2020-03-29",
-    "Sex": "Male",
-    "Age group": "50 to 59",
-    "DHB": "Waikato",
-    "International travel": false,
-    "Last country before return": null,
-    "Flight number": null,
-    "Flight departure date": null,
-    "Arrival date": null
   },
   {
     "Date of report": "2020-03-29",
@@ -4057,6 +4486,28 @@
     "Flight number": null,
     "Flight departure date": null,
     "Arrival date": "2020-03-25"
+  },
+  {
+    "Date of report": "2020-03-29",
+    "Sex": "Female",
+    "Age group": "15 to 19",
+    "DHB": "Waitemata",
+    "International travel": null,
+    "Last country before return": null,
+    "Flight number": null,
+    "Flight departure date": null,
+    "Arrival date": null
+  },
+  {
+    "Date of report": "2020-03-29",
+    "Sex": "Male",
+    "Age group": "50 to 59",
+    "DHB": "Waitemata",
+    "International travel": true,
+    "Last country before return": "United States of America",
+    "Flight number": null,
+    "Flight departure date": null,
+    "Arrival date": "2020-03-20"
   },
   {
     "Date of report": "2020-03-29",
@@ -4125,26 +4576,15 @@
     "Arrival date": null
   },
   {
-    "Date of report": "2020-03-29",
-    "Sex": "Male",
-    "Age group": "50 to 59",
-    "DHB": "Waitemata",
+    "Date of report": "2020-03-28",
+    "Sex": "Female",
+    "Age group": "60 to 69",
+    "DHB": "Auckland",
     "International travel": true,
     "Last country before return": "United States of America",
-    "Flight number": null,
-    "Flight departure date": null,
-    "Arrival date": "2020-03-20"
-  },
-  {
-    "Date of report": "2020-03-29",
-    "Sex": "Female",
-    "Age group": "15 to 19",
-    "DHB": "Waitemata",
-    "International travel": null,
-    "Last country before return": null,
-    "Flight number": null,
-    "Flight departure date": null,
-    "Arrival date": null
+    "Flight number": "NZ1",
+    "Flight departure date": "2020-03-25",
+    "Arrival date": "2020-03-27"
   },
   {
     "Date of report": "2020-03-28",
@@ -4167,6 +4607,17 @@
     "Flight number": null,
     "Flight departure date": null,
     "Arrival date": null
+  },
+  {
+    "Date of report": "2020-03-28",
+    "Sex": "Female",
+    "Age group": "30 to 39",
+    "DHB": "Auckland",
+    "International travel": true,
+    "Last country before return": "Indonesia",
+    "Flight number": "EK450",
+    "Flight departure date": "2020-03-23",
+    "Arrival date": "2020-03-24"
   },
   {
     "Date of report": "2020-03-28",
@@ -4200,6 +4651,28 @@
     "Flight number": "EK448",
     "Flight departure date": "2020-03-20",
     "Arrival date": "2020-03-21"
+  },
+  {
+    "Date of report": "2020-03-28",
+    "Sex": "Male",
+    "Age group": "60 to 69",
+    "DHB": "Auckland",
+    "International travel": false,
+    "Last country before return": null,
+    "Flight number": null,
+    "Flight departure date": null,
+    "Arrival date": null
+  },
+  {
+    "Date of report": "2020-03-28",
+    "Sex": "Male",
+    "Age group": "60 to 69",
+    "DHB": "Auckland",
+    "International travel": null,
+    "Last country before return": null,
+    "Flight number": null,
+    "Flight departure date": null,
+    "Arrival date": null
   },
   {
     "Date of report": "2020-03-28",
@@ -4258,47 +4731,14 @@
   },
   {
     "Date of report": "2020-03-28",
-    "Sex": "Male",
-    "Age group": "60 to 69",
-    "DHB": "Auckland",
-    "International travel": null,
-    "Last country before return": null,
-    "Flight number": null,
-    "Flight departure date": null,
-    "Arrival date": null
-  },
-  {
-    "Date of report": "2020-03-28",
-    "Sex": "Male",
-    "Age group": "60 to 69",
-    "DHB": "Auckland",
-    "International travel": false,
-    "Last country before return": null,
-    "Flight number": null,
-    "Flight departure date": null,
-    "Arrival date": null
-  },
-  {
-    "Date of report": "2020-03-28",
     "Sex": "Female",
-    "Age group": "30 to 39",
-    "DHB": "Auckland",
+    "Age group": "20 to 29",
+    "DHB": "Bay of Plenty",
     "International travel": true,
-    "Last country before return": "Indonesia",
-    "Flight number": "EK450",
+    "Last country before return": "Australia",
+    "Flight number": "EK002",
     "Flight departure date": "2020-03-23",
-    "Arrival date": "2020-03-24"
-  },
-  {
-    "Date of report": "2020-03-28",
-    "Sex": "Female",
-    "Age group": "60 to 69",
-    "DHB": "Auckland",
-    "International travel": true,
-    "Last country before return": "United States of America",
-    "Flight number": "NZ1",
-    "Flight departure date": "2020-03-25",
-    "Arrival date": "2020-03-27"
+    "Arrival date": "2020-03-26"
   },
   {
     "Date of report": "2020-03-28",
@@ -4315,12 +4755,12 @@
     "Date of report": "2020-03-28",
     "Sex": "Female",
     "Age group": "20 to 29",
-    "DHB": "Bay of Plenty",
+    "DHB": "Canterbury",
     "International travel": true,
-    "Last country before return": "Australia",
-    "Flight number": "EK002",
+    "Last country before return": "United Kingdom",
+    "Flight number": "EK412",
     "Flight departure date": "2020-03-23",
-    "Arrival date": "2020-03-26"
+    "Arrival date": "2020-03-23"
   },
   {
     "Date of report": "2020-03-28",
@@ -4354,17 +4794,6 @@
     "Flight number": null,
     "Flight departure date": null,
     "Arrival date": "2020-03-16"
-  },
-  {
-    "Date of report": "2020-03-28",
-    "Sex": "Female",
-    "Age group": "20 to 29",
-    "DHB": "Canterbury",
-    "International travel": true,
-    "Last country before return": "United Kingdom",
-    "Flight number": "EK412",
-    "Flight departure date": "2020-03-23",
-    "Arrival date": "2020-03-23"
   },
   {
     "Date of report": "2020-03-28",
@@ -4423,6 +4852,28 @@
   },
   {
     "Date of report": "2020-03-28",
+    "Sex": "Female",
+    "Age group": "30 to 39",
+    "DHB": "Counties Manukau",
+    "International travel": true,
+    "Last country before return": "United Kingdom",
+    "Flight number": null,
+    "Flight departure date": null,
+    "Arrival date": "2020-03-23"
+  },
+  {
+    "Date of report": "2020-03-28",
+    "Sex": "Female",
+    "Age group": "40 to 49",
+    "DHB": "Counties Manukau",
+    "International travel": false,
+    "Last country before return": null,
+    "Flight number": null,
+    "Flight departure date": null,
+    "Arrival date": null
+  },
+  {
+    "Date of report": "2020-03-28",
     "Sex": "Male",
     "Age group": "40 to 49",
     "DHB": "Counties Manukau",
@@ -4453,28 +4904,6 @@
     "Flight number": null,
     "Flight departure date": null,
     "Arrival date": null
-  },
-  {
-    "Date of report": "2020-03-28",
-    "Sex": "Female",
-    "Age group": "40 to 49",
-    "DHB": "Counties Manukau",
-    "International travel": false,
-    "Last country before return": null,
-    "Flight number": null,
-    "Flight departure date": null,
-    "Arrival date": null
-  },
-  {
-    "Date of report": "2020-03-28",
-    "Sex": "Female",
-    "Age group": "30 to 39",
-    "DHB": "Counties Manukau",
-    "International travel": true,
-    "Last country before return": "United Kingdom",
-    "Flight number": null,
-    "Flight departure date": null,
-    "Arrival date": "2020-03-23"
   },
   {
     "Date of report": "2020-03-28",
@@ -4655,7 +5084,7 @@
   {
     "Date of report": "2020-03-28",
     "Sex": "Female",
-    "Age group": "30 to 39",
+    "Age group": " 1 to 4  ",
     "DHB": "Waikato",
     "International travel": false,
     "Last country before return": null,
@@ -4666,7 +5095,7 @@
   {
     "Date of report": "2020-03-28",
     "Sex": "Female",
-    "Age group": " 1 to 4  ",
+    "Age group": "30 to 39",
     "DHB": "Waikato",
     "International travel": false,
     "Last country before return": null,
@@ -4721,9 +5150,20 @@
   {
     "Date of report": "2020-03-28",
     "Sex": "Female",
-    "Age group": "50 to 59",
+    "Age group": "15 to 19",
     "DHB": "Waitemata",
-    "International travel": null,
+    "International travel": false,
+    "Last country before return": null,
+    "Flight number": null,
+    "Flight departure date": null,
+    "Arrival date": null
+  },
+  {
+    "Date of report": "2020-03-28",
+    "Sex": "Female",
+    "Age group": "10 to 14",
+    "DHB": "Waitemata",
+    "International travel": false,
     "Last country before return": null,
     "Flight number": null,
     "Flight departure date": null,
@@ -4733,6 +5173,17 @@
     "Date of report": "2020-03-28",
     "Sex": "Male",
     "Age group": "20 to 29",
+    "DHB": "Waitemata",
+    "International travel": null,
+    "Last country before return": null,
+    "Flight number": null,
+    "Flight departure date": null,
+    "Arrival date": null
+  },
+  {
+    "Date of report": "2020-03-28",
+    "Sex": "Female",
+    "Age group": "50 to 59",
     "DHB": "Waitemata",
     "International travel": null,
     "Last country before return": null,
@@ -4788,28 +5239,6 @@
     "Date of report": "2020-03-28",
     "Sex": "Female",
     "Age group": "10 to 14",
-    "DHB": "Waitemata",
-    "International travel": false,
-    "Last country before return": null,
-    "Flight number": null,
-    "Flight departure date": null,
-    "Arrival date": null
-  },
-  {
-    "Date of report": "2020-03-28",
-    "Sex": "Female",
-    "Age group": "10 to 14",
-    "DHB": "Waitemata",
-    "International travel": false,
-    "Last country before return": null,
-    "Flight number": null,
-    "Flight departure date": null,
-    "Arrival date": null
-  },
-  {
-    "Date of report": "2020-03-28",
-    "Sex": "Female",
-    "Age group": "15 to 19",
     "DHB": "Waitemata",
     "International travel": false,
     "Last country before return": null,
@@ -4853,6 +5282,28 @@
   {
     "Date of report": "2020-03-27",
     "Sex": "Female",
+    "Age group": "20 to 29",
+    "DHB": "Auckland",
+    "International travel": true,
+    "Last country before return": "Spain",
+    "Flight number": null,
+    "Flight departure date": null,
+    "Arrival date": "2020-03-26"
+  },
+  {
+    "Date of report": "2020-03-27",
+    "Sex": "Male",
+    "Age group": "40 to 49",
+    "DHB": "Auckland",
+    "International travel": true,
+    "Last country before return": "United States of America",
+    "Flight number": null,
+    "Flight departure date": null,
+    "Arrival date": "2020-03-20"
+  },
+  {
+    "Date of report": "2020-03-27",
+    "Sex": "Female",
     "Age group": "60 to 69",
     "DHB": "Auckland",
     "International travel": false,
@@ -4874,36 +5325,14 @@
   },
   {
     "Date of report": "2020-03-27",
-    "Sex": "Male",
-    "Age group": "40 to 49",
-    "DHB": "Auckland",
-    "International travel": true,
-    "Last country before return": "United States of America",
-    "Flight number": null,
-    "Flight departure date": null,
-    "Arrival date": "2020-03-20"
-  },
-  {
-    "Date of report": "2020-03-27",
     "Sex": "Female",
     "Age group": "20 to 29",
-    "DHB": "Auckland",
-    "International travel": true,
-    "Last country before return": "Spain",
-    "Flight number": null,
-    "Flight departure date": null,
-    "Arrival date": "2020-03-26"
-  },
-  {
-    "Date of report": "2020-03-27",
-    "Sex": "Male",
-    "Age group": "40 to 49",
     "DHB": "Bay of Plenty",
-    "International travel": null,
-    "Last country before return": null,
-    "Flight number": "nz8800",
-    "Flight departure date": "2020-03-18",
-    "Arrival date": null
+    "International travel": true,
+    "Last country before return": "United Arab Emirates",
+    "Flight number": "NZ8141",
+    "Flight departure date": "2020-03-23",
+    "Arrival date": "2020-03-23"
   },
   {
     "Date of report": "2020-03-27",
@@ -4918,36 +5347,14 @@
   },
   {
     "Date of report": "2020-03-27",
-    "Sex": "Female",
-    "Age group": "20 to 29",
-    "DHB": "Bay of Plenty",
-    "International travel": true,
-    "Last country before return": "United Arab Emirates",
-    "Flight number": "NZ8141",
-    "Flight departure date": "2020-03-23",
-    "Arrival date": "2020-03-23"
-  },
-  {
-    "Date of report": "2020-03-27",
     "Sex": "Male",
-    "Age group": "60 to 69",
-    "DHB": "Canterbury",
-    "International travel": true,
-    "Last country before return": "Australia",
-    "Flight number": "VA0097 ",
-    "Flight departure date": "2020-03-23",
-    "Arrival date": "2020-03-23"
-  },
-  {
-    "Date of report": "2020-03-27",
-    "Sex": null,
     "Age group": "40 to 49",
-    "DHB": "Canterbury",
-    "International travel": true,
-    "Last country before return": "United Kingdom",
-    "Flight number": "TG917",
-    "Flight departure date": "2020-03-20",
-    "Arrival date": "2020-03-22"
+    "DHB": "Bay of Plenty",
+    "International travel": null,
+    "Last country before return": null,
+    "Flight number": "nz8800",
+    "Flight departure date": "2020-03-18",
+    "Arrival date": null
   },
   {
     "Date of report": "2020-03-27",
@@ -4962,6 +5369,28 @@
   },
   {
     "Date of report": "2020-03-27",
+    "Sex": null,
+    "Age group": "40 to 49",
+    "DHB": "Canterbury",
+    "International travel": true,
+    "Last country before return": "United Kingdom",
+    "Flight number": "TG917",
+    "Flight departure date": "2020-03-20",
+    "Arrival date": "2020-03-22"
+  },
+  {
+    "Date of report": "2020-03-27",
+    "Sex": "Male",
+    "Age group": "60 to 69",
+    "DHB": "Canterbury",
+    "International travel": true,
+    "Last country before return": "Australia",
+    "Flight number": "VA0097 ",
+    "Flight departure date": "2020-03-23",
+    "Arrival date": "2020-03-23"
+  },
+  {
+    "Date of report": "2020-03-27",
     "Sex": "Male",
     "Age group": "20 to 29",
     "DHB": "Capital and Coast",
@@ -4970,6 +5399,17 @@
     "Flight number": "NZ425",
     "Flight departure date": "2020-03-22",
     "Arrival date": "2020-03-22"
+  },
+  {
+    "Date of report": "2020-03-27",
+    "Sex": "Female",
+    "Age group": "50 to 59",
+    "DHB": "Capital and Coast",
+    "International travel": false,
+    "Last country before return": null,
+    "Flight number": "NZ8876",
+    "Flight departure date": "2020-03-23",
+    "Arrival date": null
   },
   {
     "Date of report": "2020-03-27",
@@ -4986,11 +5426,22 @@
     "Date of report": "2020-03-27",
     "Sex": "Female",
     "Age group": "50 to 59",
-    "DHB": "Capital and Coast",
+    "DHB": "Counties Manukau",
     "International travel": false,
     "Last country before return": null,
-    "Flight number": "NZ8876",
-    "Flight departure date": "2020-03-23",
+    "Flight number": "NZ432",
+    "Flight departure date": "2020-03-20",
+    "Arrival date": null
+  },
+  {
+    "Date of report": "2020-03-27",
+    "Sex": "Female",
+    "Age group": "30 to 39",
+    "DHB": "Counties Manukau",
+    "International travel": null,
+    "Last country before return": null,
+    "Flight number": null,
+    "Flight departure date": null,
     "Arrival date": null
   },
   {
@@ -5008,28 +5459,6 @@
     "Date of report": "2020-03-27",
     "Sex": "Male",
     "Age group": "30 to 39",
-    "DHB": "Counties Manukau",
-    "International travel": false,
-    "Last country before return": null,
-    "Flight number": null,
-    "Flight departure date": null,
-    "Arrival date": null
-  },
-  {
-    "Date of report": "2020-03-27",
-    "Sex": "Female",
-    "Age group": "30 to 39",
-    "DHB": "Counties Manukau",
-    "International travel": null,
-    "Last country before return": null,
-    "Flight number": null,
-    "Flight departure date": null,
-    "Arrival date": null
-  },
-  {
-    "Date of report": "2020-03-27",
-    "Sex": "Female",
-    "Age group": "50 to 59",
     "DHB": "Counties Manukau",
     "International travel": false,
     "Last country before return": null,
@@ -5061,23 +5490,23 @@
   },
   {
     "Date of report": "2020-03-27",
-    "Sex": "Female",
-    "Age group": "60 to 69",
-    "DHB": "Hutt Valley",
-    "International travel": true,
-    "Last country before return": "Singapore",
-    "Flight number": "NZ441 ",
-    "Flight departure date": "2020-03-20",
-    "Arrival date": "2020-03-19"
-  },
-  {
-    "Date of report": "2020-03-27",
     "Sex": "Male",
     "Age group": "60 to 69",
     "DHB": "Hutt Valley",
     "International travel": true,
     "Last country before return": "Singapore",
     "Flight number": "NZ441",
+    "Flight departure date": "2020-03-20",
+    "Arrival date": "2020-03-19"
+  },
+  {
+    "Date of report": "2020-03-27",
+    "Sex": "Female",
+    "Age group": "60 to 69",
+    "DHB": "Hutt Valley",
+    "International travel": true,
+    "Last country before return": "Singapore",
+    "Flight number": "NZ441 ",
     "Flight departure date": "2020-03-20",
     "Arrival date": "2020-03-19"
   },
@@ -5106,28 +5535,6 @@
   {
     "Date of report": "2020-03-27",
     "Sex": "Female",
-    "Age group": "60 to 69",
-    "DHB": "South Canterbury",
-    "International travel": true,
-    "Last country before return": "United States of America",
-    "Flight number": "NZ675 ",
-    "Flight departure date": "2020-03-17",
-    "Arrival date": "2020-03-17"
-  },
-  {
-    "Date of report": "2020-03-27",
-    "Sex": "Female",
-    "Age group": "20 to 29",
-    "DHB": "South Canterbury",
-    "International travel": true,
-    "Last country before return": null,
-    "Flight number": "OA4326",
-    "Flight departure date": "2020-03-19",
-    "Arrival date": "2020-03-20"
-  },
-  {
-    "Date of report": "2020-03-27",
-    "Sex": "Female",
     "Age group": "40 to 49",
     "DHB": "South Canterbury",
     "International travel": null,
@@ -5149,6 +5556,28 @@
   },
   {
     "Date of report": "2020-03-27",
+    "Sex": "Female",
+    "Age group": "20 to 29",
+    "DHB": "South Canterbury",
+    "International travel": true,
+    "Last country before return": null,
+    "Flight number": "OA4326",
+    "Flight departure date": "2020-03-19",
+    "Arrival date": "2020-03-20"
+  },
+  {
+    "Date of report": "2020-03-27",
+    "Sex": "Female",
+    "Age group": "60 to 69",
+    "DHB": "South Canterbury",
+    "International travel": true,
+    "Last country before return": "United States of America",
+    "Flight number": "NZ675 ",
+    "Flight departure date": "2020-03-17",
+    "Arrival date": "2020-03-17"
+  },
+  {
+    "Date of report": "2020-03-27",
     "Sex": "Male",
     "Age group": "50 to 59",
     "DHB": "Southern",
@@ -5160,17 +5589,6 @@
   },
   {
     "Date of report": "2020-03-27",
-    "Sex": "Female",
-    "Age group": "50 to 59",
-    "DHB": "Southern",
-    "International travel": false,
-    "Last country before return": null,
-    "Flight number": null,
-    "Flight departure date": null,
-    "Arrival date": null
-  },
-  {
-    "Date of report": "2020-03-27",
     "Sex": "Male",
     "Age group": "50 to 59",
     "DHB": "Southern",
@@ -5194,6 +5612,17 @@
   {
     "Date of report": "2020-03-27",
     "Sex": "Male",
+    "Age group": "50 to 59",
+    "DHB": "Southern",
+    "International travel": false,
+    "Last country before return": null,
+    "Flight number": null,
+    "Flight departure date": null,
+    "Arrival date": null
+  },
+  {
+    "Date of report": "2020-03-27",
+    "Sex": "Female",
     "Age group": "50 to 59",
     "DHB": "Southern",
     "International travel": false,
@@ -5207,7 +5636,7 @@
     "Sex": "Female",
     "Age group": "20 to 29",
     "DHB": "Southern",
-    "International travel": null,
+    "International travel": false,
     "Last country before return": null,
     "Flight number": null,
     "Flight departure date": null,
@@ -5237,8 +5666,8 @@
   },
   {
     "Date of report": "2020-03-27",
-    "Sex": "Female",
-    "Age group": "50 to 59",
+    "Sex": "Male",
+    "Age group": "20 to 29",
     "DHB": "Southern",
     "International travel": null,
     "Last country before return": null,
@@ -5248,8 +5677,8 @@
   },
   {
     "Date of report": "2020-03-27",
-    "Sex": "Male",
-    "Age group": "20 to 29",
+    "Sex": "Female",
+    "Age group": "50 to 59",
     "DHB": "Southern",
     "International travel": null,
     "Last country before return": null,
@@ -5402,6 +5831,17 @@
   },
   {
     "Date of report": "2020-03-27",
+    "Sex": "Female",
+    "Age group": "40 to 49",
+    "DHB": "Waikato",
+    "International travel": null,
+    "Last country before return": null,
+    "Flight number": null,
+    "Flight departure date": null,
+    "Arrival date": null
+  },
+  {
+    "Date of report": "2020-03-27",
     "Sex": "Male",
     "Age group": "40 to 49",
     "DHB": "Waikato",
@@ -5424,30 +5864,8 @@
   },
   {
     "Date of report": "2020-03-27",
-    "Sex": "Female",
-    "Age group": "30 to 39",
-    "DHB": "Waikato",
-    "International travel": false,
-    "Last country before return": null,
-    "Flight number": null,
-    "Flight departure date": null,
-    "Arrival date": null
-  },
-  {
-    "Date of report": "2020-03-27",
-    "Sex": "Female",
-    "Age group": "20 to 29",
-    "DHB": "Waikato",
-    "International travel": false,
-    "Last country before return": null,
-    "Flight number": null,
-    "Flight departure date": null,
-    "Arrival date": null
-  },
-  {
-    "Date of report": "2020-03-27",
     "Sex": "Male",
-    "Age group": "50 to 59",
+    "Age group": "15 to 19",
     "DHB": "Waikato",
     "International travel": false,
     "Last country before return": null,
@@ -5458,7 +5876,18 @@
   {
     "Date of report": "2020-03-27",
     "Sex": "Female",
-    "Age group": "30 to 39",
+    "Age group": "15 to 19",
+    "DHB": "Waikato",
+    "International travel": false,
+    "Last country before return": null,
+    "Flight number": null,
+    "Flight departure date": null,
+    "Arrival date": null
+  },
+  {
+    "Date of report": "2020-03-27",
+    "Sex": "Female",
+    "Age group": "40 to 49",
     "DHB": "Waikato",
     "International travel": false,
     "Last country before return": null,
@@ -5480,18 +5909,7 @@
   {
     "Date of report": "2020-03-27",
     "Sex": "Female",
-    "Age group": "40 to 49",
-    "DHB": "Waikato",
-    "International travel": false,
-    "Last country before return": null,
-    "Flight number": null,
-    "Flight departure date": null,
-    "Arrival date": null
-  },
-  {
-    "Date of report": "2020-03-27",
-    "Sex": "Female",
-    "Age group": "15 to 19",
+    "Age group": "30 to 39",
     "DHB": "Waikato",
     "International travel": false,
     "Last country before return": null,
@@ -5502,7 +5920,7 @@
   {
     "Date of report": "2020-03-27",
     "Sex": "Male",
-    "Age group": "15 to 19",
+    "Age group": "50 to 59",
     "DHB": "Waikato",
     "International travel": false,
     "Last country before return": null,
@@ -5513,9 +5931,20 @@
   {
     "Date of report": "2020-03-27",
     "Sex": "Female",
-    "Age group": "40 to 49",
+    "Age group": "20 to 29",
     "DHB": "Waikato",
-    "International travel": null,
+    "International travel": false,
+    "Last country before return": null,
+    "Flight number": null,
+    "Flight departure date": null,
+    "Arrival date": null
+  },
+  {
+    "Date of report": "2020-03-27",
+    "Sex": "Female",
+    "Age group": "30 to 39",
+    "DHB": "Waikato",
+    "International travel": false,
     "Last country before return": null,
     "Flight number": null,
     "Flight departure date": null,
@@ -5578,6 +6007,17 @@
   },
   {
     "Date of report": "2020-03-26",
+    "Sex": "Female",
+    "Age group": "15 to 19",
+    "DHB": "Auckland",
+    "International travel": false,
+    "Last country before return": null,
+    "Flight number": null,
+    "Flight departure date": null,
+    "Arrival date": null
+  },
+  {
+    "Date of report": "2020-03-26",
     "Sex": "Male",
     "Age group": "70+     ",
     "DHB": "Auckland",
@@ -5619,6 +6059,17 @@
     "Flight number": null,
     "Flight departure date": null,
     "Arrival date": "2020-03-21"
+  },
+  {
+    "Date of report": "2020-03-26",
+    "Sex": "Male",
+    "Age group": "20 to 29",
+    "DHB": "Auckland",
+    "International travel": null,
+    "Last country before return": null,
+    "Flight number": null,
+    "Flight departure date": null,
+    "Arrival date": null
   },
   {
     "Date of report": "2020-03-26",
@@ -5677,39 +6128,6 @@
   },
   {
     "Date of report": "2020-03-26",
-    "Sex": "Male",
-    "Age group": "20 to 29",
-    "DHB": "Auckland",
-    "International travel": null,
-    "Last country before return": null,
-    "Flight number": null,
-    "Flight departure date": null,
-    "Arrival date": null
-  },
-  {
-    "Date of report": "2020-03-26",
-    "Sex": "Female",
-    "Age group": "15 to 19",
-    "DHB": "Auckland",
-    "International travel": false,
-    "Last country before return": null,
-    "Flight number": null,
-    "Flight departure date": null,
-    "Arrival date": null
-  },
-  {
-    "Date of report": "2020-03-26",
-    "Sex": "Male",
-    "Age group": "20 to 29",
-    "DHB": "Bay of Plenty",
-    "International travel": true,
-    "Last country before return": "Greece",
-    "Flight number": "QR920",
-    "Flight departure date": "2020-03-17",
-    "Arrival date": "2020-03-18"
-  },
-  {
-    "Date of report": "2020-03-26",
     "Sex": "Female",
     "Age group": "20 to 29",
     "DHB": "Bay of Plenty",
@@ -5721,14 +6139,36 @@
   },
   {
     "Date of report": "2020-03-26",
-    "Sex": "Female",
+    "Sex": "Male",
     "Age group": "20 to 29",
+    "DHB": "Bay of Plenty",
+    "International travel": true,
+    "Last country before return": "Greece",
+    "Flight number": "qr920",
+    "Flight departure date": "2020-03-17",
+    "Arrival date": "2020-03-18"
+  },
+  {
+    "Date of report": "2020-03-26",
+    "Sex": "Male",
+    "Age group": "30 to 39",
     "DHB": "Canterbury",
-    "International travel": false,
-    "Last country before return": null,
+    "International travel": true,
+    "Last country before return": "Japan",
     "Flight number": null,
     "Flight departure date": null,
-    "Arrival date": null
+    "Arrival date": "2020-03-19"
+  },
+  {
+    "Date of report": "2020-03-26",
+    "Sex": "Female",
+    "Age group": " 1 to 4  ",
+    "DHB": "Canterbury",
+    "International travel": true,
+    "Last country before return": "Australia",
+    "Flight number": null,
+    "Flight departure date": null,
+    "Arrival date": "2020-03-15"
   },
   {
     "Date of report": "2020-03-26",
@@ -5737,25 +6177,14 @@
     "DHB": "Canterbury",
     "International travel": true,
     "Last country before return": "Australia",
-    "Flight number": "EK412",
-    "Flight departure date": "2020-03-19",
-    "Arrival date": "2020-03-20"
+    "Flight number": "QF139",
+    "Flight departure date": "2020-03-14",
+    "Arrival date": "2020-03-15"
   },
   {
     "Date of report": "2020-03-26",
-    "Sex": "Male",
-    "Age group": "20 to 29",
-    "DHB": "Canterbury",
-    "International travel": true,
-    "Last country before return": "United States of America",
-    "Flight number": "UA0917",
-    "Flight departure date": "2020-03-19",
-    "Arrival date": "2020-03-20"
-  },
-  {
-    "Date of report": "2020-03-26",
-    "Sex": "Male",
-    "Age group": "50 to 59",
+    "Sex": "Female",
+    "Age group": "30 to 39",
     "DHB": "Canterbury",
     "International travel": false,
     "Last country before return": null,
@@ -5776,8 +6205,8 @@
   },
   {
     "Date of report": "2020-03-26",
-    "Sex": "Female",
-    "Age group": "30 to 39",
+    "Sex": "Male",
+    "Age group": "50 to 59",
     "DHB": "Canterbury",
     "International travel": false,
     "Last country before return": null,
@@ -5787,36 +6216,36 @@
   },
   {
     "Date of report": "2020-03-26",
-    "Sex": "Female",
-    "Age group": "30 to 39",
-    "DHB": "Canterbury",
-    "International travel": true,
-    "Last country before return": "Australia",
-    "Flight number": "QF139",
-    "Flight departure date": "2020-03-14",
-    "Arrival date": "2020-03-15"
-  },
-  {
-    "Date of report": "2020-03-26",
-    "Sex": "Female",
-    "Age group": " 1 to 4  ",
-    "DHB": "Canterbury",
-    "International travel": true,
-    "Last country before return": "Australia",
-    "Flight number": null,
-    "Flight departure date": null,
-    "Arrival date": "2020-03-15"
-  },
-  {
-    "Date of report": "2020-03-26",
     "Sex": "Male",
+    "Age group": "20 to 29",
+    "DHB": "Canterbury",
+    "International travel": true,
+    "Last country before return": "United States of America",
+    "Flight number": "UA0917",
+    "Flight departure date": "2020-03-19",
+    "Arrival date": "2020-03-20"
+  },
+  {
+    "Date of report": "2020-03-26",
+    "Sex": "Female",
     "Age group": "30 to 39",
     "DHB": "Canterbury",
     "International travel": true,
-    "Last country before return": "Japan",
+    "Last country before return": "Australia",
+    "Flight number": "EK412",
+    "Flight departure date": "2020-03-19",
+    "Arrival date": "2020-03-20"
+  },
+  {
+    "Date of report": "2020-03-26",
+    "Sex": "Female",
+    "Age group": "20 to 29",
+    "DHB": "Canterbury",
+    "International travel": false,
+    "Last country before return": null,
     "Flight number": null,
     "Flight departure date": null,
-    "Arrival date": "2020-03-19"
+    "Arrival date": null
   },
   {
     "Date of report": "2020-03-26",
@@ -5843,13 +6272,13 @@
   {
     "Date of report": "2020-03-26",
     "Sex": "Female",
-    "Age group": "50 to 59",
+    "Age group": "60 to 69",
     "DHB": "Counties Manukau",
     "International travel": true,
-    "Last country before return": "United States of America",
+    "Last country before return": "United Arab Emirates",
     "Flight number": null,
     "Flight departure date": null,
-    "Arrival date": "2020-03-22"
+    "Arrival date": "2020-03-17"
   },
   {
     "Date of report": "2020-03-26",
@@ -5865,13 +6294,13 @@
   {
     "Date of report": "2020-03-26",
     "Sex": "Female",
-    "Age group": "60 to 69",
+    "Age group": "50 to 59",
     "DHB": "Counties Manukau",
     "International travel": true,
-    "Last country before return": "United Arab Emirates",
+    "Last country before return": "United States of America",
     "Flight number": null,
     "Flight departure date": null,
-    "Arrival date": "2020-03-17"
+    "Arrival date": "2020-03-22"
   },
   {
     "Date of report": "2020-03-26",
@@ -5920,23 +6349,23 @@
   {
     "Date of report": "2020-03-26",
     "Sex": "Female",
-    "Age group": "40 to 49",
-    "DHB": "Hutt Valley",
-    "International travel": true,
-    "Last country before return": "United Arab Emirates",
-    "Flight number": "EK0448",
-    "Flight departure date": "2020-03-20",
-    "Arrival date": "2020-03-21"
-  },
-  {
-    "Date of report": "2020-03-26",
-    "Sex": "Female",
     "Age group": "20 to 29",
     "DHB": "Hutt Valley",
     "International travel": true,
     "Last country before return": "United Arab Emirates",
     "Flight number": "NZ457",
     "Flight departure date": "2020-03-21",
+    "Arrival date": "2020-03-21"
+  },
+  {
+    "Date of report": "2020-03-26",
+    "Sex": "Female",
+    "Age group": "40 to 49",
+    "DHB": "Hutt Valley",
+    "International travel": true,
+    "Last country before return": "United Arab Emirates",
+    "Flight number": "EK0448",
+    "Flight departure date": "2020-03-20",
     "Arrival date": "2020-03-21"
   },
   {
@@ -6118,6 +6547,17 @@
   {
     "Date of report": "2020-03-26",
     "Sex": "Male",
+    "Age group": "70+     ",
+    "DHB": "Waikato",
+    "International travel": false,
+    "Last country before return": null,
+    "Flight number": null,
+    "Flight departure date": null,
+    "Arrival date": null
+  },
+  {
+    "Date of report": "2020-03-26",
+    "Sex": "Male",
     "Age group": "20 to 29",
     "DHB": "Waikato",
     "International travel": true,
@@ -6143,32 +6583,21 @@
     "Age group": "60 to 69",
     "DHB": "Waikato",
     "International travel": true,
-    "Last country before return": "United Arab Emirates",
-    "Flight number": "EK0448",
-    "Flight departure date": "2020-03-15",
-    "Arrival date": "2020-03-16"
+    "Last country before return": "Qatar",
+    "Flight number": "QR920",
+    "Flight departure date": "2020-03-18",
+    "Arrival date": "2020-03-19"
   },
   {
     "Date of report": "2020-03-26",
     "Sex": "Female",
-    "Age group": "20 to 29",
+    "Age group": "70+     ",
     "DHB": "Waikato",
     "International travel": true,
-    "Last country before return": "United States of America",
-    "Flight number": null,
+    "Last country before return": "Philippines",
+    "Flight number": "PR218",
     "Flight departure date": null,
-    "Arrival date": "2020-03-25"
-  },
-  {
-    "Date of report": "2020-03-26",
-    "Sex": "Female",
-    "Age group": "20 to 29",
-    "DHB": "Waikato",
-    "International travel": false,
-    "Last country before return": null,
-    "Flight number": null,
-    "Flight departure date": null,
-    "Arrival date": null
+    "Arrival date": "2020-03-06"
   },
   {
     "Date of report": "2020-03-26",
@@ -6184,13 +6613,24 @@
   {
     "Date of report": "2020-03-26",
     "Sex": "Female",
-    "Age group": "70+     ",
+    "Age group": "20 to 29",
+    "DHB": "Waikato",
+    "International travel": false,
+    "Last country before return": null,
+    "Flight number": null,
+    "Flight departure date": null,
+    "Arrival date": null
+  },
+  {
+    "Date of report": "2020-03-26",
+    "Sex": "Female",
+    "Age group": "20 to 29",
     "DHB": "Waikato",
     "International travel": true,
-    "Last country before return": "Philippines",
-    "Flight number": "PR218",
+    "Last country before return": "United States of America",
+    "Flight number": null,
     "Flight departure date": null,
-    "Arrival date": "2020-03-06"
+    "Arrival date": "2020-03-25"
   },
   {
     "Date of report": "2020-03-26",
@@ -6198,17 +6638,17 @@
     "Age group": "60 to 69",
     "DHB": "Waikato",
     "International travel": true,
-    "Last country before return": "Qatar",
-    "Flight number": "QR920",
-    "Flight departure date": "2020-03-18",
-    "Arrival date": "2020-03-19"
+    "Last country before return": "United Arab Emirates",
+    "Flight number": "EK0448",
+    "Flight departure date": "2020-03-15",
+    "Arrival date": "2020-03-16"
   },
   {
     "Date of report": "2020-03-26",
-    "Sex": "Male",
-    "Age group": "70+     ",
-    "DHB": "Waikato",
-    "International travel": false,
+    "Sex": "Female",
+    "Age group": "40 to 49",
+    "DHB": "Waitemata",
+    "International travel": null,
     "Last country before return": null,
     "Flight number": null,
     "Flight departure date": null,
@@ -6294,9 +6734,9 @@
   {
     "Date of report": "2020-03-26",
     "Sex": "Female",
-    "Age group": "40 to 49",
-    "DHB": "Waitemata",
-    "International travel": null,
+    "Age group": "70+     ",
+    "DHB": "West Coast",
+    "International travel": false,
     "Last country before return": null,
     "Flight number": null,
     "Flight departure date": null,
@@ -6314,15 +6754,15 @@
     "Arrival date": "2020-03-12"
   },
   {
-    "Date of report": "2020-03-26",
+    "Date of report": "2020-03-25",
     "Sex": "Female",
-    "Age group": "70+     ",
-    "DHB": "West Coast",
-    "International travel": false,
-    "Last country before return": null,
+    "Age group": "50 to 59",
+    "DHB": "Auckland",
+    "International travel": true,
+    "Last country before return": "United Kingdom",
     "Flight number": null,
     "Flight departure date": null,
-    "Arrival date": null
+    "Arrival date": "2020-03-21"
   },
   {
     "Date of report": "2020-03-25",
@@ -6338,6 +6778,17 @@
   {
     "Date of report": "2020-03-25",
     "Sex": "Male",
+    "Age group": "70+     ",
+    "DHB": "Auckland",
+    "International travel": true,
+    "Last country before return": "Argentina",
+    "Flight number": "LA801",
+    "Flight departure date": "2020-03-19",
+    "Arrival date": "2020-03-20"
+  },
+  {
+    "Date of report": "2020-03-25",
+    "Sex": "Male",
     "Age group": "30 to 39",
     "DHB": "Auckland",
     "International travel": true,
@@ -6345,6 +6796,17 @@
     "Flight number": "NZ29",
     "Flight departure date": "2020-03-15",
     "Arrival date": "2020-03-17"
+  },
+  {
+    "Date of report": "2020-03-25",
+    "Sex": "Male",
+    "Age group": "30 to 39",
+    "DHB": "Auckland",
+    "International travel": true,
+    "Last country before return": "United Kingdom",
+    "Flight number": null,
+    "Flight departure date": null,
+    "Arrival date": "2020-03-16"
   },
   {
     "Date of report": "2020-03-25",
@@ -6361,6 +6823,17 @@
     "Date of report": "2020-03-25",
     "Sex": "Female",
     "Age group": "60 to 69",
+    "DHB": "Auckland",
+    "International travel": false,
+    "Last country before return": null,
+    "Flight number": null,
+    "Flight departure date": null,
+    "Arrival date": null
+  },
+  {
+    "Date of report": "2020-03-25",
+    "Sex": "Female",
+    "Age group": "20 to 29",
     "DHB": "Auckland",
     "International travel": false,
     "Last country before return": null,
@@ -6393,17 +6866,6 @@
   {
     "Date of report": "2020-03-25",
     "Sex": "Female",
-    "Age group": "15 to 19",
-    "DHB": "Auckland",
-    "International travel": null,
-    "Last country before return": null,
-    "Flight number": null,
-    "Flight departure date": null,
-    "Arrival date": null
-  },
-  {
-    "Date of report": "2020-03-25",
-    "Sex": "Female",
     "Age group": "20 to 29",
     "DHB": "Auckland",
     "International travel": true,
@@ -6415,57 +6877,13 @@
   {
     "Date of report": "2020-03-25",
     "Sex": "Female",
-    "Age group": "20 to 29",
+    "Age group": "15 to 19",
     "DHB": "Auckland",
-    "International travel": false,
+    "International travel": null,
     "Last country before return": null,
     "Flight number": null,
     "Flight departure date": null,
     "Arrival date": null
-  },
-  {
-    "Date of report": "2020-03-25",
-    "Sex": "Male",
-    "Age group": "30 to 39",
-    "DHB": "Auckland",
-    "International travel": true,
-    "Last country before return": "United Kingdom",
-    "Flight number": null,
-    "Flight departure date": null,
-    "Arrival date": "2020-03-16"
-  },
-  {
-    "Date of report": "2020-03-25",
-    "Sex": "Male",
-    "Age group": "70+     ",
-    "DHB": "Auckland",
-    "International travel": true,
-    "Last country before return": "Argentina",
-    "Flight number": "LA801",
-    "Flight departure date": "2020-03-19",
-    "Arrival date": "2020-03-20"
-  },
-  {
-    "Date of report": "2020-03-25",
-    "Sex": "Female",
-    "Age group": "50 to 59",
-    "DHB": "Auckland",
-    "International travel": true,
-    "Last country before return": "United Kingdom",
-    "Flight number": null,
-    "Flight departure date": null,
-    "Arrival date": "2020-03-21"
-  },
-  {
-    "Date of report": "2020-03-25",
-    "Sex": "Female",
-    "Age group": "60 to 69",
-    "DHB": "Bay of Plenty",
-    "International travel": true,
-    "Last country before return": "Australia",
-    "Flight number": "NZ102",
-    "Flight departure date": null,
-    "Arrival date": "2020-03-17"
   },
   {
     "Date of report": "2020-03-25",
@@ -6481,18 +6899,18 @@
   {
     "Date of report": "2020-03-25",
     "Sex": "Female",
-    "Age group": "40 to 49",
-    "DHB": "Canterbury",
-    "International travel": false,
-    "Last country before return": null,
-    "Flight number": null,
+    "Age group": "60 to 69",
+    "DHB": "Bay of Plenty",
+    "International travel": true,
+    "Last country before return": "Australia",
+    "Flight number": "NZ102",
     "Flight departure date": null,
-    "Arrival date": null
+    "Arrival date": "2020-03-17"
   },
   {
     "Date of report": "2020-03-25",
     "Sex": "Female",
-    "Age group": "20 to 29",
+    "Age group": "15 to 19",
     "DHB": "Canterbury",
     "International travel": false,
     "Last country before return": null,
@@ -6514,7 +6932,18 @@
   {
     "Date of report": "2020-03-25",
     "Sex": "Female",
-    "Age group": "15 to 19",
+    "Age group": "20 to 29",
+    "DHB": "Canterbury",
+    "International travel": false,
+    "Last country before return": null,
+    "Flight number": null,
+    "Flight departure date": null,
+    "Arrival date": null
+  },
+  {
+    "Date of report": "2020-03-25",
+    "Sex": "Female",
+    "Age group": "40 to 49",
     "DHB": "Canterbury",
     "International travel": false,
     "Last country before return": null,
@@ -6568,6 +6997,50 @@
   },
   {
     "Date of report": "2020-03-25",
+    "Sex": "Female",
+    "Age group": "15 to 19",
+    "DHB": "Counties Manukau",
+    "International travel": false,
+    "Last country before return": null,
+    "Flight number": null,
+    "Flight departure date": null,
+    "Arrival date": null
+  },
+  {
+    "Date of report": "2020-03-25",
+    "Sex": "Female",
+    "Age group": "15 to 19",
+    "DHB": "Counties Manukau",
+    "International travel": false,
+    "Last country before return": null,
+    "Flight number": null,
+    "Flight departure date": null,
+    "Arrival date": null
+  },
+  {
+    "Date of report": "2020-03-25",
+    "Sex": "Female",
+    "Age group": "10 to 14",
+    "DHB": "Counties Manukau",
+    "International travel": false,
+    "Last country before return": null,
+    "Flight number": null,
+    "Flight departure date": null,
+    "Arrival date": null
+  },
+  {
+    "Date of report": "2020-03-25",
+    "Sex": "Male",
+    "Age group": "10 to 14",
+    "DHB": "Counties Manukau",
+    "International travel": false,
+    "Last country before return": null,
+    "Flight number": null,
+    "Flight departure date": null,
+    "Arrival date": null
+  },
+  {
+    "Date of report": "2020-03-25",
     "Sex": "Male",
     "Age group": "60 to 69",
     "DHB": "Counties Manukau",
@@ -6576,50 +7049,6 @@
     "Flight number": "EK448",
     "Flight departure date": "2020-03-18",
     "Arrival date": "2020-03-19"
-  },
-  {
-    "Date of report": "2020-03-25",
-    "Sex": "Male",
-    "Age group": "10 to 14",
-    "DHB": "Counties Manukau",
-    "International travel": false,
-    "Last country before return": null,
-    "Flight number": null,
-    "Flight departure date": null,
-    "Arrival date": null
-  },
-  {
-    "Date of report": "2020-03-25",
-    "Sex": "Female",
-    "Age group": "10 to 14",
-    "DHB": "Counties Manukau",
-    "International travel": false,
-    "Last country before return": null,
-    "Flight number": null,
-    "Flight departure date": null,
-    "Arrival date": null
-  },
-  {
-    "Date of report": "2020-03-25",
-    "Sex": "Female",
-    "Age group": "15 to 19",
-    "DHB": "Counties Manukau",
-    "International travel": false,
-    "Last country before return": null,
-    "Flight number": null,
-    "Flight departure date": null,
-    "Arrival date": null
-  },
-  {
-    "Date of report": "2020-03-25",
-    "Sex": "Female",
-    "Age group": "15 to 19",
-    "DHB": "Counties Manukau",
-    "International travel": false,
-    "Last country before return": null,
-    "Flight number": null,
-    "Flight departure date": null,
-    "Arrival date": null
   },
   {
     "Date of report": "2020-03-25",
@@ -6634,8 +7063,8 @@
   },
   {
     "Date of report": "2020-03-25",
-    "Sex": "Male",
-    "Age group": "70+     ",
+    "Sex": "Female",
+    "Age group": "60 to 69",
     "DHB": "Hawke's Bay",
     "International travel": true,
     "Last country before return": "Cambodia",
@@ -6645,8 +7074,8 @@
   },
   {
     "Date of report": "2020-03-25",
-    "Sex": "Female",
-    "Age group": "60 to 69",
+    "Sex": "Male",
+    "Age group": "70+     ",
     "DHB": "Hawke's Bay",
     "International travel": true,
     "Last country before return": "Cambodia",
@@ -6799,10 +7228,10 @@
   },
   {
     "Date of report": "2020-03-25",
-    "Sex": "Female",
-    "Age group": "40 to 49",
+    "Sex": "Male",
+    "Age group": "20 to 29",
     "DHB": "Southern",
-    "International travel": false,
+    "International travel": null,
     "Last country before return": null,
     "Flight number": null,
     "Flight departure date": null,
@@ -6810,10 +7239,10 @@
   },
   {
     "Date of report": "2020-03-25",
-    "Sex": "Male",
-    "Age group": "20 to 29",
+    "Sex": "Female",
+    "Age group": "40 to 49",
     "DHB": "Southern",
-    "International travel": null,
+    "International travel": false,
     "Last country before return": null,
     "Flight number": null,
     "Flight departure date": null,
@@ -6943,6 +7372,17 @@
   {
     "Date of report": "2020-03-25",
     "Sex": "Female",
+    "Age group": "70+     ",
+    "DHB": "Waikato",
+    "International travel": true,
+    "Last country before return": "Philippines",
+    "Flight number": null,
+    "Flight departure date": null,
+    "Arrival date": "2020-03-08"
+  },
+  {
+    "Date of report": "2020-03-25",
+    "Sex": "Female",
     "Age group": "40 to 49",
     "DHB": "Waikato",
     "International travel": true,
@@ -6954,45 +7394,56 @@
   {
     "Date of report": "2020-03-25",
     "Sex": "Female",
-    "Age group": "20 to 29",
-    "DHB": "Waikato",
-    "International travel": true,
-    "Last country before return": "United Arab Emirates",
-    "Flight number": null,
-    "Flight departure date": null,
-    "Arrival date": "2020-03-15"
-  },
-  {
-    "Date of report": "2020-03-25",
-    "Sex": "Male",
     "Age group": "30 to 39",
     "DHB": "Waikato",
-    "International travel": true,
-    "Last country before return": "United Arab Emirates",
+    "International travel": null,
+    "Last country before return": null,
     "Flight number": null,
     "Flight departure date": null,
-    "Arrival date": "2020-03-19"
+    "Arrival date": null
   },
   {
     "Date of report": "2020-03-25",
     "Sex": "Male",
-    "Age group": "60 to 69",
+    "Age group": "50 to 59",
     "DHB": "Waikato",
     "International travel": true,
-    "Last country before return": "United Kingdom",
-    "Flight number": "EK448",
-    "Flight departure date": "2020-03-18",
+    "Last country before return": "Philippines",
+    "Flight number": null,
+    "Flight departure date": null,
+    "Arrival date": "2020-03-07"
+  },
+  {
+    "Date of report": "2020-03-25",
+    "Sex": "Male",
+    "Age group": "15 to 19",
+    "DHB": "Waikato",
+    "International travel": true,
+    "Last country before return": null,
+    "Flight number": null,
+    "Flight departure date": null,
+    "Arrival date": null
+  },
+  {
+    "Date of report": "2020-03-25",
+    "Sex": "Male",
+    "Age group": "40 to 49",
+    "DHB": "Waikato",
+    "International travel": true,
+    "Last country before return": "United Arab Emirates",
+    "Flight number": null,
+    "Flight departure date": null,
     "Arrival date": "2020-03-19"
   },
   {
     "Date of report": "2020-03-25",
     "Sex": "Female",
-    "Age group": "20 to 29",
+    "Age group": "50 to 59",
     "DHB": "Waikato",
     "International travel": null,
     "Last country before return": null,
-    "Flight number": "EK448",
-    "Flight departure date": "2020-03-20",
+    "Flight number": null,
+    "Flight departure date": null,
     "Arrival date": null
   },
   {
@@ -7031,18 +7482,29 @@
   {
     "Date of report": "2020-03-25",
     "Sex": "Female",
-    "Age group": "50 to 59",
+    "Age group": "20 to 29",
     "DHB": "Waikato",
     "International travel": null,
     "Last country before return": null,
-    "Flight number": null,
-    "Flight departure date": null,
+    "Flight number": "EK448",
+    "Flight departure date": "2020-03-20",
     "Arrival date": null
   },
   {
     "Date of report": "2020-03-25",
     "Sex": "Male",
-    "Age group": "40 to 49",
+    "Age group": "60 to 69",
+    "DHB": "Waikato",
+    "International travel": true,
+    "Last country before return": "United Kingdom",
+    "Flight number": "EK448",
+    "Flight departure date": "2020-03-18",
+    "Arrival date": "2020-03-19"
+  },
+  {
+    "Date of report": "2020-03-25",
+    "Sex": "Male",
+    "Age group": "30 to 39",
     "DHB": "Waikato",
     "International travel": true,
     "Last country before return": "United Arab Emirates",
@@ -7052,47 +7514,14 @@
   },
   {
     "Date of report": "2020-03-25",
-    "Sex": "Male",
-    "Age group": "50 to 59",
+    "Sex": "Female",
+    "Age group": "20 to 29",
     "DHB": "Waikato",
     "International travel": true,
-    "Last country before return": "Philippines",
+    "Last country before return": "United Arab Emirates",
     "Flight number": null,
     "Flight departure date": null,
-    "Arrival date": "2020-03-07"
-  },
-  {
-    "Date of report": "2020-03-25",
-    "Sex": "Male",
-    "Age group": "15 to 19",
-    "DHB": "Waikato",
-    "International travel": true,
-    "Last country before return": null,
-    "Flight number": null,
-    "Flight departure date": null,
-    "Arrival date": null
-  },
-  {
-    "Date of report": "2020-03-25",
-    "Sex": "Female",
-    "Age group": "70+     ",
-    "DHB": "Waikato",
-    "International travel": null,
-    "Last country before return": null,
-    "Flight number": null,
-    "Flight departure date": null,
-    "Arrival date": null
-  },
-  {
-    "Date of report": "2020-03-25",
-    "Sex": "Female",
-    "Age group": "30 to 39",
-    "DHB": "Waikato",
-    "International travel": null,
-    "Last country before return": null,
-    "Flight number": null,
-    "Flight departure date": null,
-    "Arrival date": null
+    "Arrival date": "2020-03-15"
   },
   {
     "Date of report": "2020-03-25",
@@ -7206,6 +7635,17 @@
   },
   {
     "Date of report": "2020-03-24",
+    "Sex": "Male",
+    "Age group": "30 to 39",
+    "DHB": "Auckland",
+    "International travel": false,
+    "Last country before return": null,
+    "Flight number": null,
+    "Flight departure date": null,
+    "Arrival date": null
+  },
+  {
+    "Date of report": "2020-03-24",
     "Sex": "Female",
     "Age group": "20 to 29",
     "DHB": "Auckland",
@@ -7239,28 +7679,6 @@
   },
   {
     "Date of report": "2020-03-24",
-    "Sex": "Female",
-    "Age group": "20 to 29",
-    "DHB": "Auckland",
-    "International travel": true,
-    "Last country before return": "United States of America",
-    "Flight number": null,
-    "Flight departure date": null,
-    "Arrival date": "2020-03-21"
-  },
-  {
-    "Date of report": "2020-03-24",
-    "Sex": "Female",
-    "Age group": "30 to 39",
-    "DHB": "Auckland",
-    "International travel": false,
-    "Last country before return": null,
-    "Flight number": null,
-    "Flight departure date": null,
-    "Arrival date": null
-  },
-  {
-    "Date of report": "2020-03-24",
     "Sex": "Male",
     "Age group": "30 to 39",
     "DHB": "Auckland",
@@ -7272,7 +7690,7 @@
   },
   {
     "Date of report": "2020-03-24",
-    "Sex": "Male",
+    "Sex": "Female",
     "Age group": "30 to 39",
     "DHB": "Auckland",
     "International travel": false,
@@ -7280,6 +7698,17 @@
     "Flight number": null,
     "Flight departure date": null,
     "Arrival date": null
+  },
+  {
+    "Date of report": "2020-03-24",
+    "Sex": "Female",
+    "Age group": "20 to 29",
+    "DHB": "Auckland",
+    "International travel": true,
+    "Last country before return": "United States of America",
+    "Flight number": null,
+    "Flight departure date": null,
+    "Arrival date": "2020-03-21"
   },
   {
     "Date of report": "2020-03-24",
@@ -7294,25 +7723,14 @@
   },
   {
     "Date of report": "2020-03-24",
-    "Sex": "Female",
-    "Age group": "20 to 29",
-    "DHB": "Canterbury",
-    "International travel": true,
-    "Last country before return": "France",
-    "Flight number": "QF1033",
-    "Flight departure date": "2020-03-20",
-    "Arrival date": "2020-03-20"
-  },
-  {
-    "Date of report": "2020-03-24",
     "Sex": "Male",
     "Age group": "50 to 59",
     "DHB": "Canterbury",
-    "International travel": true,
-    "Last country before return": "Viet Nam",
+    "International travel": false,
+    "Last country before return": null,
     "Flight number": null,
     "Flight departure date": null,
-    "Arrival date": "2020-03-13"
+    "Arrival date": null
   },
   {
     "Date of report": "2020-03-24",
@@ -7321,7 +7739,18 @@
     "DHB": "Canterbury",
     "International travel": true,
     "Last country before return": "United Kingdom",
-    "Flight number": "EK0412",
+    "Flight number": "EK412",
+    "Flight departure date": "2020-03-19",
+    "Arrival date": "2020-03-20"
+  },
+  {
+    "Date of report": "2020-03-24",
+    "Sex": "Female",
+    "Age group": "20 to 29",
+    "DHB": "Canterbury",
+    "International travel": true,
+    "Last country before return": "Ireland",
+    "Flight number": "JQ233",
     "Flight departure date": "2020-03-20",
     "Arrival date": "2020-03-20"
   },
@@ -7342,20 +7771,9 @@
     "Age group": "20 to 29",
     "DHB": "Canterbury",
     "International travel": true,
-    "Last country before return": "Ireland",
-    "Flight number": "JQ233",
-    "Flight departure date": "2020-03-20",
-    "Arrival date": "2020-03-20"
-  },
-  {
-    "Date of report": "2020-03-24",
-    "Sex": "Female",
-    "Age group": "20 to 29",
-    "DHB": "Canterbury",
-    "International travel": true,
     "Last country before return": "United Kingdom",
-    "Flight number": "EK412",
-    "Flight departure date": "2020-03-19",
+    "Flight number": "EK0412",
+    "Flight departure date": "2020-03-20",
     "Arrival date": "2020-03-20"
   },
   {
@@ -7363,11 +7781,22 @@
     "Sex": "Male",
     "Age group": "50 to 59",
     "DHB": "Canterbury",
-    "International travel": false,
-    "Last country before return": null,
+    "International travel": true,
+    "Last country before return": "Viet Nam",
     "Flight number": null,
     "Flight departure date": null,
-    "Arrival date": null
+    "Arrival date": "2020-03-13"
+  },
+  {
+    "Date of report": "2020-03-24",
+    "Sex": "Female",
+    "Age group": "20 to 29",
+    "DHB": "Canterbury",
+    "International travel": true,
+    "Last country before return": "France",
+    "Flight number": "QF1033",
+    "Flight departure date": "2020-03-20",
+    "Arrival date": "2020-03-20"
   },
   {
     "Date of report": "2020-03-24",
@@ -7382,6 +7811,17 @@
   },
   {
     "Date of report": "2020-03-24",
+    "Sex": "Male",
+    "Age group": "20 to 29",
+    "DHB": "Capital and Coast",
+    "International travel": true,
+    "Last country before return": "Australia",
+    "Flight number": "QF161",
+    "Flight departure date": "2020-03-21",
+    "Arrival date": "2020-03-21"
+  },
+  {
+    "Date of report": "2020-03-24",
     "Sex": "Female",
     "Age group": "60 to 69",
     "DHB": "Capital and Coast",
@@ -7401,17 +7841,6 @@
     "Flight number": null,
     "Flight departure date": null,
     "Arrival date": null
-  },
-  {
-    "Date of report": "2020-03-24",
-    "Sex": "Male",
-    "Age group": "20 to 29",
-    "DHB": "Capital and Coast",
-    "International travel": true,
-    "Last country before return": "Australia",
-    "Flight number": "QF161",
-    "Flight departure date": "2020-03-21",
-    "Arrival date": "2020-03-21"
   },
   {
     "Date of report": "2020-03-24",
@@ -7481,17 +7910,6 @@
   },
   {
     "Date of report": "2020-03-24",
-    "Sex": "Male",
-    "Age group": "20 to 29",
-    "DHB": "Counties Manukau",
-    "International travel": true,
-    "Last country before return": "Canada",
-    "Flight number": "NZ1",
-    "Flight departure date": "2020-03-23",
-    "Arrival date": "2020-03-23"
-  },
-  {
-    "Date of report": "2020-03-24",
     "Sex": "Female",
     "Age group": "20 to 29",
     "DHB": "Counties Manukau",
@@ -7504,6 +7922,17 @@
   {
     "Date of report": "2020-03-24",
     "Sex": "Male",
+    "Age group": "20 to 29",
+    "DHB": "Counties Manukau",
+    "International travel": true,
+    "Last country before return": "Canada",
+    "Flight number": "NZ1",
+    "Flight departure date": "2020-03-23",
+    "Arrival date": "2020-03-23"
+  },
+  {
+    "Date of report": "2020-03-24",
+    "Sex": "Female",
     "Age group": "70+     ",
     "DHB": "Hawke's Bay",
     "International travel": true,
@@ -7514,7 +7943,7 @@
   },
   {
     "Date of report": "2020-03-24",
-    "Sex": "Female",
+    "Sex": "Male",
     "Age group": "70+     ",
     "DHB": "Hawke's Bay",
     "International travel": true,
@@ -7800,6 +8229,28 @@
   },
   {
     "Date of report": "2020-03-23",
+    "Sex": "Female",
+    "Age group": "15 to 19",
+    "DHB": "Auckland",
+    "International travel": false,
+    "Last country before return": null,
+    "Flight number": null,
+    "Flight departure date": null,
+    "Arrival date": null
+  },
+  {
+    "Date of report": "2020-03-23",
+    "Sex": "Female",
+    "Age group": "20 to 29",
+    "DHB": "Auckland",
+    "International travel": true,
+    "Last country before return": "Malaysia",
+    "Flight number": null,
+    "Flight departure date": null,
+    "Arrival date": "2020-03-16"
+  },
+  {
+    "Date of report": "2020-03-23",
     "Sex": "Male",
     "Age group": "40 to 49",
     "DHB": "Auckland",
@@ -7808,6 +8259,28 @@
     "Flight number": null,
     "Flight departure date": null,
     "Arrival date": "2020-03-18"
+  },
+  {
+    "Date of report": "2020-03-23",
+    "Sex": "Male",
+    "Age group": "20 to 29",
+    "DHB": "Auckland",
+    "International travel": true,
+    "Last country before return": "Singapore",
+    "Flight number": null,
+    "Flight departure date": null,
+    "Arrival date": "2020-03-22"
+  },
+  {
+    "Date of report": "2020-03-23",
+    "Sex": "Female",
+    "Age group": "15 to 19",
+    "DHB": "Auckland",
+    "International travel": true,
+    "Last country before return": "Australia",
+    "Flight number": null,
+    "Flight departure date": null,
+    "Arrival date": "2020-03-21"
   },
   {
     "Date of report": "2020-03-23",
@@ -7833,42 +8306,9 @@
   },
   {
     "Date of report": "2020-03-23",
-    "Sex": "Female",
-    "Age group": "15 to 19",
-    "DHB": "Auckland",
-    "International travel": true,
-    "Last country before return": "Australia",
-    "Flight number": null,
-    "Flight departure date": null,
-    "Arrival date": "2020-03-21"
-  },
-  {
-    "Date of report": "2020-03-23",
     "Sex": "Male",
-    "Age group": "20 to 29",
-    "DHB": "Auckland",
-    "International travel": true,
-    "Last country before return": "Singapore",
-    "Flight number": null,
-    "Flight departure date": null,
-    "Arrival date": "2020-03-22"
-  },
-  {
-    "Date of report": "2020-03-23",
-    "Sex": "Female",
-    "Age group": "20 to 29",
-    "DHB": "Auckland",
-    "International travel": true,
-    "Last country before return": "Malaysia",
-    "Flight number": null,
-    "Flight departure date": null,
-    "Arrival date": "2020-03-16"
-  },
-  {
-    "Date of report": "2020-03-23",
-    "Sex": "Female",
-    "Age group": "15 to 19",
-    "DHB": "Auckland",
+    "Age group": "50 to 59",
+    "DHB": "Canterbury",
     "International travel": false,
     "Last country before return": null,
     "Flight number": null,
@@ -7880,11 +8320,11 @@
     "Sex": "Male",
     "Age group": "50 to 59",
     "DHB": "Canterbury",
-    "International travel": true,
-    "Last country before return": "Singapore",
-    "Flight number": "SQ297",
-    "Flight departure date": "2020-03-19",
-    "Arrival date": "2020-03-20"
+    "International travel": false,
+    "Last country before return": null,
+    "Flight number": null,
+    "Flight departure date": null,
+    "Arrival date": null
   },
   {
     "Date of report": "2020-03-23",
@@ -7902,22 +8342,11 @@
     "Sex": "Male",
     "Age group": "50 to 59",
     "DHB": "Canterbury",
-    "International travel": false,
-    "Last country before return": null,
-    "Flight number": null,
-    "Flight departure date": null,
-    "Arrival date": null
-  },
-  {
-    "Date of report": "2020-03-23",
-    "Sex": "Male",
-    "Age group": "50 to 59",
-    "DHB": "Canterbury",
-    "International travel": false,
-    "Last country before return": null,
-    "Flight number": null,
-    "Flight departure date": null,
-    "Arrival date": null
+    "International travel": true,
+    "Last country before return": "Singapore",
+    "Flight number": "SQ297",
+    "Flight departure date": "2020-03-19",
+    "Arrival date": "2020-03-20"
   },
   {
     "Date of report": "2020-03-23",
@@ -7926,17 +8355,6 @@
     "DHB": "Capital and Coast",
     "International travel": true,
     "Last country before return": "United Kingdom",
-    "Flight number": "NZ409",
-    "Flight departure date": "2020-03-19",
-    "Arrival date": "2020-03-19"
-  },
-  {
-    "Date of report": "2020-03-23",
-    "Sex": "Male",
-    "Age group": "60 to 69",
-    "DHB": "Capital and Coast",
-    "International travel": true,
-    "Last country before return": "United States of America",
     "Flight number": "NZ409",
     "Flight departure date": "2020-03-19",
     "Arrival date": "2020-03-19"
@@ -7955,11 +8373,11 @@
   {
     "Date of report": "2020-03-23",
     "Sex": "Male",
-    "Age group": "50 to 59",
+    "Age group": "60 to 69",
     "DHB": "Capital and Coast",
     "International travel": true,
     "Last country before return": "United States of America",
-    "Flight number": "NZ 413",
+    "Flight number": "NZ409",
     "Flight departure date": "2020-03-19",
     "Arrival date": "2020-03-19"
   },
@@ -7977,6 +8395,17 @@
   {
     "Date of report": "2020-03-23",
     "Sex": "Male",
+    "Age group": "50 to 59",
+    "DHB": "Capital and Coast",
+    "International travel": true,
+    "Last country before return": "United States of America",
+    "Flight number": "NZ 413",
+    "Flight departure date": "2020-03-19",
+    "Arrival date": "2020-03-19"
+  },
+  {
+    "Date of report": "2020-03-23",
+    "Sex": "Female",
     "Age group": "70+     ",
     "DHB": "Capital and Coast",
     "International travel": true,
@@ -7987,7 +8416,7 @@
   },
   {
     "Date of report": "2020-03-23",
-    "Sex": "Female",
+    "Sex": "Male",
     "Age group": "70+     ",
     "DHB": "Capital and Coast",
     "International travel": true,
@@ -8087,10 +8516,10 @@
   {
     "Date of report": "2020-03-23",
     "Sex": "Male",
-    "Age group": "20 to 29",
+    "Age group": "60 to 69",
     "DHB": "South Canterbury",
-    "International travel": false,
-    "Last country before return": null,
+    "International travel": true,
+    "Last country before return": "England",
     "Flight number": null,
     "Flight departure date": null,
     "Arrival date": null
@@ -8098,10 +8527,10 @@
   {
     "Date of report": "2020-03-23",
     "Sex": "Male",
-    "Age group": "60 to 69",
+    "Age group": "20 to 29",
     "DHB": "South Canterbury",
-    "International travel": true,
-    "Last country before return": "England",
+    "International travel": false,
+    "Last country before return": null,
     "Flight number": null,
     "Flight departure date": null,
     "Arrival date": null
@@ -8164,13 +8593,13 @@
   {
     "Date of report": "2020-03-23",
     "Sex": "Female",
-    "Age group": "60 to 69",
+    "Age group": "40 to 49",
     "DHB": "Waikato",
-    "International travel": true,
-    "Last country before return": "France",
-    "Flight number": "EK0448",
-    "Flight departure date": "2020-03-16",
-    "Arrival date": "2020-03-16"
+    "International travel": null,
+    "Last country before return": null,
+    "Flight number": null,
+    "Flight departure date": null,
+    "Arrival date": null
   },
   {
     "Date of report": "2020-03-23",
@@ -8186,8 +8615,19 @@
   {
     "Date of report": "2020-03-23",
     "Sex": "Female",
-    "Age group": "40 to 49",
+    "Age group": "60 to 69",
     "DHB": "Waikato",
+    "International travel": true,
+    "Last country before return": "France",
+    "Flight number": "EK0448",
+    "Flight departure date": "2020-03-16",
+    "Arrival date": "2020-03-16"
+  },
+  {
+    "Date of report": "2020-03-23",
+    "Sex": "Female",
+    "Age group": "30 to 39",
+    "DHB": "Waitemata",
     "International travel": null,
     "Last country before return": null,
     "Flight number": null,
@@ -8204,72 +8644,6 @@
     "Flight number": null,
     "Flight departure date": null,
     "Arrival date": "2020-03-22"
-  },
-  {
-    "Date of report": "2020-03-23",
-    "Sex": "Female",
-    "Age group": "30 to 39",
-    "DHB": "Waitemata",
-    "International travel": null,
-    "Last country before return": null,
-    "Flight number": null,
-    "Flight departure date": null,
-    "Arrival date": null
-  },
-  {
-    "Date of report": "2020-03-22",
-    "Sex": "Male",
-    "Age group": "60 to 69",
-    "DHB": "Auckland",
-    "International travel": true,
-    "Last country before return": "India",
-    "Flight number": null,
-    "Flight departure date": "2020-03-13",
-    "Arrival date": "2020-03-13"
-  },
-  {
-    "Date of report": "2020-03-22",
-    "Sex": null,
-    "Age group": "20 to 29",
-    "DHB": "Auckland",
-    "International travel": false,
-    "Last country before return": null,
-    "Flight number": null,
-    "Flight departure date": null,
-    "Arrival date": null
-  },
-  {
-    "Date of report": "2020-03-22",
-    "Sex": "Female",
-    "Age group": "40 to 49",
-    "DHB": "Auckland",
-    "International travel": true,
-    "Last country before return": "United States of America",
-    "Flight number": "NZ1",
-    "Flight departure date": "2020-03-15",
-    "Arrival date": "2020-03-15"
-  },
-  {
-    "Date of report": "2020-03-22",
-    "Sex": "Male",
-    "Age group": "20 to 29",
-    "DHB": "Auckland",
-    "International travel": true,
-    "Last country before return": "Qatar",
-    "Flight number": "QR920",
-    "Flight departure date": "2020-03-21",
-    "Arrival date": "2020-03-22"
-  },
-  {
-    "Date of report": "2020-03-22",
-    "Sex": "Male",
-    "Age group": "50 to 59",
-    "DHB": "Auckland",
-    "International travel": true,
-    "Last country before return": "United States of America",
-    "Flight number": "NZ1 ",
-    "Flight departure date": "2020-03-13",
-    "Arrival date": "2020-03-15"
   },
   {
     "Date of report": "2020-03-22",
@@ -8295,13 +8669,68 @@
   },
   {
     "Date of report": "2020-03-22",
-    "Sex": "Female",
-    "Age group": "60 to 69",
-    "DHB": "Canterbury",
+    "Sex": "Male",
+    "Age group": "50 to 59",
+    "DHB": "Auckland",
     "International travel": true,
-    "Last country before return": "Egypt",
+    "Last country before return": "United States of America",
+    "Flight number": "NZ1 ",
+    "Flight departure date": "2020-03-13",
+    "Arrival date": "2020-03-15"
+  },
+  {
+    "Date of report": "2020-03-22",
+    "Sex": "Male",
+    "Age group": "20 to 29",
+    "DHB": "Auckland",
+    "International travel": true,
+    "Last country before return": "Qatar",
+    "Flight number": "QR920",
+    "Flight departure date": "2020-03-21",
+    "Arrival date": "2020-03-22"
+  },
+  {
+    "Date of report": "2020-03-22",
+    "Sex": "Male",
+    "Age group": "60 to 69",
+    "DHB": "Auckland",
+    "International travel": true,
+    "Last country before return": "India",
+    "Flight number": null,
+    "Flight departure date": "2020-03-13",
+    "Arrival date": "2020-03-13"
+  },
+  {
+    "Date of report": "2020-03-22",
+    "Sex": "Female",
+    "Age group": "40 to 49",
+    "DHB": "Auckland",
+    "International travel": true,
+    "Last country before return": "United States of America",
+    "Flight number": "NZ1",
+    "Flight departure date": "2020-03-15",
+    "Arrival date": "2020-03-15"
+  },
+  {
+    "Date of report": "2020-03-22",
+    "Sex": null,
+    "Age group": "20 to 29",
+    "DHB": "Auckland",
+    "International travel": false,
+    "Last country before return": null,
     "Flight number": null,
     "Flight departure date": null,
+    "Arrival date": null
+  },
+  {
+    "Date of report": "2020-03-22",
+    "Sex": "Female",
+    "Age group": "20 to 29",
+    "DHB": "Canterbury",
+    "International travel": true,
+    "Last country before return": "Singapore",
+    "Flight number": "SQ297",
+    "Flight departure date": "2020-03-17",
     "Arrival date": "2020-03-18"
   },
   {
@@ -8318,12 +8747,12 @@
   {
     "Date of report": "2020-03-22",
     "Sex": "Female",
-    "Age group": "20 to 29",
+    "Age group": "60 to 69",
     "DHB": "Canterbury",
     "International travel": true,
-    "Last country before return": "Singapore",
-    "Flight number": "SQ297",
-    "Flight departure date": "2020-03-17",
+    "Last country before return": "Egypt",
+    "Flight number": null,
+    "Flight departure date": null,
     "Arrival date": "2020-03-18"
   },
   {
@@ -8384,6 +8813,61 @@
   {
     "Date of report": "2020-03-22",
     "Sex": "Male",
+    "Age group": "10 to 14",
+    "DHB": "Counties Manukau",
+    "International travel": false,
+    "Last country before return": null,
+    "Flight number": null,
+    "Flight departure date": null,
+    "Arrival date": null
+  },
+  {
+    "Date of report": "2020-03-22",
+    "Sex": "Male",
+    "Age group": "50 to 59",
+    "DHB": "Counties Manukau",
+    "International travel": true,
+    "Last country before return": "Qatar",
+    "Flight number": "QR920",
+    "Flight departure date": "2020-03-17",
+    "Arrival date": "2020-03-18"
+  },
+  {
+    "Date of report": "2020-03-22",
+    "Sex": "Female",
+    "Age group": "50 to 59",
+    "DHB": "Counties Manukau",
+    "International travel": true,
+    "Last country before return": "Spain",
+    "Flight number": "QR920",
+    "Flight departure date": "2020-03-17",
+    "Arrival date": "2020-03-18"
+  },
+  {
+    "Date of report": "2020-03-22",
+    "Sex": "Female",
+    "Age group": "60 to 69",
+    "DHB": "Counties Manukau",
+    "International travel": false,
+    "Last country before return": null,
+    "Flight number": null,
+    "Flight departure date": null,
+    "Arrival date": null
+  },
+  {
+    "Date of report": "2020-03-22",
+    "Sex": "Female",
+    "Age group": "20 to 29",
+    "DHB": "Counties Manukau",
+    "International travel": true,
+    "Last country before return": "Malaysia",
+    "Flight number": "MH0133",
+    "Flight departure date": "2020-03-19",
+    "Arrival date": "2020-03-19"
+  },
+  {
+    "Date of report": "2020-03-22",
+    "Sex": "Male",
     "Age group": "40 to 49",
     "DHB": "Counties Manukau",
     "International travel": true,
@@ -8413,61 +8897,6 @@
     "Flight number": "EK448",
     "Flight departure date": "2020-03-19",
     "Arrival date": "2020-03-20"
-  },
-  {
-    "Date of report": "2020-03-22",
-    "Sex": "Female",
-    "Age group": "20 to 29",
-    "DHB": "Counties Manukau",
-    "International travel": true,
-    "Last country before return": "Malaysia",
-    "Flight number": "MH0133",
-    "Flight departure date": "2020-03-19",
-    "Arrival date": "2020-03-19"
-  },
-  {
-    "Date of report": "2020-03-22",
-    "Sex": "Female",
-    "Age group": "60 to 69",
-    "DHB": "Counties Manukau",
-    "International travel": false,
-    "Last country before return": null,
-    "Flight number": null,
-    "Flight departure date": null,
-    "Arrival date": null
-  },
-  {
-    "Date of report": "2020-03-22",
-    "Sex": "Female",
-    "Age group": "50 to 59",
-    "DHB": "Counties Manukau",
-    "International travel": true,
-    "Last country before return": "Spain",
-    "Flight number": "QR920",
-    "Flight departure date": "2020-03-17",
-    "Arrival date": "2020-03-18"
-  },
-  {
-    "Date of report": "2020-03-22",
-    "Sex": "Male",
-    "Age group": "50 to 59",
-    "DHB": "Counties Manukau",
-    "International travel": true,
-    "Last country before return": "Qatar",
-    "Flight number": "QR920",
-    "Flight departure date": "2020-03-17",
-    "Arrival date": "2020-03-18"
-  },
-  {
-    "Date of report": "2020-03-22",
-    "Sex": "Male",
-    "Age group": "10 to 14",
-    "DHB": "Counties Manukau",
-    "International travel": false,
-    "Last country before return": null,
-    "Flight number": null,
-    "Flight departure date": null,
-    "Arrival date": null
   },
   {
     "Date of report": "2020-03-22",
@@ -8658,6 +9087,28 @@
   },
   {
     "Date of report": "2020-03-21",
+    "Sex": "Female",
+    "Age group": "50 to 59",
+    "DHB": "Auckland",
+    "International travel": false,
+    "Last country before return": null,
+    "Flight number": null,
+    "Flight departure date": null,
+    "Arrival date": null
+  },
+  {
+    "Date of report": "2020-03-21",
+    "Sex": "Male",
+    "Age group": "50 to 59",
+    "DHB": "Auckland",
+    "International travel": true,
+    "Last country before return": "United Kingdom",
+    "Flight number": "NZ1",
+    "Flight departure date": "2020-03-06",
+    "Arrival date": "2020-03-08"
+  },
+  {
+    "Date of report": "2020-03-21",
     "Sex": "Male",
     "Age group": "20 to 29",
     "DHB": "Auckland",
@@ -8681,19 +9132,19 @@
   {
     "Date of report": "2020-03-21",
     "Sex": "Male",
-    "Age group": "50 to 59",
-    "DHB": "Auckland",
+    "Age group": "30 to 39",
+    "DHB": "Bay of Plenty",
     "International travel": true,
-    "Last country before return": "United Kingdom",
-    "Flight number": "NZ1",
-    "Flight departure date": "2020-03-06",
-    "Arrival date": "2020-03-08"
+    "Last country before return": "United States of America",
+    "Flight number": null,
+    "Flight departure date": null,
+    "Arrival date": "2020-03-17"
   },
   {
     "Date of report": "2020-03-21",
     "Sex": "Female",
-    "Age group": "50 to 59",
-    "DHB": "Auckland",
+    "Age group": "60 to 69",
+    "DHB": "Canterbury",
     "International travel": false,
     "Last country before return": null,
     "Flight number": null,
@@ -8703,13 +9154,13 @@
   {
     "Date of report": "2020-03-21",
     "Sex": "Male",
-    "Age group": "30 to 39",
-    "DHB": "Bay of Plenty",
-    "International travel": true,
-    "Last country before return": "United States of America",
+    "Age group": "60 to 69",
+    "DHB": "Canterbury",
+    "International travel": false,
+    "Last country before return": null,
     "Flight number": null,
     "Flight departure date": null,
-    "Arrival date": "2020-03-17"
+    "Arrival date": null
   },
   {
     "Date of report": "2020-03-21",
@@ -8726,7 +9177,7 @@
     "Date of report": "2020-03-21",
     "Sex": "Male",
     "Age group": "60 to 69",
-    "DHB": "Canterbury",
+    "DHB": "Capital and Coast",
     "International travel": false,
     "Last country before return": null,
     "Flight number": null,
@@ -8736,24 +9187,13 @@
   {
     "Date of report": "2020-03-21",
     "Sex": "Female",
-    "Age group": "60 to 69",
-    "DHB": "Canterbury",
-    "International travel": false,
-    "Last country before return": null,
+    "Age group": "40 to 49",
+    "DHB": "Counties Manukau",
+    "International travel": true,
+    "Last country before return": "Zimbabwe",
     "Flight number": null,
     "Flight departure date": null,
-    "Arrival date": null
-  },
-  {
-    "Date of report": "2020-03-21",
-    "Sex": "Male",
-    "Age group": "60 to 69",
-    "DHB": "Capital and Coast",
-    "International travel": false,
-    "Last country before return": null,
-    "Flight number": null,
-    "Flight departure date": null,
-    "Arrival date": null
+    "Arrival date": "2020-03-10"
   },
   {
     "Date of report": "2020-03-21",
@@ -8792,34 +9232,12 @@
     "Date of report": "2020-03-21",
     "Sex": "Female",
     "Age group": "40 to 49",
-    "DHB": "Counties Manukau",
-    "International travel": true,
-    "Last country before return": "Zimbabwe",
-    "Flight number": null,
-    "Flight departure date": null,
-    "Arrival date": "2020-03-10"
-  },
-  {
-    "Date of report": "2020-03-21",
-    "Sex": "Female",
-    "Age group": "40 to 49",
     "DHB": "MidCentral",
     "International travel": true,
     "Last country before return": "Australia",
     "Flight number": "NZ842",
     "Flight departure date": "2020-03-19",
     "Arrival date": "2020-03-19"
-  },
-  {
-    "Date of report": "2020-03-21",
-    "Sex": "Male",
-    "Age group": "30 to 39",
-    "DHB": "Nelson Marlborough",
-    "International travel": null,
-    "Last country before return": null,
-    "Flight number": null,
-    "Flight departure date": null,
-    "Arrival date": null
   },
   {
     "Date of report": "2020-03-21",
@@ -8831,6 +9249,17 @@
     "Flight number": null,
     "Flight departure date": null,
     "Arrival date": "2020-03-08"
+  },
+  {
+    "Date of report": "2020-03-21",
+    "Sex": "Male",
+    "Age group": "30 to 39",
+    "DHB": "Nelson Marlborough",
+    "International travel": null,
+    "Last country before return": null,
+    "Flight number": null,
+    "Flight departure date": null,
+    "Arrival date": null
   },
   {
     "Date of report": "2020-03-21",
@@ -8893,7 +9322,7 @@
     "Age group": "20 to 29",
     "DHB": "Wairarapa",
     "International travel": true,
-    "Last country before return": "France",
+    "Last country before return": "Singapore",
     "Flight number": "NZ429",
     "Flight departure date": "2020-03-12",
     "Arrival date": "2020-03-12"
@@ -8933,17 +9362,6 @@
   },
   {
     "Date of report": "2020-03-20",
-    "Sex": "Female",
-    "Age group": "50 to 59",
-    "DHB": "Canterbury",
-    "International travel": true,
-    "Last country before return": "United States of America",
-    "Flight number": "NZ523",
-    "Flight departure date": "2020-03-17",
-    "Arrival date": "2020-03-17"
-  },
-  {
-    "Date of report": "2020-03-20",
     "Sex": "Male",
     "Age group": "20 to 29",
     "DHB": "Canterbury",
@@ -8952,6 +9370,17 @@
     "Flight number": "SQ297",
     "Flight departure date": "2020-03-17",
     "Arrival date": "2020-03-18"
+  },
+  {
+    "Date of report": "2020-03-20",
+    "Sex": "Female",
+    "Age group": "50 to 59",
+    "DHB": "Canterbury",
+    "International travel": true,
+    "Last country before return": "United States of America",
+    "Flight number": "NZ523",
+    "Flight departure date": "2020-03-17",
+    "Arrival date": "2020-03-17"
   },
   {
     "Date of report": "2020-03-20",
@@ -9113,10 +9542,10 @@
     "Age group": "50 to 59",
     "DHB": "Hutt Valley",
     "International travel": true,
-    "Last country before return": "United States of America",
-    "Flight number": "NZ5823",
-    "Flight departure date": "2020-03-13",
-    "Arrival date": "2020-03-05"
+    "Last country before return": "Australia",
+    "Flight number": "EK5047",
+    "Flight departure date": "2020-03-14",
+    "Arrival date": "2020-03-14"
   },
   {
     "Date of report": "2020-03-19",
@@ -9124,10 +9553,10 @@
     "Age group": "50 to 59",
     "DHB": "Hutt Valley",
     "International travel": true,
-    "Last country before return": "Australia",
-    "Flight number": "EK5047",
-    "Flight departure date": "2020-03-14",
-    "Arrival date": "2020-03-14"
+    "Last country before return": "United States of America",
+    "Flight number": "NZ5823",
+    "Flight departure date": "2020-03-13",
+    "Arrival date": "2020-03-05"
   },
   {
     "Date of report": "2020-03-19",
@@ -9176,7 +9605,7 @@
   {
     "Date of report": "2020-03-19",
     "Sex": "Female",
-    "Age group": "60 to 69",
+    "Age group": "70+     ",
     "DHB": "Waikato",
     "International travel": true,
     "Last country before return": "France",
@@ -9187,7 +9616,7 @@
   {
     "Date of report": "2020-03-19",
     "Sex": "Female",
-    "Age group": "70+     ",
+    "Age group": "60 to 69",
     "DHB": "Waikato",
     "International travel": true,
     "Last country before return": "France",
