@@ -1,6 +1,102 @@
 [
   {
-    "Date of report": "2020-04-05",
+    "Date of report": "2020-04-07",
+    "status": "confirmed"
+  },
+  {
+    "Date of report": "2020-04-07",
+    "status": "confirmed"
+  },
+  {
+    "Date of report": "2020-04-07",
+    "status": "confirmed"
+  },
+  {
+    "Date of report": "2020-04-06",
+    "status": "confirmed"
+  },
+  {
+    "Date of report": "2020-04-06",
+    "status": "confirmed"
+  },
+  {
+    "Date of report": "2020-04-06",
+    "status": "confirmed"
+  },
+  {
+    "Date of report": "2020-04-06",
+    "status": "confirmed"
+  },
+  {
+    "Date of report": "2020-04-06",
+    "status": "confirmed"
+  },
+  {
+    "Date of report": "2020-04-06",
+    "status": "confirmed"
+  },
+  {
+    "Date of report": "2020-04-06",
+    "status": "confirmed"
+  },
+  {
+    "Date of report": "2020-04-06",
+    "status": "confirmed"
+  },
+  {
+    "Date of report": "2020-04-06",
+    "status": "confirmed"
+  },
+  {
+    "Date of report": "2020-04-06",
+    "status": "confirmed"
+  },
+  {
+    "Date of report": "2020-04-06",
+    "status": "confirmed"
+  },
+  {
+    "Date of report": "2020-04-06",
+    "status": "confirmed"
+  },
+  {
+    "Date of report": "2020-04-06",
+    "status": "confirmed"
+  },
+  {
+    "Date of report": "2020-04-06",
+    "status": "confirmed"
+  },
+  {
+    "Date of report": "2020-04-06",
+    "status": "confirmed"
+  },
+  {
+    "Date of report": "2020-04-06",
+    "status": "confirmed"
+  },
+  {
+    "Date of report": "2020-04-06",
+    "status": "confirmed"
+  },
+  {
+    "Date of report": "2020-04-06",
+    "status": "confirmed"
+  },
+  {
+    "Date of report": "2020-04-06",
+    "status": "confirmed"
+  },
+  {
+    "Date of report": "2020-04-06",
+    "status": "confirmed"
+  },
+  {
+    "Date of report": "2020-04-06",
+    "status": "confirmed"
+  },
+  {
+    "Date of report": "2020-04-06",
     "status": "confirmed"
   },
   {
@@ -136,7 +232,23 @@
     "status": "confirmed"
   },
   {
-    "Date of report": "2020-04-04",
+    "Date of report": "2020-04-05",
+    "status": "confirmed"
+  },
+  {
+    "Date of report": "2020-04-05",
+    "status": "confirmed"
+  },
+  {
+    "Date of report": "2020-04-05",
+    "status": "confirmed"
+  },
+  {
+    "Date of report": "2020-04-05",
+    "status": "confirmed"
+  },
+  {
+    "Date of report": "2020-04-05",
     "status": "confirmed"
   },
   {
@@ -300,6 +412,22 @@
     "status": "confirmed"
   },
   {
+    "Date of report": "2020-04-04",
+    "status": "confirmed"
+  },
+  {
+    "Date of report": "2020-04-04",
+    "status": "confirmed"
+  },
+  {
+    "Date of report": "2020-04-04",
+    "status": "confirmed"
+  },
+  {
+    "Date of report": "2020-04-03",
+    "status": "confirmed"
+  },
+  {
     "Date of report": "2020-04-03",
     "status": "confirmed"
   },
@@ -1661,6 +1789,10 @@
   },
   {
     "Date of report": "2020-03-29",
+    "status": "confirmed"
+  },
+  {
+    "Date of report": "2020-03-28",
     "status": "confirmed"
   },
   {
@@ -3636,15 +3768,79 @@
     "status": "confirmed"
   },
   {
-    "Date of report": "2020-02-28",
-    "status": "confirmed"
-  },
-  {
     "Date of report": "2020-02-26",
     "status": "confirmed"
   },
   {
-    "Date of report": "2020-04-05",
+    "Date of report": "2020-04-06",
+    "status": "probable"
+  },
+  {
+    "Date of report": "2020-04-06",
+    "status": "probable"
+  },
+  {
+    "Date of report": "2020-04-06",
+    "status": "probable"
+  },
+  {
+    "Date of report": "2020-04-06",
+    "status": "probable"
+  },
+  {
+    "Date of report": "2020-04-06",
+    "status": "probable"
+  },
+  {
+    "Date of report": "2020-04-06",
+    "status": "probable"
+  },
+  {
+    "Date of report": "2020-04-06",
+    "status": "probable"
+  },
+  {
+    "Date of report": "2020-04-06",
+    "status": "probable"
+  },
+  {
+    "Date of report": "2020-04-06",
+    "status": "probable"
+  },
+  {
+    "Date of report": "2020-04-06",
+    "status": "probable"
+  },
+  {
+    "Date of report": "2020-04-06",
+    "status": "probable"
+  },
+  {
+    "Date of report": "2020-04-06",
+    "status": "probable"
+  },
+  {
+    "Date of report": "2020-04-06",
+    "status": "probable"
+  },
+  {
+    "Date of report": "2020-04-06",
+    "status": "probable"
+  },
+  {
+    "Date of report": "2020-04-06",
+    "status": "probable"
+  },
+  {
+    "Date of report": "2020-04-06",
+    "status": "probable"
+  },
+  {
+    "Date of report": "2020-04-06",
+    "status": "probable"
+  },
+  {
+    "Date of report": "2020-04-06",
     "status": "probable"
   },
   {
@@ -3757,6 +3953,14 @@
   },
   {
     "Date of report": "2020-04-05",
+    "status": "probable"
+  },
+  {
+    "Date of report": "2020-04-05",
+    "status": "probable"
+  },
+  {
+    "Date of report": "2020-04-04",
     "status": "probable"
   },
   {
@@ -4073,6 +4277,14 @@
   },
   {
     "Date of report": "2020-04-02",
+    "status": "probable"
+  },
+  {
+    "Date of report": "2020-04-02",
+    "status": "probable"
+  },
+  {
+    "Date of report": "2020-04-01",
     "status": "probable"
   },
   {
@@ -4333,6 +4545,10 @@
   },
   {
     "Date of report": "2020-03-26",
+    "status": "probable"
+  },
+  {
+    "Date of report": "2020-03-25",
     "status": "probable"
   },
   {
