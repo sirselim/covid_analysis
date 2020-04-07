@@ -617,7 +617,12 @@
           },
           "legend": { "title": "Case status" }
         },
-        "order": { "aggregate": "sum", "field": "status", "type": "quantitative" }
+        "order": { "aggregate": "sum", "field": "status", "type": "quantitative" },
+        "tooltip": [
+          { "field": "Date of report" },
+          { "field": "status", "title": "Case status" },
+          { "aggregate": "count", "field": "status", "type": "quantitative", "title": "Number of cases" }
+        ]
       }
     };
   vegaEmbed('#vis6', yourV6Spec);
