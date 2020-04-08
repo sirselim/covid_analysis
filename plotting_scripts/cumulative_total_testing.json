@@ -1,10 +1,10 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
   "description": "simple vega-lite chart with linked data",
-  "data": { "url": "../data/NZ_testing_stats.json" },
+  "data": { "url": "https://raw.githubusercontent.com/sirselim/covid_analysis/master/data/NZ_testing_stats.json" },
   "vconcat": [
     {
-      "width": 580,
+      "width": 800,
       "height": 200,
       "mark": {
         "type": "bar",
@@ -23,7 +23,7 @@
       }
     },
     {
-      "width": 580,
+      "width": 800,
       "height": 200,
       "mark": {
         "type": "bar",
