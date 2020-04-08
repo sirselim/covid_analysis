@@ -2,6 +2,24 @@ Date of report,status
 2020/04/07,confirmed
 2020/04/07,confirmed
 2020/04/07,confirmed
+2020/04/07,confirmed
+2020/04/07,confirmed
+2020/04/07,confirmed
+2020/04/07,confirmed
+2020/04/07,confirmed
+2020/04/07,confirmed
+2020/04/07,confirmed
+2020/04/07,confirmed
+2020/04/07,confirmed
+2020/04/07,confirmed
+2020/04/07,confirmed
+2020/04/07,confirmed
+2020/04/07,confirmed
+2020/04/07,confirmed
+2020/04/07,confirmed
+2020/04/07,confirmed
+2020/04/07,confirmed
+2020/04/07,confirmed
 2020/04/06,confirmed
 2020/04/06,confirmed
 2020/04/06,confirmed
@@ -24,6 +42,12 @@ Date of report,status
 2020/04/06,confirmed
 2020/04/06,confirmed
 2020/04/06,confirmed
+2020/04/06,confirmed
+2020/04/06,confirmed
+2020/04/06,confirmed
+2020/04/06,confirmed
+2020/04/06,confirmed
+2020/04/06,confirmed
 2020/04/05,confirmed
 2020/04/05,confirmed
 2020/04/05,confirmed
@@ -62,6 +86,7 @@ Date of report,status
 2020/04/05,confirmed
 2020/04/05,confirmed
 2020/04/05,confirmed
+2020/04/05,confirmed
 2020/04/04,confirmed
 2020/04/04,confirmed
 2020/04/04,confirmed
@@ -105,6 +130,8 @@ Date of report,status
 2020/04/04,confirmed
 2020/04/04,confirmed
 2020/04/04,confirmed
+2020/04/04,confirmed
+2020/04/03,confirmed
 2020/04/03,confirmed
 2020/04/03,confirmed
 2020/04/03,confirmed
@@ -379,7 +406,6 @@ Date of report,status
 2020/03/30,confirmed
 2020/03/30,confirmed
 2020/03/30,confirmed
-2020/03/30,confirmed
 2020/03/29,confirmed
 2020/03/29,confirmed
 2020/03/29,confirmed
@@ -447,6 +473,7 @@ Date of report,status
 2020/03/29,confirmed
 2020/03/29,confirmed
 2020/03/29,confirmed
+2020/03/28,confirmed
 2020/03/28,confirmed
 2020/03/28,confirmed
 2020/03/28,confirmed
@@ -940,5 +967,4 @@ Date of report,status
 2020/03/04,confirmed
 2020/03/04,confirmed
 2020/03/02,confirmed
-2020/02/28,confirmed
 2020/02/26,confirmed
