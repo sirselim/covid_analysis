@@ -13,6 +13,8 @@ grep -i -e 'date,tests' -A 60 | \
 grep -i -e 'Emergencies' -v | \
 sed 's/<th scope="col">//Ig' | 
 sed 's/^,//Ig' | sed -r 's/\<[0-9]{1,2}-[a-zA-Z]{3}\>/&-2020/' | \
-sed 's/Mar/03/g' | sed 's/Apr/04/g' | tr '-' '/' | sed -E "s|([0-9]{1,2})/([0-9]{2})/([0-9]{4})|\3-\2-\1|" | tr '-' '/' | \
+sed 's/Mar/03/g' | sed 's/Apr/04/g' | tr '-' '/' | \
+sed -E "s|([0-9]{1,2})/([0-9]{2})/([0-9]{4})|\3-\2-\1|" | tr '-' '/' | \
+sed 's/Date/Date of report/g' | \
 csvjson | jq > data/NZ_testing_stats.json
 #/END

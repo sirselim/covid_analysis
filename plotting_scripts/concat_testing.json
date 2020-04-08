@@ -1,83 +1,69 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
   "description": "simple vega-lite chart with linked data",
-  "data": { "url": "https://raw.githubusercontent.com/sirselim/covid_analysis/master/data//NZCOVID_confirmed_formatted.json"},
+  "data": {
+    "url": "https://raw.githubusercontent.com/sirselim/covid_analysis/master/data//NZCOVID_confirmed_formatted.json"
+  },
   "vconcat": [
     {
-        "width": 580,
-        "height": 200,
-        "mark": {
-            "type": "bar",
-            "tooltip": true
+      "width": 580,
+      "height": 200,
+      "mark": {
+        "type": "bar",
+        "tooltip": true
+      },
+      "title": "Confirmed COVID cases in NZ per day",
+      "encoding": {
+        "x": {
+          "field": "Date of report",
+          "type": "nominal",
+          "axis": {
+            "title": "date"
+          }
         },
-        "title": "Confirmed COVID cases in NZ per day",
-        "encoding": {
-            "x": {
-                "field": "Date of report",
-                "type": "nominal",
-                "axis": {
-                    "title": "date"
-                }
-            },
-            "y": {
-                "aggregate": "count",
-                "field": "Date of report",
-                "type": "quantitative",
-                "axis": {
-                    "title": "number of cases"
-                }
-            },
-            "color": {
-                "value": "steelblue",
-                "condition": {
-                    "test": {
-                        "field": "Date of report",
-                        "range": [ "2020-03-26", "2020-04-30" ]
-                    },
-                    "field": "Date of report",
-                    "title": "Days in lockdown",
-                    "type": "nominal",
-                    "scale": {
-                        "domain": [ 
-                            "2020-03-26", "2020-03-27", 
-                            "2020-03-28", "2020-03-29",
-                            "2020-03-30", "2020-03-31",
-                            "2020-04-01" ],
-                        "range": [
-                            "#FFA500",
-                            "#FFA500"
-                        ]
-                    }
-                }
-            }
+        "y": {
+          "aggregate": "count",
+          "field": "Date of report",
+          "type": "quantitative",
+          "axis": {
+            "title": "number of cases"
+          }
+        },
+        "color": {
+          "value": "steelblue",
+          "condition": {
+            "test": { "field": "Date of report", "gt": "2020-03-26" },
+            "value": "orange"
+          }
         }
+      }
     },
     {
-        "width": 580,
-        "height": 200,
-        "mark": {
-            "type": "bar",
-            "tooltip": true
+      "width": 580,
+      "height": 200,
+      "mark": {
+        "type": "bar",
+        "tooltip": true
+      },
+      "title": "Confirmed COVID cases in NZ DHBs",
+      "encoding": {
+        "x": {
+          "field": "DHB",
+          "type": "nominal",
+          "sort": "y",
+          "axis": {
+            "title": "DHB"
+          }
         },
-        "title": "Confirmed COVID cases in NZ DHBs",
-        "encoding": {
-            "x": {
-                "field": "DHB",
-                "type": "nominal",
-                "sort": "y",
-                "axis": {
-                    "title": "DHB"
-                }
-            },
-            "y": {
-                "aggregate": "count",
-                "field": "DHB",
-                "type": "quantitative",
-                "axis": {
-                    "title": "number of cases"
-                }
-            }
+        "y": {
+          "aggregate": "count",
+          "field": "DHB",
+          "type": "quantitative",
+          "axis": {
+            "title": "number of cases"
+          }
         }
+      }
     }
   ]
 }
