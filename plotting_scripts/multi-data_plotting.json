@@ -1,12 +1,17 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
   "description": "simple vega-lite chart with linked data",
+  "title": "test",
   "layer": [
     {
       "data": {
         "url": "https://raw.githubusercontent.com/sirselim/covid_analysis/master/data//NZCOVID_confirmed_formatted.json"
       },
-      "mark": { "opacity": 0.5, "type": "bar" },
+      "mark": {
+        "opacity": 0.5,
+        "type": "bar",
+        "tooltip": true
+      },
       "encoding": {
         "x": {
           "field": "Date of report",
@@ -41,16 +46,21 @@
           "data": {
             "url": "https://raw.githubusercontent.com/sirselim/covid_analysis/master/data/NZ_testing_stats.json"
           },
-          "mark": "line",
+          "mark": {
+            "type": "line",
+            "tooltip": true
+          },
           "encoding": {
             "x": {
-              "field": "Date",
-              "type": "nominal"
+              "field": "Date of report",
+              "type": "nominal",
+              "title": "date"
             },
             "y": {
               "field": "Tests per Day",
               "type": "quantitative"
-            }
+            },
+            "color": { "value": "black" }
           }
         }
       ]
