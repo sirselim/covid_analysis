@@ -1,0 +1,45 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "description": "simple vega-lite chart with linked data",
+  "data": { "url": "../data/NZ_testing_stats.json" },
+  "vconcat": [
+    {
+      "width": 580,
+      "height": 200,
+      "mark": {
+        "type": "bar",
+        "tooltip": true
+      },
+      "title": "NZ COVID: daily lab test numbers",
+      "encoding": {
+        "x": {
+          "field": "Date",
+          "type": "nominal"
+        },
+        "y": {
+          "field": "Tests per Day",
+          "type": "quantitative"
+        }
+      }
+    },
+    {
+      "width": 580,
+      "height": 200,
+      "mark": {
+        "type": "bar",
+        "tooltip": true
+      },
+      "title": "NZ COVID: cumulative lab test numbers",
+      "encoding": {
+        "x": {
+          "field": "Date",
+          "type": "nominal"
+        },
+        "y": {
+          "field": "Total Tests (Cumulative)",
+          "type": "quantitative"
+        }
+      }
+    }
+  ]
+}
