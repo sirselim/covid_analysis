@@ -204,6 +204,7 @@
     <li><a data-toggle="pill" href="#dhb">By DHB</a></li>
     <li><a data-toggle="pill" href="#agegroup">By Age Group</a></li>
     <li><a data-toggle="pill" href="#testing">Testing</a></li>
+    <li><a data-toggle="pill" href="#overlay">Overlay</a></li>
   </ul>
     
 <div class="tab-content">
@@ -277,6 +278,14 @@
   <br>
   <!-- Container for the visualization -->
   <div id="vis7" style="text-align:center"></div>
+</div>
+
+<!-- Overlay Page ------------------------------------------------------------------------------------------ -->
+<div id="overlay" class="tab-pane fade in active">
+  <h3>Overlay of lab testing numbers and all confirmed cases</h3>
+  <br>
+  <!-- Container for the visualization -->
+  <div id="vis8" style="text-align:center"></div>
 </div>
 
 <!-- end of tabbed sections  -->
@@ -685,4 +694,83 @@
       ]
     };
   vegaEmbed('#vis7', yourV7Spec);
+</script>
+
+<!-- plot overlay stats for COVID NZ -->
+<script type="text/javascript">
+  var yourV8Spec = {
+      "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+      "description": "simple vega-lite chart with linked data",
+      "title": "Overlay of cases and lab testing",
+      "layer": [
+        {
+          "data": {
+            "url": "https://raw.githubusercontent.com/sirselim/covid_analysis/master/data//NZCOVID_confirmed_formatted.json"
+          },
+          "mark": {
+            "opacity": 0.5,
+            "type": "bar",
+            "tooltip": true
+          },
+          "encoding": {
+            "x": {
+              "field": "Date of report",
+              "type": "nominal",
+              "axis": {
+                "title": "Date"
+              }
+            },
+            "y": {
+              "aggregate": "count",
+              "field": "Date of report",
+              "type": "quantitative",
+              "axis": {
+                "title": "Number of cases"
+              }
+            },
+            "color": {
+              "value": "steelblue",
+              "condition": {
+                "test": {
+                  "field": "Date of report",
+                  "gt": "2020-03-26"
+                },
+                "value": "orange"
+              }
+            }
+          }
+        },
+        {
+          "layer": [
+            {
+              "data": {
+                "url": "https://raw.githubusercontent.com/sirselim/covid_analysis/master/data/NZ_testing_stats.json"
+              },
+              "mark": {
+                "type": "line",
+                "tooltip": true
+              },
+              "encoding": {
+                "x": {
+                  "field": "Date of report",
+                  "type": "nominal",
+                  "title": "Date"
+                },
+                "y": {
+                  "field": "Tests per Day",
+                  "type": "quantitative"
+                },
+                "color": { "value": "#025b96" }
+              }
+            }
+          ]
+        }
+      ],
+      "resolve": {
+        "scale": {
+          "y": "independent"
+        }
+      }
+    };
+  vegaEmbed('#vis8', yourV8Spec);
 </script>
