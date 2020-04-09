@@ -287,7 +287,6 @@
   <br>
   <!-- Container for the visualization -->
   <div id="vis8" style="text-align:center"></div>
-  <div id="vis9"></div>
 </div>
 
 <!-- end of tabbed sections  -->
@@ -784,12 +783,4 @@
       }
     };
   vegaEmbed('#vis8', yourV8Spec);
-</script>
-
-<script>
-  const spec = "https://raw.githubusercontent.com/sirselim/covid_analysis/master/plotting_scripts/multi-data_plotting.json";
-  vegaEmbed("#vis9", spec)
-    // result.view provides access to the Vega View API
-    .then(result => console.log(result))
-    .catch(console.warn);
 </script>

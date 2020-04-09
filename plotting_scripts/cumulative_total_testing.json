@@ -1,7 +1,9 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
   "description": "simple vega-lite chart with linked data",
-  "data": { "url": "https://raw.githubusercontent.com/sirselim/covid_analysis/master/data/NZ_testing_stats.json" },
+  "data": {
+    "url": "https://raw.githubusercontent.com/sirselim/covid_analysis/master/data/NZ_testing_stats.json"
+  },
   "vconcat": [
     {
       "width": 800,
@@ -13,7 +15,7 @@
       "title": "NZ COVID: daily lab test numbers",
       "encoding": {
         "x": {
-          "field": "Date",
+          "field": "Date of report",
           "type": "nominal"
         },
         "y": {
@@ -32,7 +34,7 @@
       "title": "NZ COVID: cumulative lab test numbers",
       "encoding": {
         "x": {
-          "field": "Date",
+          "field": "Date of report",
           "type": "nominal"
         },
         "y": {
