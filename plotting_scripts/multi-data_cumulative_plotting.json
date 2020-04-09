@@ -1,0 +1,82 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "description": "simple vega-lite chart with linked data",
+  "title": "Overlay of cases and lab testing",
+  "layer": [
+    {
+      "data": {
+        "url": "https://raw.githubusercontent.com/sirselim/covid_analysis/master/data//NZCOVID_confirmed_formatted.json"
+      },
+      "transform": [
+        {
+          "sort": [{ "field": "Date of report" }],
+          "window": [
+            { "op": "count", "field": "count", "as": "cumulative_count" }
+          ],
+          "frame": [null, 0]
+        }
+      ],
+      "mark": {
+        "opacity": 0.5,
+        "type": "bar",
+        "tooltip": true
+      },
+      "encoding": {
+        "x": {
+          "field": "Date of report",
+          "type": "nominal",
+          "axis": {
+            "title": "Date"
+          }
+        },
+        "y": {
+          "field": "cumulative_count",
+          "type": "quantitative",
+          "axis": {
+            "title": "Number of cases"
+          }
+        },
+        "color": {
+          "value": "steelblue",
+          "condition": {
+            "test": {
+              "field": "Date of report",
+              "gt": "2020-03-26"
+            },
+            "value": "orange"
+          }
+        }
+      }
+    },
+    {
+      "layer": [
+        {
+          "data": {
+            "url": "https://raw.githubusercontent.com/sirselim/covid_analysis/master/data/NZ_testing_stats.json"
+          },
+          "mark": {
+            "type": "line",
+            "tooltip": true
+          },
+          "encoding": {
+            "x": {
+              "field": "Date of report",
+              "type": "nominal",
+              "title": "Date"
+            },
+            "y": {
+              "field": "Total Tests (Cumulative)",
+              "type": "quantitative"
+            },
+            "color": { "value": "#025b96" }
+          }
+        }
+      ]
+    }
+  ],
+  "resolve": {
+    "scale": {
+      "y": "independent"
+    }
+  }
+}
