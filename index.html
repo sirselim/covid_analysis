@@ -192,7 +192,7 @@
     Confirmed Cases <span style="font-size:16px" class="badge badge-confirmed"><b>992</b></span> &nbsp;&nbsp; |
     &nbsp;&nbsp;
     Probable Cases <span style="font-size:16px" class="badge badge-probable"><b>247</b></span> <span
-      style="font-size:12px"> [updated: <b>13:20, 9<sup>th</sup> April 2020</b>]</span>
+      style="font-size:12px"> [updated: <b>16:17, 9<sup>th</sup> April 2020</b>]</span>
   </center>
 <hr>
 <div class="container">
@@ -642,18 +642,29 @@
           { "field": "status", "title": "Case status" },
           { "aggregate": "count", "field": "status", "type": "quantitative", "title": "Number of cases" }
         ]
-      }
-    };
-  vegaEmbed('#vis6', yourV6Spec);
-</script>
-
-<!-- plot testing stats for COVID NZ -->
-<script type="text/javascript">
-  var yourV7Spec = {
-      "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
-      "description": "simple vega-lite chart with linked data",
-      "data": { "url": "https://raw.githubusercontent.com/sirselim/covid_analysis/master/data/NZ_testing_stats.json" },
-      "vconcat": [
+      } < !DOCTYPE html>
+    <body>
+      <head>
+        <!-- Import Vega & Vega-Lite (does not have to be from CDN) -->
+  <script src="https://cdn.jsdelivr.net/npm/vega@[VERSION]"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-lite@[VERSION]"></script>
+  <!-- Import vega-embed -->
+  <script src="https://cdn.jsdelivr.net/npm/vega-embed@[VERSION]"></script>
+  </head>
+  
+  <body>
+  
+    <div id="vis"></div>
+  
+    <script type="text/javascript">
+        var spec = "https://raw.githubusercontent.com/vega/vega/master/docs/examples/bar-chart.vg.json";
+    vegaEmbed('#vis', spec).then(function(result) {
+          // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+        }).catch(console.error);
+    </script>
+  </body>
+  
+  </body>
         {
           "width": 800,
           "height": 200,
