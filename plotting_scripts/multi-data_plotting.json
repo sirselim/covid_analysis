@@ -5,7 +5,7 @@
   "layer": [
     {
       "data": {
-        "url": "https://raw.githubusercontent.com/sirselim/covid_analysis/master/data//NZCOVID_confirmed_formatted.json"
+        "url": "https://raw.githubusercontent.com/sirselim/covid_analysis/master/data/NZCOVID_confirmed_formatted.json"
       },
       "mark": {
         "opacity": 0.5,
@@ -48,7 +48,12 @@
           },
           "mark": {
             "type": "line",
-            "tooltip": true
+            "interpolate": "monotone",
+            "tooltip": true,
+            "point": { 
+              "filled": false,
+              "fill": "white"
+            }
           },
           "encoding": {
             "x": {
