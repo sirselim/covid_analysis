@@ -200,9 +200,9 @@
     <li class="active"><a data-toggle="pill" href="#info">Information</a></li>
     <li><a data-toggle="pill" href="#overview">Overview</a></li>
     <li><a data-toggle="pill" href="#allcases">All Cases</a></li>
-    <li><a data-toggle="pill" href="#sex">By Sex</a></li>
-    <li><a data-toggle="pill" href="#dhb">By DHB</a></li>
-    <li><a data-toggle="pill" href="#agegroup">By Age Group</a></li>
+    <li><a data-toggle="pill" href="#sex">Sex</a></li>
+    <li><a data-toggle="pill" href="#dhb">DHB</a></li>
+    <li><a data-toggle="pill" href="#agegroup">Age Group</a></li>
     <li><a data-toggle="pill" href="#testing">Testing</a></li>
     <li><a data-toggle="pill" href="#overlay">Overlay</a></li>
   </ul>
@@ -701,7 +701,9 @@
   var yourV8Spec = {
       "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
       "description": "simple vega-lite chart with linked data",
-      "title": "Overlay of cases and lab testing",
+      "title": "Overlay of cases and lab testing", 
+      "width": 800,
+      "height": 350,
       "layer": [
         {
           "data": {
