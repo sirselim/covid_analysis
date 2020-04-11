@@ -64,6 +64,7 @@ docker run -d -p 80:80 covid-site
 
 - [ ] automate last updated date
 - [ ] add probable to cumulative cases graph
+- [ ] ordering by groups on age and DHB graphs
 
 ## appendix
 
