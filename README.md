@@ -60,6 +60,11 @@ docker run -d -p 80:80 covid-site
 # You can now view the site on http://localhost
 ```
 
+## TO DO
+
+- [ ] automate last updated date
+- [ ] add probable to cumulative cases graph
+
 ## appendix
 
 A space for extra notes. Some of the below will be outdated, but keeping for posterity.
