@@ -29,33 +29,51 @@
   <body>
     <div class="wrapper">
 <div class="wrapper">
-  <div class="box a">Header</div>
+  <div class="box a">
+    <center>
+    <h1>Exploration of NZ COVID19 cases</h1>
+    <div style="text-align:center">See code at <a href="https://github.com/sirselim/covid_analysis">https://github.com/sirselim/covid_analysis</a></div>
+    <div style="text-align:center">All data has been pulled from the NZ Ministry of Health COVID19 website: <a href="https://www.health.govt.nz/our-work/diseases-and-conditions/covid-19-novel-coronavirus/covid-19-current-situation/covid-19-current-cases/covid-19-current-cases-details#probable">[link]</a></div>
+    </center>
+  </div>
   <div class="box b">
-    B
     <div id="vis" style="text-align:center"></div>
   </div>
   <div class="box c">
-    Stats 1
+    <p>Total Cases</p>
+    <span style="font-size:36px" class="badge badge-total"><b>1,366</b></span>
   </div>
-  <div class="box d">
-    Footer
+  <div class="box f">
+    <p>Confirmed Cases</p> 
+    <span style="font-size:36px" class="badge badge-confirmed"><b>1,072</b></span>
   </div>
-  <!-- <div class="box e">
-    E
-    <div id="vis4" style="text-align:center"></div>
-  </div> -->
-  <div class="box f">F</div>
-  <div class="box g">G</div>
-  <div class="box h">H</div>
-  <div class="box i">I</div>
-  <div class="box j">J</div>
+  <div class="box g">
+    <p>Probable Cases</p>
+    <span style="font-size:36px" class="badge badge-probable"><b>294</b></span>
+  </div>
+  <div class="box h">
+    <p>Recovered</p>
+    <span style="font-size:36px" class="badge badge-recovered"><b>628</b></span>
+  </div>
+  <div class="box i">
+    <p>Hospital</p> 
+    <span style="font-size:36px" class="badge badge-hospital"><b>15</b></span>
+  </div>
+  <div class="box j">
+    <p>Deaths</p>
+    <span style="font-size:36px" class="badge badge-deaths"><b>9</b></span>
+  </div>
   <div class="box k">
-    K
-    <div id="vis3" style="text-align:center"></div>
+    <div id="vis_dhb" style="text-align:center"></div>
   </div>
   <div class="box l">
-    L
     <div id="vis2" style="text-align:center"></div>
+  </div>
+  <div class="box d">
+    <center>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Open_Access_logo_PLoS_white.svg/153px-Open_Access_logo_PLoS_white.svg.png"
+      alt="OA" height="24" width="15" hspace="5"><small>Open Access (2020) - <a href="https://github.com/sirselim/covid_analysis">sirselim</a></small>
+    </center>
   </div>
 </div>
   </body>
@@ -94,8 +112,8 @@
 
 <script type="text/javascript">
   var spec =
-    "https://raw.githubusercontent.com/sirselim/covid_analysis/master/plotting_scripts/cumulative_total_cases.json";
-  vegaEmbed("#vis4", spec)
+    "https://raw.githubusercontent.com/sirselim/covid_analysis/master/plotting_scripts/dhb_horz_chart_COVID19_NZ.json";
+  vegaEmbed("#vis_dhb", spec)
     .then(function (result) {
       // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
     })

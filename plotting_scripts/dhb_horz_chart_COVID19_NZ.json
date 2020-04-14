@@ -1,12 +1,12 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
-    "width": 580,
-    "height": 300,
+    "width": 500,
+    "height": 250,
     "padding": 5,
     "description": "simple vega-lite chart with linked data",
     "title": "Confirmed COVID cases in NZ DHBs",
     "data": {
-        "url": "../data/NZCOVID_confirmed_formatted.json"
+        "url": "https://raw.githubusercontent.com/sirselim/covid_analysis/master/data/NZCOVID_confirmed_formatted.json"
     },
     "mark": {
         "type": "bar",
