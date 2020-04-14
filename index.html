@@ -187,12 +187,12 @@
 
 <hr>
   <center>
-    Total COVID cases in NZ <span style="font-size:16px" class="badge badge-total"><b>1,366</b></span> &nbsp;&nbsp; |
+    Total COVID cases in NZ <span style="font-size:16px" class="badge badge-total"><b id="total"></b></span> &nbsp;&nbsp; |
     &nbsp;&nbsp;
-    Confirmed Cases <span style="font-size:16px" class="badge badge-confirmed"><b>1,072</b></span> &nbsp;&nbsp; |
+    Confirmed Cases <span style="font-size:16px" class="badge badge-confirmed"><b id="confirmed"></b></span> &nbsp;&nbsp; |
     &nbsp;&nbsp;
-    Probable Cases <span style="font-size:16px" class="badge badge-probable"><b>294</b></span> <span
-      style="font-size:12px"> [ <b> last updated: 2020/04/14 13:20:23
+    Probable Cases <span style="font-size:16px" class="badge badge-probable"><b id="probable"></b></span> <span
+      style="font-size:12px"> [ <b> last updated: 2020/04/14 21:04:03
   </b>]</span>
     </center>
 <hr>
@@ -306,6 +306,24 @@
 
 </body>
 </html>
+
+<!-- js to create an array of scraped summary stats and populate the html -->
+<script>
+var xmlhttp = new XMLHttpRequest();
+xmlhttp.onreadystatechange = function() {
+  if (this.readyState == 4 && this.status == 200) {
+    var myArr = JSON.parse(this.responseText);
+    document.getElementById("total").innerHTML = myArr[2];
+    document.getElementById("confirmed").innerHTML = myArr[0];
+    document.getElementById("probable").innerHTML = myArr[1];
+    document.getElementById("recovered").innerHTML = myArr[4];
+    document.getElementById("hospital").innerHTML = myArr[3];
+    document.getElementById("deaths").innerHTML = myArr[5];
+  }
+};
+xmlhttp.open("GET", "https://raw.githubusercontent.com/sirselim/covid_analysis/master/data/dailySummaryStats.txt", true);
+xmlhttp.send();
+</script>
 
 <!-- vega-lite scripts -->
 <!-- plot the breakdown of cases per day and per DHB -->
