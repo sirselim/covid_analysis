@@ -62,10 +62,10 @@ docker run -d -p 80:80 covid-site
 
 ## TO DO
 
-- [X] automate last updated date
-- [X] scrape daily summary data and use it to populate the site
-  - [X] write script to scrape data from MoH summary [here](https://www.health.govt.nz/our-work/diseases-and-conditions/covid-19-novel-coronavirus/covid-19-current-situation/covid-19-current-cases)
-  - [X] implement a javascript approach to insert data into the site
+- [X] ~~automate last updated date~~
+- [X] ~~scrape daily summary data and use it to populate the site~~
+  - [X] ~~write script to scrape data from MoH summary [here](https://www.health.govt.nz/our-work/diseases-and-conditions/covid-19-novel-coronavirus/covid-19-current-situation/covid-19-current-cases)~~
+  - [X] ~~implement a javascript approach to insert data into the site~~
 - [ ] add probable to cumulative cases graph
 - [ ] ordering by groups on age and DHB graphs
 - [ ] explore vega plots in grid format (using CSS grids) - 'budget' dashboard
