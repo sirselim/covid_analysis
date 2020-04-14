@@ -41,27 +41,27 @@
   </div>
   <div class="box c">
     <p>Total Cases</p>
-    <span style="font-size:36px" class="badge badge-total"><b>1,366</b></span>
+    <span style="font-size:36px" class="badge badge-total"><b id="total"></b></span>
   </div>
   <div class="box f">
     <p>Confirmed Cases</p> 
-    <span style="font-size:36px" class="badge badge-confirmed"><b>1,072</b></span>
+    <span style="font-size:36px" class="badge badge-confirmed"><b id="confirmed"></b></span>
   </div>
   <div class="box g">
     <p>Probable Cases</p>
-    <span style="font-size:36px" class="badge badge-probable"><b>294</b></span>
+    <span style="font-size:36px" class="badge badge-probable"><b id="probable"></b></span>
   </div>
   <div class="box h">
     <p>Recovered</p>
-    <span style="font-size:36px" class="badge badge-recovered"><b>628</b></span>
+    <span style="font-size:36px" class="badge badge-recovered"><b id="recovered"></b></span>
   </div>
   <div class="box i">
-    <p>Hospital</p> 
-    <span style="font-size:36px" class="badge badge-hospital"><b>15</b></span>
+    <p>In Hospital</p> 
+    <span style="font-size:36px" class="badge badge-hospital"><b id="hospital"></b></span>
   </div>
   <div class="box j">
     <p>Deaths</p>
-    <span style="font-size:36px" class="badge badge-deaths"><b>9</b></span>
+    <span style="font-size:36px" class="badge badge-deaths"><b id="deaths"></b></span>
   </div>
   <div class="box k">
     <div id="vis_dhb" style="text-align:center"></div>
@@ -118,4 +118,21 @@
       // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
     })
     .catch(console.error);
+</script>
+
+<script>
+var xmlhttp = new XMLHttpRequest();
+xmlhttp.onreadystatechange = function() {
+  if (this.readyState == 4 && this.status == 200) {
+    var myArr = JSON.parse(this.responseText);
+    document.getElementById("total").innerHTML = myArr[2];
+    document.getElementById("confirmed").innerHTML = myArr[0];
+    document.getElementById("probable").innerHTML = myArr[1];
+    document.getElementById("recovered").innerHTML = myArr[4];
+    document.getElementById("hospital").innerHTML = myArr[3];
+    document.getElementById("deaths").innerHTML = myArr[5];
+  }
+};
+xmlhttp.open("GET", "https://raw.githubusercontent.com/sirselim/covid_analysis/master/data/dailySummaryStats.txt", true);
+xmlhttp.send();
 </script>

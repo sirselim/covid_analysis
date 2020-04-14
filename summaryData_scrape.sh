@@ -17,4 +17,6 @@ sed -E 's/([0-9]{1}),([0-9]{3})/\1\.\2/g' | sed -E 's/\.//g' | \
 sed 1i"Type,Total,Last24hrs" > data/dailySummaryStats.csv
 # keeping the intermediate csv incase it's required
 csvjson data/dailySummaryStats.csv | jq > data/dailySummaryStats.json
+# create a simple array for js population
+sed '1d' data/dailySummaryStats.csv | awk -F, '{print $2}' | paste -s -d, - | sed -Ee 's/([0-9]{1,5})/"\1"/g' -e 's/,/, /g' | awk '{print "[ "$0" ]"}' > data/dailySummaryStats.txt
 #/END
