@@ -2,8 +2,8 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
   "description": "simple vega-lite chart with linked data",
   "title": "Overlay of cases and lab testing",
-  "width": 800,
-  "height": 350,
+  "width": 900,
+  "height": 250,
   "layer": [
     {
       "data": {
