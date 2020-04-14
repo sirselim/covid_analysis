@@ -62,10 +62,10 @@ docker run -d -p 80:80 covid-site
 
 ## TO DO
 
-- [ ] automate last updated date
+- [X] automate last updated date
 - [ ] add probable to cumulative cases graph
 - [ ] ordering by groups on age and DHB graphs
-- [ ] explore vega plots in grid format (using CSS grids)
+- [ ] explore vega plots in grid format (using CSS grids) - 'budget' dashboard
 
 ## appendix
 
