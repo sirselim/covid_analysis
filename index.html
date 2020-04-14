@@ -133,7 +133,7 @@
           width: 95%;
         }
         .badge {
-          padding: 1px 9px 2px;
+          padding: 1px 9px 3px;
           font-size: 12.025px;
           font-weight: bold;
           white-space: nowrap;
@@ -156,6 +156,15 @@
         }
         .badge-probable {
           background-color: #f89406;
+        }
+        .badge-recovered {
+          background-color: #00b436;
+        }
+        .badge-hospital {
+          background-color: #ecc900;
+        }
+        .badge-deaths {
+          background-color: #000000;
         }
       </style>
 
@@ -187,12 +196,18 @@
 
 <hr>
   <center>
-    Total COVID cases in NZ <span style="font-size:16px" class="badge badge-total"><b id="total"></b></span> &nbsp;&nbsp; |
+    Total Cases <span style="font-size:16px" class="badge badge-total"><b id="total"></b></span> &nbsp;&nbsp; |
     &nbsp;&nbsp;
-    Confirmed Cases <span style="font-size:16px" class="badge badge-confirmed"><b id="confirmed"></b></span> &nbsp;&nbsp; |
+    Confirmed <span style="font-size:16px" class="badge badge-confirmed"><b id="confirmed"></b></span> &nbsp;&nbsp; |
     &nbsp;&nbsp;
-    Probable Cases <span style="font-size:16px" class="badge badge-probable"><b id="probable"></b></span> <span
-      style="font-size:12px"> [ <b> last updated: 2020/04/14 21:04:03
+    Probable <span style="font-size:16px" class="badge badge-probable"><b id="probable"></b></span> &nbsp;&nbsp; |
+    &nbsp;&nbsp;
+    Recovered <span style="font-size:16px" class="badge badge-recovered"><b id="recovered"></b></span> &nbsp;&nbsp; |
+    &nbsp;&nbsp;
+    Hospital <span style="font-size:16px" class="badge badge-hospital"><b id="hospital"></b></span> &nbsp;&nbsp; |
+    &nbsp;&nbsp;
+    Deaths <span style="font-size:16px" class="badge badge-deaths"><b id="deaths"></b></span> <span
+      style="font-size:12px">  <br> [ <b> last updated: 2020/04/14 21:08:31
   </b>]</span>
     </center>
 <hr>
