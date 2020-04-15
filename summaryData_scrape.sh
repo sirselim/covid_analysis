@@ -8,12 +8,12 @@ sed 's/<\/TR[^>]*>/\n/Ig' | \
 sed 's/<\/\?\(TABLE\|TR\)[^>]*>//Ig' | \
 sed 's/^<T[DH][^>]*>\|<\/\?T[DH][^>]*>$//Ig' | \
 sed 's/<\/T[DH][^>]*><T[DH][^>]*>/,/Ig' | \
-grep -i -e 'total to date' -A 6 | \
+grep -i -e 'Number of confirmed cases in New Zealand' -B 1 -A 5 | \
 sed 's/<th scope="col">//Ig' | \
 sed 's/^,//Ig' | sed '1d' | \
 sed 's/<\/strong[^>]*>//Ig' | sed 's/<strong[^>]*>//Ig' |
 sed 's/<b>//Ig' | sed 's/<\/b>//Ig' | \
-sed -E 's/([0-9]{1}),([0-9]{3})/\1\.\2/g' | sed -E 's/\.//g' | \
+sed -E 's/(,[0-9]{1}),([0-9]{3})/\1\.\2/g' | sed -E 's/\.//g' | \
 sed 1i"Type,Total,Last24hrs" > data/dailySummaryStats.csv
 # keeping the intermediate csv incase it's required
 csvjson data/dailySummaryStats.csv | jq > data/dailySummaryStats.json
