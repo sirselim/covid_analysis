@@ -5,12 +5,12 @@
   },
   "spacing": 15,
   "bounds": "flush",
-  "title": "Breakdown of cases per day across New Zealand District Health Boards",
   "vconcat": [
     {
+      "title": "Breakdown of cases per day across New Zealand District Health Boards",
       "mark": {
         "type": "bar",
-        "tooltip": true,
+        "tooltip": true
       },
       "height": 60,
       "encoding": {
@@ -23,16 +23,18 @@
           "aggregate": "count",
           "type": "quantitative",
           "scale": {
-            "domain": [
-              0,
-              100
-            ]
+            "domain": [0, 100]
           },
           "title": ""
         },
-        "tooltip": [ 
+        "tooltip": [
           { "field": "Date of report", "title": "Date" },
-          { "aggregate": "count", "field": "Date of report", "type": "quantitative", "title": "Daily cases" } 
+          {
+            "aggregate": "count",
+            "field": "Date of report",
+            "type": "quantitative",
+            "title": "Daily cases"
+          }
         ]
       }
     },
@@ -47,14 +49,15 @@
           },
           "encoding": {
             "x": {
-               "field": "Date of report",
-               "type": "nominal",
-               "title": "Date of diagnosis"
+              "field": "Date of report",
+              "type": "nominal",
+              "title": "Date of diagnosis"
             },
             "y": {
               "field": "DHB",
               "type": "nominal",
-              "title": "District Health Board"
+              "title": "District Health Board",
+              "sort": { "op": "count", "field": "Date of report" }
             },
             "color": {
               "aggregate": "count",
@@ -63,10 +66,15 @@
               "title": "Number of cases",
               "scale": { "scheme": "bluepurple" }
             },
-            "tooltip": [ 
+            "tooltip": [
               { "field": "Date of report", "title": "Date" },
               { "field": "DHB", "title": "District Health Board" },
-              { "aggregate": "count", "field": "Date of report", "type": "quantitative", "title": "Daily cases" } 
+              {
+                "aggregate": "count",
+                "field": "Date of report",
+                "type": "quantitative",
+                "title": "Daily cases"
+              }
             ]
           }
         },
@@ -80,22 +88,25 @@
             "y": {
               "field": "DHB",
               "type": "nominal",
-              "axis": null
+              "axis": null,
+              "sort": "x"
             },
             "x": {
               "aggregate": "count",
               "type": "quantitative",
               "scale": {
-                "domain": [
-                  0,
-                  200
-                ]
+                "domain": [0, 200]
               },
               "title": ""
             },
-            "tooltip": [ 
-              { "field": "DHB", "title": "District Health Board" }, 
-              { "aggregate": "count", "field": "DHB", "type": "quantitative", "title": "Total cases" } 
+            "tooltip": [
+              { "field": "DHB", "title": "District Health Board" },
+              {
+                "aggregate": "count",
+                "field": "DHB",
+                "type": "quantitative",
+                "title": "Total cases"
+              }
             ]
           }
         }

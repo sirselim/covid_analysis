@@ -46,7 +46,7 @@
     Hospital <span style="font-size:16px" class="badge badge-hospital"><b id="hospital"></b></span> &nbsp;&nbsp; |
     &nbsp;&nbsp;
     Deaths <span style="font-size:16px" class="badge badge-deaths"><b id="deaths"></b></span> <span
-      style="font-size:12px">  <br> [ <b> last updated: 2020/04/16 19:58:58
+      style="font-size:12px">  <br> [ <b> last updated: 2020/04/17 10:33:07
   </b>]</span>
     </center>
 <hr>
@@ -379,14 +379,15 @@ xmlhttp.send();
           },
           "encoding": {
             "x": {
-               "field": "Date of report",
-               "type": "nominal",
-               "title": "Date of diagnosis"
+              "field": "Date of report",
+              "type": "nominal",
+              "title": "Date of diagnosis"
             },
             "y": {
               "field": "DHB",
               "type": "nominal",
-              "title": "District Health Board"
+              "title": "District Health Board",
+              "sort": { "op": "count", "field": "Date of report" }
             },
             "color": {
               "aggregate": "count",
@@ -395,10 +396,15 @@ xmlhttp.send();
               "title": "Number of cases",
               "scale": { "scheme": "bluepurple" }
             },
-            "tooltip": [ 
+            "tooltip": [
               { "field": "Date of report", "title": "Date" },
               { "field": "DHB", "title": "District Health Board" },
-              { "aggregate": "count", "field": "Date of report", "type": "quantitative", "title": "Daily cases" } 
+              {
+                "aggregate": "count",
+                "field": "Date of report",
+                "type": "quantitative",
+                "title": "Daily cases"
+              }
             ]
           }
         },
@@ -412,22 +418,25 @@ xmlhttp.send();
             "y": {
               "field": "DHB",
               "type": "nominal",
-              "axis": null
+              "axis": null,
+              "sort": "x"
             },
             "x": {
               "aggregate": "count",
               "type": "quantitative",
               "scale": {
-                "domain": [
-                  0,
-                  200
-                ]
+                "domain": [0, 200]
               },
               "title": ""
             },
-            "tooltip": [ 
-              { "field": "DHB", "title": "District Health Board" }, 
-              { "aggregate": "count", "field": "DHB", "type": "quantitative", "title": "Total cases" } 
+            "tooltip": [
+              { "field": "DHB", "title": "District Health Board" },
+              {
+                "aggregate": "count",
+                "field": "DHB",
+                "type": "quantitative",
+                "title": "Total cases"
+              }
             ]
           }
         }
@@ -439,8 +448,7 @@ xmlhttp.send();
       "stroke": "transparent"
     }
   }
-}
-;
+};
   vegaEmbed('#vis3', yourV3Spec);
 </script>
 
