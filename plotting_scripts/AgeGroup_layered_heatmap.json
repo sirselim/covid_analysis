@@ -1,0 +1,112 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "data": {
+    "url": "https://raw.githubusercontent.com/sirselim/covid_analysis/master/data/NZCOVID_confirmed_formatted.json"
+  },
+  "spacing": 15,
+  "bounds": "flush",
+  "vconcat": [
+    {
+      "title": "Breakdown of cases per day across age groups in New Zealand",
+      "mark": {
+        "type": "bar",
+        "tooltip": true
+      },
+      "height": 60,
+      "encoding": {
+        "x": {
+          "field": "Date of report",
+          "type": "nominal",
+          "axis": null
+        },
+        "y": {
+          "aggregate": "count",
+          "type": "quantitative",
+          "scale": {
+            "domain": [0, 100]
+          },
+          "title": ""
+        },
+        "tooltip": [
+          { "field": "Date of report", "title": "Date" },
+          {
+            "aggregate": "count",
+            "field": "Date of report",
+            "type": "quantitative",
+            "title": "Daily cases"
+          }
+        ]
+      }
+    },
+    {
+      "spacing": 15,
+      "bounds": "flush",
+      "hconcat": [
+        {
+          "mark": {
+            "type": "rect",
+            "tooltip": true
+          },
+          "encoding": {
+            "x": {
+               "field": "Date of report",
+               "type": "nominal",
+               "title": "Date of diagnosis"
+            },
+            "y": {
+              "field": "Age group",
+              "type": "nominal",
+              "title": "Age group"
+            },
+            "color": {
+              "aggregate": "count",
+              "field": "Date of report",
+              "type": "quantitative",
+              "title": "Number of cases",
+              "scale": { "scheme": "bluepurple" }
+            },
+            "tooltip": [ 
+              { "field": "Date of report", "title": "Date" },
+              { "field": "Age group", "title": "Age group" },
+              { "aggregate": "count", "field": "Date of report", "type": "quantitative", "title": "Daily cases" } 
+            ]
+          }
+        },
+        {
+          "mark": {
+            "type": "bar",
+            "tooltip": true
+          },
+          "width": 60,
+          "encoding": {
+            "y": {
+              "field": "Age group",
+              "type": "nominal",
+              "axis": null
+            },
+            "x": {
+              "aggregate": "count",
+              "type": "quantitative",
+              "scale": {
+                "domain": [
+                  0,
+                  300
+                ]
+              },
+              "title": ""
+            },
+            "tooltip": [ 
+              { "field": "Age group", "title": "Age group" }, 
+              { "aggregate": "count", "field": "Age group", "type": "quantitative", "title": "Total cases" } 
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "config": {
+    "view": {
+      "stroke": "transparent"
+    }
+  }
+}
