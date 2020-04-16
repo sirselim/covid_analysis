@@ -25,7 +25,7 @@
       "aggregate": "count",
       "field": "Date of report",
       "type": "quantitative",
-      "title": "frequency",
+      "title": "Number of cases",
       "scale": { "scheme": "bluepurple" }
     }
   },
