@@ -48,6 +48,7 @@
               "aggregate": "count",
               "field": "Days",
               "type": "quantitative",
+              "scale": {"scheme": "greenyellowred"},
               "title": "frequency"
             }
           }
