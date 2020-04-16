@@ -1,0 +1,33 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "data": { "url": "../data/arrival_data.json" },
+  "width": 400,
+  "height": 500,
+  "title": "Number of days between arrival in New Zealand and diagnosis",
+  "mark": {
+    "type": "rect",
+    "tooltip": true
+  },
+  "encoding": {
+    "y": { 
+        "field": "Date of report", 
+        "type": "nominal",
+        "title": "Date of diagnosis"
+    },
+    "x": { 
+        "field": "Days", 
+        "type": "nominal",
+        "title": "Number of days"
+    },
+    "color": { 
+        "aggregate": "count", 
+        "field": "Days", 
+        "type": "quantitative", 
+        "title": "frequency" }
+  },
+  "config": {
+    "view": {
+      "stroke": "transparent"
+    }
+  }
+}
