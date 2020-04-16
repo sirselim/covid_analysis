@@ -19,7 +19,7 @@
     "y": {
       "field": "DHB",
       "type": "nominal",
-      "title": "DHB"
+      "title": "District Health Board"
     },
     "color": {
       "aggregate": "count",
