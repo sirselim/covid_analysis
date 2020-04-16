@@ -1,13 +1,31 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
-  "description": "The PM2.5 value of Beijing observed 15 days, highlighting the days when PM2.5 level is hazardous to human health. Data source https://chartaccent.github.io/chartaccent.html",
+  "description": "simple vega-lite script testing heatmap and rectangle plotting functions",
   "width": 400,
   "height": 500,
   "title": "Number of days between arrival in New Zealand and diagnosis",
+  "background": "white",
   "layer": [
     {
       "data": {
-        "url": "../data/arrival_data.json"
+        "values": [{}]
+      },
+      "mark": "rect",
+      "encoding": {
+        "x": {
+          "datum": 14,
+          "type": "nominal"
+        },
+        "x2": {
+          "datum": 30,
+          "type": "nominal"
+        },
+        "opacity": { "value": 0.1 }
+      }
+    },
+    {
+      "data": {
+        "url": "https://raw.githubusercontent.com/sirselim/covid_analysis/master/data/arrival_data.json"
       },
       "layer": [
         {
@@ -35,17 +53,6 @@
           }
         }
       ]
-    },
-    {
-      "data": {
-        "values": [{}]
-      },
-      "mark": "rule",
-      "encoding": {
-        "x": { "datum": 14, "type": "nominal" },
-        "color": { "value": "black" },
-        "size": { "value": 2 }
-      }
     }
   ]
 }
