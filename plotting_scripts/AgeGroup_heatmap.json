@@ -1,0 +1,37 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "data": {
+    "url": "https://raw.githubusercontent.com/sirselim/covid_analysis/master/data/NZCOVID_confirmed_formatted.json"
+  },
+  "width": 570,
+  "height": 200,
+  "title": "Number of confirmed cases per day per age group in New Zealand",
+  "mark": {
+    "type": "rect",
+    "tooltip": true
+  },
+  "encoding": {
+    "x": {
+      "field": "Date of report",
+      "type": "nominal",
+      "title": "Date of diagnosis"
+    },
+    "y": {
+      "field": "Age group",
+      "type": "nominal",
+      "title": "Age group"
+    },
+    "color": {
+      "aggregate": "count",
+      "field": "Date of report",
+      "type": "quantitative",
+      "title": "frequency",
+      "scale": { "scheme": "orangered" }
+    }
+  },
+  "config": {
+    "view": {
+      "stroke": "transparent"
+    }
+  }
+}

@@ -5,6 +5,7 @@
   "height": 500,
   "title": "Number of days between arrival in New Zealand and diagnosis",
   "background": "white",
+  "padding": 6,
   "layer": [
     {
       "data": {
@@ -20,7 +21,10 @@
           "datum": 30,
           "type": "nominal"
         },
-        "opacity": { "value": 0.1 }
+        "color": {
+          "value": "lightblue"
+        },
+        "opacity": { "value": 0.2 }
       }
     },
     {
@@ -48,7 +52,7 @@
               "aggregate": "count",
               "field": "Days",
               "type": "quantitative",
-              "scale": {"scheme": "greenyellowred"},
+              "scale": { "scheme": "orangered" },
               "title": "frequency"
             }
           }

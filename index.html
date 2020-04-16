@@ -490,37 +490,42 @@ xmlhttp.send();
 <!-- plot the breakdown of cases per day by DHB -->
 <script type="text/javascript">
   var yourV3Spec = {
-      "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
-      "width": 800,
-      "height": 500,
-      "padding": 5,
-      "description": "simple vega-lite chart with linked data",
-      "title": "Confirmed COVID cases in NZ per calendar day (grouped by DHB)",
-      "data": {
-        "url": "https://raw.githubusercontent.com/sirselim/covid_analysis/master/data//NZCOVID_confirmed_formatted.json"
-      },
-      "mark": {
-        "type": "bar",
-        "tooltip": true
-      },
-      "encoding": {
-        "x": {
-          "field": "Date of report",
-          "type": "nominal",
-          "axis": { "title": "date" }
-        },
-        "y": {
-          "aggregate": "count",
-          "field": "Date of report",
-          "type": "quantitative",
-          "axis": { "title": "number of cases" }
-        },
-        "color": {
-          "field": "DHB",
-          "type": "nominal"
-        }
-      }
-    };
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "data": {
+    "url": "https://raw.githubusercontent.com/sirselim/covid_analysis/master/data/NZCOVID_confirmed_formatted.json"
+  },
+  "width": 700,
+  "height": 370,
+  "title": "Number of confirmed cases per DHB per day in New Zealand",
+  "mark": {
+    "type": "rect",
+    "tooltip": true
+  },
+  "encoding": {
+    "x": {
+      "field": "Date of report",
+      "type": "nominal",
+      "title": "Date of diagnosis"
+    },
+    "y": {
+      "field": "DHB",
+      "type": "nominal",
+      "title": "DHB"
+    },
+    "color": {
+      "aggregate": "count",
+      "field": "Date of report",
+      "type": "quantitative",
+      "title": "frequency",
+      "scale": { "scheme": "bluepurple" }
+    }
+  },
+  "config": {
+    "view": {
+      "stroke": "transparent"
+    }
+  }
+};
   vegaEmbed('#vis3', yourV3Spec);
 </script>
 
@@ -534,38 +539,41 @@ xmlhttp.send();
       },
       "vconcat": [
         {
-          "width": 800,
-          "height": 220,
-          "title": "COVID cases per day by age group",
-          "mark": {
-            "type": "bar",
-            "tooltip": true
-          },
-          "encoding": {
-            "x": {
-              "field": "Date of report",
-              "type": "nominal",
-              "axis": {
-                "title": "date"
-              }
-            },
-            "y": {
-              "aggregate": "count",
-              "field": "Date of report",
-              "type": "quantitative",
-              "axis": {
-                "title": "number of cases"
-              }
-            },
-            "color": {
-              "field": "Age group",
-              "type": "nominal"
-            }
-          }
+  "width": 750,
+  "height": 200,
+  "title": "Number of confirmed cases per day per age group in New Zealand",
+  "mark": {
+    "type": "rect",
+    "tooltip": true
+  },
+  "encoding": {
+    "x": {
+      "field": "Date of report",
+      "type": "nominal",
+      "title": "Date of diagnosis"
+    },
+    "y": {
+      "field": "Age group",
+      "type": "nominal",
+      "title": "Age group"
+    },
+    "color": {
+      "aggregate": "count",
+      "field": "Date of report",
+      "type": "quantitative",
+      "title": "frequency",
+      "scale": { "scheme": "bluepurple" }
+    }
+  },
+  "config": {
+    "view": {
+      "stroke": "transparent"
+    }
+  }
         },
         {
-          "width": 800,
-          "height": 220,
+          "width": 750,
+          "height": 200,
           "title": "COVID cases per age group",
           "mark": {
             "type": "bar",
