@@ -57,7 +57,11 @@
               "field": "DHB",
               "type": "nominal",
               "title": "District Health Board",
-              "sort": { "op": "count", "field": "Date of report" }
+              "sort": {
+                "op": "count",
+                "field": "Date of report",
+                "order": "descending"
+              }
             },
             "color": {
               "aggregate": "count",
@@ -89,7 +93,7 @@
               "field": "DHB",
               "type": "nominal",
               "axis": null,
-              "sort": "x"
+              "sort": "-x"
             },
             "x": {
               "aggregate": "count",
