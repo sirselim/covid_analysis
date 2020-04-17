@@ -11,6 +11,6 @@ fi
 confirmed="NZCOVID_confirmed_formatted.json"
 probable="NZCOVID_probable_formatted.json"
 # convert to json
-xlsx2csv "$outputDir/NZ_COVID19_data.xlsx" -f %Y/%m/%d -s 1 | tail -n +4 | csvjson | jq '.' > "$outputDir/$confirmed"
-xlsx2csv "$outputDir/NZ_COVID19_data.xlsx" -f %Y/%m/%d -s 2 | tail -n +4 | csvjson | jq '.' > "$outputDir/$probable"
+xlsx2csv "$outputDir/NZ_COVID19_data.xlsx" -f %Y/%m/%d -s 1 | tail -n +4 | sed -E "s|([0-9]{1,2})/([0-9]{2})/([0-9]{4})|\3-\2-\1|" | tr '-' '/' | csvjson | jq '.' > "$outputDir/$confirmed"
+xlsx2csv "$outputDir/NZ_COVID19_data.xlsx" -f %Y/%m/%d -s 2 | tail -n +4 | sed -E "s|([0-9]{1,2})/([0-9]{2})/([0-9]{4})|\3-\2-\1|" | tr '-' '/' | csvjson | jq '.' > "$outputDir/$probable"
 #/END
