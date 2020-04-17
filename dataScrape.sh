@@ -11,3 +11,6 @@ echo -e "...done..."
 echo -e "pulling daily COVID19 summary information from NZ MoH website"
 . ./summaryData_scrape.sh
 echo -e "...done..."
+echo -e "pulling daily COVID19 DHB summary information from NZ MoH website"
+. ./DHB_summary_scrape.sh
+echo -e "...done..."
