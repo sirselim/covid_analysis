@@ -46,7 +46,7 @@
     Hospital <span style="font-size:16px" class="badge badge-hospital"><b id="hospital"></b></span> &nbsp;&nbsp; |
     &nbsp;&nbsp;
     Deaths <span style="font-size:16px" class="badge badge-deaths"><b id="deaths"></b></span> <span
-      style="font-size:12px">  <br> [ <b> last updated: 2020/04/17 12:23:44
+      style="font-size:12px">  <br> [ <b> last updated: 2020/04/17 13:59:31
   </b>]</span>
     </center>
 <hr>
@@ -512,7 +512,12 @@ xmlhttp.send();
             "y": {
               "field": "Age group",
               "type": "nominal",
-              "title": "Age group (years)"
+              "title": "Age group (years)",
+              "sort": {
+                "op": "count",
+                "field": "Date of report",
+                "order": "descending"
+              }
             },
             "color": {
               "aggregate": "count",
@@ -538,7 +543,8 @@ xmlhttp.send();
             "y": {
               "field": "Age group",
               "type": "nominal",
-              "axis": null
+              "axis": null,
+              "sort": "-x"
             },
             "x": {
               "aggregate": "count",

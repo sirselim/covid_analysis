@@ -63,7 +63,12 @@
             "y": {
               "field": "Age group",
               "type": "nominal",
-              "title": "Age group (years)"
+              "title": "Age group (years)",
+              "sort": {
+                "op": "count",
+                "field": "Date of report",
+                "order": "descending"
+              }
             },
             "color": {
               "aggregate": "count",
@@ -98,7 +103,8 @@
             "y": {
               "field": "Age group",
               "type": "nominal",
-              "axis": null
+              "axis": null,
+              "sort": "-x"
             },
             "x": {
               "aggregate": "count",
