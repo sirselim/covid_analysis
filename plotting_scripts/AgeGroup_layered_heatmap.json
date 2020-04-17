@@ -12,11 +12,12 @@
         "type": "bar",
         "tooltip": true
       },
+      "width": 600,
       "height": 60,
       "encoding": {
         "x": {
           "field": "Date of report",
-          "type": "nominal",
+          "type": "temporal",
           "axis": null
         },
         "y": {
@@ -28,7 +29,11 @@
           "title": ""
         },
         "tooltip": [
-          { "field": "Date of report", "title": "Date" },
+          {
+            "field": "Date of report",
+            "title": "Date",
+            "timeUnit": "daymonth"
+          },
           {
             "aggregate": "count",
             "field": "Date of report",
@@ -47,16 +52,18 @@
             "type": "rect",
             "tooltip": true
           },
+          "width": 600,
           "encoding": {
             "x": {
-               "field": "Date of report",
-               "type": "nominal",
-               "title": "Date of diagnosis"
+              "field": "Date of report",
+              "type": "temporal",
+              "title": "Date of diagnosis",
+              "timeUnit": "daymonth"
             },
             "y": {
               "field": "Age group",
               "type": "nominal",
-              "title": "Age group"
+              "title": "Age group (years)"
             },
             "color": {
               "aggregate": "count",
@@ -65,10 +72,19 @@
               "title": "Number of cases",
               "scale": { "scheme": "bluepurple" }
             },
-            "tooltip": [ 
-              { "field": "Date of report", "title": "Date" },
-              { "field": "Age group", "title": "Age group" },
-              { "aggregate": "count", "field": "Date of report", "type": "quantitative", "title": "Daily cases" } 
+            "tooltip": [
+              {
+                "field": "Date of report",
+                "title": "Date",
+                "timeUnit": "daymonth"
+              },
+              { "field": "Age group", "title": "Age group (years)" },
+              {
+                "aggregate": "count",
+                "field": "Date of report",
+                "type": "quantitative",
+                "title": "Daily cases"
+              }
             ]
           }
         },
@@ -88,16 +104,18 @@
               "aggregate": "count",
               "type": "quantitative",
               "scale": {
-                "domain": [
-                  0,
-                  300
-                ]
+                "domain": [0, 300]
               },
               "title": ""
             },
-            "tooltip": [ 
-              { "field": "Age group", "title": "Age group" }, 
-              { "aggregate": "count", "field": "Age group", "type": "quantitative", "title": "Total cases" } 
+            "tooltip": [
+              { "field": "Age group", "title": "Age group" },
+              {
+                "aggregate": "count",
+                "field": "Age group",
+                "type": "quantitative",
+                "title": "Total cases"
+              }
             ]
           }
         }

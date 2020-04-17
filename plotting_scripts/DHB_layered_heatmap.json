@@ -13,10 +13,11 @@
         "tooltip": true
       },
       "height": 60,
+      "width": 600,
       "encoding": {
         "x": {
           "field": "Date of report",
-          "type": "nominal",
+          "type": "temporal",
           "axis": null
         },
         "y": {
@@ -28,11 +29,16 @@
           "title": ""
         },
         "tooltip": [
-          { "field": "Date of report", "title": "Date" },
+          {
+            "field": "Date of report",
+            "title": "Date",
+            "timeUnit": "daymonth"
+          },
           {
             "aggregate": "count",
             "field": "Date of report",
             "type": "quantitative",
+
             "title": "Daily cases"
           }
         ]
@@ -47,10 +53,12 @@
             "type": "rect",
             "tooltip": true
           },
+          "width": 600,
           "encoding": {
             "x": {
               "field": "Date of report",
-              "type": "nominal",
+              "timeUnit": "daymonth",
+              "type": "temporal",
               "title": "Date of diagnosis"
             },
             "y": {
@@ -71,7 +79,11 @@
               "scale": { "scheme": "bluepurple" }
             },
             "tooltip": [
-              { "field": "Date of report", "title": "Date" },
+              {
+                "field": "Date of report",
+                "title": "Date",
+                "timeUnit": "daymonth"
+              },
               { "field": "DHB", "title": "District Health Board" },
               {
                 "aggregate": "count",

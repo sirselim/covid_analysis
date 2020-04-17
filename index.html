@@ -46,7 +46,7 @@
     Hospital <span style="font-size:16px" class="badge badge-hospital"><b id="hospital"></b></span> &nbsp;&nbsp; |
     &nbsp;&nbsp;
     Deaths <span style="font-size:16px" class="badge badge-deaths"><b id="deaths"></b></span> <span
-      style="font-size:12px">  <br> [ <b> last updated: 2020/04/17 11:58:00
+      style="font-size:12px">  <br> [ <b> last updated: 2020/04/17 12:23:44
   </b>]</span>
     </center>
 <hr>
@@ -465,11 +465,12 @@ xmlhttp.send();
         "type": "bar",
         "tooltip": true
       },
+      "width": 600,
       "height": 60,
       "encoding": {
         "x": {
           "field": "Date of report",
-          "type": "nominal",
+          "type": "temporal",
           "axis": null
         },
         "y": {
@@ -481,7 +482,7 @@ xmlhttp.send();
           "title": ""
         },
         "tooltip": [
-          { "field": "Date of report", "title": "Date" },
+          { "field": "Date of report", "title": "Date", "timeUnit": "daymonth" },
           {
             "aggregate": "count",
             "field": "Date of report",
@@ -500,16 +501,18 @@ xmlhttp.send();
             "type": "rect",
             "tooltip": true
           },
+          "width": 600,
           "encoding": {
             "x": {
                "field": "Date of report",
-               "type": "nominal",
-               "title": "Date of diagnosis"
+               "type": "temporal",
+               "title": "Date of diagnosis",
+               "timeUnit": "daymonth"
             },
             "y": {
               "field": "Age group",
               "type": "nominal",
-              "title": "Age group"
+              "title": "Age group (years)"
             },
             "color": {
               "aggregate": "count",
@@ -519,8 +522,8 @@ xmlhttp.send();
               "scale": { "scheme": "bluepurple" }
             },
             "tooltip": [ 
-              { "field": "Date of report", "title": "Date" },
-              { "field": "Age group", "title": "Age group" },
+              { "field": "Date of report", "title": "Date", "timeUnit": "daymonth" },
+              { "field": "Age group", "title": "Age group (years)" },
               { "aggregate": "count", "field": "Date of report", "type": "quantitative", "title": "Daily cases" } 
             ]
           }
@@ -562,8 +565,7 @@ xmlhttp.send();
       "stroke": "transparent"
     }
   }
-}
-;
+};
   vegaEmbed('#vis4', yourV4Spec);
 </script>
 
