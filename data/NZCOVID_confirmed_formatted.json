@@ -1,5 +1,71 @@
 [
   {
+    "Date of report": "2020-04-18",
+    "Sex": "Female",
+    "Age group": "70+     ",
+    "DHB": "Counties Manukau",
+    "Overseas travel": null,
+    "Last country before return": null,
+    "Flight number": null,
+    "Flight departure date": null,
+    "Arrival date": null
+  },
+  {
+    "Date of report": "2020-04-17",
+    "Sex": "Male",
+    "Age group": "40 to 49",
+    "DHB": "Lakes",
+    "Overseas travel": false,
+    "Last country before return": null,
+    "Flight number": null,
+    "Flight departure date": null,
+    "Arrival date": null
+  },
+  {
+    "Date of report": "2020-04-17",
+    "Sex": "Female",
+    "Age group": "70+",
+    "DHB": "MidCentral",
+    "Overseas travel": true,
+    "Last country before return": "United Kingdom ",
+    "Flight number": null,
+    "Flight departure date": null,
+    "Arrival date": "2020-03-31"
+  },
+  {
+    "Date of report": "2020-04-17",
+    "Sex": "Male",
+    "Age group": "70+",
+    "DHB": "MidCentral",
+    "Overseas travel": true,
+    "Last country before return": "United Kingdom ",
+    "Flight number": null,
+    "Flight departure date": null,
+    "Arrival date": "2020-03-31"
+  },
+  {
+    "Date of report": "2020-04-17",
+    "Sex": "Male",
+    "Age group": "70+",
+    "DHB": "South Canterbury",
+    "Overseas travel": null,
+    "Last country before return": null,
+    "Flight number": null,
+    "Flight departure date": null,
+    "Arrival date": null
+  },
+  {
+    "Date of report": "2020-04-17",
+    "Sex": "Male",
+    "Age group": "20 to 29",
+    "DHB": "Whanganui",
+    "Overseas travel": false,
+    "Last country before return": null,
+    "Flight number": null,
+    "Flight departure date": null,
+    "Arrival date": null
+  },
+  {
     "Date of report": "2020-04-16",
     "Sex": "Female",
     "Age group": "70+",
@@ -67,6 +133,17 @@
   },
   {
     "Date of report": "2020-04-16",
+    "Sex": "Male",
+    "Age group": "70+",
+    "DHB": "Northland",
+    "Overseas travel": false,
+    "Last country before return": null,
+    "Flight number": null,
+    "Flight departure date": null,
+    "Arrival date": null
+  },
+  {
+    "Date of report": "2020-04-16",
     "Sex": "Female",
     "Age group": "50 to 59",
     "DHB": "Waitemata",
@@ -108,6 +185,17 @@
     "Flight number": null,
     "Flight departure date": null,
     "Arrival date": "2020-04-13"
+  },
+  {
+    "Date of report": "2020-04-15",
+    "Sex": "Male",
+    "Age group": "20 to 29",
+    "DHB": "Canterbury",
+    "Overseas travel": false,
+    "Last country before return": null,
+    "Flight number": null,
+    "Flight departure date": null,
+    "Arrival date": null
   },
   {
     "Date of report": "2020-04-15",
@@ -424,7 +512,7 @@
     "DHB": "Waikato",
     "Overseas travel": true,
     "Last country before return": "England",
-    "Flight number": "QR008",
+    "Flight number": "QR8",
     "Flight departure date": "2020-04-01",
     "Arrival date": "2020-04-03"
   },
@@ -512,7 +600,7 @@
     "DHB": "Counties Manukau",
     "Overseas travel": true,
     "Last country before return": "Qatar",
-    "Flight number": "QR0920",
+    "Flight number": "QR920",
     "Flight departure date": "2020-04-07",
     "Arrival date": "2020-04-08"
   },
@@ -733,7 +821,7 @@
     "Overseas travel": true,
     "Last country before return": "Qatar",
     "Flight number": "NZ19K",
-    "Flight departure date": null,
+    "Flight departure date": "2020-03-03",
     "Arrival date": "2020-03-31"
   },
   {
@@ -952,7 +1040,7 @@
     "DHB": "Capital and Coast",
     "Overseas travel": true,
     "Last country before return": "United States of America",
-    "Flight number": "NZ001",
+    "Flight number": "NZ1",
     "Flight departure date": "2020-03-25",
     "Arrival date": "2020-03-27"
   },
@@ -985,7 +1073,7 @@
     "DHB": "Counties Manukau",
     "Overseas travel": true,
     "Last country before return": "United Kingdom ",
-    "Flight number": "QR0920",
+    "Flight number": "QR920",
     "Flight departure date": "2020-03-28",
     "Arrival date": "2020-03-29"
   },
@@ -1403,7 +1491,7 @@
     "DHB": "Bay of Plenty",
     "Overseas travel": false,
     "Last country before return": null,
-    "Flight number": "NZ0676",
+    "Flight number": "NZ676",
     "Flight departure date": "2020-03-26",
     "Arrival date": null
   },
@@ -1865,7 +1953,7 @@
     "DHB": "MidCentral",
     "Overseas travel": true,
     "Last country before return": "United Arab Emirates",
-    "Flight number": "JQ0290",
+    "Flight number": "JQ290",
     "Flight departure date": "2020-03-22",
     "Arrival date": "2020-03-22"
   },
@@ -2954,9 +3042,9 @@
     "DHB": "Southern",
     "Overseas travel": true,
     "Last country before return": "United Kingdom ",
-    "Flight number": "NZ5757",
-    "Flight departure date": "2020-03-22",
-    "Arrival date": "2020-03-22"
+    "Flight number": "NZ623",
+    "Flight departure date": null,
+    "Arrival date": "2020-03-24"
   },
   {
     "Date of report": "2020-04-03",
@@ -2965,9 +3053,9 @@
     "DHB": "Southern",
     "Overseas travel": true,
     "Last country before return": "United Kingdom ",
-    "Flight number": "NZ623",
-    "Flight departure date": null,
-    "Arrival date": "2020-03-24"
+    "Flight number": "NZ5757",
+    "Flight departure date": "2020-03-22",
+    "Arrival date": "2020-03-22"
   },
   {
     "Date of report": "2020-04-03",
@@ -3062,7 +3150,7 @@
     "Sex": "Male",
     "Age group": "50 to 59",
     "DHB": "Southern",
-    "Overseas travel": null,
+    "Overseas travel": false,
     "Last country before return": null,
     "Flight number": null,
     "Flight departure date": null,
@@ -3405,7 +3493,7 @@
     "DHB": "Capital and Coast",
     "Overseas travel": true,
     "Last country before return": "United Arab Emirates",
-    "Flight number": "EK004",
+    "Flight number": "EK4",
     "Flight departure date": "2020-03-21",
     "Arrival date": "2020-03-21"
   },
@@ -3515,7 +3603,7 @@
     "DHB": "Hutt Valley",
     "Overseas travel": true,
     "Last country before return": "New Zealand",
-    "Flight number": "QF0171",
+    "Flight number": "QF171",
     "Flight departure date": null,
     "Arrival date": "2020-03-24"
   },
@@ -3625,7 +3713,7 @@
     "DHB": "Southern",
     "Overseas travel": true,
     "Last country before return": "United Kingdom ",
-    "Flight number": "NZ0535",
+    "Flight number": "NZ535",
     "Flight departure date": "2020-03-20",
     "Arrival date": "2020-03-20"
   },
@@ -3845,7 +3933,7 @@
     "DHB": "Waikato",
     "Overseas travel": true,
     "Last country before return": "United States of America",
-    "Flight number": "NZ001",
+    "Flight number": "NZ1",
     "Flight departure date": "2020-03-30",
     "Arrival date": "2020-04-01"
   },
@@ -3887,7 +3975,7 @@
     "Sex": "Male",
     "Age group": "60 to 69",
     "DHB": "Waitemata",
-    "Overseas travel": null,
+    "Overseas travel": false,
     "Last country before return": null,
     "Flight number": null,
     "Flight departure date": null,
@@ -3999,7 +4087,7 @@
     "DHB": "Bay of Plenty",
     "Overseas travel": true,
     "Last country before return": "Qatar",
-    "Flight number": "QR0920",
+    "Flight number": "QR920",
     "Flight departure date": "2020-03-27",
     "Arrival date": "2020-03-27"
   },
@@ -4010,7 +4098,7 @@
     "DHB": "Bay of Plenty",
     "Overseas travel": true,
     "Last country before return": "United Kingdom ",
-    "Flight number": "QR0920",
+    "Flight number": "QR920",
     "Flight departure date": "2020-03-27",
     "Arrival date": "2020-03-27"
   },
@@ -4021,8 +4109,8 @@
     "DHB": "Bay of Plenty",
     "Overseas travel": false,
     "Last country before return": null,
-    "Flight number": null,
-    "Flight departure date": null,
+    "Flight number": "NZ5145",
+    "Flight departure date": "2020-03-24",
     "Arrival date": null
   },
   {
@@ -4063,11 +4151,11 @@
     "Sex": "Female",
     "Age group": "20 to 29",
     "DHB": "Counties Manukau",
-    "Overseas travel": null,
-    "Last country before return": null,
+    "Overseas travel": true,
+    "Last country before return": "Singapore",
     "Flight number": null,
     "Flight departure date": null,
-    "Arrival date": null
+    "Arrival date": "2020-03-17"
   },
   {
     "Date of report": "2020-04-01",
@@ -4492,11 +4580,11 @@
     "Sex": "Female",
     "Age group": "20 to 29",
     "DHB": "Waitemata",
-    "Overseas travel": null,
-    "Last country before return": null,
-    "Flight number": null,
-    "Flight departure date": null,
-    "Arrival date": null
+    "Overseas travel": true,
+    "Last country before return": "Australia",
+    "Flight number": "QF143",
+    "Flight departure date": "2020-03-17",
+    "Arrival date": "2020-04-17"
   },
   {
     "Date of report": "2020-04-01",
@@ -4637,7 +4725,7 @@
     "DHB": "Bay of Plenty",
     "Overseas travel": true,
     "Last country before return": "United Kingdom ",
-    "Flight number": "EK0448",
+    "Flight number": "EK448",
     "Flight departure date": "2020-03-22",
     "Arrival date": "2020-03-24"
   },
@@ -4813,7 +4901,7 @@
     "DHB": "Nelson Marlborough",
     "Overseas travel": true,
     "Last country before return": "Australia",
-    "Flight number": "EK0412",
+    "Flight number": "EK412",
     "Flight departure date": "2020-03-23",
     "Arrival date": "2020-03-23"
   },
@@ -4824,7 +4912,7 @@
     "DHB": "Nelson Marlborough",
     "Overseas travel": true,
     "Last country before return": "Australia",
-    "Flight number": "EK0412",
+    "Flight number": "EK412",
     "Flight departure date": "2020-03-23",
     "Arrival date": "2020-03-23"
   },
@@ -5044,7 +5132,7 @@
     "DHB": "Waikato",
     "Overseas travel": true,
     "Last country before return": "United Arab Emirates",
-    "Flight number": "EK0448",
+    "Flight number": "EK448",
     "Flight departure date": "2020-03-19",
     "Arrival date": "2020-03-20"
   },
@@ -5285,9 +5373,9 @@
     "Age group": "70+",
     "DHB": "Waitemata",
     "Overseas travel": true,
-    "Last country before return": "England",
-    "Flight number": null,
-    "Flight departure date": null,
+    "Last country before return": "Qatar",
+    "Flight number": "QR920",
+    "Flight departure date": "2020-03-23",
     "Arrival date": "2020-03-24"
   },
   {
@@ -5736,9 +5824,9 @@
     "Age group": "70+",
     "DHB": "Waitemata",
     "Overseas travel": true,
-    "Last country before return": "England",
-    "Flight number": null,
-    "Flight departure date": null,
+    "Last country before return": "Qatar",
+    "Flight number": "QR920",
+    "Flight departure date": "2020-03-23",
     "Arrival date": "2020-03-24"
   },
   {
@@ -5880,7 +5968,7 @@
     "DHB": "Capital and Coast",
     "Overseas travel": true,
     "Last country before return": "Australia",
-    "Flight number": "QF0171",
+    "Flight number": "QF171",
     "Flight departure date": "2020-03-24",
     "Arrival date": "2020-03-24"
   },
@@ -6034,7 +6122,7 @@
     "DHB": "Northland",
     "Overseas travel": null,
     "Last country before return": null,
-    "Flight number": "EK0448",
+    "Flight number": "EK448",
     "Flight departure date": "2020-03-22",
     "Arrival date": null
   },
@@ -6287,7 +6375,7 @@
     "DHB": "Waikato",
     "Overseas travel": true,
     "Last country before return": "Indonesia",
-    "Flight number": "EK0450",
+    "Flight number": "EK450",
     "Flight departure date": "2020-03-23",
     "Arrival date": "2020-03-23"
   },
@@ -6562,7 +6650,7 @@
     "DHB": "Auckland",
     "Overseas travel": true,
     "Last country before return": "United Arab Emirates",
-    "Flight number": "EK0448",
+    "Flight number": "EK448",
     "Flight departure date": "2020-03-23",
     "Arrival date": "2020-03-24"
   },
@@ -6661,7 +6749,7 @@
     "DHB": "Auckland",
     "Overseas travel": true,
     "Last country before return": "United Arab Emirates",
-    "Flight number": "EK0448",
+    "Flight number": "EK448",
     "Flight departure date": "2020-03-21",
     "Arrival date": "2020-03-22"
   },
@@ -6672,7 +6760,7 @@
     "DHB": "Bay of Plenty",
     "Overseas travel": true,
     "Last country before return": "Australia",
-    "Flight number": "EK002",
+    "Flight number": "EK2",
     "Flight departure date": "2020-03-23",
     "Arrival date": "2020-03-26"
   },
@@ -7244,7 +7332,7 @@
     "DHB": "Auckland",
     "Overseas travel": true,
     "Last country before return": "Indonesia",
-    "Flight number": "EK0450",
+    "Flight number": "EK450",
     "Flight departure date": "2020-03-20",
     "Arrival date": "2020-03-21"
   },
@@ -7322,7 +7410,7 @@
     "Overseas travel": true,
     "Last country before return": "United States of America",
     "Flight number": "NZ523",
-    "Flight departure date": "2020-03-25",
+    "Flight departure date": null,
     "Arrival date": "2020-03-22"
   },
   {
@@ -7332,7 +7420,7 @@
     "DHB": "Canterbury",
     "Overseas travel": true,
     "Last country before return": "Australia",
-    "Flight number": "VA0097",
+    "Flight number": "VA97",
     "Flight departure date": "2020-03-23",
     "Arrival date": "2020-03-23"
   },
@@ -7882,7 +7970,7 @@
     "DHB": "Waikato",
     "Overseas travel": true,
     "Last country before return": "United Kingdom ",
-    "Flight number": "EK010",
+    "Flight number": "EK10",
     "Flight departure date": null,
     "Arrival date": "2020-03-24"
   },
@@ -8102,7 +8190,7 @@
     "DHB": "Bay of Plenty",
     "Overseas travel": true,
     "Last country before return": "England",
-    "Flight number": "EKO068",
+    "Flight number": "EK68",
     "Flight departure date": "2020-03-23",
     "Arrival date": "2020-03-24"
   },
@@ -8344,7 +8432,7 @@
     "DHB": "Hutt Valley",
     "Overseas travel": true,
     "Last country before return": "United Arab Emirates",
-    "Flight number": "EK0448",
+    "Flight number": "EK448",
     "Flight departure date": "2020-03-20",
     "Arrival date": "2020-03-21"
   },
@@ -8377,7 +8465,7 @@
     "DHB": "Northland",
     "Overseas travel": true,
     "Last country before return": "Saudi Arabia",
-    "Flight number": "EK0448",
+    "Flight number": "EK448",
     "Flight departure date": null,
     "Arrival date": "2020-03-24"
   },
@@ -8586,7 +8674,7 @@
     "DHB": "Waikato",
     "Overseas travel": true,
     "Last country before return": "United Arab Emirates",
-    "Flight number": "EK0448",
+    "Flight number": "EK448",
     "Flight departure date": "2020-03-15",
     "Arrival date": "2020-03-16"
   },
@@ -9147,7 +9235,7 @@
     "DHB": "Northland",
     "Overseas travel": true,
     "Last country before return": "United States of America",
-    "Flight number": "NZ001",
+    "Flight number": "NZ1",
     "Flight departure date": "2020-03-23",
     "Arrival date": "2020-03-24"
   },
@@ -9202,9 +9290,9 @@
     "DHB": "Southern",
     "Overseas travel": true,
     "Last country before return": "Germany",
-    "Flight number": "NZ677",
-    "Flight departure date": "2020-03-19",
-    "Arrival date": "2020-03-20"
+    "Flight number": "NZ625",
+    "Flight departure date": null,
+    "Arrival date": "2020-03-19"
   },
   {
     "Date of report": "2020-03-25",
@@ -9213,9 +9301,9 @@
     "DHB": "Southern",
     "Overseas travel": true,
     "Last country before return": "Germany",
-    "Flight number": "NZ625",
-    "Flight departure date": null,
-    "Arrival date": "2020-03-19"
+    "Flight number": "NZ677",
+    "Flight departure date": "2020-03-19",
+    "Arrival date": "2020-03-20"
   },
   {
     "Date of report": "2020-03-25",
@@ -9600,7 +9688,7 @@
     "Last country before return": "United States of America",
     "Flight number": null,
     "Flight departure date": null,
-    "Arrival date": "2020-03-21"
+    "Arrival date": "2020-03-23"
   },
   {
     "Date of report": "2020-03-24",
@@ -9697,7 +9785,7 @@
     "DHB": "Canterbury",
     "Overseas travel": true,
     "Last country before return": "United Kingdom ",
-    "Flight number": "EK0412",
+    "Flight number": "EK412",
     "Flight departure date": "2020-03-20",
     "Arrival date": "2020-03-20"
   },
@@ -9752,7 +9840,7 @@
     "DHB": "Capital and Coast",
     "Overseas travel": true,
     "Last country before return": "United States of America",
-    "Flight number": "NZ0241",
+    "Flight number": "NZ241",
     "Flight departure date": "2020-03-20",
     "Arrival date": "2020-03-20"
   },
@@ -9774,7 +9862,7 @@
     "DHB": "Capital and Coast",
     "Overseas travel": true,
     "Last country before return": "United States of America",
-    "Flight number": "NZ0407",
+    "Flight number": "NZ407",
     "Flight departure date": "2020-03-20",
     "Arrival date": "2020-03-20"
   },
@@ -9818,7 +9906,7 @@
     "DHB": "Capital and Coast",
     "Overseas travel": true,
     "Last country before return": "United States of America",
-    "Flight number": "WL0241",
+    "Flight number": "WL241",
     "Flight departure date": "2020-03-20",
     "Arrival date": "2020-03-20"
   },
@@ -9829,7 +9917,7 @@
     "DHB": "Capital and Coast",
     "Overseas travel": true,
     "Last country before return": "United States of America",
-    "Flight number": "NZ0407",
+    "Flight number": "NZ407",
     "Flight departure date": "2020-03-20",
     "Arrival date": "2020-03-20"
   },
@@ -9972,7 +10060,7 @@
     "DHB": "Southern",
     "Overseas travel": true,
     "Last country before return": "United Kingdom ",
-    "Flight number": "EK006",
+    "Flight number": "EK6",
     "Flight departure date": "2020-03-21",
     "Arrival date": "2020-03-23"
   },
@@ -10544,7 +10632,7 @@
     "DHB": "Waikato",
     "Overseas travel": true,
     "Last country before return": "France",
-    "Flight number": "EK0448",
+    "Flight number": "EK448",
     "Flight departure date": "2020-03-16",
     "Arrival date": "2020-03-16"
   },
@@ -10665,7 +10753,7 @@
     "DHB": "Auckland",
     "Overseas travel": true,
     "Last country before return": "United Arab Emirates",
-    "Flight number": "EK0448",
+    "Flight number": "EK448",
     "Flight departure date": "2020-03-18",
     "Arrival date": "2020-03-19"
   },
@@ -10775,7 +10863,7 @@
     "DHB": "Counties Manukau",
     "Overseas travel": true,
     "Last country before return": "Malaysia",
-    "Flight number": "MH0133",
+    "Flight number": "MH133",
     "Flight departure date": "2020-03-19",
     "Arrival date": "2020-03-19"
   },
@@ -11336,7 +11424,7 @@
     "DHB": "Lakes",
     "Overseas travel": true,
     "Last country before return": "United Arab Emirates",
-    "Flight number": "EK0448",
+    "Flight number": "EK448",
     "Flight departure date": "2020-03-10",
     "Arrival date": "2020-03-12"
   },
@@ -11479,7 +11567,7 @@
     "DHB": "Hawke's Bay",
     "Overseas travel": true,
     "Last country before return": "Qatar",
-    "Flight number": "QR0920",
+    "Flight number": "QR920",
     "Flight departure date": "2020-03-16",
     "Arrival date": "2020-03-17"
   },
@@ -11556,7 +11644,7 @@
     "DHB": "Waikato",
     "Overseas travel": true,
     "Last country before return": "France",
-    "Flight number": "EK0450",
+    "Flight number": "EK450",
     "Flight departure date": "2020-03-16",
     "Arrival date": "2020-03-17"
   },
@@ -11567,7 +11655,7 @@
     "DHB": "Waikato",
     "Overseas travel": true,
     "Last country before return": "France",
-    "Flight number": "EK0450",
+    "Flight number": "EK450",
     "Flight departure date": "2020-03-16",
     "Arrival date": "2020-03-17"
   },
@@ -11666,7 +11754,7 @@
     "DHB": "Auckland",
     "Overseas travel": true,
     "Last country before return": "United Kingdom ",
-    "Flight number": "EK0448",
+    "Flight number": "EK448",
     "Flight departure date": "2020-03-14",
     "Arrival date": "2020-03-15"
   },
@@ -11699,7 +11787,7 @@
     "DHB": "Counties Manukau",
     "Overseas travel": true,
     "Last country before return": "United States of America",
-    "Flight number": "AA0083",
+    "Flight number": "AA83",
     "Flight departure date": "2020-03-11",
     "Arrival date": "2020-03-13"
   },
@@ -11721,7 +11809,7 @@
     "DHB": "Northland",
     "Overseas travel": true,
     "Last country before return": "England",
-    "Flight number": "VA0141",
+    "Flight number": "VA141",
     "Flight departure date": "2020-03-16",
     "Arrival date": "2020-03-16"
   },
