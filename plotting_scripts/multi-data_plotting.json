@@ -17,7 +17,9 @@
       "encoding": {
         "x": {
           "field": "Date of report",
-          "type": "nominal",
+          "type": "temporal",
+          "timeUnit": "monthday",
+          "band": "0.8",
           "axis": {
             "title": "Date"
           }
@@ -35,7 +37,11 @@
           "condition": {
             "test": {
               "field": "Date of report",
-              "gt": "2020-03-26"
+              "gte": {
+            "year": 2020,
+            "month": "mar",
+            "date": 26
+          },
             },
             "value": "orange"
           }
@@ -62,7 +68,8 @@
           "encoding": {
             "x": {
               "field": "Date of report",
-              "type": "nominal",
+              "type": "temporal",
+              "timeUnit": "monthday",
               "title": "Date"
             },
             "y": {

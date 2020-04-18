@@ -1,6 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
-  "width": 580,
+  "width": 780,
   "height": 200,
   "padding": 5,
   "description": "simple vega-lite chart with linked data",
@@ -15,7 +15,9 @@
   "encoding": {
     "x": {
       "field": "Date of report",
-      "type": "nominal"
+      "type": "temporal",
+      "timeUnit": "monthday",
+      "band": 0.75
     },
     "y": {
       "aggregate": "count",
@@ -32,7 +34,7 @@
     },
     "order": { "aggregate": "sum", "field": "status", "type": "quantitative" },
     "tooltip": [ 
-      { "field": "Date of report" }, 
+      { "field": "Date of report", "type": "temporal", "timeUnit": "monthday" }, 
       { "field": "status", "title": "Case status" },
       { "aggregate": "count", "field": "status", "type": "quantitative", "title": "Number of cases" } 
     ]
