@@ -46,7 +46,7 @@
     Hospital <span style="font-size:16px" class="badge badge-hospital"><b id="hospital"></b></span> &nbsp;&nbsp; |
     &nbsp;&nbsp;
     Deaths <span style="font-size:16px" class="badge badge-deaths"><b id="deaths"></b></span> <span
-      style="font-size:12px">  <br> [ <b> last updated: 2020/04/18 16:54:32
+      style="font-size:12px">  <br> [ <b> last updated: 2020/04/18 22:13:20
   </b>]</span>
     </center>
 <hr>
@@ -579,7 +579,7 @@ xmlhttp.send();
 <script type="text/javascript">
   var yourV5Spec = {
     "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
-    "width": 800,
+    "width": 700,
     "height": 250,
     "padding": 5,
     "description": "simple vega-lite chart with linked data",
@@ -589,7 +589,7 @@ xmlhttp.send();
     },
     "transform": [{
       "sort": [{ "field": "Date of report" }],
-      "window": [{ "op": "count", "field": "count", "as": "cumulative_count" }],
+      "window": [{ "op": "count", "as": "cumulative_count" }],
       "frame": [null, 0]
     }],
     "mark": {
@@ -599,7 +599,9 @@ xmlhttp.send();
     "encoding": {
       "x": {
         "field": "Date of report",
-        "type": "nominal"
+        "type": "temporal",
+        "timeUnit": "monthday",
+        "band": 0.6
       },
       "y": {
         "field": "cumulative_count",
@@ -608,13 +610,19 @@ xmlhttp.send();
       "color": {
         "value": "steelblue",
         "condition": {
-          "test": { "field": "Date of report", "gte": "2020-03-26" },
+          "test": { 
+            "field": "Date of report", 
+            "gte": {
+              "year": 2020, 
+              "month": "mar", 
+              "date": 26
+              }
+            },
           "value": "orange"
         }
       }
     }
-  }
-;
+  };
   vegaEmbed('#vis5', yourV5Spec);
 </script>
 

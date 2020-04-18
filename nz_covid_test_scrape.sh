@@ -6,7 +6,7 @@ sed 's/^[\ \t]*//g' | \
 tr -d '\n' | \
 sed 's/<\/TR[^>]*>/\n/Ig' | \
 sed 's/<\/\?\(TABLE\|TR\)[^>]*>//Ig' | \
-sed 's/^<T[DH][^>]*>\|<\/\?T[DH][^>]*>$//Ig' | \
+sed 's/^<T[DH][^>]*>\|<\/\?T[DH][^>]*>$//Ig' | sed 's/,//Ig' | \
 sed 's/<\/T[DH][^>]*><T[DH][^>]*>/,/Ig' | \
 grep -i -e 'Emergencies' -B 60 | \
 grep -i -e 'date,tests' -A 60 | \
