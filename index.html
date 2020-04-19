@@ -46,7 +46,7 @@
     Hospital <span style="font-size:16px" class="badge badge-hospital"><b id="hospital"></b></span> &nbsp;&nbsp; |
     &nbsp;&nbsp;
     Deaths <span style="font-size:16px" class="badge badge-deaths"><b id="deaths"></b></span> <span
-      style="font-size:12px">  <br> [ <b> last updated: 2020/04/19 14:29:48
+      style="font-size:12px">  <br> [ <b> last updated: 2020/04/19 14:35:17
   </b>]</span>
     </center>
 <hr>
@@ -261,7 +261,7 @@ xmlhttp.send();
     "data": { "url": "https://raw.githubusercontent.com/sirselim/covid_analysis/master/data//NZCOVID_confirmed_formatted.json" },
     "vconcat": [
       {
-        "width": 800,
+        "width": 780,
         "height": 220,
         "mark": {
           "type": "bar",
@@ -271,7 +271,9 @@ xmlhttp.send();
         "encoding": {
           "x": {
             "field": "Date of report",
-            "type": "nominal",
+            "type": "temporal",
+            "timeUnit": "monthdate",
+            "band": 0.8,
             "axis": {
               "title": "date"
             }
@@ -291,7 +293,7 @@ xmlhttp.send();
         }
       },
       {
-        "width": 800,
+        "width": 780,
         "height": 220,
         "mark": {
           "type": "bar",
