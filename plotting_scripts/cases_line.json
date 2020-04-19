@@ -1,0 +1,54 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "description": "simple vega-lite script testing heatmap and rectangle plotting functions",
+  "width": 650,
+  "height": 300,
+  "title": "Number of days between arrival in New Zealand and diagnosis",
+  "background": "white",
+  "padding": 6,
+  "layer": [
+    {
+      "data": { "values": [{}] },
+      "mark": { "type": "rect", "tooltip": true },
+      "encoding": {
+        "x": {
+          "datum": { "year": "2020", "month": "Mar", "date": 26 }
+        },
+        "x2": {
+          "datum": { "year": "2020", "month": "Apr", "date": 19 }
+        },
+        "color": {
+          "value": "orange"
+        },
+        "opacity": { "value": 0.15 },
+        "tooltip": [ { "title": "lockdown" } ]
+      }
+    },
+    {
+      "data": {
+        "url": "https://raw.githubusercontent.com/sirselim/covid_analysis/master/data/NZCOVID_confirmed_formatted.json"
+      },
+      "layer": [
+        {
+          "mark": {
+            "type": "bar",
+            "tooltip": true
+          },
+          "encoding": {
+            "y": {
+              "field": "Date of report",
+              "aggregate": "count",
+              "type": "nominal",
+              "title": "Date of diagnosis"
+            },
+            "x": {
+              "field": "Date of report",
+              "type": "temporal",
+              "title": "Date of report"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

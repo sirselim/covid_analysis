@@ -46,7 +46,7 @@
     Hospital <span style="font-size:16px" class="badge badge-hospital"><b id="hospital"></b></span> &nbsp;&nbsp; |
     &nbsp;&nbsp;
     Deaths <span style="font-size:16px" class="badge badge-deaths"><b id="deaths"></b></span> <span
-      style="font-size:12px">  <br> [ <b> last updated: 2020/04/19 14:35:17
+      style="font-size:12px">  <br> [ <b> last updated: 2020/04/20 11:59:23
   </b>]</span>
     </center>
 <hr>
@@ -184,72 +184,74 @@ xmlhttp.send();
 <!-- plot the breakdown of cases per day and per DHB -->
 <script type="text/javascript">
   var yourVlSpec = {
-    "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
-    "description": "simple vega-lite chart with linked data",
-    "data": { "url": "https://raw.githubusercontent.com/sirselim/covid_analysis/master/data//NZCOVID_confirmed_formatted.json" },
-    "vconcat": [
-      {
-        "width": 800,
-        "height": 220,
-        "mark": {
-          "type": "bar",
-          "tooltip": true
-        },
-        "title": "Confirmed COVID cases in NZ per calendar day",
-        "encoding": {
-          "x": {
-            "field": "Date of report",
-            "type": "nominal",
-            "axis": {
-              "title": "date"
-            }
-          },
-          "y": {
-            "aggregate": "count",
-            "field": "Date of report",
-            "type": "quantitative",
-            "axis": {
-              "title": "number of cases"
-            }
-          },
-          "color": {
-            "value": "steelblue",
-            "condition": {
-              "test": { "field": "Date of report", "gte": "2020-03-26" },
-              "value": "orange"
-            }
-          }
-        }
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "description": "simple vega-lite chart with linked data",
+  "data": {
+    "url": "https://raw.githubusercontent.com/sirselim/covid_analysis/master/data//NZCOVID_confirmed_formatted.json"
+  },
+  "vconcat": [
+    {
+      "width": 780,
+      "height": 200,
+      "mark": {
+        "type": "bar",
+        "tooltip": true
       },
-      {
-        "width": 800,
-        "height": 250,
-        "mark": {
-          "type": "bar",
-          "tooltip": true
+      "title": "Confirmed COVID cases in NZ per day",
+      "encoding": {
+        "x": {
+          "field": "Date of report",
+          "type": "temporal",
+          "axis": {
+            "title": "date"
+          }
         },
-        "title": "Confirmed COVID cases in NZ DHBs",
-        "encoding": {
-          "y": {
-            "field": "DHB",
-            "type": "nominal",
-            "sort": "-x",
-            "axis": {
-              "title": "DHB"
-            }
-          },
-          "x": {
-            "aggregate": "count",
-            "field": "DHB",
-            "type": "quantitative",
-            "axis": {
-              "title": "number of cases"
-            }
+        "y": {
+          "aggregate": "count",
+          "field": "Date of report",
+          "type": "quantitative",
+          "axis": {
+            "title": "number of cases"
+          }
+        },
+        "color": {
+          "value": "steelblue",
+          "condition": {
+            "test": { "field": "Date of report", "gte": {"year": 2020, "month": "mar", "date": 26} },
+            "value": "orange"
           }
         }
       }
-    ]
-  };
+    },
+    {
+      "width": 780,
+      "height": 200,
+      "mark": {
+        "type": "bar",
+        "tooltip": true
+      },
+      "title": "Confirmed COVID cases in NZ DHBs",
+      "encoding": {
+        "x": {
+          "field": "DHB",
+          "type": "nominal",
+          "sort": "y",
+          "axis": {
+            "title": "DHB"
+          }
+        },
+        "y": {
+          "aggregate": "count",
+          "field": "DHB",
+          "type": "quantitative",
+          "axis": {
+            "title": "number of cases"
+          }
+        }
+      }
+    }
+  ]
+};
   vegaEmbed('#vis1', yourVlSpec);
 </script>
 
@@ -733,87 +735,92 @@ xmlhttp.send();
 <!-- plot overlay stats for COVID NZ -->
 <script type="text/javascript">
   var yourV8Spec = {
-      "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
-      "description": "simple vega-lite chart with linked data",
-      "title": "Overlay of cases and lab testing", 
-      "width": 800,
-      "height": 350,
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "description": "simple vega-lite chart with linked data",
+  "title": "Overlay of cases and lab testing",
+  "width": 750,
+  "height": 250,
+  "layer": [
+    {
+      "data": {
+        "url": "https://raw.githubusercontent.com/sirselim/covid_analysis/master/data/NZCOVID_confirmed_formatted.json"
+      },
+      "mark": {
+        "opacity": 0.6,
+        "type": "bar",
+        "tooltip": true
+      },
+      "encoding": {
+        "x": {
+          "field": "Date of report",
+          "type": "temporal",
+          "band": 0.8,
+          "axis": {
+            "title": "Date"
+          }
+        },
+        "y": {
+          "aggregate": "count",
+          "field": "Date of report",
+          "type": "quantitative",
+          "axis": {
+            "title": "Number of cases"
+          }
+        },
+        "color": {
+          "value": "steelblue",
+          "condition": {
+            "test": {
+              "field": "Date of report",
+              "gte": {
+                "year": 2020,
+                "month": "mar",
+                "date": 26
+              }
+            },
+            "value": "orange"
+          }
+        }
+      }
+    },
+    {
       "layer": [
         {
           "data": {
-            "url": "https://raw.githubusercontent.com/sirselim/covid_analysis/master/data//NZCOVID_confirmed_formatted.json"
+            "url": "https://raw.githubusercontent.com/sirselim/covid_analysis/master/data/NZ_testing_stats.json"
           },
           "mark": {
-            "opacity": 0.5,
-            "type": "bar",
-            "tooltip": true
+            "type": "line",
+            "strokeWidth": 3,
+            "interpolate": "monotone",
+            "tooltip": true,
+            "point": {
+              "filled": false,
+              "fill": "white",
+              "strokeWidth": 3
+            }
           },
           "encoding": {
             "x": {
               "field": "Date of report",
-              "type": "nominal",
-              "axis": {
-                "title": "Date"
-              }
+              "type": "temporal",
+              "title": "Date"
             },
             "y": {
-              "aggregate": "count",
-              "field": "Date of report",
-              "type": "quantitative",
-              "axis": {
-                "title": "Number of cases"
-              }
+              "field": "Tests per Day",
+              "type": "quantitative"
             },
-            "color": {
-              "value": "steelblue",
-              "condition": {
-                "test": {
-                  "field": "Date of report",
-                  "gt": "2020-03-26"
-                },
-                "value": "orange"
-              }
-            }
+            "color": { "value": "#025b96" }
           }
-        },
-        {
-          "layer": [
-            {
-              "data": {
-                "url": "https://raw.githubusercontent.com/sirselim/covid_analysis/master/data/NZ_testing_stats.json"
-              },
-              "mark": {
-                "type": "line",
-                "strokeWidth": 3,
-                "interpolate": "monotone",
-                "tooltip": true,
-                "point": {
-                  "filled": false,
-                  "fill": "white",
-                  "strokeWidth": 3
-                }
-              },
-              "encoding": {
-                "x": {
-                  "field": "Date of report",
-                  "type": "nominal",
-                  "title": "Date"
-                },
-                "y": {
-                  "field": "Tests per Day",
-                  "type": "quantitative"
-                },
-                "color": { "value": "#025b96" }
-              }
-            }
-          ]
         }
-      ],
-      "resolve": {
-        "scale": {
-          "y": "independent"
-        }
-      }
-    };
+      ]
+    }
+  ],
+  "resolve": {
+    "scale": {
+      "y": "independent"
+    }
+  }
+};
   vegaEmbed('#vis8', yourV8Spec);
 </script>
