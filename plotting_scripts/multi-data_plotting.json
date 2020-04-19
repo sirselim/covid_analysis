@@ -18,7 +18,7 @@
         "x": {
           "field": "Date of report",
           "type": "temporal",
-          "timeUnit": "monthday",
+          "timeUnit": "monthdate",
           "band": "0.8",
           "axis": {
             "title": "Date"
@@ -38,10 +38,10 @@
             "test": {
               "field": "Date of report",
               "gte": {
-            "year": 2020,
-            "month": "mar",
-            "date": 26
-          },
+                "year": 2020,
+                "month": "mar",
+                "date": 26
+              }
             },
             "value": "orange"
           }

@@ -1,11 +1,11 @@
 [
   {
     "DHB": "Auckland",
-    "Active": 49,
-    "Recovered": 136,
+    "Active": 46,
+    "Recovered": 139,
     "Deceased": null,
     "Total": 185,
-    "Change in last 24 hours": 1
+    "Change in last 24 hours": 0
   },
   {
     "DHB": "Bay of Plenty",
@@ -13,15 +13,15 @@
     "Recovered": 32,
     "Deceased": null,
     "Total": 45,
-    "Change in last 24 hours": 1
+    "Change in last 24 hours": 0
   },
   {
     "DHB": "Canterbury",
     "Active": 64,
-    "Recovered": 76,
+    "Recovered": 79,
     "Deceased": 7,
-    "Total": 147,
-    "Change in last 24 hours": 1
+    "Total": 150,
+    "Change in last 24 hours": 3
   },
   {
     "DHB": "Capital and Coast",
@@ -29,20 +29,20 @@
     "Recovered": 49,
     "Deceased": 2,
     "Total": 93,
-    "Change in last 24 hours": 1
+    "Change in last 24 hours": 0
   },
   {
     "DHB": "Counties Manukau",
-    "Active": 32,
-    "Recovered": 78,
+    "Active": 27,
+    "Recovered": 83,
     "Deceased": null,
     "Total": 110,
-    "Change in last 24 hours": 1
+    "Change in last 24 hours": 0
   },
   {
     "DHB": "Hawke&#39;s Bay",
-    "Active": 21,
-    "Recovered": 20,
+    "Active": 19,
+    "Recovered": 22,
     "Deceased": null,
     "Total": 41,
     "Change in last 24 hours": 0
@@ -61,20 +61,20 @@
     "Recovered": 11,
     "Deceased": null,
     "Total": 16,
-    "Change in last 24 hours": 1
+    "Change in last 24 hours": 0
   },
   {
     "DHB": "Mid Central",
-    "Active": 11,
-    "Recovered": 20,
+    "Active": 6,
+    "Recovered": 25,
     "Deceased": null,
     "Total": 31,
-    "Change in last 24 hours": 2
+    "Change in last 24 hours": 0
   },
   {
     "DHB": "Nelson Marlborough",
-    "Active": 14,
-    "Recovered": 34,
+    "Active": 9,
+    "Recovered": 39,
     "Deceased": null,
     "Total": 48,
     "Change in last 24 hours": 0
@@ -85,7 +85,7 @@
     "Recovered": 10,
     "Deceased": null,
     "Total": 27,
-    "Change in last 24 hours": 1
+    "Change in last 24 hours": 0
   },
   {
     "DHB": "South Canterbury",
@@ -93,20 +93,20 @@
     "Recovered": 6,
     "Deceased": null,
     "Total": 15,
-    "Change in last 24 hours": 1
+    "Change in last 24 hours": 0
   },
   {
     "DHB": "Southern",
-    "Active": 64,
-    "Recovered": 152,
+    "Active": 62,
+    "Recovered": 154,
     "Deceased": null,
     "Total": 216,
-    "Change in last 24 hours": 2
+    "Change in last 24 hours": 0
   },
   {
-    "DHB": "Tairāwhiti",
-    "Active": 3,
-    "Recovered": 1,
+    "DHB": "Tairawhiti",
+    "Active": 4,
+    "Recovered": 0,
     "Deceased": null,
     "Total": 4,
     "Change in last 24 hours": 0
@@ -121,11 +121,11 @@
   },
   {
     "DHB": "Waikato",
-    "Active": 98,
-    "Recovered": 84,
+    "Active": 90,
+    "Recovered": 93,
     "Deceased": 1,
-    "Total": 183,
-    "Change in last 24 hours": 0
+    "Total": 184,
+    "Change in last 24 hours": 1
   },
   {
     "DHB": "Wairarapa",
@@ -136,27 +136,27 @@
     "Change in last 24 hours": 0
   },
   {
-    "DHB": "Waitematā",
-    "Active": 86,
-    "Recovered": 120,
+    "DHB": "Waitemata",
+    "Active": 84,
+    "Recovered": 127,
     "Deceased": null,
-    "Total": 206,
-    "Change in last 24 hours": 0
+    "Total": 211,
+    "Change in last 24 hours": 5
   },
   {
     "DHB": "West Coast",
-    "Active": 2,
-    "Recovered": 2,
+    "Active": 1,
+    "Recovered": 3,
     "Deceased": 1,
     "Total": 5,
     "Change in last 24 hours": 0
   },
   {
     "DHB": "Whanganui",
-    "Active": 4,
-    "Recovered": 4,
+    "Active": 1,
+    "Recovered": 7,
     "Deceased": null,
     "Total": 8,
-    "Change in last 24 hours": 1
+    "Change in last 24 hours": 0
   }
 ]

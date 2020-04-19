@@ -23,7 +23,7 @@
     "x": {
       "field": "Date of report",
       "type": "temporal",
-      "timeUnit": "monthday",
+      "timeUnit": "monthdate",
       "band": 0.6
     },
     "y": {

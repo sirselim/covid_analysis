@@ -1,10 +1,54 @@
 [
   {
     "Date of report": "2020-04-18",
-    "Sex": "Female",
-    "Age group": "70+     ",
+    "Sex": null,
+    "Age group": "40 to 49",
     "DHB": "Auckland",
+    "Overseas travel": false,
+    "Last country before return": null,
+    "Flight number": null,
+    "Flight departure date": null,
+    "Arrival date": null
+  },
+  {
+    "Date of report": "2020-04-18",
+    "Sex": "Female",
+    "Age group": "50 to 59",
+    "DHB": "Waikato",
     "Overseas travel": null,
+    "Last country before return": null,
+    "Flight number": null,
+    "Flight departure date": null,
+    "Arrival date": null
+  },
+  {
+    "Date of report": "2020-04-18",
+    "Sex": "Female",
+    "Age group": "5 to 9",
+    "DHB": "Waitemata",
+    "Overseas travel": false,
+    "Last country before return": null,
+    "Flight number": null,
+    "Flight departure date": null,
+    "Arrival date": null
+  },
+  {
+    "Date of report": "2020-04-18",
+    "Sex": "Female",
+    "Age group": "20 to 29",
+    "DHB": "Waitemata",
+    "Overseas travel": false,
+    "Last country before return": null,
+    "Flight number": null,
+    "Flight departure date": null,
+    "Arrival date": null
+  },
+  {
+    "Date of report": "2020-04-18",
+    "Sex": "Male",
+    "Age group": "20 to 29",
+    "DHB": "Waitemata",
+    "Overseas travel": false,
     "Last country before return": null,
     "Flight number": null,
     "Flight departure date": null,
@@ -50,7 +94,7 @@
     "DHB": "Southern",
     "Overseas travel": true,
     "Last country before return": "Canada",
-    "Flight number": "NZ0023",
+    "Flight number": "NZ23",
     "Flight departure date": "2020-03-21",
     "Arrival date": "2020-03-23"
   },
@@ -59,7 +103,7 @@
     "Sex": "Male",
     "Age group": "<1",
     "DHB": "Southern",
-    "Overseas travel": null,
+    "Overseas travel": false,
     "Last country before return": null,
     "Flight number": null,
     "Flight departure date": null,
@@ -114,6 +158,17 @@
     "Sex": "Female",
     "Age group": "50 to 59",
     "DHB": "Waikato",
+    "Overseas travel": false,
+    "Last country before return": null,
+    "Flight number": null,
+    "Flight departure date": null,
+    "Arrival date": null
+  },
+  {
+    "Date of report": "2020-04-16",
+    "Sex": "Female",
+    "Age group": "40 to 49",
+    "DHB": "Waitemata",
     "Overseas travel": false,
     "Last country before return": null,
     "Flight number": null,
@@ -1247,11 +1302,11 @@
     "Sex": "Male",
     "Age group": "20 to 29",
     "DHB": "Waitemata",
-    "Overseas travel": false,
-    "Last country before return": null,
+    "Overseas travel": true,
+    "Last country before return": "United Arab Emirates",
     "Flight number": null,
     "Flight departure date": null,
-    "Arrival date": null
+    "Arrival date": "2020-03-24"
   },
   {
     "Date of report": "2020-04-06",
@@ -1357,7 +1412,7 @@
     "Sex": "Male",
     "Age group": "50 to 59",
     "DHB": "Canterbury",
-    "Overseas travel": null,
+    "Overseas travel": false,
     "Last country before return": null,
     "Flight number": null,
     "Flight departure date": null,
@@ -2446,7 +2501,7 @@
     "Sex": "Female",
     "Age group": "15 to 19",
     "DHB": "Counties Manukau",
-    "Overseas travel": null,
+    "Overseas travel": false,
     "Last country before return": null,
     "Flight number": null,
     "Flight departure date": null,
@@ -2578,11 +2633,11 @@
     "Sex": "Male",
     "Age group": "30 to 39",
     "DHB": "Waitemata",
-    "Overseas travel": null,
-    "Last country before return": null,
-    "Flight number": null,
+    "Overseas travel": true,
+    "Last country before return": "United States of America",
+    "Flight number": "QF143",
     "Flight departure date": null,
-    "Arrival date": null
+    "Arrival date": "2020-03-18"
   },
   {
     "Date of report": "2020-04-02",
@@ -2700,9 +2755,9 @@
     "Age group": "20 to 29",
     "DHB": "Waitemata",
     "Overseas travel": true,
-    "Last country before return": null,
-    "Flight number": null,
-    "Flight departure date": null,
+    "Last country before return": "United Arab Emirates",
+    "Flight number": "EK448",
+    "Flight departure date": "2020-03-20",
     "Arrival date": "2020-03-21"
   },
   {
@@ -2732,7 +2787,7 @@
     "Sex": "Male",
     "Age group": "60 to 69",
     "DHB": "Waitemata",
-    "Overseas travel": null,
+    "Overseas travel": false,
     "Last country before return": null,
     "Flight number": null,
     "Flight departure date": null,
@@ -2743,11 +2798,11 @@
     "Sex": "Male",
     "Age group": "60 to 69",
     "DHB": "Waitemata",
-    "Overseas travel": false,
-    "Last country before return": null,
-    "Flight number": null,
-    "Flight departure date": null,
-    "Arrival date": null
+    "Overseas travel": true,
+    "Last country before return": "United Arab Emirates",
+    "Flight number": "EK448",
+    "Flight departure date": "2020-03-20",
+    "Arrival date": "2020-03-21"
   },
   {
     "Date of report": "2020-03-31",
@@ -3180,17 +3235,6 @@
   },
   {
     "Date of report": "2020-03-27",
-    "Sex": "Female",
-    "Age group": "40 to 49",
-    "DHB": "Canterbury",
-    "Overseas travel": false,
-    "Last country before return": null,
-    "Flight number": null,
-    "Flight departure date": null,
-    "Arrival date": null
-  },
-  {
-    "Date of report": "2020-03-27",
     "Sex": "Male",
     "Age group": "30 to 39",
     "DHB": "Canterbury",
@@ -3436,7 +3480,7 @@
     "Sex": "Female",
     "Age group": "50 to 59",
     "DHB": "Nelson Marlborough",
-    "Overseas travel": null,
+    "Overseas travel": false,
     "Last country before return": null,
     "Flight number": null,
     "Flight departure date": null,
@@ -3474,6 +3518,17 @@
     "Flight number": null,
     "Flight departure date": null,
     "Arrival date": "2020-03-23"
+  },
+  {
+    "Date of report": "2020-03-23",
+    "Sex": "Female",
+    "Age group": "40 to 49",
+    "DHB": "Canterbury",
+    "Overseas travel": false,
+    "Last country before return": null,
+    "Flight number": null,
+    "Flight departure date": null,
+    "Arrival date": null
   },
   {
     "Date of report": "2020-03-23",

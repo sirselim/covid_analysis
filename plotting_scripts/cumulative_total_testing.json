@@ -16,7 +16,8 @@
       "encoding": {
         "x": {
           "field": "Date of report",
-          "type": "nominal"
+          "type": "temporal",
+          "timeUnit":"monthdate"
         },
         "y": {
           "field": "Tests per Day",
@@ -35,7 +36,8 @@
       "encoding": {
         "x": {
           "field": "Date of report",
-          "type": "nominal"
+          "timeUnit":"monthdate",
+          "type": "temporal"
         },
         "y": {
           "field": "Total Tests (Cumulative)",
