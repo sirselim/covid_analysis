@@ -9,7 +9,7 @@
   "layer": [
     {
       "data": { "values": [{}] },
-      "mark": { "type": "rect", "tooltip": true },
+      "mark": { "type": "rect", "tooltip": "lockdown" },
       "encoding": {
         "x": {
           "datum": { "year": "2020", "month": "Mar", "date": 26 }
@@ -20,8 +20,7 @@
         "color": {
           "value": "orange"
         },
-        "opacity": { "value": 0.15 },
-        "tooltip": [ { "title": "lockdown" } ]
+        "opacity": { "value": 0.15 }
       }
     },
     {

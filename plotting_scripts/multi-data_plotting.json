@@ -10,7 +10,7 @@
         "url": "https://raw.githubusercontent.com/sirselim/covid_analysis/master/data/NZCOVID_confirmed_formatted.json"
       },
       "mark": {
-        "opacity": 0.5,
+        "opacity": 0.6,
         "type": "bar",
         "tooltip": true
       },
@@ -18,8 +18,7 @@
         "x": {
           "field": "Date of report",
           "type": "temporal",
-          "timeUnit": "monthdate",
-          "band": "0.8",
+          "band": 0.8,
           "axis": {
             "title": "Date"
           }
@@ -69,7 +68,6 @@
             "x": {
               "field": "Date of report",
               "type": "temporal",
-              "timeUnit": "monthday",
               "title": "Date"
             },
             "y": {
