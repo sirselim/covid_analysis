@@ -1,5 +1,29 @@
 [
   {
+    "Date of report": "2020-04-19",
+    "status": "confirmed"
+  },
+  {
+    "Date of report": "2020-04-19",
+    "status": "confirmed"
+  },
+  {
+    "Date of report": "2020-04-19",
+    "status": "confirmed"
+  },
+  {
+    "Date of report": "2020-04-19",
+    "status": "confirmed"
+  },
+  {
+    "Date of report": "2020-04-19",
+    "status": "confirmed"
+  },
+  {
+    "Date of report": "2020-04-18",
+    "status": "confirmed"
+  },
+  {
     "Date of report": "2020-04-18",
     "status": "confirmed"
   },
@@ -657,6 +681,10 @@
   },
   {
     "Date of report": "2020-04-06",
+    "status": "confirmed"
+  },
+  {
+    "Date of report": "2020-04-05",
     "status": "confirmed"
   },
   {
@@ -4392,7 +4420,11 @@
     "status": "confirmed"
   },
   {
-    "Date of report": "2020-04-18",
+    "Date of report": "2020-04-19",
+    "status": "probable"
+  },
+  {
+    "Date of report": "2020-04-19",
     "status": "probable"
   },
   {
@@ -4409,6 +4441,14 @@
   },
   {
     "Date of report": "2020-04-18",
+    "status": "probable"
+  },
+  {
+    "Date of report": "2020-04-18",
+    "status": "probable"
+  },
+  {
+    "Date of report": "2020-04-17",
     "status": "probable"
   },
   {
@@ -4957,10 +4997,6 @@
   },
   {
     "Date of report": "2020-04-06",
-    "status": "probable"
-  },
-  {
-    "Date of report": "2020-04-05",
     "status": "probable"
   },
   {
