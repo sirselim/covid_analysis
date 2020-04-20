@@ -12,9 +12,11 @@
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
       <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
       <link href='https://fonts.googleapis.com/css?family=Source+Code+Pro' rel='stylesheet' type='text/css'>
-      <script src="https://cdn.jsdelivr.net/npm/vega@5.10.0"></script>
-      <script src="https://cdn.jsdelivr.net/npm/vega-lite@4.8.1"></script>
-      <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.5.1"></script>
+      <!-- Import Vega & Vega-Lite (does not have to be from CDN) -->
+      <script src="https://cdn.jsdelivr.net/npm/vega@5.10.1"></script>
+      <script src="https://cdn.jsdelivr.net/npm/vega-lite@4.10.4"></script>
+      <!-- Import vega-embed -->
+      <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.6.0"></script>
       <link rel="stylesheet" type="text/css" href="vega-embed.css">
   </head>
   <body>
@@ -46,7 +48,7 @@
     Hospital <span style="font-size:16px" class="badge badge-hospital"><b id="hospital"></b></span> &nbsp;&nbsp; |
     &nbsp;&nbsp;
     Deaths <span style="font-size:16px" class="badge badge-deaths"><b id="deaths"></b></span> <span
-      style="font-size:12px">  <br> [ <b> last updated: 2020/04/20 14:44:49
+      style="font-size:12px">  <br> [ <b> last updated: 2020/04/21 10:45:48
   </b>]</span>
     </center>
 <hr>
@@ -632,59 +634,14 @@ xmlhttp.send();
 
 <!-- plot both confirmed and probable COVID cases for NZ -->
 <script type="text/javascript">
-  var yourV6Spec = {
-  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
-  "width": 780,
-  "height": 200,
-  "padding": 5,
-  "description": "simple vega-lite chart with linked data",
-  "title": "Cumulative confirmed COVID cases in NZ",
-  "data": {
-    "url": "https://raw.githubusercontent.com/sirselim/covid_analysis/master/data/casesTotal.json"
-  },
-  "mark": {
-    "type": "bar",
-    "tooltip": true
-  },
-  "encoding": {
-    "x": {
-      "field": "Date of report",
-      "type": "temporal",
-      "timeUnit": "monthday",
-      "band": 0.75
-    },
-    "y": {
-      "aggregate": "count",
-      "type": "quantitative"
-    },
-    "color": {
-      "field": "status",
-      "type": "nominal",
-      "scale": {
-        "domain": ["confirmed", "probable"],
-        "range": ["steelblue", "darkred"]
-      },
-      "legend": { "title": "Case status" }
-    },
-    "order": { "aggregate": "sum", "field": "status", "type": "quantitative" },
-    "tooltip": [ 
-      { "field": "Date of report", "type": "temporal", "timeUnit": "monthday" }, 
-      { "field": "status", "title": "Case status" },
-      { "aggregate": "count", "field": "status", "type": "quantitative", "title": "Number of cases" } 
-    ]
-  }
-};
-  vegaEmbed('#vis6', yourV6Spec);
-</script>
-<!-- <script type="text/javascript">
   var spec =
-    "https://raw.githubusercontent.com/sirselim/covid_analysis/master/plotting_scripts/TotalCases_lockdown.json";
+    "https://raw.githubusercontent.com/sirselim/covid_analysis/master/plotting_scripts/TotalCases_lockdown.vl.json";
   vegaEmbed("#vis6", spec)
     .then(function (result) {
       // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
     })
     .catch(console.error);
-</script> -->
+</script>
 
 <!-- plot testing stats for COVID NZ -->
 <script type="text/javascript">
