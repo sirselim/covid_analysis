@@ -1,0 +1,64 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "description": "simple vega-lite script testing barplot and rectangle functions",
+  "title": "Visualising confirmed and probable COVID cases in NZ",
+  "background": "white",
+  "padding": 6,
+  "layer": [
+    {
+      "data": { "values": [{}] },
+      "mark": { "type": "rect", "tooltip": "lockdown (26th Mar - 28th April)" },
+      "encoding": {
+        "x": {
+          "datum": { "year": "2020", "month": "Mar", "date": 26 }
+        },
+        "x2": {
+          "datum": { "year": "2020", "month": "Apr", "date": 28 }
+        },
+        "color": {
+          "value": "darkred"
+        },
+        "opacity": { "value": 0.15 }
+      }
+    },
+    {
+      "data": {
+        "url": "https://raw.githubusercontent.com/sirselim/covid_analysis/master/data/casesTotal.json"
+      },
+      "layer": [
+        {
+          "mark": {
+            "type": "bar",
+            "tooltip": true
+          },
+            "encoding": {
+    "x": {
+      "field": "Date of report",
+      "type": "temporal",
+      "band": 0.75
+    },
+    "y": {
+      "aggregate": "count",
+      "type": "quantitative"
+    },
+    "color": {
+      "field": "status",
+      "type": "nominal",
+      "scale": {
+        "domain": ["confirmed", "probable"],
+        "range": ["steelblue", "darkred"]
+      },
+      "legend": { "title": "Case status" }
+    },
+    "order": { "aggregate": "sum", "field": "status", "type": "quantitative" },
+    "tooltip": [ 
+      { "field": "Date of report", "type": "temporal", "timeUnit": "monthday" }, 
+      { "field": "status", "title": "Case status" },
+      { "aggregate": "count", "field": "status", "type": "quantitative", "title": "Number of cases" } 
+    ]
+  }
+        }
+      ]
+    }
+  ]
+}
