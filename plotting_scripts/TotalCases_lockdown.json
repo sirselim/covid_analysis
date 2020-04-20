@@ -1,21 +1,21 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
   "description": "simple vega-lite script testing barplot and rectangle functions",
-  "width": 700,
-  "height": 220,
-  "title": "Cumulative confirmed COVID cases in NZ",
+  "width": 650,
+  "height": 200,
+  "title": "Visualising confirmed and probable COVID cases in NZ",
   "background": "white",
   "padding": 6,
   "layer": [
     {
       "data": { "values": [{}] },
-      "mark": { "type": "rect", "tooltip": "lockdown (expected 4 weeks)" },
+      "mark": { "type": "rect", "tooltip": "lockdown (26th Mar - 28th April)" },
       "encoding": {
         "x": {
           "datum": { "year": "2020", "month": "Mar", "date": 26 }
         },
         "x2": {
-          "datum": { "year": "2020", "month": "Apr", "date": 23 }
+          "datum": { "year": "2020", "month": "Apr", "date": 28 }
         },
         "color": {
           "value": "darkred"

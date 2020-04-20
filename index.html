@@ -46,7 +46,7 @@
     Hospital <span style="font-size:16px" class="badge badge-hospital"><b id="hospital"></b></span> &nbsp;&nbsp; |
     &nbsp;&nbsp;
     Deaths <span style="font-size:16px" class="badge badge-deaths"><b id="deaths"></b></span> <span
-      style="font-size:12px">  <br> [ <b> last updated: 2020/04/20 14:42:30
+      style="font-size:12px">  <br> [ <b> last updated: 2020/04/20 14:44:49
   </b>]</span>
     </center>
 <hr>
@@ -676,6 +676,15 @@ xmlhttp.send();
 };
   vegaEmbed('#vis6', yourV6Spec);
 </script>
+<!-- <script type="text/javascript">
+  var spec =
+    "https://raw.githubusercontent.com/sirselim/covid_analysis/master/plotting_scripts/TotalCases_lockdown.json";
+  vegaEmbed("#vis6", spec)
+    .then(function (result) {
+      // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+    })
+    .catch(console.error);
+</script> -->
 
 <!-- plot testing stats for COVID NZ -->
 <script type="text/javascript">
