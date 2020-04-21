@@ -72,6 +72,7 @@ docker run -d -p 80:80 covid-site
   - [X] ~~look into heatmap with side bar/histograms~~
 - [ ] explore vega plots in grid format (using CSS grids) - 'budget' dashboard
 - [X] ~~remove style section out to separate css~~
+- [X] ~~refactor index.html to include external embedded vl scripts~~
 
 ## appendix
 
