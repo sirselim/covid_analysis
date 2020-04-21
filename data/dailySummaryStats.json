@@ -1,32 +1,32 @@
 [
   {
     "Type": "Number of confirmed cases in New Zealand",
-    "Total": 1105,
-    "Last24hrs": 7
-  },
-  {
-    "Type": "Number of probable cases",
-    "Total": 335,
+    "Total": 1107,
     "Last24hrs": 2
   },
   {
+    "Type": "Number of probable cases",
+    "Total": 338,
+    "Last24hrs": 3
+  },
+  {
     "Type": "Number of confirmed and probable cases",
-    "Total": 1440,
-    "Last24hrs": 9
+    "Total": 1445,
+    "Last24hrs": 5
   },
   {
     "Type": "Number of cases currently in hospital",
-    "Total": 14,
-    "Last24hrs": -4
+    "Total": 12,
+    "Last24hrs": -2
   },
   {
     "Type": "Number of recovered cases",
-    "Total": 974,
-    "Last24hrs": 62
+    "Total": 1006,
+    "Last24hrs": 32
   },
   {
     "Type": "Number of deaths",
-    "Total": 12,
-    "Last24hrs": 0
+    "Total": 13,
+    "Last24hrs": 1
   }
 ]
