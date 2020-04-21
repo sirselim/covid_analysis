@@ -82,7 +82,7 @@
 <script type="text/javascript">
   var spec =
     "https://raw.githubusercontent.com/sirselim/covid_analysis/master/plotting_scripts/multi-data_plotting.vl.json";
-  var opt = { "width": 900, "height": 250 };
+  var opt = { "width": 900, "height": 250, "padding": 6 };
   vegaEmbed("#vis", spec, opt)
     .then(function (result) {
       // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
@@ -93,7 +93,7 @@
 <script type="text/javascript">
   var spec =
     "https://raw.githubusercontent.com/sirselim/covid_analysis/master/plotting_scripts/TotalCases_lockdown_noSize.vl.json";
-  var opt = { "width": 550, "height": 200 };
+  var opt = { "width": 550, "height": 250, "padding": 6 };
   vegaEmbed("#vis2", spec, opt)
     .then(function (result) {
       // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
@@ -104,7 +104,7 @@
 <script type="text/javascript">
   var spec =
     "https://raw.githubusercontent.com/sirselim/covid_analysis/master/plotting_scripts/dhb_horz_chart.vl.json";
-  var opt = { "width": 550, "height": 250 };
+  var opt = { "width": 550, "height": 250, "padding": 6 };
   vegaEmbed("#vis_dhb", spec, opt)
     .then(function (result) {
       // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view

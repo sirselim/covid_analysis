@@ -2,9 +2,25 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
   "description": "simple vega-lite chart with linked data",
   "title": "Overlay of cases and lab testing",
-  "width": 700,
+  "width": 650,
   "height": 250,
   "layer": [
+    {
+      "data": { "values": [{}] },
+      "mark": { "type": "rect", "tooltip": "lockdown (26th Mar - 28th April)" },
+      "encoding": {
+        "x": {
+          "datum": { "year": "2020", "month": "Mar", "date": 26 }
+        },
+        "x2": {
+          "datum": { "year": "2020", "month": "Apr", "date": 28 }
+        },
+        "color": {
+          "value": "orange"
+        },
+        "opacity": { "value": 0.10 }
+      }
+    },
     {
       "data": {
         "url": "https://raw.githubusercontent.com/sirselim/covid_analysis/master/data/NZCOVID_confirmed_formatted.json"
