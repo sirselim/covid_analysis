@@ -1,0 +1,40 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "padding": 5,
+  "description": "simple vega-lite chart with linked data",
+  "title": "Cumulative confirmed COVID cases in NZ",
+  "data": {
+    "url": "https://raw.githubusercontent.com/sirselim/covid_analysis/master/data/casesTotal.json"
+  },
+  "mark": {
+    "type": "bar",
+    "tooltip": true
+  },
+  "encoding": {
+    "x": {
+      "field": "Date of report",
+      "type": "temporal",
+      "timeUnit": "monthday",
+      "band": 0.75
+    },
+    "y": {
+      "aggregate": "count",
+      "type": "quantitative"
+    },
+    "color": {
+      "field": "status",
+      "type": "nominal",
+      "scale": {
+        "domain": ["confirmed", "probable"],
+        "range": ["steelblue", "darkred"]
+      },
+      "legend": { "title": "Case status" }
+    },
+    "order": { "aggregate": "sum", "field": "status", "type": "quantitative" },
+    "tooltip": [ 
+      { "field": "Date of report", "type": "temporal", "timeUnit": "monthday" }, 
+      { "field": "status", "title": "Case status" },
+      { "aggregate": "count", "field": "status", "type": "quantitative", "title": "Number of cases" } 
+    ]
+  }
+}
