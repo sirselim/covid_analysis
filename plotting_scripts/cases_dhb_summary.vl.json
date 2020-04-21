@@ -39,7 +39,8 @@
               "field": "Date of report",
               "type": "temporal",
               "axis": {
-                "title": "date"
+                "title": "date",
+                "labelAngle": 0
               }
             },
             "y": {
@@ -55,7 +56,9 @@
               "condition": {
                 "test": {
                   "field": "Date of report",
-                  "gte": { "year": 2020, "month": "mar", "date": 26 }
+                  "timeUnit": "yearmonthdate",
+                  "range": [{ "year": 2020, "month": "mar", "date": 26 }, 
+                    { "year": 2020, "month": "apr", "date": 28 }]
                 },
                 "value": "orange"
               }
