@@ -47,7 +47,7 @@
     Hospital <span style="font-size:16px" class="badge badge-hospital"><b id="hospital"></b></span> &nbsp;&nbsp; |
     &nbsp;&nbsp;
     Deaths <span style="font-size:16px" class="badge badge-deaths"><b id="deaths"></b></span> <span
-      style="font-size:12px">  <br> [ <b> last updated: 2020/04/21 13:47:34
+      style="font-size:12px">  <br> [ <b> last updated: 2020/04/21 13:50:27
   </b>]</span>
     </center>
 <hr>
@@ -184,76 +184,13 @@ xmlhttp.send();
 <!-- vega-lite scripts -->
 <!-- plot the breakdown of cases per day and per DHB -->
 <script type="text/javascript">
-  var yourVlSpec = {
-  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
-  "description": "simple vega-lite chart with linked data",
-  "data": {
-    "url": "https://raw.githubusercontent.com/sirselim/covid_analysis/master/data//NZCOVID_confirmed_formatted.json"
-  },
-  "vconcat": [
-    {
-      "width": 780,
-      "height": 200,
-      "mark": {
-        "type": "bar",
-        "tooltip": true
-      },
-      "title": "Confirmed COVID cases in NZ per day",
-      "encoding": {
-        "x": {
-          "field": "Date of report",
-          "type": "temporal",
-          "axis": {
-            "title": "date"
-          }
-        },
-        "y": {
-          "aggregate": "count",
-          "field": "Date of report",
-          "type": "quantitative",
-          "axis": {
-            "title": "number of cases"
-          }
-        },
-        "color": {
-          "value": "steelblue",
-          "condition": {
-            "test": { "field": "Date of report", "gte": {"year": 2020, "month": "mar", "date": 26} },
-            "value": "orange"
-          }
-        }
-      }
-    },
-    {
-      "width": 780,
-      "height": 200,
-      "mark": {
-        "type": "bar",
-        "tooltip": true
-      },
-      "title": "Confirmed COVID cases in NZ DHBs",
-      "encoding": {
-        "x": {
-          "field": "DHB",
-          "type": "nominal",
-          "sort": "y",
-          "axis": {
-            "title": "DHB"
-          }
-        },
-        "y": {
-          "aggregate": "count",
-          "field": "DHB",
-          "type": "quantitative",
-          "axis": {
-            "title": "number of cases"
-          }
-        }
-      }
-    }
-  ]
-};
-  vegaEmbed('#vis1', yourVlSpec);
+  var spec =
+    "https://raw.githubusercontent.com/sirselim/covid_analysis/master/plotting_scripts/cases_dhb_summary.vl.json";
+  vegaEmbed("#vis1", spec)
+    .then(function (result) {
+      // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+    })
+    .catch(console.error);
 </script>
 
 <!-- plot the breakdown of cases per day and DHB by Sex -->

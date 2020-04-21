@@ -1,0 +1,72 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "description": "simple vega-lite chart with linked data",
+  "data": {
+    "url": "https://raw.githubusercontent.com/sirselim/covid_analysis/master/data//NZCOVID_confirmed_formatted.json"
+  },
+  "vconcat": [
+    {
+      "width": 780,
+      "height": 200,
+      "mark": {
+        "type": "bar",
+        "tooltip": true
+      },
+      "title": "Confirmed COVID cases in NZ per day",
+      "encoding": {
+        "x": {
+          "field": "Date of report",
+          "type": "temporal",
+          "axis": {
+            "title": "date"
+          }
+        },
+        "y": {
+          "aggregate": "count",
+          "field": "Date of report",
+          "type": "quantitative",
+          "axis": {
+            "title": "number of cases"
+          }
+        },
+        "color": {
+          "value": "steelblue",
+          "condition": {
+            "test": {
+              "field": "Date of report",
+              "gte": { "year": 2020, "month": "mar", "date": 26 }
+            },
+            "value": "orange"
+          }
+        }
+      }
+    },
+    {
+      "width": 780,
+      "height": 200,
+      "mark": {
+        "type": "bar",
+        "tooltip": true
+      },
+      "title": "Confirmed COVID cases in NZ DHBs",
+      "encoding": {
+        "x": {
+          "field": "DHB",
+          "type": "nominal",
+          "sort": "y",
+          "axis": {
+            "title": "DHB"
+          }
+        },
+        "y": {
+          "aggregate": "count",
+          "field": "DHB",
+          "type": "quantitative",
+          "axis": {
+            "title": "number of cases"
+          }
+        }
+      }
+    }
+  ]
+}
