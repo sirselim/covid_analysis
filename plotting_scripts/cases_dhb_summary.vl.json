@@ -6,40 +6,63 @@
   },
   "vconcat": [
     {
-      "width": 780,
-      "height": 200,
-      "mark": {
-        "type": "bar",
-        "tooltip": true
-      },
-      "title": "Confirmed COVID cases in NZ per day",
-      "encoding": {
-        "x": {
-          "field": "Date of report",
-          "type": "temporal",
-          "axis": {
-            "title": "date"
-          }
-        },
-        "y": {
-          "aggregate": "count",
-          "field": "Date of report",
-          "type": "quantitative",
-          "axis": {
-            "title": "number of cases"
-          }
-        },
-        "color": {
-          "value": "steelblue",
-          "condition": {
-            "test": {
-              "field": "Date of report",
-              "gte": { "year": 2020, "month": "mar", "date": 26 }
+      "layer": [
+        {
+          "data": { "values": [{}] },
+          "mark": {
+            "type": "rect",
+            "tooltip": "lockdown (26th Mar - 28th April)"
+          },
+          "encoding": {
+            "x": {
+              "datum": { "year": "2020", "month": "Mar", "date": 26 }
             },
-            "value": "orange"
+            "x2": {
+              "datum": { "year": "2020", "month": "Apr", "date": 28 }
+            },
+            "color": {
+              "value": "orange"
+            },
+            "opacity": { "value": 0.1 }
+          }
+        },
+        {
+          "width": 780,
+          "height": 200,
+          "mark": {
+            "type": "bar",
+            "tooltip": true
+          },
+          "title": "Confirmed COVID cases in NZ per day",
+          "encoding": {
+            "x": {
+              "field": "Date of report",
+              "type": "temporal",
+              "axis": {
+                "title": "date"
+              }
+            },
+            "y": {
+              "aggregate": "count",
+              "field": "Date of report",
+              "type": "quantitative",
+              "axis": {
+                "title": "number of cases"
+              }
+            },
+            "color": {
+              "value": "steelblue",
+              "condition": {
+                "test": {
+                  "field": "Date of report",
+                  "gte": { "year": 2020, "month": "mar", "date": 26 }
+                },
+                "value": "orange"
+              }
+            }
           }
         }
-      }
+      ]
     },
     {
       "width": 780,
