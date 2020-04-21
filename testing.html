@@ -78,7 +78,7 @@
   </body>
 </html>
 
-<!-- plotting scripts -->
+<!-- embed vega-lite scripts -->
 <script type="text/javascript">
   var spec =
     "https://raw.githubusercontent.com/sirselim/covid_analysis/master/plotting_scripts/multi-data_plotting.vl.json";
@@ -114,13 +114,15 @@
 
 <script type="text/javascript">
   var spec =
-    "https://raw.githubusercontent.com/sirselim/covid_analysis/master/plotting_scripts/dhb_horz_chart_COVID19_NZ.json";
-  vegaEmbed("#vis_dhb", spec)
+    "https://raw.githubusercontent.com/sirselim/covid_analysis/master/plotting_scripts/dhb_horz_chart.vl.json";
+  var opt = { "width": 550, "height": 200 };
+  vegaEmbed("#vis_dhb", spec, opt)
     .then(function (result) {
       // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
     })
     .catch(console.error);
 </script>
+
 <!-- js to create an array of scraped summary stats and populate the html -->
 <script>
 var xmlhttp = new XMLHttpRequest();
