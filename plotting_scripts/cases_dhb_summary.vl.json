@@ -38,6 +38,7 @@
             "x": {
               "field": "Date of report",
               "type": "temporal",
+              "timeUnit": "yearmonthdate",
               "axis": {
                 "title": "date"
               }
