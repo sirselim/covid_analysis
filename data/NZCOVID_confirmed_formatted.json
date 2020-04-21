@@ -1,6 +1,17 @@
 [
   {
     "Date of report": "2020-04-19",
+    "Sex": "Female",
+    "Age group": "30 to 39",
+    "DHB": "Bay of Plenty",
+    "Overseas travel": null,
+    "Last country before return": null,
+    "Flight number": null,
+    "Flight departure date": null,
+    "Arrival date": null
+  },
+  {
+    "Date of report": "2020-04-19",
     "Sex": "Male",
     "Age group": "50 to 59",
     "DHB": "Bay of Plenty",
@@ -35,9 +46,20 @@
   {
     "Date of report": "2020-04-19",
     "Sex": "Female",
+    "Age group": "20 to 29",
+    "DHB": "Canterbury",
+    "Overseas travel": false,
+    "Last country before return": null,
+    "Flight number": null,
+    "Flight departure date": null,
+    "Arrival date": null
+  },
+  {
+    "Date of report": "2020-04-19",
+    "Sex": "Female",
     "Age group": "50 to 59",
     "DHB": "South Canterbury",
-    "Overseas travel": null,
+    "Overseas travel": false,
     "Last country before return": null,
     "Flight number": null,
     "Flight departure date": null,
@@ -49,7 +71,7 @@
     "Age group": "60 to 69",
     "DHB": "Waitemata",
     "Overseas travel": true,
-    "Last country before return": null,
+    "Last country before return": "Australia",
     "Flight number": null,
     "Flight departure date": null,
     "Arrival date": "2020-04-13"
@@ -774,7 +796,7 @@
     "Sex": "Female",
     "Age group": "30 to 39",
     "DHB": "Auckland",
-    "Overseas travel": null,
+    "Overseas travel": false,
     "Last country before return": null,
     "Flight number": null,
     "Flight departure date": null,
@@ -2006,11 +2028,11 @@
     "Sex": "Male",
     "Age group": "40 to 49",
     "DHB": "Counties Manukau",
-    "Overseas travel": true,
+    "Overseas travel": false,
     "Last country before return": null,
     "Flight number": null,
     "Flight departure date": null,
-    "Arrival date": "2020-03-10"
+    "Arrival date": null
   },
   {
     "Date of report": "2020-04-05",
@@ -4934,8 +4956,8 @@
     "DHB": "Counties Manukau",
     "Overseas travel": true,
     "Last country before return": "Singapore",
-    "Flight number": null,
-    "Flight departure date": null,
+    "Flight number": "NZ3285",
+    "Flight departure date": "2020-03-19",
     "Arrival date": "2020-03-20"
   },
   {
@@ -7122,10 +7144,10 @@
     "Age group": "20 to 29",
     "DHB": "Southern",
     "Overseas travel": true,
-    "Last country before return": null,
+    "Last country before return": "United Kingdom ",
     "Flight number": null,
     "Flight departure date": null,
-    "Arrival date": null
+    "Arrival date": "2020-03-23"
   },
   {
     "Date of report": "2020-03-28",
@@ -7198,7 +7220,7 @@
     "Sex": "Male",
     "Age group": "20 to 29",
     "DHB": "Southern",
-    "Overseas travel": null,
+    "Overseas travel": true,
     "Last country before return": null,
     "Flight number": "NZ623",
     "Flight departure date": "2020-03-16",
@@ -8009,6 +8031,17 @@
   },
   {
     "Date of report": "2020-03-27",
+    "Sex": "Male",
+    "Age group": "70+",
+    "DHB": "Taranaki",
+    "Overseas travel": true,
+    "Last country before return": "Singapore",
+    "Flight number": "SQ285",
+    "Flight departure date": "2020-03-24",
+    "Arrival date": "2020-03-24"
+  },
+  {
+    "Date of report": "2020-03-27",
     "Sex": "Female",
     "Age group": "15 to 19",
     "DHB": "Waikato",
@@ -8691,17 +8724,6 @@
   },
   {
     "Date of report": "2020-03-26",
-    "Sex": "Male",
-    "Age group": "70+",
-    "DHB": "Taranaki",
-    "Overseas travel": true,
-    "Last country before return": "Singapore",
-    "Flight number": "SQ285",
-    "Flight departure date": "2020-03-24",
-    "Arrival date": "2020-03-24"
-  },
-  {
-    "Date of report": "2020-03-26",
     "Sex": "Female",
     "Age group": "15 to 19",
     "DHB": "Waikato",
@@ -8817,8 +8839,8 @@
     "DHB": "Waitemata",
     "Overseas travel": true,
     "Last country before return": "Malaysia",
-    "Flight number": null,
-    "Flight departure date": null,
+    "Flight number": "MH133",
+    "Flight departure date": "2020-03-19",
     "Arrival date": "2020-03-19"
   },
   {
@@ -8895,7 +8917,7 @@
     "Overseas travel": true,
     "Last country before return": "United States of America",
     "Flight number": "NZ409",
-    "Flight departure date": null,
+    "Flight departure date": "2020-03-19",
     "Arrival date": "2020-03-19"
   },
   {
@@ -9433,8 +9455,8 @@
     "DHB": "Southern",
     "Overseas travel": true,
     "Last country before return": null,
-    "Flight number": null,
-    "Flight departure date": null,
+    "Flight number": "NZ566",
+    "Flight departure date": "2020-03-19",
     "Arrival date": null
   },
   {
@@ -9763,8 +9785,8 @@
     "DHB": "Waitemata",
     "Overseas travel": true,
     "Last country before return": "Indonesia",
-    "Flight number": null,
-    "Flight departure date": null,
+    "Flight number": "FEK450",
+    "Flight departure date": "2020-03-13",
     "Arrival date": "2020-03-15"
   },
   {
@@ -11864,7 +11886,7 @@
     "DHB": "Auckland",
     "Overseas travel": true,
     "Last country before return": "Australia",
-    "Flight number": "QF13",
+    "Flight number": "QF153",
     "Flight departure date": "2020-03-15",
     "Arrival date": "2020-03-15"
   },
@@ -11974,7 +11996,7 @@
     "DHB": "Waitemata",
     "Overseas travel": true,
     "Last country before return": "United States of America",
-    "Flight number": "UA559",
+    "Flight number": "NZ5",
     "Flight departure date": "2020-03-11",
     "Arrival date": "2020-03-13"
   },
@@ -12140,7 +12162,7 @@
     "Overseas travel": true,
     "Last country before return": "Singapore",
     "Flight number": "NZ283",
-    "Flight departure date": null,
+    "Flight departure date": "2020-02-25",
     "Arrival date": "2020-02-26"
   },
   {
