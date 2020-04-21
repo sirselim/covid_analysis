@@ -47,7 +47,7 @@
     Hospital <span style="font-size:16px" class="badge badge-hospital"><b id="hospital"></b></span> &nbsp;&nbsp; |
     &nbsp;&nbsp;
     Deaths <span style="font-size:16px" class="badge badge-deaths"><b id="deaths"></b></span> <span
-      style="font-size:12px">  <br> [ <b> last updated: 2020/04/21 13:31:55
+      style="font-size:12px">  <br> [ <b> last updated: 2020/04/21 13:33:25
   </b>]</span>
     </center>
 <hr>
@@ -634,7 +634,7 @@ xmlhttp.send();
   var spec =
     "https://raw.githubusercontent.com/sirselim/covid_analysis/master/plotting_scripts/total_cumulative_plotting.vl.json";
   var opt = { "width": 750, "height": 200, "padding": 6 };
-  vegaEmbed("#vis5", spec)
+  vegaEmbed("#vis5", spec, opt)
     .then(function (result) {
       // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
     })
@@ -645,7 +645,8 @@ xmlhttp.send();
 <script type="text/javascript">
   var spec =
     "https://raw.githubusercontent.com/sirselim/covid_analysis/master/plotting_scripts/TotalCases_lockdown.vl.json";
-  vegaEmbed("#vis6", spec)
+  var opt = { "width": 750, "height": 200, "padding": 6 };
+  vegaEmbed("#vis6", spec, opt)
     .then(function (result) {
       // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
     })
