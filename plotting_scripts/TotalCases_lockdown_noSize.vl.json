@@ -4,6 +4,8 @@
   "title": "Visualising confirmed and probable COVID cases in NZ",
   "background": "white",
   "padding": 6,
+  "width": 650,
+  "height":200,
   "layer": [
     {
       "data": { "values": [{}] },
@@ -35,7 +37,8 @@
     "x": {
       "field": "Date of report",
       "type": "temporal",
-      "band": 0.75
+      "timeUnit": "yearmonthdate",
+      "band": 0.8
     },
     "y": {
       "aggregate": "count",

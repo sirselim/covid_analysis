@@ -1,6 +1,8 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
   "padding": 5,
+  "width": 650,
+  "height": 250,
   "description": "simple vega-lite chart with linked data",
   "title": "Cumulative confirmed COVID cases in NZ",
   "data": {
@@ -15,7 +17,7 @@
       "field": "Date of report",
       "type": "temporal",
       "timeUnit": "monthday",
-      "band": 0.75
+      "band": 0.8
     },
     "y": {
       "aggregate": "count",
