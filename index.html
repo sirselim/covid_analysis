@@ -47,7 +47,7 @@
     Hospital <span style="font-size:16px" class="badge badge-hospital"><b id="hospital"></b></span> &nbsp;&nbsp; |
     &nbsp;&nbsp;
     Deaths <span style="font-size:16px" class="badge badge-deaths"><b id="deaths"></b></span> <span
-      style="font-size:12px">  <br> [ <b> last updated: 2020/04/21 13:11:48
+      style="font-size:12px">  <br> [ <b> last updated: 2020/04/21 13:31:55
   </b>]</span>
     </center>
 <hr>
@@ -630,6 +630,16 @@ xmlhttp.send();
   };
   vegaEmbed('#vis5', yourV5Spec);
 </script>
+<script type="text/javascript">
+  var spec =
+    "https://raw.githubusercontent.com/sirselim/covid_analysis/master/plotting_scripts/total_cumulative_plotting.vl.json";
+  var opt = { "width": 750, "height": 200, "padding": 6 };
+  vegaEmbed("#vis5", spec)
+    .then(function (result) {
+      // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+    })
+    .catch(console.error);
+</script>
 
 <!-- plot both confirmed and probable COVID cases for NZ -->
 <script type="text/javascript">
@@ -643,59 +653,6 @@ xmlhttp.send();
 </script>
 
 <!-- plot testing stats for COVID NZ -->
-<!-- <script type="text/javascript">
-  var yourV7Spec = {
-  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
-  "description": "simple vega-lite chart with linked data",
-  "data": {
-    "url": "https://raw.githubusercontent.com/sirselim/covid_analysis/master/data/NZ_testing_stats.json"
-  },
-  "vconcat": [
-    {
-      "width": 800,
-      "height": 200,
-      "mark": {
-        "type": "bar",
-        "tooltip": true
-      },
-      "title": "NZ COVID: daily lab test numbers",
-      "encoding": {
-        "x": {
-          "field": "Date of report",
-          "type": "temporal",
-          "timeUnit":"monthdate"
-        },
-        "y": {
-          "field": "Tests per Day",
-          "type": "quantitative"
-        }
-      }
-    },
-    {
-      "width": 800,
-      "height": 200,
-      "mark": {
-        "type": "bar",
-        "tooltip": true
-      },
-      "title": "NZ COVID: cumulative lab test numbers",
-      "encoding": {
-        "x": {
-          "field": "Date of report",
-          "timeUnit":"monthdate",
-          "type": "temporal"
-        },
-        "y": {
-          "field": "Total Tests (Cumulative)",
-          "type": "quantitative"
-        }
-      }
-    }
-  ]
-}
-;
-  vegaEmbed('#vis7', yourV7Spec);
-</script> -->
 <script type="text/javascript">
   var spec =
     "https://raw.githubusercontent.com/sirselim/covid_analysis/master/plotting_scripts/cumulative_total_testing.vl.json";
