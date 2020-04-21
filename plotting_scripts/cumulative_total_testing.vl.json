@@ -72,7 +72,13 @@
           "width": 800,
           "height": 200,
           "mark": {
-            "type": "bar",
+            "type": "line",
+            "size": 3,
+            "point": {
+              "filled": false,
+              "fill": "white",
+              "strokeWidth": 2
+            },
             "tooltip": true
           },
           "title": "NZ COVID: cumulative lab test numbers",
