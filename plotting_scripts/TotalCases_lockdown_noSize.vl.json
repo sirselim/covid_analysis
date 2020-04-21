@@ -16,9 +16,9 @@
           "datum": { "year": "2020", "month": "Apr", "date": 28 }
         },
         "color": {
-          "value": "darkred"
+          "value": "orange"
         },
-        "opacity": { "value": 0.15 }
+        "opacity": { "value": 0.10 }
       }
     },
     {
