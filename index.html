@@ -47,7 +47,7 @@
     Hospital <span style="font-size:16px" class="badge badge-hospital"><b id="hospital"></b></span> &nbsp;&nbsp; |
     &nbsp;&nbsp;
     Deaths <span style="font-size:16px" class="badge badge-deaths"><b id="deaths"></b></span> <span
-      style="font-size:12px">  <br> [ <b> last updated: 2020/04/21 13:33:25
+      style="font-size:12px">  <br> [ <b> last updated: 2020/04/21 13:39:00
   </b>]</span>
     </center>
 <hr>
@@ -333,303 +333,27 @@ xmlhttp.send();
 
 <!-- plot the breakdown of cases per day by DHB -->
 <script type="text/javascript">
-  var yourV3Spec = {
-  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
-  "data": {
-    "url": "https://raw.githubusercontent.com/sirselim/covid_analysis/master/data/NZCOVID_confirmed_formatted.json"
-  },
-  "spacing": 15,
-  "bounds": "flush",
-  "vconcat": [
-    {
-      "title": "Breakdown of cases per day across New Zealand District Health Boards",
-      "mark": {
-        "type": "bar",
-        "tooltip": true
-      },
-      "height": 60,
-      "width": 600,
-      "encoding": {
-        "x": {
-          "field": "Date of report",
-          "type": "temporal",
-          "axis": null
-        },
-        "y": {
-          "aggregate": "count",
-          "type": "quantitative",
-          "scale": {
-            "domain": [0, 100]
-          },
-          "title": ""
-        },
-        "tooltip": [
-          { "field": "Date of report", "title": "Date", "timeUnit": "daymonth" },
-          {
-            "aggregate": "count",
-            "field": "Date of report",
-            "type": "quantitative",
-            
-            "title": "Daily cases"
-          }
-        ]
-      }
-    },
-    {
-      "spacing": 15,
-      "bounds": "flush",
-      "hconcat": [
-        {
-          "mark": {
-            "type": "rect",
-            "tooltip": true
-          },
-          "width": 600,
-          "encoding": {
-            "x": {
-               "field": "Date of report",
-               "timeUnit": "daymonth",
-               "type": "temporal",
-               "title": "Date of diagnosis"
-            },
-            "y": {
-              "field": "DHB",
-              "type": "nominal",
-              "title": "District Health Board",
-              "sort": {"op": "count", "field": "Date of report", "order": "descending"}
-            },
-            "color": {
-              "aggregate": "count",
-              "field": "Date of report",
-              "type": "quantitative",
-              "title": "Number of cases",
-              "scale": { "scheme": "bluepurple" }
-            },
-            "tooltip": [ 
-              { "field": "Date of report", "title": "Date", "timeUnit": "daymonth" },
-              { "field": "DHB", "title": "District Health Board" },
-              { "aggregate": "count", "field": "Date of report", "type": "quantitative", "title": "Daily cases" } 
-            ]
-          }
-        },
-        {
-          "mark": {
-            "type": "bar",
-            "tooltip": true
-          },
-          "width": 60,
-          "encoding": {
-            "y": {
-              "field": "DHB",
-              "type": "nominal",
-              "axis": null,
-              "sort": "-x"
-            },
-            "x": {
-              "aggregate": "count",
-              "type": "quantitative",
-              "scale": {
-                "domain": [
-                  0,
-                  200
-                ]
-              },
-              "title": ""
-            },
-            "tooltip": [ 
-              { "field": "DHB", "title": "District Health Board" }, 
-              { "aggregate": "count", "field": "DHB", "type": "quantitative", "title": "Total cases" } 
-            ]
-          }
-        }
-      ]
-    }
-  ],
-  "config": {
-    "view": {
-      "stroke": "transparent"
-    }
-  }
-};
-  vegaEmbed('#vis3', yourV3Spec);
+  var spec =
+    "https://raw.githubusercontent.com/sirselim/covid_analysis/master/plotting_scripts/AgeGroup_layered_heatmap.vl.json";
+  vegaEmbed("#vis3", spec)
+    .then(function (result) {
+      // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+    })
+    .catch(console.error);
 </script>
 
 <!-- plot the breakdown of cases per day by Age group -->
 <script type="text/javascript">
-  var yourV4Spec = {
-  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
-  "data": {
-    "url": "https://raw.githubusercontent.com/sirselim/covid_analysis/master/data/NZCOVID_confirmed_formatted.json"
-  },
-  "spacing": 15,
-  "bounds": "flush",
-  "vconcat": [
-    {
-      "title": "Breakdown of cases per day across age groups in New Zealand",
-      "mark": {
-        "type": "bar",
-        "tooltip": true
-      },
-      "width": 600,
-      "height": 60,
-      "encoding": {
-        "x": {
-          "field": "Date of report",
-          "type": "temporal",
-          "axis": null
-        },
-        "y": {
-          "aggregate": "count",
-          "type": "quantitative",
-          "scale": {
-            "domain": [0, 100]
-          },
-          "title": ""
-        },
-        "tooltip": [
-          { "field": "Date of report", "title": "Date", "timeUnit": "daymonth" },
-          {
-            "aggregate": "count",
-            "field": "Date of report",
-            "type": "quantitative",
-            "title": "Daily cases"
-          }
-        ]
-      }
-    },
-    {
-      "spacing": 15,
-      "bounds": "flush",
-      "hconcat": [
-        {
-          "mark": {
-            "type": "rect",
-            "tooltip": true
-          },
-          "width": 600,
-          "encoding": {
-            "x": {
-               "field": "Date of report",
-               "type": "temporal",
-               "title": "Date of diagnosis",
-               "timeUnit": "daymonth"
-            },
-            "y": {
-              "field": "Age group",
-              "type": "nominal",
-              "title": "Age group (years)",
-              "sort": {
-                "op": "count",
-                "field": "Date of report",
-                "order": "descending"
-              }
-            },
-            "color": {
-              "aggregate": "count",
-              "field": "Date of report",
-              "type": "quantitative",
-              "title": "Number of cases",
-              "scale": { "scheme": "bluepurple" }
-            },
-            "tooltip": [ 
-              { "field": "Date of report", "title": "Date", "timeUnit": "daymonth" },
-              { "field": "Age group", "title": "Age group (years)" },
-              { "aggregate": "count", "field": "Date of report", "type": "quantitative", "title": "Daily cases" } 
-            ]
-          }
-        },
-        {
-          "mark": {
-            "type": "bar",
-            "tooltip": true
-          },
-          "width": 60,
-          "encoding": {
-            "y": {
-              "field": "Age group",
-              "type": "nominal",
-              "axis": null,
-              "sort": "-x"
-            },
-            "x": {
-              "aggregate": "count",
-              "type": "quantitative",
-              "scale": {
-                "domain": [
-                  0,
-                  300
-                ]
-              },
-              "title": ""
-            },
-            "tooltip": [ 
-              { "field": "Age group", "title": "Age group" }, 
-              { "aggregate": "count", "field": "Age group", "type": "quantitative", "title": "Total cases" } 
-            ]
-          }
-        }
-      ]
-    }
-  ],
-  "config": {
-    "view": {
-      "stroke": "transparent"
-    }
-  }
-};
-  vegaEmbed('#vis4', yourV4Spec);
+  var spec =
+    "https://raw.githubusercontent.com/sirselim/covid_analysis/master/plotting_scripts/DHB_layered_heatmap.vl.json";
+  vegaEmbed("#vis4", spec)
+    .then(function (result) {
+      // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+    })
+    .catch(console.error);
 </script>
 
 <!-- plot the cumulative total COVID cases for NZ -->
-<script type="text/javascript">
-  var yourV5Spec = {
-    "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
-    "width": 780,
-    "height": 250,
-    "padding": 5,
-    "description": "simple vega-lite chart with linked data",
-    "title": "Cumulative confirmed COVID cases in NZ DHBs",
-    "data": {
-      "url": "https://raw.githubusercontent.com/sirselim/covid_analysis/master/data/NZCOVID_confirmed_formatted.json"
-    },
-    "transform": [{
-      "sort": [{ "field": "Date of report" }],
-      "window": [{ "op": "count", "as": "cumulative_count" }],
-      "frame": [null, 0]
-    }],
-    "mark": {
-      "type": "bar",
-      "tooltip": true
-    },
-    "encoding": {
-      "x": {
-        "field": "Date of report",
-        "type": "temporal",
-        "timeUnit": "monthday",
-        "band": 0.6
-      },
-      "y": {
-        "field": "cumulative_count",
-        "type": "quantitative"
-      },
-      "color": {
-        "value": "steelblue",
-        "condition": {
-          "test": { 
-            "field": "Date of report", 
-            "gte": {
-              "year": 2020, 
-              "month": "mar", 
-              "date": 26
-              }
-            },
-          "value": "orange"
-        }
-      }
-    }
-  };
-  vegaEmbed('#vis5', yourV5Spec);
-</script>
 <script type="text/javascript">
   var spec =
     "https://raw.githubusercontent.com/sirselim/covid_analysis/master/plotting_scripts/total_cumulative_plotting.vl.json";
@@ -644,7 +368,7 @@ xmlhttp.send();
 <!-- plot both confirmed and probable COVID cases for NZ -->
 <script type="text/javascript">
   var spec =
-    "https://raw.githubusercontent.com/sirselim/covid_analysis/master/plotting_scripts/TotalCases_lockdown.vl.json";
+    "https://raw.githubusercontent.com/sirselim/covid_analysis/master/plotting_scripts/TotalCases_lockdown_noSize.vl.json";
   var opt = { "width": 750, "height": 200, "padding": 6 };
   vegaEmbed("#vis6", spec, opt)
     .then(function (result) {
