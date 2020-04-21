@@ -8,6 +8,25 @@
     {
       "layer": [
         {
+          "data": { "values": [{}] },
+          "mark": {
+            "type": "rect",
+            "tooltip": "lockdown (26th Mar - 28th April)"
+          },
+          "encoding": {
+            "x": {
+              "datum": { "year": "2020", "month": "Mar", "date": 26 }
+            },
+            "x2": {
+              "datum": { "year": "2020", "month": "Apr", "date": 28 }
+            },
+            "color": {
+              "value": "orange"
+            },
+            "opacity": { "value": 0.1 }
+          }
+        },
+        {
           "width": 800,
           "height": 200,
           "mark": {
@@ -18,8 +37,7 @@
           "encoding": {
             "x": {
               "field": "Date of report",
-              "type": "temporal",
-              "timeUnit": "monthdate"
+              "type": "temporal"
             },
             "y": {
               "field": "Tests per Day",
@@ -32,6 +50,25 @@
     {
       "layer": [
         {
+          "data": { "values": [{}] },
+          "mark": {
+            "type": "rect",
+            "tooltip": "lockdown (26th Mar - 28th April)"
+          },
+          "encoding": {
+            "x": {
+              "datum": { "year": "2020", "month": "Mar", "date": 26 }
+            },
+            "x2": {
+              "datum": { "year": "2020", "month": "Apr", "date": 28 }
+            },
+            "color": {
+              "value": "orange"
+            },
+            "opacity": { "value": 0.1 }
+          }
+        },
+        {
           "width": 800,
           "height": 200,
           "mark": {
@@ -42,7 +79,6 @@
           "encoding": {
             "x": {
               "field": "Date of report",
-              "timeUnit": "monthdate",
               "type": "temporal"
             },
             "y": {
