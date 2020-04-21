@@ -1,0 +1,88 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "description": "simple vega-lite chart with linked data",
+  "title": "Overlay of cases and lab testing",
+  "width": 700,
+  "height": 250,
+  "layer": [
+    {
+      "data": {
+        "url": "https://raw.githubusercontent.com/sirselim/covid_analysis/master/data/NZCOVID_confirmed_formatted.json"
+      },
+      "mark": {
+        "opacity": 0.6,
+        "type": "bar",
+        "tooltip": true
+      },
+      "encoding": {
+        "x": {
+          "field": "Date of report",
+          "type": "temporal",
+          "band": 0.8,
+          "axis": {
+            "title": "Date"
+          }
+        },
+        "y": {
+          "aggregate": "count",
+          "field": "Date of report",
+          "type": "quantitative",
+          "axis": {
+            "title": "Number of cases"
+          }
+        },
+        "color": {
+          "value": "steelblue",
+          "condition": {
+            "test": {
+              "field": "Date of report",
+              "gte": {
+                "year": 2020,
+                "month": "mar",
+                "date": 26
+              }
+            },
+            "value": "orange"
+          }
+        }
+      }
+    },
+    {
+      "layer": [
+        {
+          "data": {
+            "url": "https://raw.githubusercontent.com/sirselim/covid_analysis/master/data/NZ_testing_stats.json"
+          },
+          "mark": {
+            "type": "line",
+            "strokeWidth": 3,
+            "interpolate": "monotone",
+            "tooltip": true,
+            "point": {
+              "filled": false,
+              "fill": "white",
+              "strokeWidth": 3
+            }
+          },
+          "encoding": {
+            "x": {
+              "field": "Date of report",
+              "type": "temporal",
+              "title": "Date"
+            },
+            "y": {
+              "field": "Tests per Day",
+              "type": "quantitative"
+            },
+            "color": { "value": "#025b96" }
+          }
+        }
+      ]
+    }
+  ],
+  "resolve": {
+    "scale": {
+      "y": "independent"
+    }
+  }
+}
