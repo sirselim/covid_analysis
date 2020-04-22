@@ -1,5 +1,38 @@
 [
   {
+    "Date of report": "2020-04-21",
+    "Sex": "Female",
+    "Age group": "50 to 59",
+    "DHB": "Auckland",
+    "Overseas travel": null,
+    "Last country before return": null,
+    "Flight number": null,
+    "Flight departure date": null,
+    "Arrival date": null
+  },
+  {
+    "Date of report": "2020-04-21",
+    "Sex": "Female",
+    "Age group": "60 to 69",
+    "DHB": "Canterbury",
+    "Overseas travel": false,
+    "Last country before return": null,
+    "Flight number": null,
+    "Flight departure date": null,
+    "Arrival date": null
+  },
+  {
+    "Date of report": "2020-04-21",
+    "Sex": "Male",
+    "Age group": "70+",
+    "DHB": "Canterbury",
+    "Overseas travel": false,
+    "Last country before return": null,
+    "Flight number": null,
+    "Flight departure date": null,
+    "Arrival date": null
+  },
+  {
     "Date of report": "2020-04-20",
     "Sex": "Female",
     "Age group": "20 to 29",
@@ -16,17 +49,6 @@
     "Age group": "30 to 39",
     "DHB": "Capital and Coast",
     "Overseas travel": null,
-    "Last country before return": null,
-    "Flight number": null,
-    "Flight departure date": null,
-    "Arrival date": null
-  },
-  {
-    "Date of report": "2020-04-19",
-    "Sex": "Female",
-    "Age group": "40 to 49",
-    "DHB": "Canterbury",
-    "Overseas travel": false,
     "Last country before return": null,
     "Flight number": null,
     "Flight departure date": null,
@@ -125,17 +147,6 @@
     "Sex": "Male",
     "Age group": "50 to 59",
     "DHB": "Auckland",
-    "Overseas travel": false,
-    "Last country before return": null,
-    "Flight number": null,
-    "Flight departure date": null,
-    "Arrival date": null
-  },
-  {
-    "Date of report": "2020-04-17",
-    "Sex": "Female",
-    "Age group": "40 to 49",
-    "DHB": "Bay of Plenty",
     "Overseas travel": false,
     "Last country before return": null,
     "Flight number": null,
@@ -705,17 +716,6 @@
   },
   {
     "Date of report": "2020-04-11",
-    "Sex": "Male",
-    "Age group": "<1",
-    "DHB": "Waikato",
-    "Overseas travel": false,
-    "Last country before return": null,
-    "Flight number": null,
-    "Flight departure date": null,
-    "Arrival date": null
-  },
-  {
-    "Date of report": "2020-04-11",
     "Sex": "Female",
     "Age group": "40 to 49",
     "DHB": "Waitemata",
@@ -895,7 +895,7 @@
     "Sex": "Male",
     "Age group": "20 to 29",
     "DHB": "Southern",
-    "Overseas travel": null,
+    "Overseas travel": false,
     "Last country before return": null,
     "Flight number": null,
     "Flight departure date": null,
@@ -2399,6 +2399,17 @@
   },
   {
     "Date of report": "2020-04-03",
+    "Sex": "Female",
+    "Age group": "60 to 69",
+    "DHB": "Nelson Marlborough",
+    "Overseas travel": true,
+    "Last country before return": "United Arab Emirates",
+    "Flight number": "EK448",
+    "Flight departure date": "2020-03-18",
+    "Arrival date": "2020-03-19"
+  },
+  {
+    "Date of report": "2020-04-03",
     "Sex": "Male",
     "Age group": "20 to 29",
     "DHB": "Southern",
@@ -2589,7 +2600,7 @@
     "Sex": "Male",
     "Age group": "1 to 4",
     "DHB": "Hawke's Bay",
-    "Overseas travel": null,
+    "Overseas travel": false,
     "Last country before return": null,
     "Flight number": "NZ5015",
     "Flight departure date": "2020-03-22",
@@ -3073,7 +3084,7 @@
     "Sex": "Male",
     "Age group": "20 to 29",
     "DHB": "Waitemata",
-    "Overseas travel": null,
+    "Overseas travel": false,
     "Last country before return": null,
     "Flight number": null,
     "Flight departure date": null,
@@ -3097,8 +3108,8 @@
     "DHB": "Waitemata",
     "Overseas travel": true,
     "Last country before return": "Chile",
-    "Flight number": null,
-    "Flight departure date": null,
+    "Flight number": "LA801",
+    "Flight departure date": "2020-03-19",
     "Arrival date": "2020-03-20"
   },
   {
@@ -3396,17 +3407,6 @@
     "Last country before return": "United States of America",
     "Flight number": "NZ409",
     "Flight departure date": "2020-03-19",
-    "Arrival date": "2020-03-19"
-  },
-  {
-    "Date of report": "2020-03-26",
-    "Sex": "Female",
-    "Age group": "60 to 69",
-    "DHB": "Nelson Marlborough",
-    "Overseas travel": true,
-    "Last country before return": "United Arab Emirates",
-    "Flight number": "EK448",
-    "Flight departure date": "2020-03-18",
     "Arrival date": "2020-03-19"
   },
   {
