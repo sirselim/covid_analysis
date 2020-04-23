@@ -4,6 +4,14 @@
     "status": "confirmed"
   },
   {
+    "Date of report": "2020-04-22",
+    "status": "confirmed"
+  },
+  {
+    "Date of report": "2020-04-21",
+    "status": "confirmed"
+  },
+  {
     "Date of report": "2020-04-19",
     "status": "confirmed"
   },
@@ -73,10 +81,6 @@
   },
   {
     "Date of report": "2020-04-17",
-    "status": "confirmed"
-  },
-  {
-    "Date of report": "2020-04-16",
     "status": "confirmed"
   },
   {
@@ -141,10 +145,6 @@
   },
   {
     "Date of report": "2020-04-15",
-    "status": "confirmed"
-  },
-  {
-    "Date of report": "2020-04-14",
     "status": "confirmed"
   },
   {
@@ -888,7 +888,7 @@
     "status": "confirmed"
   },
   {
-    "Date of report": "2020-04-04",
+    "Date of report": "2020-04-05",
     "status": "confirmed"
   },
   {
@@ -2725,10 +2725,6 @@
   },
   {
     "Date of report": "2020-03-28",
-    "status": "confirmed"
-  },
-  {
-    "Date of report": "2020-03-27",
     "status": "confirmed"
   },
   {
@@ -4452,7 +4448,11 @@
     "status": "confirmed"
   },
   {
-    "Date of report": "2020-04-21",
+    "Date of report": "2020-04-22",
+    "status": "probable"
+  },
+  {
+    "Date of report": "2020-04-22",
     "status": "probable"
   },
   {
@@ -4461,6 +4461,14 @@
   },
   {
     "Date of report": "2020-04-21",
+    "status": "probable"
+  },
+  {
+    "Date of report": "2020-04-21",
+    "status": "probable"
+  },
+  {
+    "Date of report": "2020-04-20",
     "status": "probable"
   },
   {
@@ -4672,10 +4680,6 @@
     "status": "probable"
   },
   {
-    "Date of report": "2020-04-12",
-    "status": "probable"
-  },
-  {
     "Date of report": "2020-04-11",
     "status": "probable"
   },
@@ -4900,7 +4904,7 @@
     "status": "probable"
   },
   {
-    "Date of report": "2020-04-07",
+    "Date of report": "2020-04-08",
     "status": "probable"
   },
   {
@@ -4952,7 +4956,7 @@
     "status": "probable"
   },
   {
-    "Date of report": "2020-04-06",
+    "Date of report": "2020-04-07",
     "status": "probable"
   },
   {
@@ -5044,7 +5048,7 @@
     "status": "probable"
   },
   {
-    "Date of report": "2020-04-05",
+    "Date of report": "2020-04-06",
     "status": "probable"
   },
   {
@@ -5149,6 +5153,10 @@
   },
   {
     "Date of report": "2020-04-05",
+    "status": "probable"
+  },
+  {
+    "Date of report": "2020-04-04",
     "status": "probable"
   },
   {
@@ -5345,10 +5353,6 @@
   },
   {
     "Date of report": "2020-04-03",
-    "status": "probable"
-  },
-  {
-    "Date of report": "2020-04-02",
     "status": "probable"
   },
   {
@@ -5545,10 +5549,6 @@
   },
   {
     "Date of report": "2020-03-31",
-    "status": "probable"
-  },
-  {
-    "Date of report": "2020-03-30",
     "status": "probable"
   },
   {
