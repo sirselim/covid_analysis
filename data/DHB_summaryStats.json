@@ -1,11 +1,11 @@
 [
   {
     "DHB": "Auckland",
-    "Active": 28,
-    "Recovered": 155,
+    "Active": 26,
+    "Recovered": 148,
     "Deceased": null,
-    "Total": 183,
-    "Change in last 24 hours": -3
+    "Total": 174,
+    "Change in last 24 hours": -9
   },
   {
     "DHB": "Bay of Plenty",
@@ -17,11 +17,11 @@
   },
   {
     "DHB": "Canterbury",
-    "Active": 51,
-    "Recovered": 97,
+    "Active": 48,
+    "Recovered": 102,
     "Deceased": 10,
-    "Total": 158,
-    "Change in last 24 hours": 1
+    "Total": 160,
+    "Change in last 24 hours": 2
   },
   {
     "DHB": "Capital and Coast",
@@ -33,16 +33,16 @@
   },
   {
     "DHB": "Counties Manukau",
-    "Active": 17,
-    "Recovered": 96,
+    "Active": 16,
+    "Recovered": 102,
     "Deceased": null,
-    "Total": 113,
-    "Change in last 24 hours": 2
+    "Total": 118,
+    "Change in last 24 hours": 5
   },
   {
     "DHB": "Hawke&#39;s Bay",
-    "Active": 16,
-    "Recovered": 26,
+    "Active": 15,
+    "Recovered": 27,
     "Deceased": null,
     "Total": 42,
     "Change in last 24 hours": 0
@@ -81,11 +81,11 @@
   },
   {
     "DHB": "Northland",
-    "Active": 12,
-    "Recovered": 15,
+    "Active": 11,
+    "Recovered": 17,
     "Deceased": null,
-    "Total": 27,
-    "Change in last 24 hours": 0
+    "Total": 28,
+    "Change in last 24 hours": 1
   },
   {
     "DHB": "South Canterbury",
@@ -97,8 +97,8 @@
   },
   {
     "DHB": "Southern",
-    "Active": 22,
-    "Recovered": 192,
+    "Active": 21,
+    "Recovered": 193,
     "Deceased": 2,
     "Total": 216,
     "Change in last 24 hours": 0
@@ -121,11 +121,11 @@
   },
   {
     "DHB": "Waikato",
-    "Active": 73,
-    "Recovered": 115,
+    "Active": 67,
+    "Recovered": 123,
     "Deceased": 1,
-    "Total": 189,
-    "Change in last 24 hours": 3
+    "Total": 191,
+    "Change in last 24 hours": 2
   },
   {
     "DHB": "Wairarapa",
@@ -137,11 +137,11 @@
   },
   {
     "DHB": "Waitematā",
-    "Active": 56,
-    "Recovered": 158,
-    "Deceased": 1,
-    "Total": 215,
-    "Change in last 24 hours": 3
+    "Active": 52,
+    "Recovered": 165,
+    "Deceased": 2,
+    "Total": 219,
+    "Change in last 24 hours": 4
   },
   {
     "DHB": "West Coast",

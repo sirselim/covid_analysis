@@ -1,8 +1,19 @@
 [
   {
-    "Date of report": "2020-04-23",
+    "Date of report": "2020-04-24",
+    "Sex": "Male",
+    "Age group": "60 to 69",
+    "DHB": "Canterbury",
+    "Overseas travel": false,
+    "Last country before return": null,
+    "Flight number": null,
+    "Flight departure date": null,
+    "Arrival date": null
+  },
+  {
+    "Date of report": "2020-04-24",
     "Sex": "Female",
-    "Age group": "20 to 29",
+    "Age group": "40 to 49",
     "DHB": "Waikato",
     "Overseas travel": null,
     "Last country before return": null,
@@ -13,9 +24,20 @@
   {
     "Date of report": "2020-04-23",
     "Sex": "Female",
+    "Age group": "20 to 29",
+    "DHB": "Waikato",
+    "Overseas travel": false,
+    "Last country before return": null,
+    "Flight number": null,
+    "Flight departure date": null,
+    "Arrival date": null
+  },
+  {
+    "Date of report": "2020-04-23",
+    "Sex": "Female",
     "Age group": "40 to 49",
     "DHB": "Waikato",
-    "Overseas travel": null,
+    "Overseas travel": false,
     "Last country before return": null,
     "Flight number": null,
     "Flight departure date": null,
@@ -64,6 +86,17 @@
     "Flight number": null,
     "Flight departure date": null,
     "Arrival date": null
+  },
+  {
+    "Date of report": "2020-04-22",
+    "Sex": "Female",
+    "Age group": "50 to 59",
+    "DHB": "Waikato",
+    "Overseas travel": true,
+    "Last country before return": "Australia",
+    "Flight number": "NZ722",
+    "Flight departure date": null,
+    "Arrival date": "2020-03-14"
   },
   {
     "Date of report": "2020-04-21",
@@ -248,7 +281,7 @@
     "DHB": "Southern",
     "Overseas travel": true,
     "Last country before return": "Canada",
-    "Flight number": "NZ23",
+    "Flight number": "NZ0023",
     "Flight departure date": "2020-03-21",
     "Arrival date": "2020-03-23"
   },
@@ -1082,7 +1115,7 @@
     "Sex": "Female",
     "Age group": "10 to 14",
     "DHB": "Canterbury",
-    "Overseas travel": null,
+    "Overseas travel": false,
     "Last country before return": null,
     "Flight number": null,
     "Flight departure date": null,
@@ -3444,17 +3477,6 @@
   },
   {
     "Date of report": "2020-03-26",
-    "Sex": "Male",
-    "Age group": "50 to 59",
-    "DHB": "Canterbury",
-    "Overseas travel": true,
-    "Last country before return": "United States of America",
-    "Flight number": null,
-    "Flight departure date": null,
-    "Arrival date": "2020-03-19"
-  },
-  {
-    "Date of report": "2020-03-26",
     "Sex": "Female",
     "Age group": "50 to 59",
     "DHB": "Capital and Coast",
@@ -3590,7 +3612,7 @@
     "Sex": "Female",
     "Age group": "60 to 69",
     "DHB": "Nelson Marlborough",
-    "Overseas travel": null,
+    "Overseas travel": false,
     "Last country before return": null,
     "Flight number": null,
     "Flight departure date": null,
