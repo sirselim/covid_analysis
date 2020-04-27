@@ -38,10 +38,12 @@
             "x": {
               "field": "Date of report",
               "type": "temporal",
-              "timeUnit":"yearmonthday",
+              "timeUnit": "yearmonthday",
               "band": 0.8,
               "axis": {
-                "title": "date"
+                "title": "date",
+                "format": "%b %e",
+                "ticks": 12
               }
             },
             "y": {

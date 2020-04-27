@@ -17,7 +17,12 @@
       "field": "Date of report",
       "type": "temporal",
       "timeUnit": "monthday",
-      "band": 0.8
+      "band": 0.8,
+      "axis": {
+                "title": "Date of report",
+                "format": "%b %e",
+                "ticks": 12
+              }
     },
     "y": {
       "aggregate": "count",

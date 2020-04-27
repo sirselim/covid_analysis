@@ -1,0 +1,34 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "width": 680,
+  "height": 250,
+  "padding": 5,
+  "description": "simple vega-lite chart with linked data",
+  "title": "Country of last travel before return",
+  "data": {
+    "url": "../data/NZCOVID_confirmed_formatted.json"
+  },
+  "transform": [
+    {
+      "filter": "datum['Last country before return'] != null"
+    }
+  ],
+  "mark": {
+    "type": "bar",
+    "tooltip": true
+  },
+  "encoding": {
+    "x": {
+      "field": "Last country before return",
+      "type": "nominal",
+      "sort": "y",
+      "axis": { "title": "country" }
+    },
+    "y": {
+      "aggregate": "count",
+      "field": "Date of report",
+      "type": "quantitative",
+      "axis": { "title": "number of cases" }
+    }
+  }
+}
