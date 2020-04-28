@@ -24,6 +24,17 @@
   {
     "Date of report": "2020-04-25",
     "Sex": "Female",
+    "Age group": "70+",
+    "DHB": "South Canterbury",
+    "Overseas travel": false,
+    "Last country before return": null,
+    "Flight number": null,
+    "Flight departure date": null,
+    "Arrival date": null
+  },
+  {
+    "Date of report": "2020-04-25",
+    "Sex": "Female",
     "Age group": "40 to 49",
     "DHB": "Waitematā",
     "Overseas travel": false,
@@ -2411,17 +2422,6 @@
   {
     "Date of report": "2020-04-03",
     "Sex": "Female",
-    "Age group": "20 to 29",
-    "DHB": "Auckland",
-    "Overseas travel": false,
-    "Last country before return": null,
-    "Flight number": null,
-    "Flight departure date": null,
-    "Arrival date": null
-  },
-  {
-    "Date of report": "2020-04-03",
-    "Sex": "Female",
     "Age group": "60 to 69",
     "DHB": "Auckland",
     "Overseas travel": false,
@@ -2523,6 +2523,17 @@
     "Sex": "Male",
     "Age group": "60 to 69",
     "DHB": "Capital and Coast",
+    "Overseas travel": false,
+    "Last country before return": null,
+    "Flight number": null,
+    "Flight departure date": null,
+    "Arrival date": null
+  },
+  {
+    "Date of report": "2020-04-03",
+    "Sex": "Female",
+    "Age group": "20 to 29",
+    "DHB": "Counties Manukau",
     "Overseas travel": false,
     "Last country before return": null,
     "Flight number": null,
@@ -3623,7 +3634,7 @@
     "Sex": "Female",
     "Age group": "20 to 29",
     "DHB": "Bay of Plenty",
-    "Overseas travel": null,
+    "Overseas travel": false,
     "Last country before return": null,
     "Flight number": null,
     "Flight departure date": null,
