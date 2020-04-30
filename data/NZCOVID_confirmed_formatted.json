@@ -1,14 +1,47 @@
 [
   {
-    "Date of report": "2020-04-28",
-    "Sex": "Male",
-    "Age group": "40 to 49",
-    "DHB": "Counties Manukau",
-    "Overseas travel": null,
+    "Date of report": "2020-04-30",
+    "Sex": "Female",
+    "Age group": "30 to 39",
+    "DHB": "Auckland",
+    "Overseas travel": false,
     "Last country before return": null,
     "Flight number": null,
     "Flight departure date": null,
     "Arrival date": null
+  },
+  {
+    "Date of report": "2020-04-29",
+    "Sex": "Male",
+    "Age group": "50 to 59",
+    "DHB": "Counties Manukau",
+    "Overseas travel": false,
+    "Last country before return": null,
+    "Flight number": null,
+    "Flight departure date": null,
+    "Arrival date": null
+  },
+  {
+    "Date of report": "2020-04-29",
+    "Sex": "Female",
+    "Age group": "30 to 39",
+    "DHB": "Nelson Marlborough",
+    "Overseas travel": true,
+    "Last country before return": "Cook Islands",
+    "Flight number": null,
+    "Flight departure date": null,
+    "Arrival date": "2020-03-26"
+  },
+  {
+    "Date of report": "2020-04-28",
+    "Sex": "Male",
+    "Age group": "40 to 49",
+    "DHB": "Counties Manukau",
+    "Overseas travel": true,
+    "Last country before return": "Australia",
+    "Flight number": "NZ104",
+    "Flight departure date": "2020-04-25",
+    "Arrival date": "2020-04-25"
   },
   {
     "Date of report": "2020-04-27",
@@ -974,8 +1007,8 @@
     "DHB": "Waitematā",
     "Overseas travel": false,
     "Last country before return": null,
-    "Flight number": null,
-    "Flight departure date": null,
+    "Flight number": "NZ698",
+    "Flight departure date": "2020-03-23",
     "Arrival date": null
   },
   {
@@ -1062,8 +1095,8 @@
     "DHB": "Auckland",
     "Overseas travel": false,
     "Last country before return": null,
-    "Flight number": null,
-    "Flight departure date": null,
+    "Flight number": "NZ546",
+    "Flight departure date": "2020-03-21",
     "Arrival date": null
   },
   {
@@ -1854,8 +1887,8 @@
     "DHB": "Canterbury",
     "Overseas travel": true,
     "Last country before return": "United Kingdom ",
-    "Flight number": null,
-    "Flight departure date": null,
+    "Flight number": "VA125",
+    "Flight departure date": "2020-03-28",
     "Arrival date": "2020-03-28"
   },
   {
@@ -2699,7 +2732,7 @@
     "Sex": "Male",
     "Age group": "70+",
     "DHB": "Canterbury",
-    "Overseas travel": null,
+    "Overseas travel": false,
     "Last country before return": null,
     "Flight number": null,
     "Flight departure date": null,
@@ -7363,7 +7396,7 @@
     "Sex": "Female",
     "Age group": "40 to 49",
     "DHB": "Southern",
-    "Overseas travel": null,
+    "Overseas travel": false,
     "Last country before return": null,
     "Flight number": null,
     "Flight departure date": null,
@@ -7422,7 +7455,7 @@
     "Last country before return": null,
     "Flight number": "NZ623",
     "Flight departure date": "2020-03-16",
-    "Arrival date": null
+    "Arrival date": "2020-03-16"
   },
   {
     "Date of report": "2020-03-28",
@@ -9103,7 +9136,7 @@
     "DHB": "Waitematā",
     "Overseas travel": true,
     "Last country before return": "United States of America",
-    "Flight number": null,
+    "Flight number": "WGN/AKL",
     "Flight departure date": null,
     "Arrival date": "2020-03-19"
   },
@@ -11743,8 +11776,8 @@
     "DHB": "Auckland",
     "Overseas travel": false,
     "Last country before return": null,
-    "Flight number": null,
-    "Flight departure date": null,
+    "Flight number": "NZ670",
+    "Flight departure date": "2020-03-15",
     "Arrival date": null
   },
   {
@@ -12194,8 +12227,8 @@
     "DHB": "Waitematā",
     "Overseas travel": true,
     "Last country before return": "Canada",
-    "Flight number": null,
-    "Flight departure date": null,
+    "Flight number": "AC51",
+    "Flight departure date": "2020-03-12",
     "Arrival date": "2020-03-12"
   },
   {

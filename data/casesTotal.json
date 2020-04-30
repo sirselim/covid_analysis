@@ -1,5 +1,17 @@
 [
   {
+    "Date of report": "2020-04-30",
+    "status": "confirmed"
+  },
+  {
+    "Date of report": "2020-04-29",
+    "status": "confirmed"
+  },
+  {
+    "Date of report": "2020-04-29",
+    "status": "confirmed"
+  },
+  {
     "Date of report": "2020-04-28",
     "status": "confirmed"
   },
@@ -4502,10 +4514,6 @@
   {
     "Date of report": "2020-02-26",
     "status": "confirmed"
-  },
-  {
-    "Date of report": "2020-04-28",
-    "status": "probable"
   },
   {
     "Date of report": "2020-04-26",

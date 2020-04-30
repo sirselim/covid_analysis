@@ -1,16 +1,5 @@
 [
   {
-    "Date of report": "2020-04-28",
-    "Sex": "Male",
-    "Age group": "5 to 9",
-    "DHB": "Waikato",
-    "Overseas travel": null,
-    "Last country before return": null,
-    "Flight number": null,
-    "Flight departure date": null,
-    "Arrival date": null
-  },
-  {
     "Date of report": "2020-04-26",
     "Sex": "Female",
     "Age group": "50 to 59",
@@ -114,7 +103,7 @@
     "Sex": "Female",
     "Age group": "70+",
     "DHB": "Canterbury",
-    "Overseas travel": null,
+    "Overseas travel": false,
     "Last country before return": null,
     "Flight number": null,
     "Flight departure date": null,
