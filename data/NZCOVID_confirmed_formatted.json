@@ -26,7 +26,7 @@
     "Sex": "Female",
     "Age group": "70+",
     "DHB": "Waitematā",
-    "Overseas travel": null,
+    "Overseas travel": false,
     "Last country before return": null,
     "Flight number": null,
     "Flight departure date": null,
@@ -178,7 +178,29 @@
   {
     "Date of report": "2020-04-24",
     "Sex": "Female",
+    "Age group": "10 to 14",
+    "DHB": "Waitematā",
+    "Overseas travel": false,
+    "Last country before return": null,
+    "Flight number": null,
+    "Flight departure date": null,
+    "Arrival date": null
+  },
+  {
+    "Date of report": "2020-04-24",
+    "Sex": "Female",
     "Age group": "60 to 69",
+    "DHB": "Waitematā",
+    "Overseas travel": false,
+    "Last country before return": null,
+    "Flight number": null,
+    "Flight departure date": null,
+    "Arrival date": null
+  },
+  {
+    "Date of report": "2020-04-24",
+    "Sex": "Male",
+    "Age group": "10 to 14",
     "DHB": "Waitematā",
     "Overseas travel": false,
     "Last country before return": null,
