@@ -1728,17 +1728,6 @@
   },
   {
     "Date of report": "2020-04-06",
-    "Sex": "Female",
-    "Age group": "40 to 49",
-    "DHB": "Nelson Marlborough",
-    "Overseas travel": false,
-    "Last country before return": null,
-    "Flight number": null,
-    "Flight departure date": null,
-    "Arrival date": null
-  },
-  {
-    "Date of report": "2020-04-06",
     "Sex": "Male",
     "Age group": "50 to 59",
     "DHB": "Nelson Marlborough",
@@ -2965,8 +2954,8 @@
     "DHB": "Capital and Coast",
     "Overseas travel": false,
     "Last country before return": null,
-    "Flight number": null,
-    "Flight departure date": null,
+    "Flight number": "JS278",
+    "Flight departure date": "2020-03-23",
     "Arrival date": null
   },
   {
