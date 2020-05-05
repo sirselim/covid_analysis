@@ -1,19 +1,19 @@
 [
   {
     "DHB": "Auckland",
-    "Active": 26,
-    "Recovered": 152,
+    "Active": 24,
+    "Recovered": 153,
     "Deceased": null,
-    "Total": 178,
-    "Change in last 24 hours": false
+    "Total": 177,
+    "Change in last 24 hours": -1
   },
   {
     "DHB": "Bay of Plenty",
-    "Active": 7,
-    "Recovered": 40,
+    "Active": 1,
+    "Recovered": 46,
     "Deceased": null,
     "Total": 47,
-    "Change in last 24 hours": false
+    "Change in last 24 hours": 0
   },
   {
     "DHB": "Canterbury",
@@ -21,7 +21,7 @@
     "Recovered": 123,
     "Deceased": 11,
     "Total": 163,
-    "Change in last 24 hours": false
+    "Change in last 24 hours": 0
   },
   {
     "DHB": "Capital and Coast",
@@ -29,7 +29,7 @@
     "Recovered": 88,
     "Deceased": 2,
     "Total": 95,
-    "Change in last 24 hours": false
+    "Change in last 24 hours": 0
   },
   {
     "DHB": "Counties Manukau",
@@ -37,15 +37,15 @@
     "Recovered": 112,
     "Deceased": null,
     "Total": 127,
-    "Change in last 24 hours": false
+    "Change in last 24 hours": 0
   },
   {
     "DHB": "Hawke&#39;s Bay",
-    "Active": 13,
-    "Recovered": 31,
+    "Active": 11,
+    "Recovered": 33,
     "Deceased": null,
     "Total": 44,
-    "Change in last 24 hours": false
+    "Change in last 24 hours": 0
   },
   {
     "DHB": "Hutt Valley",
@@ -53,15 +53,15 @@
     "Recovered": 16,
     "Deceased": null,
     "Total": 20,
-    "Change in last 24 hours": false
+    "Change in last 24 hours": 0
   },
   {
     "DHB": "Lakes",
-    "Active": 2,
-    "Recovered": 14,
+    "Active": 0,
+    "Recovered": 16,
     "Deceased": null,
     "Total": 16,
-    "Change in last 24 hours": false
+    "Change in last 24 hours": 0
   },
   {
     "DHB": "Mid Central",
@@ -69,7 +69,7 @@
     "Recovered": 30,
     "Deceased": null,
     "Total": 31,
-    "Change in last 24 hours": false
+    "Change in last 24 hours": 0
   },
   {
     "DHB": "Nelson Marlborough",
@@ -77,7 +77,7 @@
     "Recovered": 46,
     "Deceased": null,
     "Total": 49,
-    "Change in last 24 hours": false
+    "Change in last 24 hours": 0
   },
   {
     "DHB": "Northland",
@@ -85,15 +85,15 @@
     "Recovered": 24,
     "Deceased": null,
     "Total": 28,
-    "Change in last 24 hours": false
+    "Change in last 24 hours": 0
   },
   {
     "DHB": "South Canterbury",
-    "Active": 5,
-    "Recovered": 12,
+    "Active": 4,
+    "Recovered": 13,
     "Deceased": null,
     "Total": 17,
-    "Change in last 24 hours": false
+    "Change in last 24 hours": 0
   },
   {
     "DHB": "Southern",
@@ -101,7 +101,7 @@
     "Recovered": 205,
     "Deceased": 2,
     "Total": 216,
-    "Change in last 24 hours": false
+    "Change in last 24 hours": 0
   },
   {
     "DHB": "Tairāwhiti",
@@ -109,23 +109,23 @@
     "Recovered": 4,
     "Deceased": null,
     "Total": 4,
-    "Change in last 24 hours": false
+    "Change in last 24 hours": 0
   },
   {
     "DHB": "Taranaki",
-    "Active": 2,
-    "Recovered": 14,
+    "Active": 0,
+    "Recovered": 16,
     "Deceased": null,
     "Total": 16,
-    "Change in last 24 hours": false
+    "Change in last 24 hours": 0
   },
   {
     "DHB": "Waikato",
-    "Active": 33,
-    "Recovered": 152,
+    "Active": 21,
+    "Recovered": 164,
     "Deceased": 1,
     "Total": 186,
-    "Change in last 24 hours": false
+    "Change in last 24 hours": 0
   },
   {
     "DHB": "Wairarapa",
@@ -133,7 +133,7 @@
     "Recovered": 8,
     "Deceased": null,
     "Total": 8,
-    "Change in last 24 hours": false
+    "Change in last 24 hours": 0
   },
   {
     "DHB": "Waitematā",
@@ -141,7 +141,7 @@
     "Recovered": 192,
     "Deceased": 3,
     "Total": 228,
-    "Change in last 24 hours": false
+    "Change in last 24 hours": 0
   },
   {
     "DHB": "West Coast",
@@ -149,7 +149,7 @@
     "Recovered": 4,
     "Deceased": 1,
     "Total": 5,
-    "Change in last 24 hours": false
+    "Change in last 24 hours": 0
   },
   {
     "DHB": "Whanganui",
@@ -157,6 +157,6 @@
     "Recovered": 9,
     "Deceased": null,
     "Total": 9,
-    "Change in last 24 hours": false
+    "Change in last 24 hours": 0
   }
 ]
