@@ -41,7 +41,7 @@
         "opacity": { "value": 0.05 }
       }
     },
-        {
+    {
       "data": { "values": [{}] },
       "mark": { "type": "rect", "tooltip": "level 3 (28th Apr - 11th May)" },
       "encoding": {
@@ -79,6 +79,9 @@
           "sort": [{ "field": "Date of report" }],
           "window": [{ "op": "count", "as": "cumulative_count" }],
           "frame": [null, 0]
+        },
+        {
+          "window": [ { "field": "cumulative_count", "op": "lag", "as": "new_data" } ]
         }
       ],
       "mark": {

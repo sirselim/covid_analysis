@@ -11,6 +11,44 @@
           "data": { "values": [{}] },
           "mark": {
             "type": "rect",
+            "tooltip": "level 2 (21st Mar - 23rd March)"
+          },
+          "encoding": {
+            "x": {
+              "datum": { "year": "2020", "month": "Mar", "date": 21 }
+            },
+            "x2": {
+              "datum": { "year": "2020", "month": "Mar", "date": 23 }
+            },
+            "color": {
+              "value": "lightblue"
+            },
+            "opacity": { "value": 0.1 }
+          }
+        },
+        {
+          "data": { "values": [{}] },
+          "mark": {
+            "type": "rect",
+            "tooltip": "level 3 (23rd Mar - 25th March)"
+          },
+          "encoding": {
+            "x": {
+              "datum": { "year": "2020", "month": "Mar", "date": 23 }
+            },
+            "x2": {
+              "datum": { "year": "2020", "month": "Mar", "date": 26 }
+            },
+            "color": {
+              "value": "blue"
+            },
+            "opacity": { "value": 0.05 }
+          }
+        },
+        {
+          "data": { "values": [{}] },
+          "mark": {
+            "type": "rect",
             "tooltip": "lockdown (26th Mar - 28th April)"
           },
           "encoding": {
@@ -24,6 +62,25 @@
               "value": "orange"
             },
             "opacity": { "value": 0.1 }
+          }
+        },
+        {
+          "data": { "values": [{}] },
+          "mark": {
+            "type": "rect",
+            "tooltip": "level 3 (28th Apr - 11th May)"
+          },
+          "encoding": {
+            "x": {
+              "datum": { "year": "2020", "month": "Apr", "date": 28 }
+            },
+            "x2": {
+              "datum": { "year": "2020", "month": "May", "date": 11 }
+            },
+            "color": {
+              "value": "blue"
+            },
+            "opacity": { "value": 0.05 }
           }
         },
         {
@@ -57,8 +114,10 @@
                 "test": {
                   "field": "Date of report",
                   "timeUnit": "yearmonthdate",
-                  "range": [{ "year": 2020, "month": "mar", "date": 26 }, 
-                    { "year": 2020, "month": "apr", "date": 28 }]
+                  "range": [
+                    { "year": 2020, "month": "mar", "date": 26 },
+                    { "year": 2020, "month": "apr", "date": 28 }
+                  ]
                 },
                 "value": "orange"
               }
