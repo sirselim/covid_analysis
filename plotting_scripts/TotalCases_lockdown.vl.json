@@ -54,7 +54,7 @@
     },
     "order": { "aggregate": "sum", "field": "status", "type": "quantitative" },
     "tooltip": [ 
-      { "field": "Date of report", "type": "temporal", "timeUnit": "monthday" }, 
+      { "field": "Date of report", "type": "temporal", "timeUnit": "monthdate" }, 
       { "field": "status", "title": "Case status" },
       { "aggregate": "count", "field": "status", "type": "quantitative", "title": "Number of cases" } 
     ]

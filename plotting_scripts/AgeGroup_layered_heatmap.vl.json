@@ -32,7 +32,7 @@
           {
             "field": "Date of report",
             "title": "Date",
-            "timeUnit": "daymonth"
+            "timeUnit": "monthdate"
           },
           {
             "aggregate": "count",
@@ -58,7 +58,7 @@
               "field": "Date of report",
               "type": "temporal",
               "title": "Date of diagnosis",
-              "timeUnit": "daymonth"
+              "timeUnit": "monthdate"
             },
             "y": {
               "field": "Age group",
@@ -81,7 +81,7 @@
               {
                 "field": "Date of report",
                 "title": "Date",
-                "timeUnit": "daymonth"
+                "timeUnit": "monthdate"
               },
               { "field": "Age group", "title": "Age group (years)" },
               {

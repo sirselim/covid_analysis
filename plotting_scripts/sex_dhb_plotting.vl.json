@@ -95,7 +95,7 @@
             "x": {
               "field": "Date of report",
               "type": "temporal",
-              "timeUnit": "yearmonthday",
+              "timeUnit": "yearmonthdate",
               "band": 0.8,
               "axis": {
                 "title": "date",
