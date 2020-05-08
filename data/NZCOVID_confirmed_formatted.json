@@ -1,5 +1,16 @@
 [
   {
+    "Date of report": "2020-05-07",
+    "Sex": "Female",
+    "Age group": "20 to 29",
+    "DHB": "Waitematā",
+    "Overseas travel": false,
+    "Last country before return": null,
+    "Flight number": null,
+    "Flight departure date": null,
+    "Arrival date": null
+  },
+  {
     "Date of report": "2020-05-06",
     "Sex": "Male",
     "Age group": "5 to 9",
@@ -2841,6 +2852,17 @@
     "Date of report": "2020-04-04",
     "Sex": "Male",
     "Age group": "60 to 69",
+    "DHB": "Canterbury",
+    "Overseas travel": false,
+    "Last country before return": null,
+    "Flight number": null,
+    "Flight departure date": null,
+    "Arrival date": null
+  },
+  {
+    "Date of report": "2020-04-04",
+    "Sex": "Male",
+    "Age group": "70+",
     "DHB": "Canterbury",
     "Overseas travel": false,
     "Last country before return": null,
@@ -8047,8 +8069,8 @@
     "DHB": "MidCentral",
     "Overseas travel": true,
     "Last country before return": "United States of America",
-    "Flight number": "NZ1",
-    "Flight departure date": "2020-03-10",
+    "Flight number": "NZ5107",
+    "Flight departure date": "2020-03-12",
     "Arrival date": "2020-03-12"
   },
   {
@@ -10973,8 +10995,8 @@
     "DHB": "Counties Manukau",
     "Overseas travel": true,
     "Last country before return": "Australia",
-    "Flight number": null,
-    "Flight departure date": null,
+    "Flight number": "JQ201",
+    "Flight departure date": "2020-03-17",
     "Arrival date": "2020-03-17"
   },
   {
