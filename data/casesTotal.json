@@ -24,7 +24,7 @@
     "status": "confirmed"
   },
   {
-    "Date of report": "2020-04-30",
+    "Date of report": "2020-05-01",
     "status": "confirmed"
   },
   {
@@ -2308,6 +2308,10 @@
     "status": "confirmed"
   },
   {
+    "Date of report": "2020-03-30",
+    "status": "confirmed"
+  },
+  {
     "Date of report": "2020-03-29",
     "status": "confirmed"
   },
@@ -3112,7 +3116,7 @@
     "status": "confirmed"
   },
   {
-    "Date of report": "2020-03-27",
+    "Date of report": "2020-03-26",
     "status": "confirmed"
   },
   {
@@ -4562,6 +4566,10 @@
   {
     "Date of report": "2020-02-26",
     "status": "confirmed"
+  },
+  {
+    "Date of report": "2020-05-08",
+    "status": "probable"
   },
   {
     "Date of report": "2020-05-05",
