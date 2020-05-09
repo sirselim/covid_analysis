@@ -116,7 +116,7 @@
                   "timeUnit": "yearmonthdate",
                   "range": [
                     { "year": 2020, "month": "mar", "date": 26 },
-                    { "year": 2020, "month": "apr", "date": 28 }
+                    { "year": 2020, "month": "apr", "date": 27 }
                   ]
                 },
                 "value": "orange"

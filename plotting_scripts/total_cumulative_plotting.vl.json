@@ -59,7 +59,10 @@
     },
     {
       "data": { "values": [{}] },
-      "mark": { "type": "rect", "tooltip": "level 4 - lockdown (26th Mar - 28th April)" },
+      "mark": {
+        "type": "rect",
+        "tooltip": "level 4 - lockdown (26th Mar - 28th April)"
+      },
       "encoding": {
         "x": {
           "datum": { "year": "2020", "month": "Mar", "date": 26 }
@@ -81,7 +84,9 @@
           "frame": [null, 0]
         },
         {
-          "window": [ { "field": "cumulative_count", "op": "lag", "as": "new_data" } ]
+          "window": [
+            { "field": "cumulative_count", "op": "lag", "as": "new_data" }
+          ]
         }
       ],
       "mark": {
@@ -102,11 +107,11 @@
           "condition": {
             "test": {
               "field": "Date of report",
-              "gte": {
-                "year": 2020,
-                "month": "mar",
-                "date": 26
-              }
+              "timeUnit": "yearmonthdate",
+              "range": [
+                { "year": 2020, "month": "mar", "date": 26 },
+                { "year": 2020, "month": "apr", "date": 27 }
+              ]
             },
             "value": "orange"
           }
