@@ -1,5 +1,16 @@
 [
   {
+    "Date of report": "2020-05-09",
+    "Sex": "Female",
+    "Age group": "20 to 29",
+    "DHB": "Counties Manukau",
+    "Overseas travel": true,
+    "Last country before return": "United States of America",
+    "Flight number": null,
+    "Flight departure date": null,
+    "Arrival date": "2020-03-25"
+  },
+  {
     "Date of report": "2020-05-07",
     "Sex": "Female",
     "Age group": "20 to 29",
@@ -157,6 +168,17 @@
     "Date of report": "2020-04-27",
     "Sex": "Female",
     "Age group": "20 to 29",
+    "DHB": "Waitematā",
+    "Overseas travel": false,
+    "Last country before return": null,
+    "Flight number": null,
+    "Flight departure date": null,
+    "Arrival date": null
+  },
+  {
+    "Date of report": "2020-04-27",
+    "Sex": "Male",
+    "Age group": "30 to 39",
     "DHB": "Waitematā",
     "Overseas travel": false,
     "Last country before return": null,
@@ -11401,7 +11423,7 @@
     "Age group": "50 to 59",
     "DHB": "Counties Manukau",
     "Overseas travel": true,
-    "Last country before return": "Spain",
+    "Last country before return": "Qatar",
     "Flight number": "QR920",
     "Flight departure date": "2020-03-17",
     "Arrival date": "2020-03-18"

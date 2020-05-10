@@ -87,6 +87,12 @@
           "window": [
             { "field": "cumulative_count", "op": "lag", "as": "new_data" }
           ]
+        },
+        {
+          "impute": "cumulative_count",
+          "key": "Date of report",
+          "value": 1487,
+          "groupby": ["Date of report"]
         }
       ],
       "mark": {
