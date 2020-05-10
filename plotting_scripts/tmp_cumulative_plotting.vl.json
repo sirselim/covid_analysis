@@ -6,7 +6,7 @@
   "description": "simple vega-lite chart with linked data",
   "title": "Cumulative COVID cases (confirmed and probable) in NZ DHBs",
   "data": {
-    "url": "../data/cumulative_COVID_data.json"
+    "url": "https://raw.githubusercontent.com/sirselim/covid_analysis/master/data/cumulative_COVID_data.json"
   },
   "layer": [
     {
