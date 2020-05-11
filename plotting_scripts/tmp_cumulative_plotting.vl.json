@@ -43,13 +43,13 @@
     },
     {
       "data": { "values": [{}] },
-      "mark": { "type": "rect", "tooltip": "level 3 (28th Apr - 11th May)" },
+      "mark": { "type": "rect", "tooltip": "level 3 (28th Apr - 13th May)" },
       "encoding": {
         "x": {
           "datum": { "year": "2020", "month": "Apr", "date": 28 }
         },
         "x2": {
-          "datum": { "year": "2020", "month": "May", "date": 11 }
+          "datum": { "year": "2020", "month": "May", "date": 13 }
         },
         "color": {
           "value": "blue"
