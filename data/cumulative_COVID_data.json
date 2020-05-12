@@ -205,23 +205,23 @@
   },
   {
     "Date of report": "2020-04-27",
-    "Cases": 1475
-  },
-  {
-    "Date of report": "2020-04-28",
     "Cases": 1476
   },
   {
+    "Date of report": "2020-04-28",
+    "Cases": 1477
+  },
+  {
     "Date of report": "2020-04-29",
-    "Cases": 1478
+    "Cases": 1479
   },
   {
     "Date of report": "2020-04-30",
-    "Cases": 1481
+    "Cases": 1482
   },
   {
     "Date of report": "2020-05-01",
-    "Cases": 1486
+    "Cases": 1487
   },
   {
     "Date of report": "2020-05-02",
@@ -237,19 +237,19 @@
   },
   {
     "Date of report": "2020-05-05",
-    "Cases": 1488
+    "Cases": 1489
   },
   {
     "Date of report": "2020-05-06",
-    "Cases": 1490
-  },
-  {
-    "Date of report": "2020-05-07",
     "Cases": 1491
   },
   {
-    "Date of report": "2020-05-08",
+    "Date of report": "2020-05-07",
     "Cases": 1492
+  },
+  {
+    "Date of report": "2020-05-08",
+    "Cases": 1493
   },
   {
     "Date of report": "2020-05-09",
@@ -257,6 +257,10 @@
   },
   {
     "Date of report": "2020-05-10",
+    "Cases": 1497
+  },
+  {
+    "Date of report": "2020-05-11",
     "Cases": 1497
   }
 ]
