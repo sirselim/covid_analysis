@@ -25,8 +25,8 @@
   },
   {
     "DHB": "Capital and Coast",
-    "Active": 1,
-    "Recovered": 92,
+    "Active": 0,
+    "Recovered": 93,
     "Deceased": 2,
     "Total": 95,
     "Change in last 24 hours": false
@@ -121,8 +121,8 @@
   },
   {
     "DHB": "Waikato",
-    "Active": 13,
-    "Recovered": 174,
+    "Active": 10,
+    "Recovered": 177,
     "Deceased": 1,
     "Total": 188,
     "Change in last 24 hours": false
