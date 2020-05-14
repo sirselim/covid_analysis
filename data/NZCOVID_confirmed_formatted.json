@@ -2,17 +2,6 @@
   {
     "Date of report": "2020-05-10",
     "Sex": "Female",
-    "Age group": "30 to 39",
-    "DHB": "Auckland",
-    "Overseas travel": false,
-    "Last country before return": null,
-    "Flight number": null,
-    "Flight departure date": null,
-    "Arrival date": null
-  },
-  {
-    "Date of report": "2020-05-10",
-    "Sex": "Female",
     "Age group": "50 to 59",
     "DHB": "Waikato",
     "Overseas travel": true,
@@ -20,6 +9,17 @@
     "Flight number": "EK448",
     "Flight departure date": null,
     "Arrival date": "2020-03-15"
+  },
+  {
+    "Date of report": "2020-05-10",
+    "Sex": "Female",
+    "Age group": "30 to 39",
+    "DHB": "Waitematā",
+    "Overseas travel": false,
+    "Last country before return": null,
+    "Flight number": null,
+    "Flight departure date": null,
+    "Arrival date": null
   },
   {
     "Date of report": "2020-05-10",
@@ -7837,7 +7837,7 @@
     "Age group": "40 to 49",
     "DHB": "Waitematā",
     "Overseas travel": true,
-    "Last country before return": "United Kingdom ",
+    "Last country before return": null,
     "Flight number": null,
     "Flight departure date": null,
     "Arrival date": "2020-03-15"
@@ -10258,8 +10258,8 @@
     "DHB": "Auckland",
     "Overseas travel": true,
     "Last country before return": "United States of America",
-    "Flight number": null,
-    "Flight departure date": null,
+    "Flight number": "UA917",
+    "Flight departure date": "2020-03-21",
     "Arrival date": "2020-03-23"
   },
   {
@@ -10796,7 +10796,7 @@
     "Age group": "30 to 39",
     "DHB": "Waitematā",
     "Overseas travel": true,
-    "Last country before return": "New Zealand",
+    "Last country before return": "United Arab Emirates",
     "Flight number": "EK448",
     "Flight departure date": "2020-03-21",
     "Arrival date": "2020-03-23"
@@ -10863,7 +10863,7 @@
     "DHB": "Auckland",
     "Overseas travel": true,
     "Last country before return": "Australia",
-    "Flight number": "QF141",
+    "Flight number": "QF0143",
     "Flight departure date": "2020-03-19",
     "Arrival date": "2020-03-21"
   },
@@ -10907,7 +10907,7 @@
     "DHB": "Auckland",
     "Overseas travel": true,
     "Last country before return": "Singapore",
-    "Flight number": "SQ863",
+    "Flight number": "SQ258",
     "Flight departure date": "2020-03-21",
     "Arrival date": "2020-03-22"
   },
@@ -11645,7 +11645,7 @@
     "Overseas travel": true,
     "Last country before return": "United Arab Emirates",
     "Flight number": "EK448",
-    "Flight departure date": "2020-03-19",
+    "Flight departure date": "2020-03-18",
     "Arrival date": "2020-03-19"
   },
   {
@@ -11666,7 +11666,7 @@
     "DHB": "Waitematā",
     "Overseas travel": true,
     "Last country before return": "United States of America",
-    "Flight number": null,
+    "Flight number": "NZ5",
     "Flight departure date": "2020-03-14",
     "Arrival date": "2020-03-16"
   },
@@ -11676,7 +11676,7 @@
     "Age group": "20 to 29",
     "DHB": "Waitematā",
     "Overseas travel": true,
-    "Last country before return": "United States of America",
+    "Last country before return": "Australia",
     "Flight number": "QF143",
     "Flight departure date": "2020-03-18",
     "Arrival date": "2020-03-18"
@@ -12084,8 +12084,8 @@
     "DHB": "Waitematā",
     "Overseas travel": false,
     "Last country before return": null,
-    "Flight number": null,
-    "Flight departure date": null,
+    "Flight number": "NZ615",
+    "Flight departure date": "2020-03-11",
     "Arrival date": null
   },
   {
