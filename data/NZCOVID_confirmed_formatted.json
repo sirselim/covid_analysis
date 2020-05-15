@@ -1,5 +1,16 @@
 [
   {
+    "Date of report": "2020-05-14",
+    "Sex": "Female",
+    "Age group": "15 to 19",
+    "DHB": "Waitematā",
+    "Overseas travel": false,
+    "Last country before return": null,
+    "Flight number": null,
+    "Flight departure date": null,
+    "Arrival date": null
+  },
+  {
     "Date of report": "2020-05-10",
     "Sex": "Female",
     "Age group": "50 to 59",
@@ -963,8 +974,8 @@
     "DHB": "Auckland",
     "Overseas travel": true,
     "Last country before return": "Qatar",
-    "Flight number": null,
-    "Flight departure date": null,
+    "Flight number": "QR920",
+    "Flight departure date": "2020-03-26",
     "Arrival date": "2020-03-27"
   },
   {
@@ -1679,8 +1690,8 @@
     "Overseas travel": true,
     "Last country before return": "Canada",
     "Flight number": "NZ23",
-    "Flight departure date": null,
-    "Arrival date": "2020-03-23"
+    "Flight departure date": "2020-03-20",
+    "Arrival date": "2020-03-21"
   },
   {
     "Date of report": "2020-04-08",
@@ -5054,7 +5065,7 @@
     "Age group": "20 to 29",
     "DHB": "Waikato",
     "Overseas travel": true,
-    "Last country before return": "New Zealand",
+    "Last country before return": "United Arab Emirates",
     "Flight number": "EK488",
     "Flight departure date": "2020-03-23",
     "Arrival date": "2020-03-24"
@@ -8653,7 +8664,7 @@
     "Overseas travel": true,
     "Last country before return": "Australia",
     "Flight number": "NZ178",
-    "Flight departure date": "2020-03-25",
+    "Flight departure date": "2020-03-24",
     "Arrival date": "2020-03-25"
   },
   {
@@ -8823,6 +8834,17 @@
   },
   {
     "Date of report": "2020-03-26",
+    "Sex": "Female",
+    "Age group": "60 to 69",
+    "DHB": "Canterbury",
+    "Overseas travel": true,
+    "Last country before return": "Egypt",
+    "Flight number": "NZ884",
+    "Flight departure date": "2020-03-18",
+    "Arrival date": "2020-03-18"
+  },
+  {
+    "Date of report": "2020-03-26",
     "Sex": "Male",
     "Age group": "20 to 29",
     "DHB": "Canterbury",
@@ -8927,8 +8949,8 @@
     "DHB": "Counties Manukau",
     "Overseas travel": true,
     "Last country before return": "Qatar",
-    "Flight number": null,
-    "Flight departure date": null,
+    "Flight number": "QR920",
+    "Flight departure date": "2020-03-15",
     "Arrival date": "2020-03-17"
   },
   {
@@ -11361,17 +11383,6 @@
     "Flight number": "NZ527",
     "Flight departure date": "2020-03-21",
     "Arrival date": "2020-03-21"
-  },
-  {
-    "Date of report": "2020-03-22",
-    "Sex": "Female",
-    "Age group": "60 to 69",
-    "DHB": "Canterbury",
-    "Overseas travel": true,
-    "Last country before return": "Egypt",
-    "Flight number": "NZ884",
-    "Flight departure date": "2020-03-18",
-    "Arrival date": "2020-03-18"
   },
   {
     "Date of report": "2020-03-22",

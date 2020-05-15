@@ -830,7 +830,7 @@
     "Age group": "20 to 29",
     "DHB": "Auckland",
     "Overseas travel": true,
-    "Last country before return": "United Kingdom ",
+    "Last country before return": "Qatar",
     "Flight number": "QR920",
     "Flight departure date": "2020-03-26",
     "Arrival date": "2020-03-27"
@@ -2941,7 +2941,7 @@
     "Sex": "Female",
     "Age group": "50 to 59",
     "DHB": "Canterbury",
-    "Overseas travel": null,
+    "Overseas travel": false,
     "Last country before return": null,
     "Flight number": null,
     "Flight departure date": null,
