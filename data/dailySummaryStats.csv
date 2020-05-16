@@ -1,7 +1,7 @@
 Type,Total,Last24hrs
-Number of confirmed cases in New Zealand,1148,1
+Number of confirmed cases in New Zealand,1148,0
 Number of probable cases,350,0
-Number of confirmed and probable cases,1498,1
-Number of cases currently in hospital,2,0
-Number of recovered cases,1421,10
+Number of confirmed and probable cases,1498,0
+Number of recovered cases,1428,7
 Number of deaths,21,0
+Number of active cases,49,-7

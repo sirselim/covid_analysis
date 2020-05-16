@@ -17,8 +17,8 @@
   },
   {
     "DHB": "Canterbury",
-    "Active": 7,
-    "Recovered": 144,
+    "Active": 5,
+    "Recovered": 146,
     "Deceased": 12,
     "Total": 163,
     "Change in last 24 hours": false
@@ -41,8 +41,8 @@
   },
   {
     "DHB": "Hawke&#39;s Bay",
-    "Active": 6,
-    "Recovered": 38,
+    "Active": 5,
+    "Recovered": 39,
     "Deceased": null,
     "Total": 44,
     "Change in last 24 hours": false
@@ -89,16 +89,16 @@
   },
   {
     "DHB": "South Canterbury",
-    "Active": 1,
-    "Recovered": 16,
+    "Active": 0,
+    "Recovered": 17,
     "Deceased": null,
     "Total": 17,
     "Change in last 24 hours": false
   },
   {
     "DHB": "Southern",
-    "Active": 4,
-    "Recovered": 210,
+    "Active": 1,
+    "Recovered": 213,
     "Deceased": 2,
     "Total": 216,
     "Change in last 24 hours": false
@@ -141,7 +141,7 @@
     "Recovered": 213,
     "Deceased": 3,
     "Total": 236,
-    "Change in last 24 hours": true
+    "Change in last 24 hours": false
   },
   {
     "DHB": "West Coast",

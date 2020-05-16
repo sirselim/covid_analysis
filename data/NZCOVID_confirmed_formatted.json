@@ -1360,7 +1360,7 @@
     "Overseas travel": true,
     "Last country before return": "Qatar",
     "Flight number": "NZ19K",
-    "Flight departure date": "2020-03-03",
+    "Flight departure date": null,
     "Arrival date": "2020-03-31"
   },
   {
@@ -5123,7 +5123,7 @@
     "Last country before return": "Australia",
     "Flight number": "QF143",
     "Flight departure date": "2020-03-17",
-    "Arrival date": "2020-04-17"
+    "Arrival date": null
   },
   {
     "Date of report": "2020-04-01",
@@ -7848,7 +7848,7 @@
     "Age group": "40 to 49",
     "DHB": "Waitematā",
     "Overseas travel": true,
-    "Last country before return": null,
+    "Last country before return": "Thailand",
     "Flight number": null,
     "Flight departure date": null,
     "Arrival date": "2020-03-15"
