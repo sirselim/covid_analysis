@@ -44,10 +44,10 @@
     &nbsp;&nbsp;
     Recovered <span style="font-size:16px" class="badge badge-recovered"><b id="recovered"></b></span> &nbsp;&nbsp; |
     &nbsp;&nbsp;
-    Hospital <span style="font-size:16px" class="badge badge-hospital"><b id="hospital"></b></span> &nbsp;&nbsp; |
+    Active <span style="font-size:16px" class="badge badge-hospital"><b id="hospital"></b></span> &nbsp;&nbsp; |
     &nbsp;&nbsp;
     Deaths <span style="font-size:16px" class="badge badge-deaths"><b id="deaths"></b></span> <span
-      style="font-size:12px">  <br> [ <b> last updated: 2020/05/17 17:00:44
+      style="font-size:12px">  <br> [ <b> last updated: 2020/05/17 17:05:54
   </b>]</span>
     </center>
 <hr>
@@ -172,9 +172,9 @@ xmlhttp.onreadystatechange = function() {
     document.getElementById("total").innerHTML = myArr[2];
     document.getElementById("confirmed").innerHTML = myArr[0];
     document.getElementById("probable").innerHTML = myArr[1];
-    document.getElementById("recovered").innerHTML = myArr[4];
-    document.getElementById("hospital").innerHTML = myArr[3];
-    document.getElementById("deaths").innerHTML = myArr[5];
+    document.getElementById("recovered").innerHTML = myArr[3];
+    document.getElementById("hospital").innerHTML = myArr[5];
+    document.getElementById("deaths").innerHTML = myArr[4];
   }
 };
 xmlhttp.open("GET", "https://raw.githubusercontent.com/sirselim/covid_analysis/master/data/dailySummaryStats.txt", true);
