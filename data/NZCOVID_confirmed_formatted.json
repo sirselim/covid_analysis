@@ -1,5 +1,16 @@
 [
   {
+    "Date of report": "2020-05-15",
+    "Sex": "Male",
+    "Age group": "1 to 4",
+    "DHB": "Canterbury",
+    "Overseas travel": false,
+    "Last country before return": null,
+    "Flight number": null,
+    "Flight departure date": null,
+    "Arrival date": null
+  },
+  {
     "Date of report": "2020-05-14",
     "Sex": "Female",
     "Age group": "15 to 19",
