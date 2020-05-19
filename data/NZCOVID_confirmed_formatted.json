@@ -110,6 +110,17 @@
     "Arrival date": null
   },
   {
+    "Date of report": "2020-05-03",
+    "Sex": "Male",
+    "Age group": "60 to 69",
+    "DHB": "Counties Manukau",
+    "Overseas travel": true,
+    "Last country before return": "Australia",
+    "Flight number": null,
+    "Flight departure date": "2020-04-12",
+    "Arrival date": "2020-04-12"
+  },
+  {
     "Date of report": "2020-05-01",
     "Sex": "Male",
     "Age group": "60 to 69",
@@ -639,6 +650,17 @@
   },
   {
     "Date of report": "2020-04-16",
+    "Sex": "Female",
+    "Age group": "60 to 69",
+    "DHB": "Counties Manukau",
+    "Overseas travel": true,
+    "Last country before return": "Australia",
+    "Flight number": "CHARTER MEL>AKL",
+    "Flight departure date": "2020-04-12",
+    "Arrival date": "2020-04-12"
+  },
+  {
+    "Date of report": "2020-04-16",
     "Sex": "Male",
     "Age group": "70+",
     "DHB": "Counties Manukau",
@@ -782,12 +804,34 @@
   },
   {
     "Date of report": "2020-04-14",
+    "Sex": "Female",
+    "Age group": "60 to 69",
+    "DHB": "Counties Manukau",
+    "Overseas travel": true,
+    "Last country before return": "Australia",
+    "Flight number": "CHARTER MEL>AKL",
+    "Flight departure date": "2020-04-12",
+    "Arrival date": "2020-04-12"
+  },
+  {
+    "Date of report": "2020-04-14",
     "Sex": "Male",
     "Age group": "50 to 59",
     "DHB": "Counties Manukau",
     "Overseas travel": true,
     "Last country before return": "Australia",
     "Flight number": "MFAT",
+    "Flight departure date": "2020-04-12",
+    "Arrival date": "2020-04-12"
+  },
+  {
+    "Date of report": "2020-04-14",
+    "Sex": "Male",
+    "Age group": "60 to 69",
+    "DHB": "Counties Manukau",
+    "Overseas travel": true,
+    "Last country before return": "Australia",
+    "Flight number": "CHARTER MEL>AKL",
     "Flight departure date": "2020-04-12",
     "Arrival date": "2020-04-12"
   },
@@ -8518,7 +8562,7 @@
     "Sex": "Female",
     "Age group": "40 to 49",
     "DHB": "Waikato",
-    "Overseas travel": null,
+    "Overseas travel": false,
     "Last country before return": null,
     "Flight number": null,
     "Flight departure date": null,
@@ -12106,8 +12150,8 @@
     "DHB": "Waitematā",
     "Overseas travel": false,
     "Last country before return": null,
-    "Flight number": "NZ615",
-    "Flight departure date": "2020-03-11",
+    "Flight number": "NZ674",
+    "Flight departure date": "2020-03-16",
     "Arrival date": null
   },
   {
