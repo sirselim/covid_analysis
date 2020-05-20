@@ -8031,17 +8031,6 @@
   },
   {
     "Date of report": "2020-03-27",
-    "Sex": null,
-    "Age group": "40 to 49",
-    "DHB": "Canterbury",
-    "Overseas travel": true,
-    "Last country before return": "United Kingdom ",
-    "Flight number": "TG917",
-    "Flight departure date": "2020-03-20",
-    "Arrival date": "2020-03-22"
-  },
-  {
-    "Date of report": "2020-03-27",
     "Sex": "Female",
     "Age group": "15 to 19",
     "DHB": "Canterbury",
@@ -8050,6 +8039,17 @@
     "Flight number": "NZ523",
     "Flight departure date": "2020-03-25",
     "Arrival date": "2020-03-25"
+  },
+  {
+    "Date of report": "2020-03-27",
+    "Sex": "Female",
+    "Age group": "40 to 49",
+    "DHB": "Canterbury",
+    "Overseas travel": true,
+    "Last country before return": "United Kingdom ",
+    "Flight number": "TG917",
+    "Flight departure date": "2020-03-20",
+    "Arrival date": "2020-03-22"
   },
   {
     "Date of report": "2020-03-27",

@@ -353,5 +353,10 @@
     "Date of report": "2020-05-18",
     "Tests per Day": 3125,
     "Total Tests (Cumulative)": 233843
+  },
+  {
+    "Date of report": "2020-05-19",
+    "Tests per Day": 4882,
+    "Total Tests (Cumulative)": 238745
   }
 ]
