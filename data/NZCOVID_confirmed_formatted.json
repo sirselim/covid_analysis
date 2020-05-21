@@ -1215,10 +1215,10 @@
     "Age group": "20 to 29",
     "DHB": "Waitematā",
     "Overseas travel": true,
-    "Last country before return": "United Kingdom ",
+    "Last country before return": "United Arab Emirates",
     "Flight number": "EK448",
     "Flight departure date": "2020-03-23",
-    "Arrival date": "2020-03-25"
+    "Arrival date": "2020-03-24"
   },
   {
     "Date of report": "2020-04-10",
@@ -2196,7 +2196,7 @@
     "Overseas travel": true,
     "Last country before return": "United States of America",
     "Flight number": "NZ29",
-    "Flight departure date": "2020-03-31",
+    "Flight departure date": "2020-03-30",
     "Arrival date": "2020-03-31"
   },
   {
@@ -3978,7 +3978,7 @@
     "Overseas travel": true,
     "Last country before return": "United States of America",
     "Flight number": "NZ1",
-    "Flight departure date": "2020-03-25",
+    "Flight departure date": "2020-03-23",
     "Arrival date": "2020-03-25"
   },
   {
@@ -7113,7 +7113,7 @@
     "Overseas travel": true,
     "Last country before return": "United States of America",
     "Flight number": "NZ1",
-    "Flight departure date": "2020-03-24",
+    "Flight departure date": "2020-03-23",
     "Arrival date": "2020-03-25"
   },
   {

@@ -16,7 +16,7 @@
   },
   {
     "Type": "Number of recovered cases",
-    "Total": 1447,
+    "Total": 1452,
     "Last24hrs": 5
   },
   {
@@ -26,7 +26,7 @@
   },
   {
     "Type": "Number of active cases",
-    "Total": 35,
+    "Total": 30,
     "Last24hrs": -5
   }
 ]
