@@ -2,10 +2,10 @@
   {
     "DHB": "Auckland",
     "Active": 3,
-    "Recovered": 174,
+    "Recovered": 175,
     "Deceased": null,
-    "Total": 177,
-    "Change in last 24 hours": false
+    "Total": 178,
+    "Change in last 24 hours": true
   },
   {
     "DHB": "Bay of Plenty",
@@ -17,8 +17,8 @@
   },
   {
     "DHB": "Canterbury",
-    "Active": 3,
-    "Recovered": 149,
+    "Active": 2,
+    "Recovered": 150,
     "Deceased": 12,
     "Total": 164,
     "Change in last 24 hours": false
@@ -33,8 +33,8 @@
   },
   {
     "DHB": "Counties Manukau",
-    "Active": 3,
-    "Recovered": 129,
+    "Active": 2,
+    "Recovered": 130,
     "Deceased": null,
     "Total": 132,
     "Change in last 24 hours": false

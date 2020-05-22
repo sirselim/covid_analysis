@@ -122,6 +122,17 @@
   },
   {
     "Date of report": "2020-05-01",
+    "Sex": "Female",
+    "Age group": "50 to 59",
+    "DHB": "Auckland",
+    "Overseas travel": false,
+    "Last country before return": null,
+    "Flight number": null,
+    "Flight departure date": null,
+    "Arrival date": null
+  },
+  {
+    "Date of report": "2020-05-01",
     "Sex": "Male",
     "Age group": "60 to 69",
     "DHB": "Auckland",
@@ -1612,8 +1623,8 @@
     "DHB": "Auckland",
     "Overseas travel": true,
     "Last country before return": "Qatar",
-    "Flight number": null,
-    "Flight departure date": null,
+    "Flight number": "QR920",
+    "Flight departure date": "2020-03-29",
     "Arrival date": "2020-03-31"
   },
   {
