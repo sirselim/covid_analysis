@@ -1426,7 +1426,7 @@
     "Overseas travel": true,
     "Last country before return": "Qatar",
     "Flight number": "NZ19K",
-    "Flight departure date": null,
+    "Flight departure date": "2020-03-30",
     "Arrival date": "2020-03-31"
   },
   {
@@ -5189,7 +5189,7 @@
     "Last country before return": "Australia",
     "Flight number": "QF143",
     "Flight departure date": "2020-03-17",
-    "Arrival date": null
+    "Arrival date": "2020-03-17"
   },
   {
     "Date of report": "2020-04-01",
@@ -9422,7 +9422,7 @@
     "DHB": "Waitematā",
     "Overseas travel": true,
     "Last country before return": "United States of America",
-    "Flight number": "WGN/AKL",
+    "Flight number": null,
     "Flight departure date": null,
     "Arrival date": "2020-03-19"
   },
@@ -11953,7 +11953,7 @@
     "Overseas travel": true,
     "Last country before return": "Australia",
     "Flight number": null,
-    "Flight departure date": null,
+    "Flight departure date": "2020-03-08",
     "Arrival date": "2020-03-08"
   },
   {
