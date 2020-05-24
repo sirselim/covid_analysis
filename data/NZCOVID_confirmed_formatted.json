@@ -523,7 +523,7 @@
     "DHB": "Counties Manukau",
     "Overseas travel": true,
     "Last country before return": "Australia",
-    "Flight number": "CHARTERED FLIGHT",
+    "Flight number": null,
     "Flight departure date": "2020-04-13",
     "Arrival date": "2020-04-13"
   },
@@ -666,7 +666,7 @@
     "DHB": "Counties Manukau",
     "Overseas travel": true,
     "Last country before return": "Australia",
-    "Flight number": "CHARTER MEL>AKL",
+    "Flight number": null,
     "Flight departure date": "2020-04-12",
     "Arrival date": "2020-04-12"
   },
@@ -820,7 +820,7 @@
     "DHB": "Counties Manukau",
     "Overseas travel": true,
     "Last country before return": "Australia",
-    "Flight number": "CHARTER MEL>AKL",
+    "Flight number": null,
     "Flight departure date": "2020-04-12",
     "Arrival date": "2020-04-12"
   },
@@ -842,7 +842,7 @@
     "DHB": "Counties Manukau",
     "Overseas travel": true,
     "Last country before return": "Australia",
-    "Flight number": "CHARTER MEL>AKL",
+    "Flight number": null,
     "Flight departure date": "2020-04-12",
     "Arrival date": "2020-04-12"
   },
@@ -1425,7 +1425,7 @@
     "DHB": "Capital and Coast",
     "Overseas travel": true,
     "Last country before return": "Qatar",
-    "Flight number": "NZ19K",
+    "Flight number": null,
     "Flight departure date": "2020-03-30",
     "Arrival date": "2020-03-31"
   },
@@ -9575,7 +9575,7 @@
     "Age group": "70+",
     "DHB": "Auckland",
     "Overseas travel": true,
-    "Last country before return": "Argentina",
+    "Last country before return": "Chile",
     "Flight number": "LA801",
     "Flight departure date": "2020-03-19",
     "Arrival date": "2020-03-20"
