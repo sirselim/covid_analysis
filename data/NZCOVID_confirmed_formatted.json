@@ -831,7 +831,7 @@
     "DHB": "Counties Manukau",
     "Overseas travel": true,
     "Last country before return": "Australia",
-    "Flight number": "MFAT",
+    "Flight number": null,
     "Flight departure date": "2020-04-12",
     "Arrival date": "2020-04-12"
   },
@@ -1425,8 +1425,8 @@
     "DHB": "Capital and Coast",
     "Overseas travel": true,
     "Last country before return": "Qatar",
-    "Flight number": null,
-    "Flight departure date": "2020-03-30",
+    "Flight number": "NZ19K",
+    "Flight departure date": null,
     "Arrival date": "2020-03-31"
   },
   {
@@ -5189,7 +5189,7 @@
     "Last country before return": "Australia",
     "Flight number": "QF143",
     "Flight departure date": "2020-03-17",
-    "Arrival date": "2020-03-17"
+    "Arrival date": null
   },
   {
     "Date of report": "2020-04-01",
@@ -5264,8 +5264,8 @@
     "DHB": "Waitematā",
     "Overseas travel": true,
     "Last country before return": "Australia",
-    "Flight number": null,
-    "Flight departure date": null,
+    "Flight number": "NZ706",
+    "Flight departure date": "2020-03-22",
     "Arrival date": "2020-03-22"
   },
   {
