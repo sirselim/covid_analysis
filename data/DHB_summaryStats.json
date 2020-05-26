@@ -41,8 +41,8 @@
   },
   {
     "DHB": "Hawke&#39;s Bay",
-    "Active": 5,
-    "Recovered": 39,
+    "Active": 0,
+    "Recovered": 44,
     "Deceased": null,
     "Total": 44,
     "Change in last 24 hours": false
