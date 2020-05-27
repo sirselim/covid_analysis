@@ -16,8 +16,8 @@
   },
   {
     "Type": "Number of recovered cases",
-    "Total": 1461,
-    "Last24hrs": 5
+    "Total": 1462,
+    "Last24hrs": 1
   },
   {
     "Type": "Number of deaths",
@@ -26,7 +26,7 @@
   },
   {
     "Type": "Number of active cases",
-    "Total": 22,
-    "Last24hrs": -5
+    "Total": 21,
+    "Last24hrs": -1
   }
 ]

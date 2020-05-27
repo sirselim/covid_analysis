@@ -73,8 +73,8 @@
   },
   {
     "DHB": "Nelson Marlborough",
-    "Active": 1,
-    "Recovered": 48,
+    "Active": 0,
+    "Recovered": 49,
     "Deceased": null,
     "Total": 49,
     "Change in last 24 hours": false
