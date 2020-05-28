@@ -1,8 +1,8 @@
 [
   {
     "DHB": "Auckland",
-    "Active": 3,
-    "Recovered": 175,
+    "Active": 2,
+    "Recovered": 176,
     "Deceased": null,
     "Total": 178,
     "Change in last 24 hours": false
@@ -17,8 +17,8 @@
   },
   {
     "DHB": "Canterbury",
-    "Active": 2,
-    "Recovered": 150,
+    "Active": 0,
+    "Recovered": 152,
     "Deceased": 12,
     "Total": 164,
     "Change in last 24 hours": false
@@ -121,8 +121,8 @@
   },
   {
     "DHB": "Waikato",
-    "Active": 1,
-    "Recovered": 186,
+    "Active": 0,
+    "Recovered": 187,
     "Deceased": 1,
     "Total": 188,
     "Change in last 24 hours": false
@@ -137,9 +137,9 @@
   },
   {
     "DHB": "Waitematā",
-    "Active": 14,
-    "Recovered": 219,
-    "Deceased": 3,
+    "Active": 5,
+    "Recovered": 227,
+    "Deceased": 4,
     "Total": 236,
     "Change in last 24 hours": false
   },
