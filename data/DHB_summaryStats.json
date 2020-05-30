@@ -34,9 +34,9 @@
   {
     "DHB": "Counties Manukau",
     "Active": false,
-    "Recovered": 132,
+    "Recovered": 131,
     "Deceased": null,
-    "Total": 132,
+    "Total": 131,
     "Change in last 24 hours": false
   },
   {
@@ -138,9 +138,9 @@
   {
     "DHB": "Waitematā",
     "Active": false,
-    "Recovered": 232,
+    "Recovered": 233,
     "Deceased": 4,
-    "Total": 236,
+    "Total": 237,
     "Change in last 24 hours": false
   },
   {

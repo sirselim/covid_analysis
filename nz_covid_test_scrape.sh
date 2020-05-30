@@ -8,8 +8,8 @@ sed 's/<\/TR[^>]*>/\n/Ig' | \
 sed 's/<\/\?\(TABLE\|TR\)[^>]*>//Ig' | \
 sed 's/^<T[DH][^>]*>\|<\/\?T[DH][^>]*>$//Ig' | sed 's/,//Ig' | \
 sed 's/<\/T[DH][^>]*><T[DH][^>]*>/,/Ig' | \
-grep -i -e 'Emergencies' -B 80 | \
-grep -i -e 'date,tests' -A 80 | \
+grep -i -e 'Emergencies' -B 140 | \
+grep -i -e 'date,tests' -A 100 | \
 grep -i -e 'Emergencies' -v | \
 sed 's/<th scope="col">//Ig' | 
 sed 's/^,//Ig' | sed 's/April/Apr/g' | sed -r 's/\<[0-9]{1,2}-[a-zA-Z]{3}\>/&-2020/' | \
